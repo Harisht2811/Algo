@@ -48,7 +48,7 @@ function attack() {
         <div className='section3_desc'>Attack Surface Management provides <span className='colorText'> automatic and full visibility into your digital presence–uncovering security issues </span>and vulnerabilities that can be exploited by potential adversaries</div>
       </div>
       <div className='section4'>
-        <p className='section4_title'>other Services</p>
+        <div className='section4_title'>other Services</div>
         <div className='sectionCard'>
           <div className='cardLeft'>
             <p className='cardTitle'>Uncover your digital presence</p>

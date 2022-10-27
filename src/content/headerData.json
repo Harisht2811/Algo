@@ -1,0 +1,23 @@
+[   
+    {
+        "navLink":"Home",
+        "routeLink":"/",
+        "activeLink":"home"
+    },
+    {
+        "navLink":"Ransomware",
+        "routeLink":"/productdevelopment"
+    },
+    {
+        "navLink":"Threat Intelligence",
+        "routeLink":"/productdevelopment"
+    },
+    {
+        "navLink":"About us",
+        "routeLink":"/blockchaindevelopment"
+    },
+    {
+        "navLink":"Contact us",
+        "routeLink":"/webDevelopment"
+    }
+]
