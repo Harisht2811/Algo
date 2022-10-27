@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Attacksurface from '../component/attacksurface/attack'
 function attacksurface() {
   return (
-    <div>attacksurface</div>
+    <div><Attacksurface /></div>
   )
 }
 
