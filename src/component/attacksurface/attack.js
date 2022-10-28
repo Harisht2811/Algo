@@ -1,5 +1,7 @@
 import React from 'react'
 import './style.css'
+import './laptop.css'
+import bg from '../../images/attacker/Group190.png'
 import search from '../../images/attacker/group186.png'
 import pinpoint from '../../images/attacker/group187.png'
 import risk from '../../images/attacker/group188.png'
@@ -44,8 +46,9 @@ function attack() {
           </div>
         </div>
       </div>
-      <div className='section3'>
-        <div className='section3_desc'>Attack Surface Management provides <span className='colorText'> automatic and full visibility into your digital presence–uncovering security issues </span>and vulnerabilities that can be exploited by potential adversaries</div>
+      <div className='section3'> 
+        <img src={bg} />
+        <p className='section3_desc'>Attack Surface Management provides <span className='colorText'> automatic and full visibility into your digital presence–uncovering security issues </span>and vulnerabilities that can be exploited by potential adversaries</p>
       </div>
       <div className='section4'>
         <div className='section4_title'>other Services</div>
@@ -101,8 +104,10 @@ function attack() {
           </div>
         </div>
       </div>
+     
     </div>
   )
 }
 
-export default attack
+export default attack;
+ 

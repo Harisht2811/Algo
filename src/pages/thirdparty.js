@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Thirdparty from '../component/Thirdpartyattack/thirdparty'
 function thirdparty() {
   return (
-    <div>thirdparty</div>
+    <div><Thirdparty /></div>
   )
 }
 

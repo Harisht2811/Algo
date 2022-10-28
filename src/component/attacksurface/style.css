@@ -6,7 +6,7 @@ body{
     background-image: url(../../images/attacker/Mask\ group.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 0% 0 5% 15%;
+    padding: 0% 0 9% 15%;
     margin: 0%;
 }
 
@@ -28,7 +28,7 @@ body{
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.86;
-    width: 65%;
+    width: 80%;
 }
 
 .demoBtn {
@@ -38,6 +38,7 @@ body{
     text-align: center;
     margin-left: 34%;
     padding: 0.5%;
+    margin-top: 4%;
 }
 
 .section2 {
@@ -76,13 +77,10 @@ body{
     color: #FFFFFF;
 }
 
+
 .section3 {
-    background-image: url(../../images/attacker/Group190.png);
-    padding: 1% 0 0 17%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-    padding-bottom: 7%;
+    display: block;
+    position: relative;
 }
 
 .section3_desc {
@@ -93,9 +91,11 @@ body{
     line-height: 170.1%;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 25%;
-    margin-left: 0%;
     width: 83%;
+    position: absolute;
+    top: 40%;
+    padding-left: 6%;
+
 }
 
 .colorText {
@@ -105,6 +105,7 @@ body{
 .section4 {
     background-color: #000E08;
     padding-bottom: 10%;
+    margin-top: -1%;
 }
 
 .section4_title {
@@ -116,6 +117,7 @@ body{
     text-align: center;
     color: #00CD78;
     padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 .sectionCard {
@@ -126,7 +128,7 @@ body{
     margin-left: 20%;
     padding: 2%;
     padding-bottom: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .cardTitle {
@@ -136,7 +138,7 @@ body{
     font-size: 26px;
     line-height: 126.6%;
     color: #FFFFFF;
-    width: 50%;
+    width: 55%;
 }
 
 .cardLeft {
