@@ -1,0 +1,82 @@
+.homebg{
+    position: relative;
+}
+.homeBannerimg{
+    width: 100%;
+    height: 80vh;
+}
+.homeBanner{
+    padding: 5% 5%;
+    position: absolute;
+    top:150px;
+   }
+#homeBannerTitle{
+    font-family: Manrope;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 45%;
+}
+#homeBannerText{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 45%;
+    color:#CBCBCB;
+    margin: 1% 0 0 0;
+}
+#colorText{
+   color: #00CD78;
+}
+.clients{
+    display: inline-flex;
+    margin: 1% 0 0 -1.3%;
+    width: 45%;
+}
+.clients div{
+    margin: 0 0 0 3%;
+}
+#clientnoText{
+    font-family: Manrope;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#00CD78;
+}
+#clientText{
+    font-family: Manrope;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color:#FFFFFF;
+    margin: 5% 0 0 0;
+    opacity: .5;
+}
+.bannerButton{
+    margin: 3% 0 0 0;
+}
+.exploreButton{
+    background: #00CD78;
+    border-radius: 8px;
+    width:10%;
+    height:45px;
+    outline: none;
+    border: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
