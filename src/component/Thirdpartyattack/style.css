@@ -159,7 +159,9 @@ padding-top: 2%;
     padding-top: 1%;
 }
 
-
+.impactList{
+    padding-bottom: 3%;
+} 
 
 .impactList>div {
     display: flex;
@@ -200,7 +202,6 @@ padding-top: 2%;
 }
 .party_section5 {
     padding: 5%;
-
 }
 
 .party_section5_box {
