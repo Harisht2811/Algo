@@ -58,14 +58,14 @@ function thirdparty() {
 
                 </div>
             </div>
-            <div className='section5'>
-        <div className='section5_box'>
+            <div className='attack_section5'>
+        <div className='attack_section5_box'>
           <div>
-            <p className='box_title'>Heard enough? See it for yourself.</p>
-            <p className='box_desc'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
+            <p className='attack_box_title'>Heard enough? See it for yourself.</p>
+            <p className='attack_box_desc'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
           </div>
           <div>
-            <p className='box_btn'>Get a Demo</p>
+            <p className='attack_box_btn'>Get a Demo</p>
           </div>
         </div>
       </div>
