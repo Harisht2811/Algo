@@ -26,28 +26,28 @@ function attack() {
         <div className='attack_section2_title'>We helps you in</div>
         <div className='attack_section2_list'>
           <div className='whyhelp_list'>
-            <img className='icon' src={search}></img>
+            <img className='icon' src={search} alt='search'></img>
             <p className='list_title'>Identify vulnerabilities</p>
           </div>
-          <img className='hrLine' src={hrLine} />
+          <img className='hrLine' src={hrLine} alt='vline' />
           <div className='whyhelp_list'>
-            <img className='icon' src={pinpoint}></img>
+            <img className='icon' src={pinpoint} alt='pinpoint'></img>
             <p className='list_title'>Identify vulnerabilities</p>
           </div>
-          <img className='hrLine' src={hrLine} />
+          <img className='hrLine' src={hrLine} alt='vline'/>
           <div className='whyhelp_list'>
-            <img className='icon' src={risk}></img>
+            <img className='icon' src={risk} alt='risk'></img>
             <p className='list_title'>Identify vulnerabilities</p>
           </div>
-          <img className='hrLine' src={hrLine} />
+          <img className='hrLine' src={hrLine} alt='vline'/>
           <div className='whyhelp_list'>
-            <img className='icon' src={secure}></img>
+            <img className='icon' src={secure} alt='secure'></img>
             <p className='list_title'>Identify vulnerabilities</p>
           </div>
         </div>
       </div>
       <div className='attack_section3'> 
-        <img src={bg} />
+        <img src={bg} alt='bgImg'/>
         <p className='attack_section3_desc'>Attack Surface Management provides <span className='colorText'> automatic and full visibility into your digital presence–uncovering security issues </span>and vulnerabilities that can be exploited by potential adversaries</p>
       </div>
       <div className='attack_section4'>
@@ -59,37 +59,37 @@ function attack() {
             <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' /></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={digitalpresence} />
+            <img className='attack_cardImg' src={digitalpresence} alt='digital'/>
           </div>
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Identify security issues</p>
             <p className='attack_cardDesc'>Continuously scan and map the organization’s digital presence to detect issues and vulnerabilities such as leaked credentials, botnet infections, exploitable open ports, vulnerable web interfaces, and more</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' /></p>
+            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'/></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={security} />
+            <img className='attack_cardImg' src={security} alt='security' />
           </div>
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Uncover your digital presence</p>
             <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' /></p>
+            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'/></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={assess} />
+            <img className='attack_cardImg' src={assess} alt='assess'/>
           </div>
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Uncover your digital presence</p>
             <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' /></p>
+            <p className='attack_cardBtn'>Get a Demo <img src={arrow} alt='arrow' className='demoArrow' /></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={monitor} />
+            <img className='attack_cardImg' src={monitor} alt='monitor'/>
           </div>
         </div>
       </div>

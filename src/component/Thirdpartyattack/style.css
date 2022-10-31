@@ -1,25 +1,26 @@
-body{
+body {
     padding: 0%;
     margin: 0%;
 }
+
 .party_section1 {
     background-image: url(../../images/thirdparty/thirdpartyBG.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 0% 0 10% 0%;
+    padding: 0% 0 0%;
     margin: 0%;
 }
 
 .party_Title {
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 81px;
-line-height: 120.1%;
-text-align: center;
-letter-spacing: -0.05em;
-color: #FFFFFF;
-padding-top: 3%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    padding-top: 3%;
 
 }
 
@@ -41,60 +42,28 @@ padding-top: 3%;
     margin-left: 45%;
     padding: 0.5%;
     margin-top: 2%;
+    font-family: 'Manrope';
+    font-style: normal;
 }
 
-.party_section2{
+.party_section2 {
     display: flex;
-    background-color: #091610;
     padding-left: 10%;
-    padding-bottom: 3%;
+    margin-bottom: -1%;
 }
-.vendorImg{
+
+.vendorImg {
     width: 459px;
-height: 396.78px;
-margin-top: -2%;
+    height: 396.78px;
+    margin-top: -2%;
 }
-.vendorRight{
+
+.vendorRight {
     width: 52%;
-    padding-top: 3%;
-
-}
-.vendorTitle{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 120.1%;
-letter-spacing: -0.065em;
-color: #00CD78;
+    padding-top: 8%;
 }
 
-.vendorDesc{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 170.1%;
-color: #CBCBCB;
-}
-.party_section3{
-    display: flex;
-    background-color: #091610;
-    padding-left: 10%;
-    padding-bottom: 3%;
-}
-.sysImg{
-    width: 621.09px;
-    height: 444px;margin-top: 5%;
-    margin-left: 55% ;
-    position: absolute;
-}
-.cyberleft{
-    width: 52%;
-    padding-top: 3%;
-
-}
-.cyberTitle{
+.vendorTitle {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -104,50 +73,108 @@ color: #CBCBCB;
     color: #00CD78;
 }
 
-.cyberDesc{
+.vendorDesc {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 170.1%;
     color: #CBCBCB;
+    padding-bottom: 5%;
+padding-top: 2%;
 }
-.impact{
-    background-color: #091610;
+.party_section3Bg{
+    background-image: url('../../images/thirdparty/impactBg.png');
+    padding: 0% 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+.party_section3 {
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    background-color: #000E08;
+}
+
+.sysImg {
+    width: 621.09px;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.cyberleft {
+    width: 52%;
+    padding-top: 10%;
+
+}
+
+.cyberTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120.1%;
+    letter-spacing: -0.065em;
+    color: #00CD78;
+}
+
+.cyberDesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170.1%;
+    color: #CBCBCB;
+    padding-top: 3%;
+}
+
+.impact {
     padding: 3%;
     padding-left: 10%;
 }
-.impactTitle{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 120.1%;
-letter-spacing: -0.05em;
-color: #FFFFFF;
-width: 35%;
-margin-bottom: 1%;
-}
-.impactDesc{
-    font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 170.1%;
-color: #CBCBCB;
-width: 48%;
 
+.impactTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 120.1%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    width: 35%;
+    margin-bottom: 1%;
 }
-.impactList{
-    background-image: url('../../images/thirdparty/impactBg.png');
-    padding: 5% 0;
 
+.impactDesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170.1%;
+    color: #CBCBCB;
+    width: 48%;
+    padding-top: 1%;
 }
-.impactList > div{
+
+
+
+.impactList>div {
     display: flex;
     margin-left: 30%;
+    padding-bottom: 2%;
 }
-.listTitle{
+.listTitle:hover {
+    color: #00CD78;
+}
+.vlineImg {
+    margin-top: 1%;
+}
+
+
+.listTitle {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
@@ -155,19 +182,77 @@ width: 48%;
     line-height: 137.6%;
     color: #FFFFFF;
     width: 31%;
+    padding-bottom: 2%;
 }
-.listDesc{
+
+.listDesc {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 170.1%;
     color: #8A8A8A;
-    width: 85%;
+    width: 80%;
 }
-.listName{
+
+.listName {
     margin-left: 5%;
 }
-.vlineImg{
-    margin-top: 4%;
+.party_section5 {
+    padding: 5%;
+
+}
+
+.party_section5_box {
+    width: 90%;
+    border: 1px solid #00CD78;
+    border-radius: 8px;
+}
+
+.party_section5_box {
+    display: flex;
+    margin-left: 5%;
+}
+
+.party_section5_box div {
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    width: 60%;
+}
+
+.party_box_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120.1%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.party_box_desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 177%;
+    color: #CBCBCB;
+    width: 120%;
+}
+
+.party_box_btn {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #020906;
+    background-color: #00CD78;
+    margin-left: 50%;
+    margin-top: 8%;
+    width: 30%;
+    padding: 2%;
+    border-radius: 8px;
 }

@@ -6,7 +6,7 @@
 
     .attack_section1 {
         background-image: url(../../images/attacker/Mask\ group.png);
-        background-size: 100%;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 0% 0 5% 15%;
         margin: 0%;
@@ -41,6 +41,8 @@
         text-align: center;
         margin-left: 34%;
         padding: 0.5%;
+        font-family: 'Manrope';
+        font-style: normal;
     }
 
     .attack_section2 {
