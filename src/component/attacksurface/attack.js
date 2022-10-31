@@ -94,14 +94,14 @@ function attack() {
         </div>
       </div>
       <div className='attack_section5'>
-        <div className='attack_section5_box'>
-          <div>
-            <p className='attack_box_title'>Heard enough? See it for yourself.</p>
-            <p className='attack_box_desc'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
-          </div>
-          <div>
-            <p className='attack_box_btn'>Get a Demo</p>
-          </div>
+        <div className='heard'>
+            <div className='securityIssues'>
+                <div className='securityText'>
+                <p id='titleIssues'>Heard enough? See it for yourself.</p>
+                <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
+                </div>
+                <button className='certificateButton'>Get demo</button>
+            </div>
         </div>
       </div>
      

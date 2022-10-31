@@ -160,7 +160,11 @@
     
     }
     
+    .impactList{
+
+        padding-bottom: 3%;
     
+    }
     
     .impactList>div {
         display: flex;

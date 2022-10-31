@@ -33,8 +33,8 @@ function footer() {
                 </div>
                 <div className='section3'>
                 <p id='titlefooterText'>Services</p>
-                <Link to='/attacksurface'><p id='footerText'>3rd Party Cyber Risk</p></Link> 
-                <Link to='/thirdparty'><p id='footerText'>Attack Surface</p></Link> 
+                <Link to='/thirdparty'><p id='footerText'>3rd Party Cyber Risk</p></Link> 
+                <Link to='/attacksurface'><p id='footerText'>Attack Surface</p></Link> 
                 <p id='footerText'>DDoS Attack Simulation & Testing</p>
                 <p id='footerText'>DDOS Incident Response</p>
                 <p id='footerText'>Technology Hardening</p>
