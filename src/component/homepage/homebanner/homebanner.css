@@ -1,9 +1,9 @@
 .homebg{
     position: relative;
+    height: 80vh;
 }
 .homeBannerimg{
     width: 100%;
-    height: 80vh;
 }
 .homeBanner{
     padding: 5% 5%;

@@ -17,7 +17,7 @@ padding: 5% 3%;
     display: inline-flex;
     position: absolute;
     top: 80px;
-    left:600px;
+    left:800px;
 
 }
 #titlealgotext{
@@ -51,8 +51,29 @@ height: 250px;
 width:17%;
 border-radius: 13px;
 padding: 8% 5%;
-margin: 0 0 0 3%;
+margin: 0 0 0 -14%;
+transform: rotate(-10deg);
+
 }
+.issueCard1{
+    background-color: #05DA8D;
+    height: 250px;
+    width:17%;
+    border-radius: 13px;
+    padding: 8% 5%;
+    margin: 0 0 0 -10%;
+    transform: rotate(10deg);
+
+}
+.issueCard:hover{
+    transform: none;
+    margin: 0 0 0 2%;
+}
+.issueCard1:hover{
+    transform: none;
+    margin: 0 0 0 2%;
+
+    }
 #numberText{
     font-family: Manrope;
     font-size: 43px;

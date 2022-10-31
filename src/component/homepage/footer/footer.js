@@ -1,6 +1,8 @@
 import React from 'react'
 import '../footer/footer.css'
 
+import { Link } from 'gatsby'
+
 import algofooter from '../../../images/homepage/algohome29.png'
 import socialIcon1 from '../../../images/homepage/algohome24.png'
 import socialIcon2 from '../../../images/homepage/algohome25.png'
@@ -31,8 +33,8 @@ function footer() {
                 </div>
                 <div className='section3'>
                 <p id='titlefooterText'>Services</p>
-                <p id='footerText'>3rd Party Cyber Risk</p>
-                <p id='footerText'>Attack Surface</p>
+                <Link to='/attacksurface'><p id='footerText'>3rd Party Cyber Risk</p></Link> 
+                <Link to='/thirdparty'><p id='footerText'>Attack Surface</p></Link> 
                 <p id='footerText'>DDoS Attack Simulation & Testing</p>
                 <p id='footerText'>DDOS Incident Response</p>
                 <p id='footerText'>Technology Hardening</p>

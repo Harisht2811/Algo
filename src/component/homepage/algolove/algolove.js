@@ -14,7 +14,7 @@ function carousel() {
      
         </div>
         <div className='algoCards'>
-          <div className='issueCard'>
+          <div className='issueCard1'>
          <p id='numberText'>01</p>
          <p id='issueText'>Security issues that the penetration test uncovers should be reported to the system owner</p>
           </div>
@@ -22,7 +22,7 @@ function carousel() {
          <p id='numberText'>02</p>
          <p id='issueText'>Security issues that the penetration test uncovers should be reported to the system owner</p>
           </div>
-          <div className='issueCard'>
+          <div className='issueCard1'>
          <p id='numberText'>03</p>
          <p id='issueText'>Security issues that the penetration test uncovers should be reported to the system owner</p>
           </div>

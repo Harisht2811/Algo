@@ -1,6 +1,5 @@
 .algoservices{
 background-color: black;
-width: 100%;
 height: 40vh;
 padding: 4% 3%;
 }
@@ -16,15 +15,14 @@ padding: 4% 3%;
 }
 
 .servicesCard{
-    padding: 5% 1%;
+    padding: 5% 3%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-row-gap: 11%;
-    grid-column-gap: 3%
+    grid-column-gap: 2%
 }
 .card{
-    padding: 10% 5%;
-    width:280px;
+    padding: 10% 8%;
     height: 156px;
     border-radius: 8px;
     border:1px solid rgb(209, 208, 208);
@@ -45,8 +43,7 @@ padding: 4% 3%;
     width:50%   
 }
 .arrowImg{
-    width: 18px;
-    margin: 0 0 0 10%;
+    margin: 0 0 0 30%;
 }
 #belowcardText{
     font-family: Manrope;
@@ -56,7 +53,6 @@ padding: 4% 3%;
     letter-spacing: 0em;
     text-align: justified;
     color:#CBCBCB;
-    width: 70%;
     height:25%;
     margin: 10% 0 0 0;
 }
