@@ -1,0 +1,184 @@
+@media screen and (max-width:1440px) and (min-width:1025px) {
+
+.dark_section2 {
+    background-color: #000E08;
+    padding: 5% 0 10%;
+    margin-top: -1%;   
+}
+    
+.dark_section3 {
+    background-color: #000E08;
+    margin-top: -1%;
+}
+}
+
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .dark_section1 {
+        background-image: url(../../images/deepdark/darkBg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 0% 0 15%;
+        margin: 0%;
+    }
+    
+    .dark_Title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 120.1%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        padding: 3% 0 2%;
+    }
+    
+    .darkDesc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170.1%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0% 0 3%;
+    }
+    
+    .colortext {
+        color: rgba(0, 205, 120, 1);
+    }
+    
+    .dark_demoBtn {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 10%;
+        text-align: center;
+        margin-left: 45%;
+        padding: 0.5%;
+        margin-top: 2%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+    }
+    
+    
+    .dark_section2 {
+        background-color: #000E08;
+        padding: 5% 0 10%;
+        margin-top: -1%;
+    }
+    
+    .work_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120.1%;
+        text-align: center;
+        letter-spacing: -0.065em;
+        color: #00CD78;
+        padding-bottom: 2%;
+    }
+    
+    .work_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 170.1%;
+        text-align: center;
+        color: #7A7A7A;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 2%;
+    
+    }
+    
+    .dark_hrline {
+        margin-left: 25%;
+        padding-bottom: 2%;
+    
+    }
+    
+    .dark_section3 {
+        background-color: #000E08;
+        margin-top: -1%;
+    }
+    
+    .darkcard {
+        background-image: url('../../images/deepdark/cardbg.png');
+        background-repeat: no-repeat;
+        background-size: 90%;
+        padding: 3%;
+        margin-left: 10%;
+        display: flex;
+        padding-bottom: 10%;
+    }
+    
+    .darkcard_left {
+        width: 20%;
+        margin-top: -7%;
+    }
+    
+    .leftcard_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 120.1%;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.5);
+        padding-top: 5%;
+    
+    }
+    
+    .darkcard_right {
+        width: 70%;
+    }
+    
+    .rightcard_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+        padding-bottom: 2%;
+    }
+    
+    .darkdemo {
+        color: #00CD78;
+    }
+    
+    .deep_dark {
+        background: linear-gradient(270deg, #12613F -20.75%, #072525 100%);
+        padding: 4% 0;
+        display: flex;
+        padding-left: 10%;
+    }
+    
+    .deep_darkLeft {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120.1%;
+        letter-spacing: -0.065em;
+        color: #FFFFFF;
+        width: 35%;
+    }
+    
+    .deep_darkRight{
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.1%;
+    color: #CBCBCB;
+    width: 50%;
+    padding-left: 7%;
+    }
+    .dark_section5{
+        background-color: #000E08;
+    }
+}
