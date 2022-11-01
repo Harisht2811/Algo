@@ -23,9 +23,10 @@ padding: 4% 3%;
 }
 .card{
     padding: 10% 8%;
-    height: 156px;
-    border-radius: 8px;
-    border:1px solid rgb(209, 208, 208);
+    height: 200px;
+    width: 250px;
+    border-radius: 11px;
+    border:1px solid gray;
 }
 .textCards{
     display: inline-flex;
@@ -43,7 +44,8 @@ padding: 4% 3%;
     width:50%   
 }
 .arrowImg{
-    margin: 0 0 0 30%;
+    width: 18px;
+    margin: 0 0 0 35%;
 }
 #belowcardText{
     font-family: Manrope;

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../services/services.css'
 
-import Arrowimage from '../../../images/homepage/algohome30.png'
+import Arrowimage from '../../../images/homepage/algohome30.svg'
 function services() {
   return (
    <>

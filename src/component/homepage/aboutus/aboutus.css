@@ -10,7 +10,8 @@ position: relative;
 }
 .aboutusText{
 position: absolute;
-top:175px;
+top:200px;
+left: 80px;
 padding: 4% 5%;
 }
 #aboutusTitle{
