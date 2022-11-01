@@ -132,6 +132,11 @@
 
 .darkdemo {
     color: #00CD78;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+
 }
 
 .deep_dark {

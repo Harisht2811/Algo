@@ -42,6 +42,10 @@ a{
     list-style-type: none;
 
 }
+.homeServices{
+    width: 20%;
+    display: inline-flex;
+}
 #algoheaderText{
     font-family: Manrope;
     font-size: 16px;
@@ -51,5 +55,21 @@ a{
     text-align: right;
     color:#FFFFFF;
     margin: 0 0 0 0%;
+    width: 10%;
 
+}
+.toggleicon{
+    width: 20px;
+    height: 20px;
+    margin: 0% 0 0 10%;
+}
+.selectBg{
+    background-color:#141414;
+    height: 300px;
+    width: 300px;
+    padding: 5% 3%;
+    color: #FFFFFF;
+}
+#hrinhome{
+    border-bottom: 1px solid #00CD78;
 }
