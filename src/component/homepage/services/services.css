@@ -1,6 +1,6 @@
 .algoservices{
 background-color: black;
-height: 40vh;
+height: 50vh;
 padding: 4% 3%;
 }
 #servicesText{
@@ -21,7 +21,7 @@ padding: 4% 3%;
     grid-row-gap: 11%;
     grid-column-gap: 2%
 }
-.card{
+.innercard{
     padding: 10% 8%;
     height: 200px;
     width: 250px;

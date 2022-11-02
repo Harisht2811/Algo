@@ -12,6 +12,8 @@ import Footer from '../component/homepage/footer/footer'
 const IndexPage = () => {
   return (
     <>
+
+
        <div>
       <title>Algoritmik</title>
      <Header/>

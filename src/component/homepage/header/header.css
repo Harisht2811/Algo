@@ -6,24 +6,26 @@
 body {
     overflow-x: hidden;
 }
+a{
+    text-decoration: none!important;
+    color: unset!important;
+}
 .algoheader{
     background-color: #141414;
     width: 100%;
-    padding: 2% 3%;
+    height: 5vh;
+    padding: 2% 0 0 3%;
     display: flex;
 }
 .logo{
     width: 20%;
 }
-a{
-    text-decoration: none;
-    color: unset;
-}
+
 .links{
     width: 60%;
 }
 .home{
-    color: #00CD78;
+    color: #00CD78!important;
 }
 .links ul{
     width: 70%;
@@ -70,6 +72,47 @@ a{
     padding: 5% 3%;
     color: #FFFFFF;
 }
-#hrinhome{
-    border-bottom: 1px solid #00CD78;
+.flexServices{
+    padding: 3% 0 5%;
 }
+#hrinhome{
+    border: 0.5px solid #00CD78;
+    outline: none;
+}
+#serviceText{
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00CD78;
+}
+#modaltext{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A1A1A1;
+}
+.dropDown{
+    background-color: #141414;
+    z-index: 1;
+    width: 450px;
+    height: 580px;
+    margin: -10% 0 0 -80%;
+    padding: 5% 10%;
+}
+.closeBtn{
+    float: right;
+    
+}
+
+
+
+
+
+
+

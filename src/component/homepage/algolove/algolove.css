@@ -53,16 +53,21 @@
 }
 .algoCards:hover .issueCard1{
     transform: none;
+    transition: 0.7s;
 }
 .algoCards:hover .issueCard2{
     transform: none;
     margin: 0 0 0 3%;
+    transition: 0.7s;
+
 }
 .algoCards:hover .issueCard3{
     transform: none;
     margin: 0 0 0 3%;
+    transition: 0.7s;
+
 }
-.issueCard1 {
+.issueCard1{
     background-color: #05DA8D;
     height: 250px;
     width: 15%;
@@ -71,6 +76,8 @@
     -webkit-transform: rotate(2deg);
     transform: rotate(4deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    transition: 0.7s;
+
 }
 
 .issueCard2 {
@@ -83,6 +90,8 @@
     -webkit-transform: rotate(-10deg);
     transform: rotate(-6deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    transition: 0.7s;
+
 }
 
 .issueCard3 {
@@ -95,6 +104,8 @@
     -webkit-transform: rotate(5deg);
     transform: rotate(10deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    transition: 0.7s;
+
 }
 
 

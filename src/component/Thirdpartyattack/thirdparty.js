@@ -67,7 +67,7 @@ import vline from '../../images/thirdparty/vline.png'
                                         <p id='titleIssues'>Heard enough? See it for yourself.</p>
                                         <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                                     </div>
-                                    <button className='certificateButton'>Get demo</button>
+                                    <button className='certificateButton'>Get a demo</button>
                                 </div>
 
                         </div>

@@ -1,24 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../header/header.css'
 import { Link } from 'gatsby'
-import { useState } from 'react';
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+
 import headerData from '../../../content/headerData.json'
 import algoLogo from '../../../images/homepage/algohome23.png'
 import Toggleicon from '../../../images/homepage/algohome31.svg'
+import Closebtn from '../../../images/homepage/algohome32.svg'
+
 
 function Header() {
-  const [age, setAge] = useState(' ');
-  const handleChange = (event) => {
-    setAge(event.target.value);
-  };
+  const [open, setOpen] = useState(false);
+  var modal = document.getElementById("myModal");
+
+  var btn = document.getElementById("myBtn");
+
+  var span = document.getElementsByClassName("close")[0];
+
+  const openmodal = () => {
+    console.log('open clicked')
+    setOpen(true)
+  }
+
+  const closemodal = () => {
+    setOpen(false)
+  }
+ 
 
   return (
     <>
+
+      {console.log('open clicked', open)}
       <header className='algoheader'>
         <div className='logo'>
           <img src={algoLogo} alt='logoIcon'></img>
@@ -34,27 +45,44 @@ function Header() {
           </ul>
         </div>
         <div className='homeServices'>
-        <p id='algoheaderText'>Services</p>
-        <img onChange={handleChange} className='toggleicon' src={Toggleicon} alt='toggleicon'></img>
-        <Select  >
-          <div className='selectBg'>
-          <MenuItem >3rd Party Cyber Risk</MenuItem>
-          <hr id='hrinhome'></hr>
-          <MenuItem>Attack Surface</MenuItem>
-          <hr id='hrinhome'></hr>
-          <MenuItem >DDoS Attack Simulation & Testing</MenuItem>
-          <hr id='hrinhome'></hr>
-          <MenuItem >DDOS Incident Response</MenuItem>
-          <hr id='hrinhome'></hr>
-          <MenuItem >Technology Hardening</MenuItem>
-          <hr id='hrinhome'></hr>
-          <MenuItem >Deep & Dark Web</MenuItem>
-          </div>
-          
-        </Select>
-        </div>
-        
-      </header>
+          <p id='algoheaderText'>Services</p>
+
+          <img id="myBtn" onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img>
+          {
+            open === true ?
+             <card className='dropDown'>
+              {/* // <card className='dropDown' style={{ backgroundColor: '#141414', zIndex: '1', width: '240px', height: '540px',margin:'-10% 0 0 0',padding: '5% 10%'}}> */}
+               <div className='flexServices'>
+               <p id='serviceText'>Services 
+               <span className='closeBtn' onClick={closemodal}><img  src={Closebtn}></img></span>
+               </p>
+               </div>
+             
+
+                <p id='modaltext'>3rd Party Cyber Risk</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>Attack Surface</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>DDOS Hardening</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>Deep & Dark Web</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>Pentesting</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>Phishing Detection</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>Deep Cyber Investigations</p>
+                <hr id='hrinhome'></hr>
+                <p id='modaltext'>Virtual Humint Operations</p>
+
+              </card>
+
+        :" "
+             }
+
+      </div>
+
+    </header>
 
 
     </>
@@ -62,6 +90,15 @@ function Header() {
 }
 
 export default Header
+
+
+
+
+
+
+
+
+
 
 
 
