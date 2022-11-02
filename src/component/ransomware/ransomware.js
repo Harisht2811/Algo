@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 import './laptop.css'
-import computerImg from '../../images/Ransomeware/computerimg.png'
+import computerImg from '../../images/Ransomeware/computerImg.png'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import leftcurve from '../../images/Ransomeware/leftcurve.png'
 import rightcurve from '../../images/Ransomeware/rightcurve.png'

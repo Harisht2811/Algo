@@ -10,11 +10,7 @@ import Closebtn from '../../../images/homepage/algohome32.svg'
 
 function Header() {
   const [open, setOpen] = useState(false);
-  var modal = document.getElementById("myModal");
-
-  var btn = document.getElementById("myBtn");
-
-  var span = document.getElementsByClassName("close")[0];
+  
 
   const openmodal = () => {
     console.log('open clicked')
