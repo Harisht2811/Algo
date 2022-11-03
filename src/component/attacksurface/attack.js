@@ -32,17 +32,17 @@ function attack() {
           <img className='hrLine' src={hrLine} alt='vline' />
           <div className='whyhelp_list'>
             <img className='icon' src={pinpoint} alt='pinpoint'></img>
-            <p className='list_title'>Identify vulnerabilities</p>
+            <p className='list_title'>Pinpoint user types</p>
           </div>
           <img className='hrLine' src={hrLine} alt='vline'/>
           <div className='whyhelp_list'>
             <img className='icon' src={risk} alt='risk'></img>
-            <p className='list_title'>Identify vulnerabilities</p>
+            <p className='list_title'>Perform a risk assessment</p>
           </div>
           <img className='hrLine' src={hrLine} alt='vline'/>
           <div className='whyhelp_list'>
             <img className='icon' src={secure} alt='secure'></img>
-            <p className='list_title'>Identify vulnerabilities</p>
+            <p className='list_title'>Secure your reporting</p>
           </div>
         </div>
       </div>
@@ -74,8 +74,8 @@ function attack() {
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
-            <p className='attack_cardTitle'>Uncover your digital presence</p>
-            <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
+            <p className='attack_cardTitle'>Assess and prioritize risks</p>
+            <p className='attack_cardDesc'>Calculate a security score by comparing current threats against your organization’s current best practices. Track and manage identified issues and assets so that your organization can focus on and address the most critical issues first.</p>
             <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'/></p>
           </div>
           <div className='attack_cardRight'>
@@ -84,8 +84,8 @@ function attack() {
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
-            <p className='attack_cardTitle'>Uncover your digital presence</p>
-            <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
+            <p className='attack_cardTitle'>Monitor your attack surface</p>
+            <p className='attack_cardDesc'>Monitor your organization’s constantly changing and entire digital presence to gain automatic and full visibility on an ongoing basis. Remap and continuously scan all assets every week, based on specific requirements</p>
             <p className='attack_cardBtn'>Get a Demo <img src={arrow} alt='arrow' className='demoArrow' /></p>
           </div>
           <div className='attack_cardRight'>

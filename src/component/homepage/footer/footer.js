@@ -38,7 +38,7 @@ function footer() {
                 <p id='footerText'>DDoS Attack Simulation & Testing</p>
                 <p id='footerText'>DDOS Incident Response</p>
                 <p id='footerText'>Technology Hardening</p>
-                <p id='footerText'>Deep & Dark Web</p>
+                <Link to='/deepdark'><p id='footerText'>Deep & Dark Web</p></Link>
 
 
                 </div>
@@ -48,7 +48,7 @@ function footer() {
                 <p id='footerText'>Pentesting</p>
                 <p id='footerText'>Phishing Detection</p>
                 <p id='footerText'>Virtual Humint Operations</p>
-                <p id='footerText'>Ransomeware</p>
+                <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
 
                 </div>
             </div>
