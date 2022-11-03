@@ -8,6 +8,7 @@ import Toggleicon from '../../../images/homepage/algohome31.svg'
 import Closebtn from '../../../images/homepage/algohome32.svg'
 
 
+
 function Header() {
   const [open, setOpen] = useState(false);
   

@@ -6,18 +6,19 @@
     },
     {
         "navLink":"Ransomware",
-        "routeLink":"/productdevelopment"
+        "routeLink":"/ransomware"
+
     },
     {
         "navLink":"Threat Intelligence",
-        "routeLink":"/productdevelopment"
+        "routeLink":""
     },
     {
         "navLink":"About us",
-        "routeLink":"/blockchaindevelopment"
+        "routeLink":""
     },
     {
         "navLink":"Contact us",
-        "routeLink":"/webDevelopment"
+        "routeLink":""
     }
 ]

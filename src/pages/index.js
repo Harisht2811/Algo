@@ -13,7 +13,6 @@ const IndexPage = () => {
   return (
     <>
 
-
        <div>
       <title>Algoritmik</title>
      <Header/>

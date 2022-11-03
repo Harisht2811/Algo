@@ -13,7 +13,8 @@
     width: 40%;
     position: absolute;
     top: 20px;
-    padding: 5% 3%;
+    left: 100px;
+    padding: 5% 5%;
 }
 
 #titlealgotext {
@@ -39,38 +40,38 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
-    width: 65%;
+    width: 75%;
     margin: 5% 0 0 0;
 }
 
-.algoCards {
+.algoanimation {
     width: 60%;
     display: inline-flex;
     position: absolute;
     top: 80px;
-    left: 800px;
+    left: 1000px;
 
 }
-.algoCards:hover .issueCard1{
+.algoanimation:hover .animation1{
     transform: none;
     transition: 0.7s;
 }
-.algoCards:hover .issueCard2{
-    transform: none;
-    margin: 0 0 0 3%;
-    transition: 0.7s;
-
-}
-.algoCards:hover .issueCard3{
+.algoanimation:hover .animation2{
     transform: none;
     margin: 0 0 0 3%;
     transition: 0.7s;
 
 }
-.issueCard1{
+.algoanimation:hover .animation3{
+    transform: none;
+    margin: 0 0 0 3%;
+    transition: 0.7s;
+
+}
+.animation1{
     background-color: #05DA8D;
-    height: 250px;
-    width: 15%;
+    height: 370px;
+    width: 20%;
     border-radius: 13px;
     padding: 5% 3%;
     -webkit-transform: rotate(2deg);
@@ -80,10 +81,10 @@
 
 }
 
-.issueCard2 {
+.animation2 {
     background-color: #05DA8D;
-    height: 250px;
-    width: 15%;
+    height: 370px;
+    width: 20%;
     border-radius: 13px;
     padding: 5% 3%;
     margin: 1% 0 0 -11%;
@@ -94,10 +95,10 @@
 
 }
 
-.issueCard3 {
+.animation3 {
     background-color: #05DA8D;
-    height: 250px;
-    width: 15%;
+    height: 370px;
+    width: 20%;
     border-radius: 13px;
     padding: 5% 3%;
     margin: 0 0 0 -12%;
@@ -127,5 +128,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
-    margin: 15% 0 0 0;
+    margin: 45% 0 0 0;
+}
+#hrinalgLove{
+  border: 1px solid #F5F5F5;
 }

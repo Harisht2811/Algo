@@ -5,7 +5,8 @@
     position: relative;
 }
 .aboutusImg{
-margin: 0 0 0 33%;
+margin:auto;
+display: flex;
 position: relative;
 }
 .aboutusText{

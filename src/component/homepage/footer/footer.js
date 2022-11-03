@@ -15,7 +15,7 @@ function footer() {
             <div className='algofooter'>
                 <div className='section1'>
                  <img className='footericon' src={algofooter} alt='footericon'></img>
-                  <p id='titlefooterText'>Follow us on</p>
+                  <p id='titlefooterText1'>Follow us on</p>
                  <div className='socialIcons'>
                   <img id='socialIcon1' src={socialIcon1} alt='socialIcon1'></img>
                   <img id='socialIcon2' src={socialIcon2} alt='socialIcon2'></img>

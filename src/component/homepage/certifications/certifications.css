@@ -27,21 +27,21 @@
 }
 .certificateImages{
     display: inline-flex;
-    margin: 3% 0 0 28%;
+    margin: 3% 0 0 25%;
 }
 .certificateImages img{
-    margin: 3% 0 0 10%;
+    margin: 3% 0 0 15%;
 }
 .heard{
     padding: 5% 10%;
 }
 .securityIssues{
-    border:2px solid #00CD78;
-    width: 100%;
-    height: 250px;
+    border: 2px solid #00cd78;
     border-radius: 12px;
-    width: 100%;
     display: inline-flex;
+    height: 250px;
+    width: 90%;
+    margin: 0 0 0 4%;
 }
 .securityText{
     width: 70%;
@@ -58,28 +58,27 @@
 }
 #textIssues{
     font-family: Manrope;
+    color: #cbcbcb;
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0;
     line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #CBCBCB;   
-    margin: 3% 0 0 0; 
-    width: 70%;
+    margin: 3% 0 0;
+    width: 95%;
 }
 
 .certificateButton{
-    background: #00CD78;
-    border-radius: 8px;
-    width:15%;
-    height:45px;
-    outline: none;
+    background: #00cd78;
     border: none;
+    border-radius: 8px;
     font-family: Manrope;
     font-size: 14px;
     font-weight: 700;
+    height: 39px;
+    letter-spacing: 0;
     line-height: 19px;
-    letter-spacing: 0em;
+    margin: 8% 0 0 13%;
+    outline: none;
     text-align: center;
-    margin: 8% 0 0 0;
+    width: 150px;
 }
