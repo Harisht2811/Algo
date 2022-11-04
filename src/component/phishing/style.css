@@ -50,7 +50,7 @@
 .phishing_section2 {
     background: #00CD78;
     backdrop-filter: blur(14px);
-    padding-left: 10%;
+    padding-left: 8%;
     padding: 4%;
 }
 
@@ -62,7 +62,7 @@
     line-height: 223.1%;
     text-align: center;
     color: #051F1B;
-    width: 98%;
+    width: 98% !important;
 }
 
 .phishing_section3 {
@@ -226,6 +226,7 @@ opacity: 0.6;
     opacity: 0.3;
     transition:opacity 1s;  
     border-radius: 9px;
+    margin-bottom: 2%;
 }
 .phishingimg:hover{
     opacity: 1;
