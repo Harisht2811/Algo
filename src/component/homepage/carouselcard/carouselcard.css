@@ -1,119 +1,181 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
-.carouselCards{
+
+.carouselCards {
     background-color: black;
-    height: 80vh;
     padding: 8% 10%;
     display: inline-flex;
     width: 100%;
 }
 
-.innercarouselCards1,.innercarouselCards2,.innercarouselCards3,.innercarouselCards4,.innercarouselCards5,.innercarouselCards6,.innercarouselCards7{
-    padding: 5% 0%;
+
+.carousel-item {
+    transition: 3s!important;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+.innercarouselCards1,
+.innercarouselCards2,
+.innercarouselCards3,
+.innercarouselCards4,
+.innercarouselCards5,
+.innercarouselCards6,
+.innercarouselCards7 {
+    padding: 8% 2%;
     position: relative;
 }
-.innercarouselCards1{
+
+.innercarouselCards1 {
     background-image: url('../../../images/homepage/algohome2.png');
-    width: 100%;
+    width: 33.3%;
     height: 500px;
+    margin: 0 5%;
     background-repeat: no-repeat;
-}
-.innercarouselCards2{
-    background-image: url('../../../images/homepage/algohome7.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards3{
-    background-image: url('../../../images/homepage/algohome8.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards4{
-    background-image: url('../../../images/homepage/algohome3.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards5{
-    background-image: url('../../../images/homepage/algohome4.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards6{
-    background-image: url('../../../images/homepage/algohome5.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards7{
-    background-image: url('../../../images/homepage/algohome6.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards1:hover{
-    background-image: url('../../../images/homepage/algohome15.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards2:hover{
-    background-image: url('../../../images/homepage/algohome12.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards3:hover{
-    background-image: url('../../../images/homepage/algohome14.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards4:hover{
-    background-image: url('../../../images/homepage/algohome13.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards5:hover{
-    background-image: url('../../../images/homepage/algohome9.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards6:hover{
-    background-image: url('../../../images/homepage/algohome10.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-}
-.innercarouselCards7:hover{
-    background-image: url('../../../images/homepage/algohome11.png');
-    width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.innercarouselCards1:hover #carouselTitle,.innercarouselCards2:hover #carouselTitle,.innercarouselCards3:hover #carouselTitle,.innercarouselCards4:hover #carouselTitle,.innercarouselCards5:hover #carouselTitle{
+.innercarouselCards2 {
+    background-image: url('../../../images/homepage/algohome7.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards3 {
+    background-image: url('../../../images/homepage/algohome8.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards4 {
+    background-image: url('../../../images/homepage/algohome3.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards5 {
+    background-image: url('../../../images/homepage/algohome4.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards6 {
+    background-image: url('../../../images/homepage/algohome5.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards7 {
+    background-image: url('../../../images/homepage/algohome6.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards1:hover {
+    background-image: url('../../../images/homepage/algohome15.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards2:hover {
+    background-image: url('../../../images/homepage/algohome12.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards3:hover {
+    background-image: url('../../../images/homepage/algohome14.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards4:hover {
+    background-image: url('../../../images/homepage/algohome13.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards5:hover {
+    background-image: url('../../../images/homepage/algohome9.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards6:hover {
+    background-image: url('../../../images/homepage/algohome10.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards7:hover {
+    background-image: url('../../../images/homepage/algohome11.png');
+    width: 33.3%;
+    height: 500px;
+    margin: 0 5%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.innercarouselCards1:hover #carouselTitle,
+.innercarouselCards2:hover #carouselTitle,
+.innercarouselCards3:hover #carouselTitle,
+.innercarouselCards4:hover #carouselTitle,
+.innercarouselCards5:hover #carouselTitle {
     color: #00CD78;
-  }
+}
+
 .carouselCards img {
     margin: 0 0 0 1%;
 }
-#carouselTitletext{
+
+#carouselTitletext {
     font-family: Manrope;
     font-size: 21px;
     font-weight: 700;
     line-height: 25px;
     letter-spacing: 0em;
-    color: #FFFFFF;  
-    height: 5%;  
-    margin: 0 0 0 15%;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-#carouselText{
+#carouselText {
     font-family: Manrope;
     font-size: 13px;
     font-weight: 400;
@@ -121,18 +183,24 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-    width: 55%;
-    margin: 10% 0 0 6%;
+    margin: 12% auto;
 }
-.whiteArrow{
+
+.whiteArrow {
     position: absolute;
-    top: 325px;
-    left: 160px;
+    top: 350px;
+    left: 165px;
 }
+
 .carousel-control-next-icon {
     display: none;
 }
 
 .carousel-control-prev-icon {
-   display: none;
+    display: none;
+}
+.carousel-indicators {
+    
+    margin-bottom: -10rem!important;
+    
 }

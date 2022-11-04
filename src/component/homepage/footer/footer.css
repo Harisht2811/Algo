@@ -1,7 +1,7 @@
+    
 .algofooter{
     background-color: #00CD78;
     width: 100%;
-    height: 40vh;
     display: flex;
     padding: 3% 8%;
 }
@@ -25,7 +25,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000301;
-    margin: 5% 0 0 0;
+    margin: 8% 0 0 0;
 }
 #titlefooterText{
     font-family: Manrope;
@@ -50,7 +50,7 @@
     font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
     color: #000301; 

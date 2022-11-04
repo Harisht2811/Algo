@@ -67,7 +67,7 @@ function Carouselcards() {
                 <img className='whiteArrow' src={whiteArow} alt='arrowimg'></img>
               </div>
             </div>
-          </Carousel.Item>
+          </Carousel.Item> 
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards5'>
@@ -180,7 +180,6 @@ function Carouselcards() {
           </Carousel.Item>
         </Carousel>
       </div>
-      {/* </div> */}
     </>
   )
 }
