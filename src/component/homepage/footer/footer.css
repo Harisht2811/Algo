@@ -56,3 +56,20 @@
     color: #000301; 
     margin: 3% 0 0 0;   
 }
+@media screen and (max-width:1445px) and (min-width:1025px) {
+    .algofooter{
+        padding: 3% 5%;
+    }
+    .section1{
+        margin: 0 0 0 4%;
+    }
+   .section2{
+    margin: 0 0 0 5%;
+   } 
+   .section4{
+    margin: 0 0 0 8%;
+   }
+   #copyrightText{
+    width: 300px;
+   }
+}

@@ -58,3 +58,11 @@
     margin: 15% 0 0 0;
     width: 95%;
 }
+@media screen and (max-width:1445px) and (min-width:1025px) {
+    .algoservices{
+        padding:8% 3% 0;
+    }
+    .innercard{
+        width: 285px;
+    }
+}

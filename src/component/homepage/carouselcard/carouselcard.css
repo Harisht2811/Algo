@@ -9,13 +9,15 @@
 
 
 .carousel-item {
-    transition: 3s!important;
+    transition: 3s !important;
 }
+
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
     width: 12px;
     height: 12px;
 }
+
 .innercarouselCards1,
 .innercarouselCards2,
 .innercarouselCards3,
@@ -199,8 +201,15 @@
 .carousel-control-prev-icon {
     display: none;
 }
+
 .carousel-indicators {
-    
-    margin-bottom: -10rem!important;
-    
+
+    margin-bottom: -10rem !important;
+
+}
+
+@media screen and (max-width:1445px) and (min-width:1025px) {
+.carouselCards{
+    padding:8% 1%;
+}
 }

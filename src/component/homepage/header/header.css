@@ -110,9 +110,23 @@ a{
     float: right;
     
 }
-
-
-
+@media screen and (max-width:1445px) and (min-width:1025px) {
+    .links {
+        width: 100%;
+        margin: 0 0 0 2%;
+    }
+    .toggleicon {
+        margin: 0% 0 0 25%;
+    }
+    .dropDown{
+        background-color: #141414;
+        z-index: 1;
+        width: 450px;
+        height: 580px;
+        margin: -10% 0 0 -90%;
+        padding: 5% 10%;
+    }
+}
 
 
 

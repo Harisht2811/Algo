@@ -1,6 +1,5 @@
 .homebg{
     position: relative;
-    height: 80vh;
 }
 .homeBannerimg{
     width: 100%;
@@ -79,4 +78,9 @@
     letter-spacing: 0em;
     text-align: center;
 
+}
+@media screen and (max-width:1445px) and (min-width:1025px) {
+    .homebg{
+        margin: 0% 0 0 0;
+    }
 }

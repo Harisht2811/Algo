@@ -132,3 +132,30 @@
 #hrinalgLove{
   border: 1px solid #F5F5F5;
 }
+@media screen and (max-width:1445px) and (min-width:1025px) {
+    .leftText {
+        width: 40%;
+        position: absolute;
+        top: -35px;
+        left: 50px;
+        padding: 5% 5%;
+    }
+    #titlealgotext{
+         width: 100%;
+    }
+    #algotext {
+        width:100%;
+    }
+    .algoanimation {
+        top: 50px;
+        left: 650px; 
+    }
+    .animation1,.animation2,.animation3{
+        height: 335px;
+        width: 25%;
+    }
+    #issueText {
+        
+        margin: 35% 0 0 0;
+    }
+}
