@@ -12,7 +12,7 @@ function ransomware() {
                 <div className='ransome_part1'>
                     <p className='ransome_section1_title'><span className='colorText'>Prevent Ransomware with </span>Patented Ransomware Protection Technology</p>
                     <p className='ransome_section1_desc'>Prevent Both Known and Unknown (Zero-day) Attacks Before They Start, Regardless of Your Team’s Size and Skillset.</p>
-                    <p className='demobtn btn'> Get Demo</p>
+                    <p className='demobtn '> Get Demo</p>
                 </div>
                 <div className='ransome_part2'>
                     <div><img src={computerImg} /> </div>
@@ -57,8 +57,6 @@ function ransomware() {
                     </div>
                 </div>
                 <div className='ransomeCardList ransomList4'>
-                    <div className='ransomeDotImg'>
-                    </div>
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Ransomware Remediation</p>
                         <p className='ransomCard_desc'>Completely controls how processes perceive their environment. With HES, we turn the malware’s evasive properties against itself by convincing it that it is about to be detected by a local security measure, forcing it into hiding in order to “remain undetected”, which effectivelycauses it to never deploy.</p>

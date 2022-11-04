@@ -18,7 +18,7 @@ function deep() {
             <div className='dark_section1'>
                 <div className='dark_Title'>Understand and engage <br /> <span className='colortext'>with the dark side</span></div>
                 <p className="darkDesc">Cybercriminals lurk in the dark web where they can methodically coordinate their attacks, distribute malware <br />and phishing kits, sell illicit goods, and share other pre-built exploits.</p>
-                <p className="dark_demoBtn btn">Get a Demo</p>
+                <p className="dark_demoBtn ">Get a Demo</p>
             </div>
             <div className='dark_section2'>
                 <p className='work_title'>How we work</p>

@@ -5,7 +5,7 @@ body {
 
 .party_section1 {
     background-image: url(../../images/thirdparty/thirdpartyBG.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 0% 0 0%;
     margin: 0%;
@@ -87,7 +87,7 @@ padding-top: 2%;
 .party_section3Bg{
     background-image: url('../../images/thirdparty/impactBg.png');
     padding: 0% 0;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0%;
 }
