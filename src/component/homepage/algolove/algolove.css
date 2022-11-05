@@ -132,7 +132,8 @@
 #hrinalgLove{
   border: 1px solid #F5F5F5;
 }
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
+
     .leftText {
         width: 40%;
         position: absolute;

@@ -45,7 +45,7 @@ padding: 4% 5%;
     width: 49%;
     margin: 1% 0 0 25%;
 }
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     .aboutusText{
         position: absolute;
         top: 150px;

@@ -110,7 +110,7 @@ a{
     float: right;
     
 }
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
     .links {
         width: 100%;
         margin: 0 0 0 2%;

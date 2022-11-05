@@ -56,7 +56,8 @@
     color: #000301; 
     margin: 3% 0 0 0;   
 }
-@media screen and (max-width:1445px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
+
     .algofooter{
         padding: 3% 5%;
     }
