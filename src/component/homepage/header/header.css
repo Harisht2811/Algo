@@ -29,8 +29,9 @@ a{
     color: #00CD78!important;
 }
 .links ul{
-    width: 70%;
+    width: 80%;
     display: inline-flex;
+    margin: 0 0 0 -10%;
 }
 .links li{
     font-family: 'Manrope';
@@ -40,9 +41,8 @@ a{
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
-    margin: 0 0 0 -15%;
-    width: 35%;
     list-style-type: none;
+    width: 100%;
 
 }
 .homeServices{
@@ -113,21 +113,30 @@ a{
 @media screen and (max-width:1705px) and (min-width:1025px) {
     .links {
         width: 100%;
-        margin: 0 0 0 2%;
+        margin: 0 0 0 4%;
+    }
+    .links ul {
+        width: 90%;
+        display: inline-flex;
+        margin: 0 0 0 -10%;
     }
     .toggleicon {
-        margin: 0% 0 0 25%;
+        margin: 0% 0 0 28%;
     }
     .dropDown{
         background-color: #141414;
         z-index: 1;
-        width: 450px;
-        height: 580px;
-        margin: -10% 0 0 -90%;
+        width: 350px;
+        height: 550px;
+        margin: -10% 0 0 -35%;
         padding: 5% 10%;
     }
+    #algoheaderText {
+        margin: 0 0 0 -35%;
+    }
 }
-
-
+@media screen and (max-width:1024px) and (min-width:768px) {
+    
+}
 
 

@@ -1,4 +1,3 @@
-    
 .algofooter{
     background-color: #00CD78;
     width: 100%;
@@ -10,12 +9,13 @@
 }
 .socialIcons{
     display: inline-flex;
-    margin: 5% 0 0 -7%;
+    margin: -3% 0 0 -7%;
 }
 .socialIcons img{
     margin: 0 0 0 25%;
+    Width:27px;
+    Height:25px;
     opacity: .5;
-    width: 100%;
 }
 #titlefooterText1{
     font-family: Manrope;
@@ -25,7 +25,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000301;
-    margin: 8% 0 0 0;
+    margin: 15% 0 10% 0;
 }
 #titlefooterText{
     font-family: Manrope;
@@ -35,6 +35,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000301;
+    margin: 0 0 10% 0;
 }
 #copyrightText{
     font-family: Manrope;
@@ -50,11 +51,11 @@
     font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: #000301; 
-    margin: 3% 0 0 0;   
+    margin: 5% 0 0 0;   
 }
 @media screen and (max-width:1705px) and (min-width:1025px) {
 
@@ -68,9 +69,13 @@
     margin: 0 0 0 5%;
    } 
    .section4{
-    margin: 0 0 0 8%;
+    margin: 0 0 0 5%;
    }
    #copyrightText{
     width: 300px;
    }
+   .socialIcons{
+    display: inline-flex;
+    margin: -3% 0 0 -9%;
+}
 }
