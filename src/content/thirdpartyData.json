@@ -1,0 +1,33 @@
+[
+    {
+        "title1":"Identify the cyber risk",
+        "title2": "within your supply chain",
+        "titleDesc1":"Algoritmik enables you to continuously monitor the organization’s",
+        "titleDesc2":"3rd party vendors’ security posture and effectively prioritize and mitigate risks",
+        "demo":"Get a Demo",
+        "vendorTitle":"Vendor Risk Management Features",
+        "vendorDesc":"Algoritmik’s Vendor Risk Management provides your organization with a tool that automatically monitors the level of resilience of your supply chain partners and vendors and provides a score to their security posture. It offers a continuous monitoring of the organization’s 3rd party vendors’ cyber posture to ensure the ability to demand better security hygiene practices from your 3rd party partners as well as the visibility into how your partners may expose you to threats and incidents",
+        "cyberTitle":"Cyber Scoring",
+        "cyberDesc":"Algoritmik’s scoring includes continuous scanning which runs on a daily/weekly basis covering 10 categories each evaluated according to severity, level of significance and frequency of occurrences. Every event the system assesses is evaluated according to severity, level of significance and frequency of occurrences. The output of the scan and analysis is provided in an easy-to-read report",
+        "impactTitle":"Our Impact in your Business",
+        "impactDesc1":"Algoritmik enables you to continuously monitor the organization’s",
+        "impactDesc2":"3rd party vendors’ security posture and effectively prioritize and mitigate risks",
+        "impactList":[
+            {
+                "listTitle":"Security cost reduction",
+                "listDesc":"Significant reduction in vendor onboarding and evaluation costs, platform automation reduces 90% of manual assessment."
+            },
+            {
+                "listTitle":"Simple scoring of 3rd party partners",
+                "listDesc":"Direct impact on security posture negotiations with suppliers. Direct impact on security posture negotiations with suppliers."
+            },
+            {
+                "listTitle":"Track and assess security across your industry",
+                "listDesc":"Our technology tracks the history of your reports, highlights trends in your industry, and compares your assessment to other companies in your industry"
+            }
+        ],
+        "hearTitle":"Heard enough? See it for yourself.",
+        "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+        "heardBtn":"Get a Demo"
+    }
+]

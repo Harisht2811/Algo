@@ -97,7 +97,7 @@ function attack() {
         <div className='heard'>
           <div className='securityIssues'>
             <div className='securityText'>
-              <p id='titleIssues'>Hea rd enough? See it for yourself.</p>
+              <p id='titleIssues'>Heard enough? See it for yourself.</p>
               <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
             </div>
             <button className='certificateButton'>Get a demo</button>

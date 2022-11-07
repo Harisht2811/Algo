@@ -162,13 +162,14 @@
     color: #9BA4A2;
     opacity: 0.6;
     padding-bottom: 1%;
-    width: 95%;
+    width: 95.8%;
 
 }
 .phishing_section4{
     display: flex;
     background-color: #000E08;
     padding-left: 10%;
+    padding-top: 3%;
 }
 .phishing_left{
     font-family: 'Manrope';
@@ -180,20 +181,7 @@ text-align: justify;
 color: #9BA4A2;
 opacity: 0.6;
 }
-.colorBtn{
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 203.1%;
-    text-align: justify;
-    background: linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    border:1px solid linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
-}
+
 .phishing_right{
     padding-left: 15%;
     width: 78.9%;

@@ -49,13 +49,13 @@ body {
 
 .party_section2 {
     display: flex;
-    padding-left: 10%;
+    padding-left: 5%;
     margin-bottom: -1%;
 }
 
 .vendorImg {
     width: 459px;
-    height: 396.78px;
+    height: 456.78px;
     margin-top: -2%;
 }
 
@@ -82,7 +82,8 @@ body {
     line-height: 170.1%;
     color: #CBCBCB;
     padding-bottom: 5%;
-padding-top: 2%;
+    padding-top: 2%;
+    width: 104%;
 }
 .party_section3Bg{
     background-image: url('../../images/thirdparty/impactBg.png');
@@ -93,8 +94,8 @@ padding-top: 2%;
 }
 .party_section3 {
     display: flex;
-    padding-left: 10%;
-    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-bottom: 1%;
     background-color: #000E08;
 }
 
@@ -102,13 +103,13 @@ padding-top: 2%;
     width: 621.09px;
     height: 400px;
     margin-top: 5%;
-    margin-left: 50%;
+    margin-left: 55%;
     position: absolute;
 }
 
 .cyberleft {
     width: 52%;
-    padding-top: 10%;
+    padding-top: 7%;
 
 }
 
@@ -134,7 +135,7 @@ padding-top: 2%;
 
 .impact {
     padding: 3%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .impactTitle {
@@ -145,7 +146,7 @@ padding-top: 2%;
     line-height: 120.1%;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    width: 35%;
+    width: 30%;
     margin-bottom: 1%;
 }
 
@@ -156,21 +157,20 @@ padding-top: 2%;
     font-size: 16px;
     line-height: 170.1%;
     color: #CBCBCB;
-    width: 48%;
     padding-top: 1%;
 }
 
 
 .impactList>div {
     display: flex;
-    margin-left: 30%;
+    margin-left: 25%;
     padding-bottom: 2%;
 }
 .listTitle:hover {
     color: #00CD78;
 }
 .vlineImg {
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 
@@ -181,8 +181,6 @@ padding-top: 2%;
     font-size: 22px;
     line-height: 137.6%;
     color: #FFFFFF;
-    width: 31%;
-    padding-bottom: 2%;
 }
 
 .listDesc {
@@ -192,14 +190,13 @@ padding-top: 2%;
     font-size: 14px;
     line-height: 170.1%;
     color: #8A8A8A;
-    width: 80%;
 }
 
 .listName {
     margin-left: 5%;
 }
 .party_section5 {
-    padding-bottom: 0%;
+    padding-bottom: 4%;
 
 }
 

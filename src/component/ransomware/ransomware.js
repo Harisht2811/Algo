@@ -48,7 +48,7 @@ function ransomware() {
                 </div>
                 <div className='ransomeCardList ransomList3'>
                     <div className='ransomeCard'>
-                        <p className='ransomCard_title'>Blocking Memory Injection</p>
+                        <p className='ransomCard_title'>Blocking Memory <br/>Injection</p>
                         <p className='ransomCard_desc'>Ransomware often evades detection by injecting malicious code into legitimate applications or OS components. This approach allows malware to get around traditional security mechanisms such as antivirus, application whitelisting and personal firewalls. Minerva’s memory injection module prevents all fileless attacks from taking place before they even start.</p>
                         <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>

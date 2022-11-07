@@ -5,6 +5,7 @@ import arrowG from '../../images/deepdark/Arrowgreen.png'
 import hrline from '../../images/deepdark/hrline.png'
 import phishingLogo from '../../images/phishing/phishingLogo.png'
 import phishingimg from '../../images/phishing/phishingimg.png'
+import newBg from '../../images/phishing/newBg.png'
 function phishingBeacon() {
     return (
         <div>
@@ -39,7 +40,7 @@ function phishingBeacon() {
             </div>
             <div className='phishing_section4'>
                 <div className='phishing_left'>
-                    <p><span className='colorBtn'>New</span><br />Introducing</p>
+                    <p><img src={newBg}/><br />Introducing</p>
                 </div>
                 <div className='phishing_right'>
                     <p className='phishing_rightTitle'><img src={phishingLogo} />Phishing Beacon</p>
@@ -51,7 +52,7 @@ function phishingBeacon() {
                 <div className='heard'>
                     <div className='securityIssues'>
                         <div className='securityText'>
-                            <p id='titleIssues'>Hea rd enough? See it for yourself.</p>
+                            <p id='titleIssues'>Heard enough? See it for yourself.</p>
                             <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                         </div>
                         <button className='certificateButton'>Get a demo</button>

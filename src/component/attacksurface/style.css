@@ -5,7 +5,7 @@ body {
 
 .attack_section1 {
     background-image: url(../../images/attacker/Mask\ group.png);
-    background-size: 100% 100%;
+    background-size: 100% 110%;
     background-repeat: no-repeat;
     padding: 3% 0 6% 15%;
     margin: 0%;
@@ -30,7 +30,7 @@ body {
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.86;
-    width: 80%;
+    width: 85%;
 }
 
 .demoBtn {
@@ -101,10 +101,10 @@ body {
     line-height: 170.1%;
     text-align: center;
     color: #FFFFFF;
-    width: 77%;
+    width: 90%;
     position: absolute;
     top: 40%;
-    padding-left: 15%;
+    padding-left: 13%;
 
 }
 
@@ -132,7 +132,7 @@ body {
 
 .attack_sectionCard {
     display: flex;
-    width: 68%;
+    width: 71%;
     height: 355px;
     background-color: #091610;
     border-radius: 24px;
@@ -154,7 +154,7 @@ body {
 }
 
 .attack_cardLeft {
-    width: 49%;
+    width: 50%;
     margin-left: 5%;
     padding-top: 3%;
 }
@@ -166,7 +166,7 @@ body {
     font-size: 14px;
     line-height: 170.1%;
     color: #FFFFFF;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .attack_cardBtn {

@@ -46,8 +46,8 @@ function footer() {
                 <p id='titlefooterText' style={{color:'transparent'}}>Services</p>
                 <p id='footerText'>Deep Cyber Investigations</p>
                 <p id='footerText'>Pentesting</p>
-                <p id='footerText'>Phishing Detection</p>
-                <p id='footerText'>Virtual Humint Operations</p>
+                <Link to='/phishing'><p id='footerText'>Phishing Detection</p></Link>
+                <Link to='/virtualhumint'><p id='footerText'>Virtual Humint Operations</p></Link>
                 <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
 
                 </div>
