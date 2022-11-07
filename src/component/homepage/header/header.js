@@ -42,9 +42,9 @@ function Header() {
           </ul>
         </div>
         <div className='homeServices'>
-          <p id='algoheaderText'>Services</p>
+          <p id='algoheaderText'>Services <div>   <img id="myBtn" onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img> </div></p>
 
-          <img id="myBtn" onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img>
+       
           {
             open === true ?
              <card className='dropDown'>
@@ -54,9 +54,8 @@ function Header() {
                <span className='closeBtn' onClick={closemodal}><img  src={Closebtn}></img></span>
                </p>
                </div>
-             
-
-                <p id='modaltext'>3rd Party Cyber Risk</p>
+             <div className='menu'>
+             <p id='modaltext'>3rd Party Cyber Risk</p>
                 <hr id='hrinhome'></hr>
                 <p id='modaltext'>Attack Surface</p>
                 <hr id='hrinhome'></hr>
@@ -71,7 +70,8 @@ function Header() {
                 <p id='modaltext'>Deep Cyber Investigations</p>
                 <hr id='hrinhome'></hr>
                 <p id='modaltext'>Virtual Humint Operations</p>
-
+             </div>
+               
               </card>
 
         :" "
