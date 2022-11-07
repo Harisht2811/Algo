@@ -42,7 +42,7 @@
         font-size: 14px;
         line-height: 170.1%;
         color: #FFFFFF;
-        width: 50%;
+        width: 51%;
     }
     
     .phishingDemoBtn {
@@ -74,7 +74,7 @@
         line-height: 223.1%;
         text-align: center;
         color: #051F1B;
-        width: 100% !important;
+        width: 101% !important;
     }
     
     .phishing_section3 {
@@ -107,9 +107,9 @@
         background-image: url('../../images/phishing/cardbg1.png');
         background-repeat: no-repeat;
         background-size: 100% 92%;
-        width: 44%;
+        width: 46%;
         padding: 5%;
-        margin-right: 5%;
+        margin-right: 3%;
     }
     
     .phishingCard:hover {
@@ -132,7 +132,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 203.1%;
         text-align: justify;
         color: #9BA4A2;
@@ -144,12 +144,12 @@
         background-image:url('../../images//phishing/cardbg2.png') ;
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width: 89%;
+        width: 90%;
         margin-left: 5%;
         padding: 3%;
         margin-top: 0%;
         border-radius: 25px;
-        padding-left: 5%;
+        padding-left: 3.4%;
     }
     
     .phishing_card3_title {
@@ -168,13 +168,13 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 203.1%;
         text-align: justify;
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 1%;
-        width: 95%;
+        width: 100%;
     
     }
     .phishing_section4{

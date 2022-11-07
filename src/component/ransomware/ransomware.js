@@ -37,7 +37,7 @@ function ransomware() {
                 </div>
                 <div className='ransomeCardList ransomList2'>
                     <div className='ransomeDotImg'>
-                        <img src={leftcurve} />
+                        <img className='ransomeDotright' src={leftcurve} />
                     </div>
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Blocking malicious macros and powershell attacks</p>
@@ -53,7 +53,7 @@ function ransomware() {
                         <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>
                     <div className='ransomeDotImg'>
-                        <img src={rightcurve} />
+                        <img  src={rightcurve} />
                     </div>
                 </div>
                 <div className='ransomeCardList ransomList4'>
