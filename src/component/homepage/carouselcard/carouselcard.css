@@ -14,8 +14,8 @@
 
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
 }
 
 .innercarouselCards1,
@@ -212,5 +212,11 @@
 
 .carouselCards{
     padding:8% 1%;
+    margin:-1% 0 0 0;
+}
+.whiteArrow {
+    position: absolute;
+    top: 350px;
+    left: 150px;
 }
 }
