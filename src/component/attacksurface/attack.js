@@ -34,20 +34,20 @@ function attack() {
             <img className='icon' src={pinpoint} alt='pinpoint'></img>
             <p className='list_title'>Pinpoint user types</p>
           </div>
-          <img className='hrLine' src={hrLine} alt='vline'/>
+          <img className='hrLine' src={hrLine} alt='vline' />
           <div className='whyhelp_list'>
             <img className='icon' src={risk} alt='risk'></img>
             <p className='list_title'>Perform a risk assessment</p>
           </div>
-          <img className='hrLine' src={hrLine} alt='vline'/>
+          <img className='hrLine' src={hrLine} alt='vline' />
           <div className='whyhelp_list'>
             <img className='icon' src={secure} alt='secure'></img>
             <p className='list_title'>Secure your reporting</p>
           </div>
         </div>
       </div>
-      <div className='attack_section3'> 
-        <img src={bg} alt='bgImg'/>
+      <div className='attack_section3'>
+        <img src={bg} alt='bgImg' />
         <p className='attack_section3_desc'>Attack Surface Management provides <span className='colorText'> automatic and full visibility into your digital presence–uncovering security issues </span>and vulnerabilities that can be exploited by potential adversaries</p>
       </div>
       <div className='attack_section4'>
@@ -59,14 +59,14 @@ function attack() {
             <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' /></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={digitalpresence} alt='digital'/>
+            <img className='attack_cardImg' src={digitalpresence} alt='digital' />
           </div>
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Identify security issues</p>
             <p className='attack_cardDesc'>Continuously scan and map the organization’s digital presence to detect issues and vulnerabilities such as leaked credentials, botnet infections, exploitable open ports, vulnerable web interfaces, and more</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'/></p>
+            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
           </div>
           <div className='attack_cardRight'>
             <img className='attack_cardImg' src={security} alt='security' />
@@ -76,10 +76,10 @@ function attack() {
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Assess and prioritize risks</p>
             <p className='attack_cardDesc'>Calculate a security score by comparing current threats against your organization’s current best practices. Track and manage identified issues and assets so that your organization can focus on and address the most critical issues first.</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'/></p>
+            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={assess} alt='assess'/>
+            <img className='attack_cardImg' src={assess} alt='assess' />
           </div>
         </div>
         <div className='attack_sectionCard'>
@@ -89,25 +89,24 @@ function attack() {
             <p className='attack_cardBtn'>Get a Demo <img src={arrow} alt='arrow' className='demoArrow' /></p>
           </div>
           <div className='attack_cardRight'>
-            <img className='attack_cardImg' src={monitor} alt='monitor'/>
+            <img className='attack_cardImg' src={monitor} alt='monitor' />
           </div>
         </div>
       </div>
       <div className='attack_section5'>
         <div className='heard'>
-            <div className='securityIssues'>
-                <div className='securityText'>
-                <p id='titleIssues'>Heard enough? See it for yourself.</p>
-                <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
-                </div>
-                <button className='certificateButton'>Get a demo</button>
+          <div className='securityIssues'>
+            <div className='securityText'>
+              <p id='titleIssues'>Hea rd enough? See it for yourself.</p>
+              <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
             </div>
+            <button className='certificateButton'>Get a demo</button>
+          </div>
         </div>
       </div>
-     
+
     </div>
   )
 }
 
 export default attack;
- 
