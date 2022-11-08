@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import './laptop.css'
+import './tab.css'
+import './mobile.css'
 import bg from '../../images/attacker/Group190.png'
 import search from '../../images/attacker/Group186.png'
 import pinpoint from '../../images/attacker/Group187.png'

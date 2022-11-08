@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import './laptop.css'
+import './tab.css'
+import './mobile.css'
 import vendorImg from '../../images/thirdparty/Group128.png'
 import sysImg from '../../images/thirdparty/Group142.png'
 import vline from '../../images/thirdparty/vline.png'
