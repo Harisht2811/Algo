@@ -8,7 +8,7 @@ import Aboutus from '../component/homepage/aboutus/aboutus'
 import Algolove from '../component/homepage/algolove/algolove'
 import Certifications from "../component/homepage/certifications/certifications"
 import Footer from '../component/homepage/footer/footer'
-
+import Popup from '../component/homepage/popupcard/popupcard'
 const IndexPage = () => {
   return (
     <>
@@ -23,6 +23,7 @@ const IndexPage = () => {
      <Algolove/>
      <Certifications/>
      <Footer/>
+     <Popup/>
     </div>
     </>
  

@@ -1,0 +1,37 @@
+.popupCard{
+background-color: #141414;
+height: 580px;
+width: 450px;
+padding: 3% 2%;
+}
+#popupCardTitle{
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#00CD78;
+    width: 80%;
+}
+#popupCardText{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A1A1A1;    
+    margin: 3% 0 0 0;
+}
+#popuphrincard{
+    height: 0px;
+    width: 305px;
+    left: 1645px;
+    top: -4232px;
+    border-radius: 0px;
+    border: 1px solid #00CD78;
+}
+.closecardBtn{
+    float:right;
+}

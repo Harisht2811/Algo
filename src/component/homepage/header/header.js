@@ -53,9 +53,8 @@ function Header() {
                <p id='serviceText'>Services 
                <span className='closeBtn' onClick={closemodal}><img  src={Closebtn}></img></span>
                </p>
-               </div>
-             <div className='menu'>
-             <p id='modaltext'>3rd Party Cyber Risk</p>
+               <div className='menu'>
+                <p id='modaltext'>3rd Party Cyber Risk</p>
                 <hr id='hrinhome'></hr>
                 <p id='modaltext'>Attack Surface</p>
                 <hr id='hrinhome'></hr>
@@ -71,6 +70,8 @@ function Header() {
                 <hr id='hrinhome'></hr>
                 <p id='modaltext'>Virtual Humint Operations</p>
              </div>
+               </div>
+             
                
               </card>
 
