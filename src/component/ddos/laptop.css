@@ -1,0 +1,26 @@
+@media screen and (max-width:1024px) and (min-width:775px) {
+
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    #banimg{
+        width: 78%;
+    }
+    .ddosBanner{
+        background-image: url(../../images/ddos/Bgimg1.png);
+        background-size: 100% 100%;
+    }
+    .ddosTitle {
+        font-size: 37px;
+        width: 76%;
+    }
+    .netArch {
+        font-size: 37px;
+    }
+    .section2Content {
+        font-size: 14px;
+        width: 61%;
+        margin-left: 18%;
+    }
+}
