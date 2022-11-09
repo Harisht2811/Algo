@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import './laptop.css'
+import './tab.css'
+import './mobile.css'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import hrline from '../../images/deepdark/hrline.png'
 import phishingLogo from '../../images/phishing/phishingLogo.png'

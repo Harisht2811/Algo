@@ -1,18 +1,4 @@
-@media screen and (max-width:1440px) and (min-width:1025px) {
-
-.dark_section2 {
-    background-color: #000E08;
-    padding: 5% 0 10%;
-    margin-top: -1%;   
-}
-    
-.dark_section3 {
-    background-color: #000E08;
-    margin-top: -1%;
-}
-}
-
-@media screen and (max-width:1024px) and (min-width:769px) {
+@media screen and (max-width:768px) and (min-width:426px) {
     .dark_section1 {
         background-image: url(../../images/deepdark/darkBg.png);
         background-size: 100% 100%;
@@ -20,54 +6,54 @@
         padding: 0% 0 15%;
         margin: 0%;
     }
-    
+
     .dark_Title {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 52px;
+        font-size: 42px;
         line-height: 120.1%;
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding: 8% 0 2%;
     }
-    
+
     .darkDesc {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 170.1%;
         text-align: center;
         color: #FFFFFF;
         padding: 0% 0 3%;
     }
-    
+
     .colortext {
         color: rgba(0, 205, 120, 1);
     }
-    
+
     .dark_demoBtn {
         background: #00CD78;
         border-radius: 8px;
-        width: 10%;
+        width: 20%;
         text-align: center;
-        margin-left: 45%;
+        margin-left: 40%;
         padding: 0.5%;
         margin-top: 2%;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
     }
-    
-    
+
+
     .dark_section2 {
         background-color: #000E08;
         padding: 5% 0 10%;
         margin-top: -1%;
     }
-    
+
     .work_title {
         font-family: 'Manrope';
         font-style: normal;
@@ -79,7 +65,7 @@
         color: #00CD78;
         padding-bottom: 2%;
     }
-    
+
     .work_desc {
         font-family: 'Manrope';
         font-style: normal;
@@ -91,94 +77,96 @@
         width: 83%;
         margin-left: 10%;
         padding-bottom: 2%;
-    
+
     }
-    
+
     .dark_hrline {
-        margin-left: 20%;
+        margin-left: 10%;
         padding-bottom: 2%;
-    
+
     }
-    
+
     .dark_section3 {
         background-color: #000E08;
         margin-top: -1%;
     }
-    
+
     .darkcard {
         background-image: url('../../images/deepdark/cardbg.png');
         background-repeat: no-repeat;
-        background-size: 95%;
+        background-size: 95% 75%;
         padding: 3%;
-        margin-left: 7%;
+        margin-left: 5%;
         display: flex;
         padding-bottom: 10%;
     }
-    
+
     .darkcard_left {
         width: 25%;
         margin-top: -7%;
     }
-    
+
     .leftcard_title {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 21px;
+        font-size: 20px;
         line-height: 120.1%;
         letter-spacing: -0.02em;
         color: rgba(255, 255, 255, 0.5);
-        padding-top: 5%;
-    
+        padding-top: 10%;
+
     }
-    
+
     .darkcard_right {
         width: 67%;
+        margin-top: 4%;
     }
-    
+
     .rightcard_desc {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 170.1%;
-        padding-bottom: 2%;
+        padding-bottom: 0%;
     }
-    
+
     .darkdemo {
         color: #00CD78;
         margin-top: -2%;
     }
-    
+
     .deep_dark {
         background: linear-gradient(270deg, #12613F -20.75%, #072525 100%);
         padding: 4% 0;
         display: flex;
         padding-left: 5%;
     }
-    
+
     .deep_darkLeft {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 22px;
         line-height: 120.1%;
         letter-spacing: -0.065em;
         color: #FFFFFF;
         width: 35%;
     }
-    
-    .deep_darkRight{
+
+    .deep_darkRight {
         font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 170.1%;
-    color: #CBCBCB;
-    width: 60%;
-    padding-left: 2%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170.1%;
+        color: #CBCBCB;
+        width: 60%;
+        padding-left: 2%;
     }
-    .dark_section5{
+
+    .dark_section5 {
         background-color: #000E08;
     }
 }

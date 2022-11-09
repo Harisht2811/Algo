@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import './laptop.css'
+import './tab.css'
+import './mobile.css'
 import hrline from '../../images/deepdark/hrline.png'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import discoverimg from '../../images/deepdark/discover.png'

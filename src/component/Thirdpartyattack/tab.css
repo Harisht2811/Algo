@@ -103,11 +103,7 @@
     }
     
     .sysImg {
-        width: 601.09px;
-        height: 360px;
-        margin-top: 5%;
-        margin-left: 5%;
-        position: relative;
+    display: none;
     }
     
     .cyberleft {
@@ -139,6 +135,7 @@
     .impact {
         padding: 3%;
         padding-left: 10%;
+        margin-top: -2%;
     }
     
     .impactTitle {
