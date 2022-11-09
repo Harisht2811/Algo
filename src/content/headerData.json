@@ -1,24 +1,47 @@
-[   
-    {
-        "navLink":"Home",
-        "routeLink":"/",
-        "activeLink":"home"
-    },
-    {
-        "navLink":"Ransomware",
-        "routeLink":"/ransomware"
 
-    },
-    {
-        "navLink":"Threat  Intelligence",
-        "routeLink":""
-    },
-    {
-        "navLink":"About us",
-        "routeLink":""
-    },
-    {
-        "navLink":"Contact us",
-        "routeLink":""
-    }
-]
+{
+
+    "laptopMenu":[
+        {
+            "navLink":"Home",
+            "routeLink":"/",
+            "activeLink":"home"
+        },
+        {
+            "navLink":"Ransomware",
+            "routeLink":"/ransomware"
+    
+        },
+        {
+            "navLink":"Threat  Intelligence",
+            "routeLink":""
+        },
+        {
+            "navLink":"About us",
+            "routeLink":""
+        },
+        {
+            "navLink":"Contact us",
+            "routeLink":""
+        }
+    ],
+
+
+    "tabMenu":[
+        {
+            "navLink":"Home",
+            "routeLink":"/",
+            "activeLink":"home"
+        },
+        {
+            "navLink":"About us",
+            "routeLink":""
+        },
+        {
+            "navLink":"Contact us",
+            "routeLink":""
+        }
+    ]
+     
+}
+    

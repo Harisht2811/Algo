@@ -31,12 +31,15 @@ function Header() {
       {console.log('open clicked', open)}
       <header className='algoheader'>
         <div className='logo'>
-          <img src={algoLogo} alt='logoIcon'></img>
+          <img className='algoLogo' src={algoLogo} alt='logoIcon'></img>
         </div>
         <div className='links'>
           <ul>
-            {
-              headerData.map(item => {
+            { window.innerWidth>=1024?
+              headerData.laptopMenu.map(item => {
+                console.log(headerData);
+                return <li><Link to={item.routeLink} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
+              }):headerData.tabMenu.map(item => {
                 console.log(headerData);
                 return <li><Link to={item.routeLink} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
@@ -44,11 +47,11 @@ function Header() {
           </ul>
         </div>
         <div className='homeServices'>
-          <p id='algoheaderText'>Services <div>   <img id="myBtn" onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img> </div></p>
+          <p id='algoheaderText'>Services <div>  <img id="myBtn" onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img> </div></p>
 
        
           {
-            open === true ?<Popup closemodal={closemodal()}/>
+            open === true ?<Popup closemodal={closemodal}/>
             //  <card className='dropDown'>
             //   {/* // <card className='dropDown' style={{ backgroundColor: '#141414', zIndex: '1', width: '240px', height: '540px',margin:'-10% 0 0 0',padding: '5% 10%'}}> */}
             //    <div className='flexServices'>

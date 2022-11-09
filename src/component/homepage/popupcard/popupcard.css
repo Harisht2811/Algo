@@ -1,9 +1,8 @@
 .popupCard{
 background-color: #141414;
-height: 550px;
-width: 430px;
-padding: 3% 3%;
-margin: 0 0 0 10%;
+height: 580px;
+width: 425px;
+padding: 1.5% 3%;
 position: absolute;
 right: 0px;
 top: 0px;
@@ -16,26 +15,37 @@ top: 0px;
     letter-spacing: 0em;
     text-align: left;
     color:#00CD78;
-    width: 80%;
+    width: 95%;
 }
 #popupCardText{
     font-family: Manrope;
     font-size: 18px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
     color: #A1A1A1;    
-    margin: 3% 0 0 0;
+    margin: 8% 0 0 0;
 }
 #popuphrincard{
     height: 0px;
-    width: 305px;
-    left: 1645px;
-    top: -4232px;
-    border-radius: 0px;
+    width: 315px;
     border: 1px solid #00CD78;
 }
 .closecardBtn{
     float:right;
+}
+@media screen and (max-width:1025px) and (min-width:768px) {
+    .popupCard{
+        height: 560px;
+        width: 380px;
+        padding: 1.5% 3%;
+        right: 45px;
+        }
+#popupCardTitle{
+    font-size: 28px;
+}
+#popupCardText{
+    font-size: 14px;
+}
 }

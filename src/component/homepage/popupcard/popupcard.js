@@ -2,14 +2,17 @@ import React from 'react'
 import '../popupcard/popupcard.css'
 import Closebtn from '../../../images/homepage/algohome32.svg'
 
-const Popupcard=({props})=> {
+const Popupcard=({closemodal})=> {
   const onClickclose=()=>{
-    console.log('clickedclose',props)
-       props.closemodal(false)
+    console.log('clickedclose',closemodal)
+       closemodal(false)
   }
   return (
+
+
+    window.innerWidth>=1024?
       <div className='popupCard'>
-         <p id='popupCardTitle'>Services<span className='closecardBtn'><img onClick={onClickclose} src={Closebtn}></img></span></p>
+         <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img  src={Closebtn} alt='closeicon'></img></span></p>
          <div className='menuincards'>
                 <p id='popupCardText'>3rd Party Cyber Risk</p>
                 <hr id='popuphrincard'></hr>
@@ -29,7 +32,31 @@ const Popupcard=({props})=> {
          </div>
         
 
-      </div>
+      </div>:
+           <div className='popupCard'>
+           <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img  src={Closebtn} alt='closeicon'></img></span></p>
+           <div className='menuincards'>
+                  <p id='popupCardText'>3rd Party Cyber Risk</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Attack Surface</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>DDOS Hardening</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Deep & Dark Web</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Pentesting</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Phishing Detection</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Ransome</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Threat Intelligence</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Deep Cyber Investigations</p>
+                  <hr id='popuphrincard'></hr>
+                  <p id='popupCardText'>Virtual Humint Operations</p>
+           </div>
+           </div>
   )
 }
 

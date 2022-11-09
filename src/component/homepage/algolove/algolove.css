@@ -9,10 +9,10 @@
 }
 
 .leftText {
-    width: 40%;
+    width: 50%;
     position: absolute;
     top: 20px;
-    left: 100px;
+    left: 10px;
     padding: 5% 5%;
 }
 
@@ -43,11 +43,11 @@
     margin: 5% 0 0 0;
 }
 .algoanimation {
-    width: 60%;
+    width: 50%;
     display: inline-flex;
     position: absolute;
     top: 80px;
-    left: 900px;
+    right: 0px;
 
 }
 .algoanimation:hover .animation1{
@@ -67,7 +67,7 @@
 .animation1{
     background-color: #05DA8D;
     height: 370px;
-    width: 20%;
+    width: 25%;
     border-radius: 13px;
     padding: 5% 3%;
     -webkit-transform: rotate(2deg);
@@ -78,7 +78,7 @@
 .animation2 {
     background-color: #05DA8D;
     height: 370px;
-    width: 20%;
+    width: 25%;
     border-radius: 13px;
     padding: 5% 3%;
     margin: 1% 0 0 -11%;
@@ -90,7 +90,7 @@
 .animation3 {
     background-color: #05DA8D;
     height: 370px;
-    width: 20%;
+    width: 25%;
     border-radius: 13px;
     padding: 5% 3%;
     margin: 0 0 0 -12%;
@@ -142,7 +142,7 @@
     }
     .animation1,.animation2,.animation3{
         height: 335px;
-        width: 25%;
+        width: 28%;
     }
     #issueText {
         
@@ -151,18 +151,40 @@
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
     .algoanimation {
-        top: 50px;
-        left: 350px; 
+        top: 15px;
+        left: 450px; 
     }
     .animation1,.animation2,.animation3{
-        height: 135px;
-        width: 15%;
+        height:265px;
+        width: 30%;
+        padding: 1% 3%;
+
     }
     .leftText {
         width: 40%;
         position: absolute;
         top: 1x;
         left: 50px;
-        padding: 2% 3%;
+        padding: 0% 3%;
+    }
+    #titlealgotext{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #algotext{
+        font-size: 14px;
+        line-height: 22px; 
+        width: 100%;
+    }
+    #numberText{
+    font-size: 30px;
+
+    }
+    #issueText{
+        font-size: 14px;
+        line-height: 22px; 
+        width: 100%;
+        margin: 25% 0 0 0;
+
     }
 }

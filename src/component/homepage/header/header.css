@@ -43,7 +43,6 @@ a{
     color: #FFFFFF;
     list-style-type: none;
     width: 100%;
-
 }
 .homeServices{
     width: 15%;
@@ -62,7 +61,7 @@ a{
 .toggleicon{
     width: 20px;
     height: 20px;
-    margin: 0% 0 0 10%;
+    margin: 0% 0 0 20%;
 }
 .selectBg{
     background-color:#141414;
@@ -135,11 +134,24 @@ a{
     .algoheader{
         width: 100%;
         height: 10vh;
-        padding: 2% 0 0 3%;
+        padding: 3% 0 0 3%;
     }
-    .links {
-        width:100%;
-        margin: 0 0 0 5%;
+    .links ul{
+        width: 100%;
+    }
+    .logo {
+        width: 15%;
+        margin: 0 0 0 2%;
+    }
+    .algoLogo{
+      width: 65%;
+    }
+ 
+    .links li{
+        font-size: 14px;
+    }
+    #algoheaderText{
+        font-size: 14px;
     }
 }
 
