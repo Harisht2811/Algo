@@ -220,3 +220,15 @@
     left: 150px;
 }
 }
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .carouselCards{
+        padding:8% 1%;
+        margin:-1% 0 0 0;
+    }
+    .whiteArrow {
+        position: absolute;
+        top: 350px;
+        left: 125px;
+    }
+    
+}

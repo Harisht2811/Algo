@@ -1,8 +1,12 @@
 .popupCard{
 background-color: #141414;
-height: 580px;
-width: 450px;
-padding: 3% 2%;
+height: 550px;
+width: 430px;
+padding: 3% 3%;
+margin: 0 0 0 10%;
+position: absolute;
+right: 0px;
+top: 0px;
 }
 #popupCardTitle{
     font-family: Manrope;

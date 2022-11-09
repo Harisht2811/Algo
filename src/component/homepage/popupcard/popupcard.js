@@ -2,10 +2,14 @@ import React from 'react'
 import '../popupcard/popupcard.css'
 import Closebtn from '../../../images/homepage/algohome32.svg'
 
-function popupcard() {
+const Popupcard=({props})=> {
+  const onClickclose=()=>{
+    console.log('clickedclose',props)
+       props.closemodal(false)
+  }
   return (
       <div className='popupCard'>
-         <p id='popupCardTitle'>Services<span className='closecardBtn'><img  src={Closebtn}></img></span></p>
+         <p id='popupCardTitle'>Services<span className='closecardBtn'><img onClick={onClickclose} src={Closebtn}></img></span></p>
          <div className='menuincards'>
                 <p id='popupCardText'>3rd Party Cyber Risk</p>
                 <hr id='popuphrincard'></hr>
@@ -29,4 +33,4 @@ function popupcard() {
   )
 }
 
-export default popupcard
+export default Popupcard

@@ -3,6 +3,7 @@ import '../header/header.css'
 import { Link } from 'gatsby'
 
 import headerData from '../../../content/headerData.json'
+import Popup from '../../../component/homepage/popupcard/popupcard'
 import algoLogo from '../../../images/homepage/algohome23.png'
 import Toggleicon from '../../../images/homepage/algohome31.svg'
 import Closebtn from '../../../images/homepage/algohome32.svg'
@@ -18,8 +19,9 @@ function Header() {
     setOpen(true)
   }
 
-  const closemodal = () => {
-    setOpen(false)
+  const closemodal = (data) => {
+    console.log("data",data)
+    setOpen(data)
   }
  
 
@@ -46,34 +48,34 @@ function Header() {
 
        
           {
-            open === true ?
-             <card className='dropDown'>
-              {/* // <card className='dropDown' style={{ backgroundColor: '#141414', zIndex: '1', width: '240px', height: '540px',margin:'-10% 0 0 0',padding: '5% 10%'}}> */}
-               <div className='flexServices'>
-               <p id='serviceText'>Services 
-               <span className='closeBtn' onClick={closemodal}><img  src={Closebtn}></img></span>
-               </p>
-               <div className='menu'>
-                <p id='modaltext'>3rd Party Cyber Risk</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>Attack Surface</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>DDOS Hardening</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>Deep & Dark Web</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>Pentesting</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>Phishing Detection</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>Deep Cyber Investigations</p>
-                <hr id='hrinhome'></hr>
-                <p id='modaltext'>Virtual Humint Operations</p>
-             </div>
-               </div>
+            open === true ?<Popup closemodal={closemodal()}/>
+            //  <card className='dropDown'>
+            //   {/* // <card className='dropDown' style={{ backgroundColor: '#141414', zIndex: '1', width: '240px', height: '540px',margin:'-10% 0 0 0',padding: '5% 10%'}}> */}
+            //    <div className='flexServices'>
+            //    <p id='serviceText'>Services 
+            //    <span className='closeBtn' onClick={closemodal}><img  src={Closebtn}></img></span>
+            //    </p>
+            //    <div className='menu'>
+            //     <p id='modaltext'>3rd Party Cyber Risk</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>Attack Surface</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>DDOS Hardening</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>Deep & Dark Web</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>Pentesting</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>Phishing Detection</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>Deep Cyber Investigations</p>
+            //     <hr id='hrinhome'></hr>
+            //     <p id='modaltext'>Virtual Humint Operations</p>
+            //  </div>
+            //    </div>
              
                
-              </card>
+            //   </card>
 
         :" "
              }

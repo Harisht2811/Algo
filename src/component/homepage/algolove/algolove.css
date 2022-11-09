@@ -42,7 +42,6 @@
     width: 75%;
     margin: 5% 0 0 0;
 }
-
 .algoanimation {
     width: 60%;
     display: inline-flex;
@@ -59,13 +58,11 @@
     transform: none;
     margin: 0 0 0 3%;
     transition: 0.7s;
-
 }
 .algoanimation:hover .animation3{
     transform: none;
     margin: 0 0 0 3%;
     transition: 0.7s;
-
 }
 .animation1{
     background-color: #05DA8D;
@@ -77,9 +74,7 @@
     transform: rotate(4deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     transition: 0.7s;
-
 }
-
 .animation2 {
     background-color: #05DA8D;
     height: 370px;
@@ -91,9 +86,7 @@
     transform: rotate(-6deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     transition: 0.7s;
-
 }
-
 .animation3 {
     background-color: #05DA8D;
     height: 370px;
@@ -105,10 +98,7 @@
     transform: rotate(10deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     transition: 0.7s;
-
 }
-
-
 #numberText {
     font-family: Manrope;
     font-size: 43px;
@@ -118,7 +108,6 @@
     text-align: left;
     color: white;
 }
-
 #issueText {
     font-family: Manrope;
     font-size: 14px;
@@ -158,5 +147,22 @@
     #issueText {
         
         margin: 35% 0 0 0;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .algoanimation {
+        top: 50px;
+        left: 350px; 
+    }
+    .animation1,.animation2,.animation3{
+        height: 135px;
+        width: 15%;
+    }
+    .leftText {
+        width: 40%;
+        position: absolute;
+        top: 1x;
+        left: 50px;
+        padding: 2% 3%;
     }
 }
