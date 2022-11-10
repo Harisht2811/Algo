@@ -26,8 +26,11 @@
     margin: 1% 0 0 30%;
 }
 .certificateImages{
-    display: inline-flex;
-    margin: 3% 0 0 25%;
+    padding: 5% 25% 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-row-gap: 11%;
+    grid-column-gap: 0%;
 }
 .certificateImages img{
     margin: 3% 0 0 15%;
@@ -102,12 +105,17 @@
     #textIssues{
     width: 105%;
     }
-    .certificateImages{
-    margin: 3% 0 0 17%;
-    }
+    
         .certificateButton{
     margin: 10% 0 0 12%;
 
+    }
+    .certificateImages{
+        padding: 5% 20% 0;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 0%;
     }
 }
 @media screen and (max-width:1024px) and  (min-width:768px) {
@@ -116,11 +124,15 @@
         margin: 3% 0 0 15%;
     }
     .certificateImages{
-        margin: 3% 0 0 6%;
-        }
+        padding: 5% 15% 0;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 0%;
+    }
         .heard{
             padding: 5% 2%;
-            margin: 0 0 0 2%;
+            margin: 5% 0 0 2%;
         }
         .securityText{
             width: 70%;
@@ -129,4 +141,30 @@
         .certificateButton{
             margin: 12% 0 0 7%;
         }
+}
+@media screen and (max-width:768px) and (min-width:445px) {
+    .certificateImages{
+        padding: 5% 15% 0;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap: 11%;
+        grid-column-gap: 0%;
+    }
+    .certificaterRes{
+      margin: 0 0 0 15%;
+      display: grid;
+    }
+    .securityIssues{
+        display: block;
+        height: 300px;
+    }
+    .securityText{
+        width: 100%;
+    }
+    #titleIssues{
+        width: 100%;
+    }
+    .certificateButton{
+        margin: -5% 0 0 5%;
+    }
 }

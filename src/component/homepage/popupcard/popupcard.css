@@ -35,17 +35,33 @@ top: 0px;
 .closecardBtn{
     float:right;
 }
-@media screen and (max-width:1025px) and (min-width:768px) {
-    .popupCard{
-        height: 560px;
-        width: 380px;
-        padding: 1.5% 3%;
-        right: 45px;
-        }
+@media screen and (max-width:1025px) and (min-width:775px) {
+.popupCard{
+    height: 560px;
+    width: 380px;
+    padding: 1.5% 3%;
+    right: 45px;
+}
 #popupCardTitle{
     font-size: 28px;
 }
 #popupCardText{
     font-size: 14px;
 }
+}
+@media screen and (max-width:768px) and (min-width:445px) {
+    .popupCard{
+        height: 530px;
+        width: 380px;
+        padding: 1.5% 3%;
+        right: 0px;
+    }
+    
+    #popupCardTitle{
+        font-size: 24px;
+    }
+    #popupCardText{
+        font-size: 12px;
+        line-height: 2px;
+    }
 }

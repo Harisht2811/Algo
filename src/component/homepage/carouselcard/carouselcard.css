@@ -6,7 +6,9 @@
     display: inline-flex;
     width: 100%;
 }
-
+.carouselCardsRes{
+    display: none;
+}
 
 .carousel-item {
     transition: 3s !important;
@@ -210,25 +212,98 @@
 
 @media screen and (max-width:1705px) and (min-width:1025px) {
 
-.carouselCards{
-    padding:8% 1%;
-    margin:-1% 0 0 0;
-}
-.whiteArrow {
-    position: absolute;
-    top: 350px;
-    left: 150px;
-}
-}
-@media screen and (max-width:1024px) and (min-width:768px) {
-    .carouselCards{
-        padding:8% 1%;
-        margin:-1% 0 0 0;
+    .carouselCards {
+        padding: 8% 1%;
+        margin: -1% 0 0 0;
+    }
+    .carouselCardsRes{
+        display: none;
     }
     .whiteArrow {
         position: absolute;
         top: 350px;
-        left: 125px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .carouselCards {
+        padding: 8% 1%;
+        margin: -1% 0 0 0;
+    }
+    .carouselCardsRes{
+        display: none;
+    }
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 105px;
+    }
+
+    .innercarouselCards1,
+    .innercarouselCards2,
+    .innercarouselCards3,
+    .innercarouselCards4,
+    .innercarouselCards5,
+    .innercarouselCards6,
+    .innercarouselCards7 {
+        padding: 4% 2%;
+        width: 80%;
+        background-size: 100% 80%;
+    }
+    .innercarouselCards1:hover,
+    .innercarouselCards2:hover,
+    .innercarouselCards3:hover,
+    .innercarouselCards4:hover,
+    .innercarouselCards5:hover,
+    .innercarouselCards6:hover,
+    .innercarouselCards7:hover {
+        height: 100%;
+        width: 80%;
+        background-size: 100% 80%;
+    }
+    .carousel-indicators {
+        margin-bottom: -5rem !important;
+    }
+}
+@media screen and (max-width:769px) and (min-width:445px) {
+    .carouselCards{
+        display: none;
+    }
+    .carouselCardsRes{
+        background-color: black;
+        padding: 8% 5%;
+        display: inline-flex;
+        width: 100%;
+    }
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 130px;
     }
     
+    .innercarouselCards1,
+    .innercarouselCards2,
+    .innercarouselCards3,
+    .innercarouselCards4,
+    .innercarouselCards5,
+    .innercarouselCards6,
+    .innercarouselCards7 {
+        padding: 10% 2%;
+        width: 100%;
+        background-size: 100% 90%;
+    }
+    .innercarouselCards1:hover,
+    .innercarouselCards2:hover,
+    .innercarouselCards3:hover,
+    .innercarouselCards4:hover,
+    .innercarouselCards5:hover,
+    .innercarouselCards6:hover,
+    .innercarouselCards7:hover {
+        width: 100%;
+        background-size: 100% 90%;
+    }
+    .carousel-indicators {
+        margin-bottom: -5rem !important;
+    }
 }

@@ -18,8 +18,12 @@ function certifications() {
         <img className='imgCertificates' src={Certificate1} alt='certificates'></img>
         <img className='imgCertificates' src={Certificate2} alt='certificates'></img>
         <img className='imgCertificates' src={Certificate3} alt='certificates'></img>
+       
+        {/* <div className='certificaterRes'> */}
         <img className='imgCertificates' src={Certificate4} alt='certificates'></img>
         <img className='imgCertificates' src={Certificate5} alt='certificates'></img>
+        {/* </div> */}
+       
        
        </div>
         <div className='heard'>

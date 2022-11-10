@@ -152,3 +152,45 @@
         
         }
 }
+@media screen and (max-width:769px) and (min-width:445px) {
+    .homebg{
+        margin: 0% 0 0 0;
+    }
+    .homeBanner{
+        padding: 5% 5%;
+        position: absolute;
+        top:80px;
+       }
+        #homeBannerTitle{
+        font-size: 30px;
+        width: 60%;
+        line-height: 30px;
+        }
+        #homeBannerText{
+        font-size: 12px;
+        margin: 1% 0 0 0;
+        width: 60%;
+        line-height: 20px;
+        }
+        #colorText{
+        color: #00CD78;
+        }
+        .clients{
+        display: inline-flex;
+        margin: 2% 0 0 -5.5%;
+        width: 70%;
+        }
+        .clients div{
+        margin: 0 0 0 8%;
+        }
+        #clientnoText{
+        font-size: 20px;
+        }
+        #clientText{
+        font-size: 10px;
+        }
+        .exploreButton{
+            width: 18%;
+            height: 35px;
+        }
+}

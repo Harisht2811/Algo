@@ -6,6 +6,10 @@
 
 .algoImg {
     width: 100%;
+    display: block;
+}
+.algoImgRes{
+    display: none;
 }
 
 .leftText {
@@ -133,6 +137,10 @@
     #titlealgotext{
          width: 100%;
     }
+    .algoImgRes{
+        display: none;
+    }
+    
     #algotext {
         width:100%;
     }
@@ -160,6 +168,10 @@
         padding: 1% 3%;
 
     }
+    .algoImgRes{
+        display: none;
+    }
+    
     .leftText {
         width: 40%;
         position: absolute;
@@ -186,5 +198,75 @@
         width: 100%;
         margin: 25% 0 0 0;
 
+    }
+}
+@media screen and (max-width:769px) and (min-width:445px) {
+    .algoLove{
+        background-color: #05DA8D;
+        height: 75vh;
+    }
+    .leftText{
+        width: 100%;
+        padding: 5% 0;
+    }
+    #titlealgotext{
+        text-align: center;
+        width:90%;
+    }
+    #algotext{
+        width: 90%;
+    }
+    #hrinalgLove{
+        border: 1px solid #F5F5F5;
+        width: 90%;
+      }
+    .algoImg {
+        display: none;
+    }
+    .algoImgRes{
+        display: block;
+        width: 230px;
+        height: 200px;
+        position: absolute;
+        top:200px;
+        left: 280px;
+    }
+    .algoanimation {
+        top: 300px;
+        left: 0px; 
+        width: 100%;
+        padding: 5% 5%;
+    }
+    .algoanimation div{
+        width: 30%;
+        margin: 0 0 0 2%;
+    }
+    .animation1{
+            height: 280px;
+            transform:none;
+            margin:0 0 0 0;
+    }
+    .animation2 {
+        height: 280px;
+        transform:none;
+        margin:0 0 0 0;
+
+    }
+    .animation3 {
+        height: 280px;
+        transform:none;
+        margin:0 0 0 0;
+    }
+    .algoanimation:hover .animation1{
+        transform: none;
+        transition: none;
+    }
+    .algoanimation:hover .animation2{
+        transform: none;
+        transition:none;
+    }
+    .algoanimation:hover .animation3{
+        transform: none;
+        transition: none;
     }
 }

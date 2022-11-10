@@ -4,6 +4,9 @@
     display: flex;
     padding: 3% 8%;
 }
+.algofooterRes{
+    display: none;
+}
 .section1,.section2,.section3,.section4{
     width: 25%;
 }
@@ -62,6 +65,9 @@
     .algofooter{
         padding: 3% 5%;
     }
+    .algofooterRes{
+        display: none;
+    }
     .section1{
         margin: 0 0 0 4%;
     }
@@ -83,6 +89,9 @@
     .algofooter{
         padding: 3% 2%;
     }
+    .algofooterRes{
+        display: none;
+    }
     .section1{
         margin: 0 0 0 2%;
     }
@@ -95,5 +104,46 @@
    .socialIcons{
     display: inline-flex;
     margin: -3% 0 0 -12%;
+   }
 }
+@media screen and (max-width:769px) and (min-width:445px) {
+    .algofooter{
+        display: none;
+    }
+    .section2{
+        margin: 0 0 0 0%;
+       } 
+    .algofooterRes{
+        display: block;
+        padding: 5% 8%;
+        background-color: #00CD78;
+    }
+    .resFlex{
+        display: flex;
+        margin: 3% 0 0 0;
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section3{
+        width: 50%;
+    }
+    .section4{
+        width: 50%;
+    }
+    #titlefooterText1{
+        margin: 8% 0 5% -2%;
+    }
+    #copyrightText{
+        margin: 5% 0 0 -2%;
+    }
+    .socialIcons{
+        margin: 2% 0 0 -6%;
+       }
+    .footericon{
+        margin: 5% 0 0 0%;
+    }
+    
+ 
 }

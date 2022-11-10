@@ -2,11 +2,14 @@ import React from 'react'
 import '../algolove/algolove.css'
 
 import Algoimage from '../../../images/homepage/algohome17.png'
+import Algoimageres from '../../../images/homepage/algohome33.png'
+
 function carousel() {
   return (
     <>
       <div className='algoLove'>
         <img className='algoImg' src={Algoimage} alt='algoimages'></img>
+        <img className='algoImgRes' src={Algoimageres} alt='algoimages'></img>
         <div className='leftText'>
           <p id='titlealgotext'>Why our Clients Love <br></br><span id='blackText'>Algoritmik ?</span> </p>
           <hr id='hrinalgLove'></hr>
