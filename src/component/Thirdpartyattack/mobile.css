@@ -5,7 +5,7 @@
     }
     
     .party_section1 {
-        background-image: url(../../images/thirdparty/thirdpartyBG.png);
+        background-image: url(../../images/thirdparty/mobBg.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 0% 0 0%;
@@ -21,7 +21,7 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-top: 6%;
+        padding-top: 10%;
         padding-bottom: 2%;
         margin-left: 0%;
     }
@@ -104,20 +104,22 @@
         display: block;
         padding-left: 5%;
         padding-bottom: 3%;
-        background-color: #000E08;
+        background-color:#000E08;
         margin-top: -5%;
     }
     
     .sysImg {
-        width: 341.09px;
+        /* width: 341.09px;
         height: 260px;
         margin-top: 5%;
         margin-left: 5%;
-        position: relative;
+        position: relative; */
+        display: none;
     }
     
     .cyberleft {
         width: 80%;
+        margin-top: -2%;
         padding-top: 0%;
         margin-left:5%;
     }
@@ -146,6 +148,7 @@
     .impact {
         padding: 3%;
         padding-left: 10%;
+        margin-top: -2%;
     }
     
     .impactTitle {
@@ -289,7 +292,7 @@
     }
     
     .party_section1 {
-        background-image: url(../../images/thirdparty/thirdpartyBG.png);
+        background-image: url(../../images/thirdparty/mobBg.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 0% 0 0%;
@@ -305,7 +308,7 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-top: 6%;
+        padding-top: 10%;
         padding-bottom: 2%;
     }
     .partyDesc br{
@@ -392,11 +395,12 @@
     }
     
     .sysImg {
-        width: 301.09px;
+        /* width: 301.09px;
         height: 220px;
         margin-top: 5%;
         margin-left: 5%;
-        position: relative;
+        position: relative; */
+        display: none;
     }
     
     .cyberleft {
@@ -429,6 +433,7 @@
     .impact {
         padding: 3%;
         padding-left: 10%;
+        margin-top: -2%;
     }
     
     .impactTitle {

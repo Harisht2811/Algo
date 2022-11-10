@@ -1,18 +1,18 @@
-@media screen and (max-width:1024px) and (min-width:769px) {
+@media screen and (max-width:768px) and (min-width:426px) {
     .ransom_section1{
         background-image: url('../../images/Ransomeware/ransomwareBg.png');
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% ;
     }
     .ransome_part1{
         width: 51%;
-        padding: 10% 0 0% 7%;
+        padding: 10% 0 0% 5%;
     }
     .ransome_section1_title{
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 32px;
         line-height: 120.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
@@ -25,7 +25,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 170.1%;
         color: #FFFFFF;
         opacity: 0.6;
@@ -35,7 +35,7 @@
     .demobtn{
         background: #00CD78;
         border-radius: 8px;
-        width: 20%;
+        width: 30%;
         padding: 0.5%;
         font-family: 'Manrope';
         font-style: normal;
@@ -46,24 +46,27 @@
         color: #020906;
     }
     .ransome_part2{
-        display: flex;
-        padding-top: 15%;
-        padding-left: 5%;
+        display: block;
+        padding-top: 5%;
+        padding-left: 3%;
+        background-color: #000E08;
     }
     .ransome_part2 img{
         width: 404px;
         height: 404px;
+        margin-left: 20%;
     }
     .ransome_part2_right{
-        width: 50.12%;
+        width: 90%;
         padding-left: 3%;
-        padding-bottom: 3%;
+        padding-bottom: 0%;
+        padding-top: 5%;
     }
     .ransome_part2_title{
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 34px;
+        font-size: 36px;
         line-height: 120.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
@@ -77,12 +80,13 @@
         text-align: justify;
         color: #9BA5A3;
         opacity: 0.6;
-        padding-top: 3%;
+        padding-top: 0%;
         padding-bottom: 3%;
     }
     .ransomware_section2{
         background-color: #000E08;
         padding-bottom: 5%;
+        margin-top: -3%;
     }
     .ransomeware_section_title{
         font-family: 'Manrope';
@@ -93,23 +97,25 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #00CD78;
+        padding-top: 5%;
         padding-bottom: 5%;
     }
     .ransomeCardList{
         display: flex;
         padding-left: 0%;
+        margin-left: -3%;
     }
     .ransomeCard{
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
-        background-size: 59% 97%;
+        background-size: 60% 97%;
         padding: 4%;
         padding-top: 10%;
     }
     .ransomeCard:hover{
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
-        background-size: 59% 97%;
+        background-size: 60% 97%;
     }
     .ransomCard_title{
         font-family: 'Manrope';
@@ -120,7 +126,7 @@
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding-bottom: 2%;
-        width: 42%;
+        width: 50%;
     }
     .ransomCard_desc{
         font-family: 'Manrope';
@@ -132,36 +138,43 @@
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 2%;
-        width: 50%;
+        width: 53%;
     }   
-    .ransomeDotImg{
-        width: 261px;
+    /* .ransomeDotImg{
+        width: 161px;
         height: 201px;
         margin-top: 28%;
         margin-left: -30%;
+    } */
+    .ransomeDotLeft{
+        width: 201px;
+        height: 201px;
+        margin-top: 28%;
+        margin-left: 25%;
     }
     .ransomeDotright{
-        width: 400px;
+        width: 200px;
         height: 201px;
-        margin-top: 0%;
-        margin-left: -25%;
+        margin-top: 30%;
+        margin-left: 30%;
     }
     .ransomList1{
         padding-left: 5%;
         margin-top: -3%;
     }
     .ransomList3{
-        margin-top: -5%;
+        margin-top: -10%;
         padding-left: 5%;
+        width: 105%;
     }
     .ransomList2{
-        margin-left: 59%;
+        margin-left: 50%;
         margin-top: -6%;
-        width: 85%;
+        width: 90%;
     }     
     .ransomList4{
-        margin-left: 57%;
-        margin-top: -6%;
+        margin-left: 55%;
+        margin-top: -10%;
         width: 90%;
     }   
 }

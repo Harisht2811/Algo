@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import './laptop.css'
+import './tab.css'
+import './mobile.css'
 import computerImg from '../../images/Ransomeware/computerImg.png'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import leftcurve from '../../images/Ransomeware/leftcurve.png'
@@ -32,7 +34,7 @@ function ransomware() {
                         <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>
                     <div className='ransomeDotImg'>
-                        <img src={rightcurve} />
+                        <img className='ransomeDotLeft' src={rightcurve} />
                     </div>
                 </div>
                 <div className='ransomeCardList ransomList2'>
@@ -53,7 +55,7 @@ function ransomware() {
                         <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>
                     <div className='ransomeDotImg'>
-                        <img  src={rightcurve} />
+                        <img   className='ransomeDotLeft' src={rightcurve} />
                     </div>
                 </div>
                 <div className='ransomeCardList ransomList4'>

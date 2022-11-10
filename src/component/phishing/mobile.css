@@ -6,11 +6,12 @@
     }
     
     .phishing_section1 {
-        background-image: url(../../images/phishing/phishingBg.png);
+        background-image: url(../../images/phishing/mobBg.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 15% 0 8% 5%;
         margin: 0%;
+        height: 100vh;
     }
     
     .phishing_Title {
@@ -21,17 +22,21 @@
         line-height: 120.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-bottom: 3%;
+        padding-bottom: 5%;
+        text-align: center;
+        margin-left: -10%;
     }
     
     .phishingDesc {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 170.1%;
         color: #FFFFFF;
-        width: 55%;
+        width: 90%;
+        text-align: center;
+        padding-bottom: 3%;
     }
     
     .phishingDemoBtn {
@@ -45,7 +50,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        margin-left: 0%;
+        margin-left: 30%;
     }
     
     .phishing_section2 {
@@ -249,11 +254,12 @@
     }
     
     .phishing_section1 {
-        background-image: url(../../images/phishing/phishingBg.png);
+        background-image: url(../../images/phishing/mobBg.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 15% 0 8% 5%;
         margin: 0%;
+        height: 100vh;
     }
     
     .phishing_Title {
@@ -264,19 +270,22 @@
         line-height: 120.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-bottom: 3%;
+        padding-bottom: 5%;
+        text-align: center;
+        margin-left: -5%;
     }
     
     .phishingDesc {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 170.1%;
         color: #FFFFFF;
-        width: 55%;
-    }
-    
+        width: 95%;
+        text-align: center;
+        padding-bottom: 5%;
+    }    
     .phishingDemoBtn {
         background: #00CD78;
         border-radius: 8px;
@@ -288,7 +297,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        margin-left: 0%;
+        margin-left: 30%;
     }
     
     .phishing_section2 {
@@ -318,7 +327,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 120.1%;
         text-align: center;
         letter-spacing: -0.05em;
@@ -482,4 +491,4 @@
     .phishing_section5{
         background-color: #000E08;
     }
-}
+}  

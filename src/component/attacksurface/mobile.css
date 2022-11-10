@@ -5,11 +5,12 @@
     }
 
     .attack_section1 {
-        background-image: url(../../images/attacker/Mask\ group.png);
-        background-size: 100% 110%;
+        background-image: url(../../images/attacker/mobBg.png);
+        background-size: 100% 170%;
         background-repeat: no-repeat;
         padding: 0% 0 5% 15%;
         margin: 0%;
+        height: 100vh;
     }
 
     .attack_Title {
@@ -20,8 +21,9 @@
         line-height: 100.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-top: 5%;
+        padding-top: 30%;
         margin-left: -7%;
+        padding-bottom: 10%;
     }
 
     .attackDesc {
@@ -33,7 +35,7 @@
         color: #FFFFFF;
         opacity: 0.86;
         width: 98%;
-        padding-bottom: 3%;
+        padding-bottom: 15%;
         margin-left: -6%;
     }
 
@@ -62,7 +64,7 @@
         line-height: 120.1%;
         text-align: center;
         color: #00CD78;
-        padding-top: 2%;
+        padding-top: 5%;
     }
 
     .attack_section2_list {
@@ -261,11 +263,12 @@
     }
 
     .attack_section1 {
-        background-image: url(../../images/attacker/Mask\ group.png);
-        background-size: 100% 110%;
+        background-image: url(../../images/attacker/mobBg.png);
+        background-size: 100% 170%;
         background-repeat: no-repeat;
-        padding: 0% 0 5% 15%;
+        padding: 0% 0 8% 15%;
         margin: 0%;
+        height: 100vh;
     }
 
     .attack_Title {
@@ -276,8 +279,10 @@
         line-height: 100.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-top: 5%;
+        padding-top: 35%;
         margin-left: -7%;
+        padding-bottom: 10%;
+
     }
 
     .attackDesc {
@@ -289,7 +294,7 @@
         color: #FFFFFF;
         opacity: 0.86;
         width: 98%;
-        padding-bottom: 3%;
+        padding-bottom: 15%;
         margin-left: -6%;
     }
 
@@ -308,6 +313,7 @@
     .attack_section2 {
         background-color: #000E08;
         margin: 0;
+    margin-top: -2%;
     }
 
     .attack_section2_title {
@@ -318,7 +324,7 @@
         line-height: 120.1%;
         text-align: center;
         color: #00CD78;
-        padding-top: 2%;
+        padding-top: 5%;
     }
 
     .attack_section2_list {
@@ -352,7 +358,9 @@
         margin-top: -5%;
     }
 
-
+    .attack_section3 {
+        margin-top: -2%;
+    }
     .attack_section3_desc {
         font-family: 'Manrope';
         font-style: normal;

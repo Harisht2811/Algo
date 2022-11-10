@@ -1,10 +1,11 @@
 @media screen and (max-width:425px) and (min-width:376px) {
     .dark_section1 {
-        background-image: url(../../images/deepdark/darkBg.png);
+        background-image: url(../../images/deepdark/mobBg.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 0% 0 15%;
         margin: 0%;
+        height: 100vh;
     }
 
     .dark_Title {
@@ -16,7 +17,7 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding: 8% 0 2%;
+        padding: 45% 0 5%;
     }
 
     .darkDesc {
@@ -176,11 +177,12 @@
 
 @media screen and (max-width:375px) {
     .dark_section1 {
-        background-image: url(../../images/deepdark/darkBg.png);
+        background-image: url(../../images/deepdark/mobBg.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding: 0% 0 15%;
         margin: 0%;
+        height: 100vh;
     }
 
     .dark_Title {
@@ -192,7 +194,7 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding: 8% 0 2%;
+        padding: 45% 0 5%;
     }
 
     .darkDesc {
