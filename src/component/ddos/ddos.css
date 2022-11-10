@@ -76,7 +76,7 @@ width: 81%;
 }
 .attackVectorAnalysis{
     background-color: #000E08;
-    height: 182vh;
+    height: 243vh;
     margin-top: -2%;
 }
 #attackVector {
@@ -88,29 +88,31 @@ width: 81%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #00CD78;
-    margin-left: -48%;
+    margin-left: -45%;
     padding-top: 4%;
 }
-#attackVectorPara{
+#attackVectorPara {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 170.1%;
     color: #CBCBCB;
+    width: 17%;
+    margin-left: 18%;
 }
 .section2Img {
-    margin-top: -1%;
+    margin-top: -59px;
     margin-left: 13%;
 }
 
-.section4Flex{
+.section4Flex {
     display: flex;
     background-color: #000E08;
-    margin-top: -24%;
+    margin-top: 6%;
     padding-left: 9%;
     width: 80;
-    width: 99%;  
+    width: 99%;
 }
 #config{
     font-family: 'Manrope';

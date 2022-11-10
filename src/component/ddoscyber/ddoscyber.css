@@ -1,0 +1,43 @@
+.cyberBannerImg{
+    background-image: url(../../images/ddoscyber/ddoscyberbanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.cyberTitle1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: white;
+    padding-top: 5%;
+}
+.cyberTitleFlex {
+    display: flex;
+    margin-left: 33%;
+    padding-top: 8%;
+}
+.cyberTitleFlex img{
+    width: 40px;
+    height: 40px;
+}
+.Hexagon{
+    margin-left: 26px;
+}
+.Arrow p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143.6%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    width: 59%;
+    margin-left: -18%;
+}
+

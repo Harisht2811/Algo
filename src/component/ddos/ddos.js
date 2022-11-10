@@ -5,6 +5,10 @@ import arrow from '../../images/attacker/Arrow.png'
 
 import './ddos.css'
 import './laptop.css'
+import './tab.css'
+import './mobile.css'
+import './mobscrenn.css'
+
 
 function ddos() {
   return (
@@ -13,7 +17,7 @@ function ddos() {
           <div className='ddosSection1'>
             <p className='ddosTitle'>Improve your <span className='colorText'>network architecture </span> against attacks</p>
             <p className='ddosDesc'>We identify which protection component will preven t each DDoS attack vector</p>
-            <button className='demobtn1'><b>Get a Demo</b></button>
+            <button className='demobtn1'><b className='dembtn'>Get a Demo</b></button>
           </div>
           <div className='netwrokArchitecture'>
               <p className='netArch'>Network Architecture</p>
@@ -29,8 +33,6 @@ function ddos() {
               <p id="attackVectorPara">We identify which protection component will prevent each DDoS attack vector.</p>
               <img src={Bgimg2} className="section2Img"></img>
             </div>
-        </div>
-
         <div className='section4Flex'>
           <div className='configOptimiz'>
               <p id='config'>Configuration Optimization</p>
@@ -53,7 +55,7 @@ function ddos() {
                 <button className='certificateButton'>Get a demo</button>
             </div>
         </div>
-
+      </div>
     </div>
   )
 }

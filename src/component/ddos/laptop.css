@@ -12,8 +12,8 @@
         background-size: 100% 100%;
     }
     .ddosTitle {
-        font-size: 37px;
-        width: 76%;
+        font-size: 42px;
+        width: 85%;
     }
     .netArch {
         font-size: 37px;
@@ -22,5 +22,32 @@
         font-size: 14px;
         width: 61%;
         margin-left: 18%;
+    }
+    #attackVector {
+        margin-left: -47%;
+    }
+    #attackVectorPara {
+        width: 23%;
+        margin-left: 14%;
+    }
+    .section2Img {
+        margin-left: 14%;
+        width: 72%;
+    }
+    .attackVectorAnalysis {
+        height: 177vh;
+    }
+    #configPara {
+        width: 91%;
+    }
+    #vendorSelecPara {
+        width: 120%;
+    }
+    .section4Flex {
+        width: 88%;
+        padding-left: 6%;
+    }
+    #demo2 {
+        padding-top: 18%;
     }
 }
