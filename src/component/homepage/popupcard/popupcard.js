@@ -10,7 +10,7 @@ const Popupcard=({closemodal})=> {
   return (
 
 
-    window.innerWidth>=1024?
+    typeof window !== 'undefined'? window.innerWidth>=1024?
       <div className='popupCard'>
          <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img  src={Closebtn} alt='closeicon'></img></span></p>
          <div className='menuincards'>
@@ -57,7 +57,7 @@ const Popupcard=({closemodal})=> {
                   <p id='popupCardText'>Virtual Humint Operations</p>
            </div>
            </div>
-  )
+  :'None')
 }
 
 export default Popupcard

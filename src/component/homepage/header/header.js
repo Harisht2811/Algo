@@ -35,7 +35,7 @@ function Header() {
         </div>
         <div className='links'>
           <ul>
-            { window.innerWidth>=1024?
+            { typeof window !== 'undefined'? window.innerWidth>=1024?
               headerData.laptopMenu.map(item => {
                 console.log(headerData);
                 return <li><Link to={item.routeLink} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
@@ -43,7 +43,7 @@ function Header() {
                 console.log(headerData);
                 return <li><Link to={item.routeLink} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
-            }
+            :'None'}
           </ul>
         </div>
         <div className='homeServices'>
