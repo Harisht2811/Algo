@@ -64,6 +64,7 @@
         letter-spacing: -0.065em;
         color: #00CD78;
         padding-bottom: 2%;
+        margin-left: -5%;
     }
 
     .work_desc {
@@ -75,7 +76,7 @@
         text-align: center;
         color: #7A7A7A;
         width: 83%;
-        margin-left: 10%;
+        margin-left: 8%;
         padding-bottom: 2%;
 
     }
@@ -139,7 +140,7 @@
 
     .deep_dark {
         background: linear-gradient(270deg, #12613F -20.75%, #072525 100%);
-        padding: 4% 0;
+        padding: 4% 0 ;
         display: flex;
         padding-left: 5%;
     }
@@ -168,5 +169,6 @@
 
     .dark_section5 {
         background-color: #000E08;
+        margin-top: -5%;
     }
 }

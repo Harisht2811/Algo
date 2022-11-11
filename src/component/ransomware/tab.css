@@ -6,7 +6,7 @@
     }
     .ransome_part1{
         width: 51%;
-        padding: 10% 0 0% 5%;
+        padding: 5% 0 0% 5%;
     }
     .ransome_section1_title{
         font-family: 'Manrope';
@@ -16,7 +16,7 @@
         line-height: 120.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding-bottom: 5%;
+        padding-bottom: 2%;
     }
     .colorText{
         color: #00CD78;
@@ -81,7 +81,7 @@
         color: #9BA5A3;
         opacity: 0.6;
         padding-top: 0%;
-        padding-bottom: 3%;
+        padding-bottom: 1%;
     }
     .ransomware_section2{
         background-color: #000E08;

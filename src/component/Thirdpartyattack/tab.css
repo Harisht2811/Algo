@@ -86,6 +86,7 @@
         color: #CBCBCB;
         padding-bottom: 10%;
         padding-top: 1%;
+        width: 110%;
     }
     .party_section3Bg{
         background-image: url('../../images/thirdparty/impactBg.png');
@@ -130,6 +131,7 @@
         line-height: 170.1%;
         color: #CBCBCB;
         padding-top: 3%;
+        width: 110%;
     }
     
     .impact {
@@ -207,6 +209,7 @@
     }
     .party_section5 {
         padding: 5%;
+        margin-top: -5%;
     
     }
     
