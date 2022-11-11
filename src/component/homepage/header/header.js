@@ -45,7 +45,7 @@ function Header() {
                 console.log(headerData);
                 return <li><Link to={item.routeLink} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
-            :'None'}
+            :''}
            
           </ul>
         </div>
@@ -83,7 +83,7 @@ function Header() {
                
             //   </card>
 
-        :" "
+        :""
              }
 
       </div>
