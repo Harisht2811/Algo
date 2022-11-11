@@ -2,11 +2,15 @@ import React from 'react'
 import '../homebanner/homebanner.css'
 
 import Homebanner from '../../../images/homepage/algohome1.png'
+import HomebannerRes from '../../../images/homepage/algohome34.png'
+
 function homebanner() {
   return (
     <>
     <div className='homebg'>
       <img className='homeBannerimg' src={Homebanner} alt='homebanner'></img>
+      <img className='homeBannerimgRes' src={HomebannerRes} alt='homebanner'></img>
+     
     </div>
     <div className='homeBanner'>
         <p id='homeBannerTitle'>Innovative tool for creating<span id='colorText'> highly customized security </span>roadmaps.</p>

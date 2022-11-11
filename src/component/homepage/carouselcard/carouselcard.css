@@ -9,7 +9,9 @@
 .carouselCardsRes{
     display: none;
 }
-
+.carouselCardsmobres{
+    display: none;
+}
 .carousel-item {
     transition: 3s !important;
 }
@@ -210,13 +212,16 @@
 
 }
 
-@media screen and (max-width:1705px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
 
     .carouselCards {
         padding: 8% 1%;
         margin: -1% 0 0 0;
     }
     .carouselCardsRes{
+        display: none;
+    }
+    .carouselCardsmobres{
         display: none;
     }
     .whiteArrow {
@@ -226,12 +231,15 @@
     }
 }
 
-@media screen and (max-width:1024px) and (min-width:775px) {
+@media screen and (max-width:1024px) and (min-width:768px) {
     .carouselCards {
         padding: 8% 1%;
         margin: -1% 0 0 0;
     }
     .carouselCardsRes{
+        display: none;
+    }
+    .carouselCardsmobres{
         display: none;
     }
     .whiteArrow {
@@ -266,7 +274,7 @@
         margin-bottom: -5rem !important;
     }
 }
-@media screen and (max-width:769px) and (min-width:445px) {
+@media screen and (max-width:768px) and (min-width:430px) {
     .carouselCards{
         display: none;
     }
@@ -275,6 +283,9 @@
         padding: 8% 5%;
         display: inline-flex;
         width: 100%;
+    }
+    .carouselCardsmobres{
+        display: none;
     }
     .whiteArrow {
         position: absolute;
@@ -305,5 +316,56 @@
     }
     .carousel-indicators {
         margin-bottom: -5rem !important;
+    }
+}
+@media screen and (max-width:430px) and (min-width:375px)  {
+    .carouselCards{
+        display: none;
+    }
+    .carouselCardsRes{
+        display: none;
+    }
+    .carouselCardsmobres{
+        background-color: black;
+        padding: 8% 5%;
+        display: block;
+        width: 100%;
+    }
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 160px;
+    }
+    
+    .innercarouselCards1,
+    .innercarouselCards2,
+    .innercarouselCards3,
+    .innercarouselCards4,
+    .innercarouselCards5,
+    .innercarouselCards6,
+    .innercarouselCards7 {
+        padding: 20% 2%;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .innercarouselCards1:hover,
+    .innercarouselCards2:hover,
+    .innercarouselCards3:hover,
+    .innercarouselCards4:hover,
+    .innercarouselCards5:hover,
+    .innercarouselCards6:hover,
+    .innercarouselCards7:hover {
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .carousel-indicators {
+        margin-bottom: -3rem !important;
+    }
+}
+@media screen and (max-width:376px) {
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 145px;
     }
 }

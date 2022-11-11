@@ -10,7 +10,37 @@ const Popupcard=({closemodal})=> {
   return (
 
 
-    typeof window !== 'undefined'? window.innerWidth>=1024?
+    typeof window !== 'undefined'? 
+    window.innerWidth<768?
+    <div className='popupCard'>
+      <p id='popupCardText'>Home</p>
+      <hr id='popuphrincard'></hr>
+      <p id='popupCardText'>About us</p>
+      <hr id='popuphrincard'></hr>
+      <p id='popupCardText'>Contact us</p>
+    <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img  src={Closebtn} alt='closeicon'></img></span></p>
+    <div className='menuincards'>
+           <p id='popupCardText'>3rd Party Cyber Risk</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>Attack Surface</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>DDOS Hardening</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>Deep & Dark Web</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>Pentesting</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>Phishing Detection</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>Deep Cyber Investigations</p>
+           <hr id='popuphrincard'></hr>
+           <p id='popupCardText'>Virtual Humint Operations</p>
+    </div>
+   
+
+ </div>
+    :
+    window.innerWidth>=1024?
       <div className='popupCard'>
          <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img  src={Closebtn} alt='closeicon'></img></span></p>
          <div className='menuincards'>
@@ -57,7 +87,9 @@ const Popupcard=({closemodal})=> {
                   <p id='popupCardText'>Virtual Humint Operations</p>
            </div>
            </div>
-  :'None')
+  :'None'
+  )
+  
 }
 
 export default Popupcard

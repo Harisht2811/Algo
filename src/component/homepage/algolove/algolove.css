@@ -125,7 +125,7 @@
 #hrinalgLove{
   border: 1px solid #F5F5F5;
 }
-@media screen and (max-width:1705px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
 
     .leftText {
         width: 40%;
@@ -200,7 +200,7 @@
 
     }
 }
-@media screen and (max-width:769px) and (min-width:445px) {
+@media screen and (max-width:768px) and (min-width:430px) {
     .algoLove{
         background-color: #05DA8D;
         height: 75vh;
@@ -264,9 +264,97 @@
     .algoanimation:hover .animation2{
         transform: none;
         transition:none;
+        margin: 0 0 0 2%;
     }
     .algoanimation:hover .animation3{
         transform: none;
         transition: none;
+        margin: 0 0 0 2%;
+    }
+} 
+@media screen and (max-width:430px) and (min-width:375px) {
+    .algoLove{
+        background-color: #05DA8D;
+        height: 145vh;
+        padding: 2% 3%;
+    }
+    .leftText{
+        width: 100%;
+        padding: 5% 0;
+    }
+    #titlealgotext{
+        text-align: center;
+        width:90%;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #algotext{
+        width: 95%;
+        font-size:14px ;
+    }
+    #hrinalgLove{
+        border: 1px solid #F5F5F5;
+        width: 90%;
+      }
+    .algoImg {
+        display: none;
+    }
+    .algoImgRes{
+        display: block;
+        width: 230px;
+        height: 200px;
+        position: absolute;
+        top: 118px;
+        left: 100px;
+    }
+    .algoanimation {
+        top: 300px;
+        left: 0px; 
+        width: 100%;
+        padding: 5% 5%;
+        display: block;
+    }
+    .algoanimation div{
+        width: 95%;
+        margin: 0 0 10% 2%;
+    }
+    .animation1{
+            height: 280px;
+            transform:none;
+            margin:0 0 0 0;
+    }
+    .animation2 {
+        height: 280px;
+        transform:none;
+        margin:0 0 0 0;
+
+    }
+    .animation3 {
+        height: 280px;
+        transform:none;
+        margin:0 0 0 0;
+    }
+    .algoanimation:hover .animation1{
+        transform: none;
+        transition: none;
+    }
+    .algoanimation:hover .animation2{
+        transform: none;
+        transition:none;
+        margin: 0 0 0 2%;
+    }
+    .algoanimation:hover .animation3{
+        transform: none;
+        transition: none;
+        margin: 0 0 0 2%;
+    }
+    #issueText{
+        margin: 3% 0 0 0;
+    }
+}
+@media screen and (max-width:375px) {
+    .algoImgRes{
+        top: 125px;
+        left: 75px;
     }
 }

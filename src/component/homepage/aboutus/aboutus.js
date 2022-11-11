@@ -2,11 +2,14 @@ import React from 'react'
 import '../aboutus/aboutus.css'
 
 import AboutusImg from '../../../images/homepage/algohome16.png'
+import AboutusImgRes from '../../../images/homepage/algohome35.png'
+
 function aboutus() {
   return (
     <>
     <div className='algoAboutus'>
         <img className='aboutusImg' src={AboutusImg} alt='aboutusimg'></img>
+        <img className='aboutusImgRes' src={AboutusImgRes} alt='aboutusimg'></img>
         <div className='aboutusText'>
         <p id='aboutusTitle'>ABOUT US</p>
         <p id='aboutusText1'>Professional. Trusted. Advanced</p>

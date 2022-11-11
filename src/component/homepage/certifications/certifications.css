@@ -85,7 +85,7 @@
     text-align: center;
     width: 150px;
 }
-@media screen and (max-width:1705px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
 
     .heard{
         padding: 5% 5%;
@@ -142,7 +142,7 @@
             margin: 12% 0 0 7%;
         }
 }
-@media screen and (max-width:768px) and (min-width:445px) {
+@media screen and (max-width:768px) and (min-width:430px) {
     .certificateImages{
         padding: 5% 15% 0;
         display: grid;
@@ -166,5 +166,48 @@
     }
     .certificateButton{
         margin: -5% 0 0 5%;
+    }
+}
+@media screen and (max-width:430px) and (min-width:375px) {
+    .algocertifications{
+        margin: -2% 0 0 0;
+    }
+    .certificateImages{
+        padding: 5% 15% 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 8%;
+        grid-column-gap: 0%;
+    }
+    #titleCertificate{
+        font-size: 30px;
+    }
+    #textCertificate{
+        font-size:14px;
+        width: 85%;
+        margin: 0 0 0 8%;
+    }
+    .certificaterRes{
+      margin: 0 0 0 15%;
+      display: grid;
+    }
+    .heard{
+        padding: 10% 3%;
+    }
+    .securityIssues{
+        display: block;
+        height: 425px;
+        margin: 15% 0 0 5%;
+    }
+    .securityText{
+        width: 100%;
+        padding: 10% 5%;
+    }
+    #titleIssues{
+        font-size: 22px;
+        width: 100%;
+    }
+    .certificateButton{
+        margin: 8% 0 0 5%;
     }
 }

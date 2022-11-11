@@ -8,6 +8,10 @@ margin:auto;
 display: flex;
 position: relative;
 }
+
+.aboutusImgRes{
+    display: none;
+}
 .aboutusText{
 position: absolute;
 top:200px;
@@ -44,7 +48,7 @@ padding: 4% 5%;
     width: 49%;
     margin: 1% 0 0 25%;
 }
-@media screen and (max-width:1705px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1024px) {
  
     .aboutusText{
         position: absolute;
@@ -55,6 +59,9 @@ padding: 4% 5%;
         #aboutusText2{
             width: 60%;
             margin: 1% 0 0 20%;
+        }
+        .aboutusImgRes{
+            display: none;
         }
 }
 @media screen and (max-width:1024px) and  (min-width:768px) {
@@ -68,8 +75,11 @@ padding: 4% 5%;
         width: 94%;
         margin: 1% 0 0 0%;
     }
+    .aboutusImgRes{
+        display: none;
+    }
 }
-@media screen and (max-width:769px) and (min-width:445px) {
+@media screen and (max-width:768px) and (min-width:430px) {
     #aboutusTitle{
         margin: 0 0 0 -8%;
        }
@@ -80,4 +90,57 @@ padding: 4% 5%;
         width: 95%;
         margin: 3% 0 0 -1%;
        }
+       .aboutusImgRes{
+        display: none;
+    }
+}
+@media screen and (max-width:430px) and (min-width:375px) {
+    .aboutusImg{
+        display: none;
+    }
+    .aboutusImgRes{
+        display: block;
+        margin: -12% 0 0 -5%;
+    }
+    .aboutusText{
+        top: 150px;
+        left: -5px;
+        padding: 4% 5%;
+    }
+    #aboutusTitle{
+        font-size: 12px;
+    }
+    #aboutusText1{
+        font-size: 22px;
+    }
+    #aboutusText2{
+        font-size: 14px;
+        margin: 0 0 0 5%;
+        width: 90%;
+    }
+}
+@media screen and (max-width:375px) {
+    .aboutusImg{
+        display: none;
+    }
+    .aboutusImgRes{
+        display: block;
+        margin: -12% 0 0 -15%;
+    }
+    .aboutusText{
+        top: 130px;
+        left: -5px;
+        padding: 4% 5%;
+    }
+    #aboutusTitle{
+        font-size: 12px;
+    }
+    #aboutusText1{
+        font-size: 20px;
+    }
+    #aboutusText2{
+        font-size: 14px;
+        margin: 0 0 0 5%;
+        width: 90%;
+    }
 }

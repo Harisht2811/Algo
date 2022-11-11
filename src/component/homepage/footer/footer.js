@@ -8,6 +8,7 @@ import socialIcon1 from '../../../images/homepage/algohome24.png'
 import socialIcon2 from '../../../images/homepage/algohome25.png'
 import socialIcon3 from '../../../images/homepage/algohome26.png'
 import socialIcon4 from '../../../images/homepage/algohome27.png'
+import { color } from '@mui/system'
 
 function footer() {
     return (
@@ -65,7 +66,7 @@ function footer() {
                 <Link to='/deepdark'><p id='footerText'>Deep & Dark Web</p></Link>
                 </div>
                 <div className='section4'>
-                <p id='titlefooterText' style={{color:'transparent'}}>Services</p>
+                <p id='titlefooterText1'  style={typeof window!='undefined'&&window.innerWidth<768?{display:'none'}:{color:'transparent'}}>Services</p>
                 <p id='footerText'>Deep Cyber Investigations</p>
                 <p id='footerText'>Pentesting</p>
                 <Link to='/phishing'><p id='footerText'>Phishing Detection</p></Link>
