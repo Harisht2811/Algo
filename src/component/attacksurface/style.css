@@ -49,6 +49,7 @@ body {
 .attack_section2 {
     background-color: #000E08;
     margin: 0;
+    margin-top: -2%;
 }
 
 .attack_section2_title {
@@ -89,6 +90,7 @@ body {
 .attack_section3 {
     display: block;
     position: relative;
+    margin-top: -2%;
 }
 .attack_section3 img {
     width: 100%;
@@ -188,7 +190,7 @@ body {
 
 .attack_section5 {
     background-color: #000E08;
-
+    margin-top: -2%;
 }
 
 .attack_section5_box {
