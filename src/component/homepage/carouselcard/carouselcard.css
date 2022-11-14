@@ -13,13 +13,14 @@
     display: none;
 }
 .carousel-item {
-    transition: 3s !important;
+    transition: 5s !important;
 }
 
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
+    margin: 0 0 0 2%;
 }
 
 .innercarouselCards1,
@@ -208,7 +209,7 @@
 
 .carousel-indicators {
 
-    margin-bottom: -10rem !important;
+    margin-bottom: -5em !important;
 
 }
 
