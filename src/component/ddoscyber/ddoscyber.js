@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Ddoscyberbanner from '../../images/ddoscyber/ddoscyberbanner.png'
 import Arrow from '../../images/ddoscyber/arrow.png'
@@ -9,6 +10,9 @@ import ThreatActor from '../../images/ddoscyber/threatActor.png'
 import ThreatLandscape from '../../images/ddoscyber/threatLandscape.png'
 import arrow from '../../images/attacker/Arrow.png'
 import './ddoscyber.css'
+import './laptop.css'
+import './tab.css'
+import './mob.css'
 
 function ddoscyber() {
   return (
@@ -19,7 +23,7 @@ function ddoscyber() {
           <div className='cyberTitleFlex'>
              <div className='Arrow'>
               <img src={Arrow}></img>
-              <p id='arrow'>Strategic Threat Intelligence</p>
+              <p id='arrow'>Strategic <br></br>Threat Intelligence</p>
               </div>
               <div className='Tick'>
                 <img src={Tick}></img>

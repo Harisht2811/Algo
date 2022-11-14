@@ -1,0 +1,74 @@
+@media screen and (max-width:768px) and (min-width:431px) 
+{
+    .cyberTitle1 {
+        font-size: 29px;
+        padding-top: 11%;
+    }
+    .cyberTitleFlex {
+        margin-left: 25%;
+    }
+    #arrow {
+        font-size: 12px;
+        width: 100%;
+        margin-left: -33%;
+    }
+    .Tick img {
+        margin-left: 93%;
+    }
+    #tick {
+        font-size: 12px;
+        margin-left: 60%;
+    }
+    #hexagon {
+        font-size: 12px;
+        margin-left: 59%;
+       }
+    .Hexagon img {
+        margin-left: 178px;
+    }
+    .cyberBanner2Par {
+        font-size: 12px;
+        width: 77%;
+        margin-left: 13%;
+    }
+    .cardsCyber {
+        margin-top: -3%;
+    }
+    .cyberCards {
+        margin-left: 6%;
+    }
+    .strategicCard1 {
+        width: 93%;
+    }
+    .threatCard2 {
+        width: 93%;
+    }
+    .threatCard3 {
+        width: 93%;
+    }
+    .strategicCard1Title {
+        font-size: 14px;
+    }
+    .card1Para {
+        font-size: 12px;
+        width: 84%;
+    }
+    .ThreatActorTitle {
+        font-size: 14px;
+    }
+    .card2Para {
+        font-size: 12px;
+        width: 87%;
+    }
+    .threatCard3Title {
+        font-size: 14px;
+    }
+    .card3Para {
+        font-size: 12px;
+        width: 88%;
+    }
+    #demo1 {
+        font-size: 12px;
+    }
+}
+
