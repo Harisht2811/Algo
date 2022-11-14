@@ -24,12 +24,12 @@ function phishingBeacon() {
                 <img src={hrline} className='phishing_hrline' />
                 <div className='phishing_CardList'>
                     <div className='phishingCard'>
-                        <p className='phishingCard_title'>Detect and <br />analyze threats in advance</p>
+                        <p className='phishingCard_title'>Detect and analyze<br /> threats in advance</p>
                         <p className='phishingCard_desc'>Monitor active look alike domains and websites impersonating your brand as well as phishing kits reused by threat actors. Detect attacks against employees by spotting phishing target lists, email templates used in an attack, and other exposed data. Identify these and other threats to get early warning of ongoing and future phishing campaigns</p>
                         <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>
                     <div className='phishingCard'>
-                        <p className='phishingCard_title'>Get actionable alerts</p>
+                        <p className='phishingCard_title'>Get <br />actionable alerts</p>
                         <p className='phishingCard_desc'> Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms. Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms</p>
                         <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>

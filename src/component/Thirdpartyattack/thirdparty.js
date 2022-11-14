@@ -71,7 +71,6 @@ function thirdparty() {
                             </div>
                             <button className='certificateButton'>Get a demo</button>
                         </div>
-
                     </div>
                 </div>
             </div>
