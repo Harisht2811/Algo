@@ -31,7 +31,7 @@ function ddoscyber() {
                 <p id='tick'>Threat <br></br> Actor Profiling</p>
               </div>
               <div className='Hexagon'>
-                <img src={Hexagon}></img>
+                <img src={Hexagon} alt='hexagon'></img>
                 <p id='hexagon'>Threat<br></br> Landscape Reports</p>
               </div>
           </div>
