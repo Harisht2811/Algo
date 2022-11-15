@@ -36,7 +36,7 @@ function footer() {
                 <Link to='/attacksurface'><p id='footerText'>Attack Surface</p></Link> 
                 <p id='footerText'>DDoS Attack Simulation & Testing</p>
                 <p id='footerText'>DDOS Incident Response</p>
-                <p id='footerText'>Technology Hardening</p>
+                <Link to='/ddos'><p id='footerText'>Technology Hardening</p></Link>
                 <Link to='/deepdark'><p id='footerText'>Deep & Dark Web</p></Link>
                 </div>
                 <div className='section4'>

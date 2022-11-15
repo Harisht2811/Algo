@@ -1,0 +1,202 @@
+.cyberBannerImg{
+    background-image: url(../../images/ddoscyber/ddoscyberbanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.cyberTitle1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: white;
+    padding-top: 5%;
+}
+.cyberTitleFlex {
+    display: flex;
+    display: flex;
+    margin-left: 31%;
+    padding-top: 8%;
+}
+.cyberTitleFlex img{
+    width: 40px;
+    height: 40px;
+}
+.Tick img{
+    margin-left: 60%;
+}
+.Hexagon img{
+    margin-left: 191px
+}
+#arrow {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143.6%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+        width: 100%;
+        margin-left: -36%
+    
+}
+#tick{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143.6%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-left: 25%;
+    width: 110%;
+}
+#hexagon{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143.6%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-left: 61%;
+    width: 63%;
+}
+.cyberBanner2{
+    background-image: url(../../images/ddoscyber/cyberBanner2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.cyberBanner2Par{
+    font-family: 'Manrope';
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 214.1%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 58%;
+    margin-left: 21%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+.cardsCyber{
+    margin-top: -2%;
+    background-color: #000E08;
+    padding-bottom: 1%;
+}
+.cyberCards{
+    margin-left: 16%;
+    display: block;
+}
+.strategicCard1{
+    display: flex;
+    margin-bottom: 5%;
+}
+.threatCard2{
+    display: flex;
+    margin-bottom: 5%;
+}
+.threatCard3{
+    display: flex;
+    margin-bottom: 5%;
+}
+.strategicCard1{
+    background-color: #091610;
+    width: 82%;
+    border-radius: 24px;
+}
+.strategicCard1Title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 126.6%;
+    color: #FFFFFF;
+    width: 30%;
+}
+.strategicPara{
+    margin-left: 4%;
+    margin-top: 4%;
+    
+}
+.card1Para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.64;
+    width: 69%; 
+}
+.cardImg{
+    width: 30%;
+}
+.threatCard2{
+    background-color: #091610;
+    width: 82%;
+    border-radius: 24px;
+}
+.threatPara{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.ThreatActorTitle{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 126.6%;
+    color: #FFFFFF;
+    width: 30%;
+}
+.card2Para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.64;
+    width: 69%; 
+}
+.card3Para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.64;
+    width: 69%; 
+}
+.threatcar3Para{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.threatCard3{
+    background-color: #091610;
+    width: 82%;
+    margin-bottom: 4%;
+    border-radius: 24px;
+}
+.threatCard3Title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 126.6%;
+    color: #FFFFFF;
+    width: 30%;
+}

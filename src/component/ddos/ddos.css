@@ -1,0 +1,179 @@
+
+.ddosBanner{
+    background-image: url(../../images/ddos/Bgimg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.ddosSection1{
+    padding-top: 4%;
+    padding-left: 5%;
+    width: 50%;
+}
+.ddosTitle{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120.1%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+.ddosDesc{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 170.1%;
+/* or 31px */
+color: #CBCBCB;
+width: 81%;
+}
+.demobtn1{
+    width: 118px;
+    height: 39px;
+    top: 512px;
+    background: #00CD78;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #020906;
+    border: none;
+}
+.netwrokArchitecture{
+    padding-top: 39%;
+}
+
+.netArch{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-top: -28%;
+}
+.section2Content{
+    width: 714px;
+    height: 108px;
+    top: 933px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170.1%;
+    text-align: center;
+    color: #CBCBCB;
+    margin-left: 23%;
+    margin-top: 8%;
+}
+.attackVectorAnalysis{
+    background-color: #000E08;
+    height: 243vh;
+    margin-top: -2%;
+}
+#attackVector {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #00CD78;
+    margin-left: -45%;
+    padding-top: 4%;
+}
+#attackVectorPara {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170.1%;
+    color: #CBCBCB;
+    width: 17%;
+    margin-left: 18%;
+}
+.section2Img {
+    margin-top: -59px;
+    margin-left: 13%;
+}
+
+.section4Flex {
+    display: flex;
+    background-color: #000E08;
+    margin-top: 6%;
+    padding-left: 9%;
+    width: 80;
+    width: 99%;
+}
+#config{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120.1%;
+    width: 46%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+#configPara{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 203.1%;
+    text-align: justify;
+    color: #9BA4A2;
+    opacity: 0.6;
+    width: 62%;
+}
+#vendorSelec{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120.1%;
+    letter-spacing: -0.01em;
+    width: 38%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+#vendorSelecPara{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 203.1%;
+    text-align: justify;
+    color: #9BA4A2;
+    opacity: 0.6;
+    width: 83%;
+}
+#demo1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 170.1%;
+    color: #00CD78;
+}
+#demo2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 170.1%;
+    padding-top: 13%;
+    color: #00CD78;
+}
+.heard{
+    background-color: #000E08;
+}

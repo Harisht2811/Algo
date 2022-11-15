@@ -1,0 +1,72 @@
+@media screen and (max-width:425px) and (min-width:376px) {
+    .ddosSection1 {
+        padding-left: 8%;
+        width: 53%;
+    }
+    .ddosTitle {
+        font-size: 21px;
+        width: 104%;
+    }
+    .ddosDesc {
+        font-size: 11px;
+        width: 95%;
+    }
+    .demobtn1 {
+        width: 86px;
+        height: 25px;
+    }
+    .netArch {
+        font-size: 19px;
+    }
+    .section2Content {
+        font-size: 10px;
+        margin-left: 16%;
+        width: 66%;
+        padding-top: 6%;
+    }
+    .attackVectorAnalysis {
+        height: 211vh;
+        margin-top: -5%;
+    }
+    #attackVector {
+        font-size: 17px;
+        margin-left: -43%;
+        padding-top: 18%;
+    }
+    .section2Img {
+        margin-top: -10px;
+        margin-left: 10%;
+        width: 80%;
+    }
+    #attackVectorPara {
+        font-size: 10px;
+        width: 46%;
+        margin-left: 8%;
+    }
+    .section4Flex {
+        padding-left: 7%;
+    }
+    #config {
+        font-size: 16px;
+        width: 55%;
+    }
+    #vendorSelec {
+        font-size: 16px;
+     }
+     .section4Flex {
+        display: block;
+        padding-left: 9%;
+        width: 99%;
+    }
+    #configPara {
+        font-size: 14px;
+        width: 91%;
+    }
+    #vendorSelecPara {
+        font-size: 14px;
+        width: 91%;
+    }
+    #demo2 {
+        padding-top: 0%;
+    }
+}
