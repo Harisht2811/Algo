@@ -1,9 +1,9 @@
 
 import React from 'react'
 import Ddoscyberbanner from '../../images/ddoscyber/ddoscyberbanner.png'
-import Arrow from '../../images/ddoscyber/arrow.png'
-import Tick from '../../images/ddoscyber/tick.png'
-import Hexagon from '../../images/ddoscyber/hexagon.png'
+import Arrow from '../../images/ddoscyber/Arrow.png'
+import Tick from '../../images/ddoscyber/Tick.png'
+import Hexagon from '../../images/ddoscyber/Hexagon.png'
 import CyberBanner2 from '../../images/ddoscyber/cyberBanner2.png'
 import Rocket from '../../images/ddoscyber/rocket.png'
 import ThreatActor from '../../images/ddoscyber/threatActor.png'

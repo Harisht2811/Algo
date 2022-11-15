@@ -35,7 +35,7 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Virtual Humint Operations</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/virtualhumint">Virtual Humint Operations</Link></p>
     </div>
    
 
@@ -59,7 +59,7 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Virtual Humint Operations</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/virtualhumint">Virtual Humint Operations</Link></p>
          </div>
         
 
@@ -81,10 +81,10 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Virtual Humint Operations</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/virtualhumint">Virtual Humint Operations</Link></p>
            </div>
            </div>
-  :'None'
+  :''
   )
   
 }

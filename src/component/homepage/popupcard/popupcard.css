@@ -67,12 +67,18 @@ top: 0px;
 }
 @media screen and (max-width:430px) and (min-width:375px) {
     .popupCard{
-        height: 800px;
+        height: 750px;
+        padding: 3% 10%;
     }
+    .closecardBtn{
+        position: absolute;
+        top:5px;
+        right: 25px;
+    }
+
 }
 @media screen and (max-width:376px) {
     .popupCard{
-
     height: 715px;
     padding: 5% 18%;
     }

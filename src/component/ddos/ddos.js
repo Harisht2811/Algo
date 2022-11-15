@@ -1,6 +1,6 @@
 import React from 'react'
-import Bgimg1 from '../../images/ddos/bgimg1.png'
-import Bgimg2 from '../../images/ddos/bgimg2.png'
+import Bgimg1 from '../../images/ddos/Bgimg1.png'
+import Bgimg2 from '../../images/ddos/Bgimg2.png'
 import arrow from '../../images/attacker/Arrow.png'
 
 import './ddos.css'
