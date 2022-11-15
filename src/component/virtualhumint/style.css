@@ -46,18 +46,29 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 .virtualCardlist{
     background-color: #000E08;
     padding-bottom: 5%;
+    padding-left: 5%;
 }
 .virtualcard1{
     display: flex;
-    padding: 5% 0 0;
+    padding: 5% 0 0 ;
 }
 .virtualCard{
-    width: 45%;
-    padding-left: 10%;
+    background-image: url('../../images/virtual/virtualCard1.png');
+    background-repeat: no-repeat;
+    background-size:90% 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    width: 50%;
+}
+.virtualCard:hover{
+    background-image: url('../../images/virtual/virtualCard2.png');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
 }
 
 .virtualCard_title{
@@ -68,10 +79,11 @@
     line-height: 120.1%;
     letter-spacing: -0.01em;
     color: #919191;
-    width: 80%;
+    width: 65%;
 }
 .vectorHrline{
-    display: none;
+    display: block;
+    padding: 2% 0;
 }
 .virtualCard_desc{
     font-family: 'Manrope';
@@ -82,15 +94,16 @@
     text-align: justify;
     color: #9BA4A2;
     opacity: 0.6;
-    width: 100%;
+    width: 90%;
 }
 
 .virtualBox{
     background-image: url('../../images/virtual/virtualImg.png');
     background-repeat: no-repeat;
-    height: 400px;
+    height: 424px;
     padding: 5%;
-    background-size: 99%;
+    background-size: 103% 111%;
+    background-position-x: -5vw;    
 }
 .virtualBox_title{
     font-family: 'Manrope';
@@ -103,7 +116,7 @@ letter-spacing: -0.05em;
 color: #00CD78;
     padding-top: 3%;
     width: 50%;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 .virtualBox_desc{
     font-family: 'Manrope';
@@ -113,6 +126,7 @@ font-size: 20px;
 line-height: 223.1%;
 text-align: center;
 color: #FFFFFF;
+margin-left: -5%;
 }
 .virtualline_box{
     background-color: #000E08;

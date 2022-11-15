@@ -9,10 +9,7 @@ import discoverimg from '../../images/deepdark/discover.png'
 import analysisimg from '../../images/deepdark/analysis.png'
 import mitigateimg from '../../images/deepdark/mitigate.png'
 import threatimg from '../../images/deepdark/threat.png'
-// import arrowG from '../../images/deepdark/arrowG.png'
-// import arrowG from '../../images/deepdark/arrowG.png'
-// import arrowG from '../../images/deepdark/arrowG.png'
-// import arrowG from '../../images/deepdark/arrowG.png'
+
 
 function deep() {
     return (
