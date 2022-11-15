@@ -25,9 +25,9 @@ a{
 .links{
     width: 65%;
 }
-.home{
+/* .home{
     color: #00CD78!important;
-}
+} */
 .links ul{
     width: 80%;
     display: inline-flex;
@@ -61,7 +61,8 @@ a{
 .toggleicon{
     width: 20px;
     height: 20px;
-    margin: 0% 0 0 20%;
+    margin: 0% 0 0 40%;
+    cursor: pointer;
 }
 .selectBg{
     background-color:#141414;
@@ -76,6 +77,16 @@ a{
     margin: -25% 0 0 -70%;
     padding: 5% 10%;
     display: inline-block;
+}
+/* .activeLink{
+    color: white!important;
+}
+.activeLink.active{
+    color: #00CD78!important;
+} */
+.active-link{
+    color: #00CD78!important;
+    font-weight: bold!important;
 }
 .menu{
     margin: 5% 0 0 0;
@@ -105,6 +116,9 @@ a{
 .closeBtn{
     float: right;
 }
+#myBtn{
+    display: none;
+  }
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .links {
         width: 100%;
@@ -129,6 +143,9 @@ a{
     #algoheaderText {
         margin: 0 0 0 -35%;
     }
+    #myBtn{
+        display: none;
+      }
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
     .algoheader{
@@ -153,6 +170,9 @@ a{
     #algoheaderText{
         font-size: 14px;
     }
+    #myBtn{
+        display: none;
+      }
 }
 @media screen and (max-width:768px) and (min-width:430px) {
     .algoheader{
@@ -168,6 +188,9 @@ a{
         top: 30px;
         position: absolute;
       }
+      #myBtn{
+        display: none;
+      }
 }
 @media screen and (max-width:430px) and (min-width:376px) {
     .algoheader{
@@ -176,6 +199,12 @@ a{
     #algoheaderText{
         display: none;
     }
+    .toggleicon{
+        margin: 0 0 0 -10%;
+    }
+    #myBtn{
+        display: block;
+      }
 }
 @media screen and (max-width:376px) {
     .algoheader{
@@ -184,4 +213,7 @@ a{
     #algoheaderText{
         display: none;
     }
+    #myBtn{
+        display: block;
+      }
 }

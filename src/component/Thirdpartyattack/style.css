@@ -45,6 +45,7 @@ body {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .party_section2 {
@@ -136,6 +137,7 @@ body {
 .impact {
     padding: 3%;
     padding-left: 5%;
+    margin-top: -2%;
 }
 
 .impactTitle {
@@ -168,6 +170,7 @@ body {
 }
 .listTitle:hover {
     color: #00CD78;
+    cursor: pointer;
 }
 .vlineImg {
     margin-top: 0%;

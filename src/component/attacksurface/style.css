@@ -44,11 +44,13 @@ body {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .attack_section2 {
     background-color: #000E08;
     margin: 0;
+    margin-top: -2%;
 }
 
 .attack_section2_title {
@@ -89,6 +91,7 @@ body {
 .attack_section3 {
     display: block;
     position: relative;
+    margin-top: -2%;
 }
 .attack_section3 img {
     width: 100%;
@@ -177,6 +180,7 @@ body {
     line-height: 170.1%;
     color: #00CD78;
     margin-top: 4%;
+    cursor: pointer;
 }
 
 .attack_cardRight img {
@@ -188,7 +192,7 @@ body {
 
 .attack_section5 {
     background-color: #000E08;
-
+    margin-top: -2%;
 }
 
 .attack_section5_box {

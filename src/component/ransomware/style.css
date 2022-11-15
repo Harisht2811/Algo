@@ -15,7 +15,7 @@
     line-height: 120.1%;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 .colorText{
     color: #00CD78;
@@ -28,21 +28,22 @@
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.6;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     width: 90%;
 }
 .demobtn{
     background: #00CD78;
     border-radius: 8px;
     width: 20%;
-    padding: 0.5%;
+    text-align: center;
+    margin-left: 34%;
+    padding: 1%;
+    margin-top: 4%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-    color: #020906;
+    cursor: pointer;
+    margin-left: 0%;
 }
 .ransome_part2{
     display: flex;
@@ -52,6 +53,7 @@
 .ransome_part2 img{
     width: 475px;
     height: 314px;
+    margin-top: 10%;
 }
 .ransome_part2_right{
     width: 55%;
@@ -77,7 +79,7 @@
     text-align: justify;
     color: #9BA5A3;
     opacity: 0.6;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
     padding-top: 2%;
 }
 .ransomware_section2{
@@ -128,7 +130,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 203.1%;
-    text-align: justify;
+    text-align: left;
     color: #9BA4A2;
     opacity: 0.6;
     padding-bottom: 2%;
