@@ -1,0 +1,239 @@
+
+@media screen and (max-width:768px) and (min-width:426px) {
+    .virtual_section1 {
+        background-image: url(../../images/virtual/virtualBg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 0% 0 15%;
+        margin: 0%;
+    }
+
+    .virtualBtn {
+        background-image: url(../../images/virtual/virtualBtn.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 9%;
+        width: 80%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #00CD78;
+        margin-left: 10%;
+    }
+
+    .virtual_Title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 133.6%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        margin-top: -5%;
+    }
+
+    .virtual_demoBtn {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 18%;
+        text-align: center;
+        margin-left: 45%;
+        padding: 0.5%;
+        margin-top: 2%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        cursor: pointer;
+        margin-left: 43%;
+    }
+
+    .virtualCardlist {
+        background-color: #000E08;
+        padding-bottom: 5%;
+        padding-left: 5%;
+        margin-top: -3%;
+    }
+
+    .virtualcard1 {
+        display: flex;
+        padding: 5% 0 0;
+    }
+
+    .virtualCard {
+        background-image: url('../../images/virtual/virtualCard1.png');
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
+        margin-bottom: 2%;
+        padding: 3%;
+        width: 50%;
+    }
+
+    .virtualCard:hover {
+        background-image: url('../../images/virtual/virtualCard2.png');
+        background-repeat: no-repeat;
+        background-size: 90% 100%;
+    }
+
+    .virtualCard_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        letter-spacing: -0.01em;
+        color: #919191;
+        width: 68%;
+    }
+
+    .vectorHrline {
+        display: block;
+        width: 80%;
+        padding: 2% 0;
+    }
+
+    .virtualCard_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 90%;
+    }
+
+    .virtualBox {
+        background-image: url('../../images/virtual/virtualImg.png');
+        background-repeat: no-repeat;
+        height: 280px;
+        padding: 5% 5%;
+        background-size: 107% 111%;
+        background-position-x: -6vw;
+    }
+
+    .virtualBox_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 133.6%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #00CD78;
+        padding-top: 5%;
+        width: 45%;
+        margin-left: 25%;
+    }
+
+    .virtualBox_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 223.1%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: -6%;
+    }
+
+    .virtualline_box {
+        background-color: #000E08;
+        padding-left: 5%;
+        padding-bottom: 5%;
+        padding-top: 3%;
+    }
+
+    .virtual_line {
+        display: flex;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .Leveraging_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133.6%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+    }
+
+    .Leveraging_desc1 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 65%;
+        margin-left: 32%;
+    }
+
+    .Leveraging_desc2 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 75%;
+        margin-left: 5%;
+    }
+
+    .horizline {
+        width: 90%;
+    }
+
+    .Leveraging_title1 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133.6%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+    }
+
+    .Leveraging_desc3 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 68%;
+        margin-left: 43%;
+    }
+
+    .Leveraging_desc4 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 70%;
+        margin-left: 18%;
+    }
+
+    .virtual_section5 {
+        background-color: #000E08;
+        margin-top: -10%;
+        padding-bottom: 5%;
+    }
+}

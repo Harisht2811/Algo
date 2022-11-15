@@ -101,9 +101,9 @@
     background-image: url('../../images/virtual/virtualImg.png');
     background-repeat: no-repeat;
     height: 424px;
-    padding: 5%;
+    padding: 5% 5%;
     background-size: 103% 111%;
-    background-position-x: -5vw;    
+    background-position-x: -5vw;  
 }
 .virtualBox_title{
     font-family: 'Manrope';
@@ -132,6 +132,7 @@ margin-left: -5%;
     background-color: #000E08;
     padding-left: 5%;
     padding-bottom: 5%;
+    padding-top: 3%;
 }
 .virtual_line{
     display: flex;

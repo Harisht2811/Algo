@@ -1,5 +1,8 @@
 import React from 'react'
 import './style.css'
+import './laptop.css'
+import './tab.css'
+import './mobile.css'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import vectorHrline from '../../images/virtual/vectorHrline.png'
 function virtual() {
