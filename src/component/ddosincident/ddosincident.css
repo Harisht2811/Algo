@@ -1,0 +1,16 @@
+.ddosIncidentBanner{
+    background-image: url(../../images/ddosincident/ddosIncidentBanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.bannerTitl1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 144.6%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
