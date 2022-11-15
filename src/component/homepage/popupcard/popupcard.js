@@ -25,13 +25,13 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/attacksurface">Attack Surface</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">DDOS Hardening</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoshardening">DDOS Hardening</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/deepdark">Deep & Dark Web</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Pentesting</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/Phishing">Phishing Detection</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
@@ -49,13 +49,13 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/attacksurface">Attack Surface</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">DDOS Hardening</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoshardening">DDOS Hardening</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/deepdark">Deep & Dark Web</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Pentesting</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/Phishing">Phishing Detection</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
@@ -71,13 +71,13 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/attacksurface">Attack Surface</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">DDOS Hardening</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoshardening">DDOS Hardening</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/deepdark">Deep & Dark Web</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Pentesting</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/Phishing">Phishing Detection</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
