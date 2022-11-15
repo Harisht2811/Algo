@@ -44,6 +44,7 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -124,6 +125,7 @@
 }
 .leftcard_title:hover{
     color: #00CD78;
+    cursor: pointer;
 }
 .darkcard_right {
     width: 68%;
@@ -147,7 +149,7 @@
     font-size: 16px;
     line-height: 170.1%;
     color: #00CD78;
-
+    cursor: pointer;
 }
 
 .deep_dark {

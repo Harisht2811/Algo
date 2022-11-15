@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Router,Routes } from 'react-router-dom'
 
 import Header from '../component/homepage/header/header'
 import Homebanner  from "../component/homepage/homebanner/homebanner"

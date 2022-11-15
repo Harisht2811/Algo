@@ -44,6 +44,7 @@ body {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .attack_section2 {
@@ -179,6 +180,7 @@ body {
     line-height: 170.1%;
     color: #00CD78;
     margin-top: 4%;
+    cursor: pointer;
 }
 
 .attack_cardRight img {
