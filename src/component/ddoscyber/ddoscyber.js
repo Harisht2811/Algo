@@ -13,13 +13,14 @@ import './ddoscyber.css'
 import './laptop.css'
 import './tab.css'
 import './mob.css'
+import './mobile.css'
 
 function ddoscyber() {
   return (
     <div>
     <div>
     <div className='cyberBannerImg'>
-        <p className='cyberTitle1'><sapn className='colorText'>Get the Intelligence</sapn> You Need,<br></br>When You Need It</p>
+        <p className='cyberTitle1'><span className='colorText'>Get the Intelligence</span> You Need,<br></br>When You Need It</p>
           <div className='cyberTitleFlex'>
              <div className='Arrow'>
               <img src={Arrow}></img>
