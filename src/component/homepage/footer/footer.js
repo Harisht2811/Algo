@@ -42,7 +42,7 @@ function footer() {
                 <div className='section4'>
                 <p id='titlefooterText' style={{color:'transparent'}}>Services</p>
                 <p id='footerText'>Deep Cyber Investigations</p>
-                <p id='footerText'>Pentesting</p>
+                <Link to='/pentesting'><p id='footerText'>Pentesting</p></Link>
                 <Link to='/phishing'><p id='footerText'>Phishing Detection</p></Link>
                 <Link to='/virtualhumint'><p id='footerText'>Virtual Humint Operations</p></Link>
                 <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
