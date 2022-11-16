@@ -69,7 +69,7 @@ function Header() {
               <li> <Link className="nav-link" activeClassName="active-link" to="/">Home</Link></li>
               <li><Link className="nav-link" activeClassName="active-link" to="/ransomware">Ransomware</Link></li>
               <li><Link className="nav-link" activeClassName="active-link" to="/threatintelligence">Threat Intelligence</Link></li>
-              <li><Link className="nav-link" activeClassName="active-link" to="/attacksurface">About us</Link></li>
+              <li><Link className="nav-link" activeClassName="active-link" to="/aboutus">About us</Link></li>
               <li><Link className="nav-link" activeClassName="active-link" to="/deepdark">Contact us</Link></li>
             </ul>
           </Router>:

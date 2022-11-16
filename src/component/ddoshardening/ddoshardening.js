@@ -3,7 +3,7 @@ import Bgimg1 from '../../images/ddos/Bgimg1.png'
 import Bgimg2 from '../../images/ddos/Bgimg2.png'
 import arrow from '../../images/attacker/Arrow.png'
 
-import './ddos.css'
+import './ddoshardening.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'

@@ -1,5 +1,5 @@
 import React from 'react'
-import Ddos from '../component/ddos/ddos'
+import Ddos from '../component/ddoshardening/ddoshardening'
 import Footer from '../component/homepage/footer/footer'
 import Header from '../component/homepage/header/header'
 
