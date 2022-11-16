@@ -31,7 +31,7 @@ function ddos() {
             <div className='bgimg'>
               <p id ="attackVector">Attack Vector Analysis</p>
               <p id="attackVectorPara">We identify which protection component will prevent each DDoS attack vector.</p>
-              <img src={Bgimg2} className="section2Img"></img>
+              <img src={Bgimg2} className="section2Img" alt='bgimg'></img>
             </div>
         <div className='section4Flex'>
           <div className='configOptimiz'>

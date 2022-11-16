@@ -58,7 +58,7 @@ function attack() {
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Uncover your digital presence</p>
             <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' /></p>
+            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'/></p>
           </div>
           <div className='attack_cardRight'>
             <img className='attack_cardImg' src={digitalpresence} alt='digital' />

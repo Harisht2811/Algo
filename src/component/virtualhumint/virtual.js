@@ -17,29 +17,29 @@ function virtual() {
                 <div className='virtualcard1'>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Assess veracity and imminence of threats </p>
-                        <img className='vectorHrline' src={vectorHrline} />
+                        <img className='vectorHrline' src={vectorHrline}  alt='hrline'/>
                         <p className='virtualCard_desc'>Gather additional information to shed light on crucial factors related to any threat–including possibly revealing the threat actor identity and providing it to law enforcement </p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
                     </div>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Obtain TTPs, motivation and accomplices</p>
-                        <img className='vectorHrline' src={vectorHrline} />
+                        <img className='vectorHrline' src={vectorHrline}  alt='hrline'/>
                         <p className='virtualCard_desc'>Deepen your understanding of the vectors behind the threat, the actor’s motivation, and TTPs in use so that you can prioritize and act accordingly</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
                     </div>
                 </div>
                 <div className='virtualcard1'>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Gather IOCs to further investigate threats</p>
-                        <img className='vectorHrline' src={vectorHrline} />
+                        <img className='vectorHrline' src={vectorHrline}  alt='hrline'/>
                         <p className='virtualCard_desc'>Engage in intelligence operation and communicate with threat actors in their communication channels</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
                     </div>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Analyze your entire threat landscape</p>
-                        <img className='vectorHrline' src={vectorHrline} />
+                        <img className='vectorHrline' src={vectorHrline}  alt='hrline'/>
                         <p className='virtualCard_desc'>Conduct deep dive investigations and get the context required to mitigate threats in the most effective way</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
                     </div>
                 </div>
                 <div className='virtualBox'>
@@ -59,7 +59,7 @@ function virtual() {
                         <p className='Leveraging_desc2'>What’s key here is that classic HUMINT relies on personal meetings and engagements with people that create trust and lead to powerful, long-term relationships, with a high degree of commitment and devotion.</p>
                     </div>
                 </div>
-                <img className='horizline' src={vectorHrline} />
+                <img className='horizline' src={vectorHrline}  alt='hrilne'/>
                 <div className='virtual_line'>
                     <div>
                         <p className='Leveraging_title1'>The <span className='colorText'>Importance of HUMINT</span> in Business Intelligence</p>

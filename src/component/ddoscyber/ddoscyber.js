@@ -23,15 +23,15 @@ function ddoscyber() {
         <p className='cyberTitle1'><span className='colorText'>Get the Intelligence</span> You Need,<br></br>When You Need It</p>
           <div className='cyberTitleFlex'>
              <div className='Arrow'>
-              <img src={Arrow}></img>
+              <img src={Arrow} alt='arrow'></img>
               <p id='arrow'>Strategic <br></br>Threat Intelligence</p>
               </div>
               <div className='Tick'>
-                <img src={Tick}></img>
+                <img src={Tick} alt='tick'></img>
                 <p id='tick'>Threat <br></br> Actor Profiling</p>
               </div>
               <div className='Hexagon'>
-                <img src={Hexagon} alt='hexagon'></img>
+                <img src={Hexagon} alt='Hexagon'></img>
                 <p id='hexagon'>Threat<br></br> Landscape Reports</p>
               </div>
           </div>
@@ -49,7 +49,7 @@ function ddoscyber() {
               <p className='card1Para'>Identify meaningful trends to gain a wider perspective by continuously analyzing threat data. Create strategic threat intelligence and security advisory reports that provide the basis for the formulation of strategy, policy, and longer-term decision-making</p>
               <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
             </div>
-            <img src={Rocket} className='cardImg'></img>
+            <img src={Rocket} className='cardImg' alt='rocket'></img>
           </div>
           <div className='threatCard2'>
             <div className='threatPara'>
@@ -57,7 +57,7 @@ function ddoscyber() {
               <p className='card2Para'>Achieve deeper understanding of a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with those groups</p>
               <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
             </div>
-            <img src={ThreatActor} className='cardImg'></img>
+            <img src={ThreatActor} className='cardImg' alt='threatactor'></img>
           </div>
           <div className='threatCard3'>
             <div className='threatcar3Para'> 
@@ -65,7 +65,7 @@ function ddoscyber() {
               <p className='card3Para'>Gain a more comprehensive view of the cyber threat landscape with reports focused on specific verticals that deliver an overview of the current situation and its relation to your industry</p>
               <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
             </div>
-            <img src={ThreatLandscape} className='cardImg'></img>
+            <img src={ThreatLandscape} className='cardImg' alt='threatlandscape'></img>
           </div>
         </div>
       </div>

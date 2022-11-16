@@ -21,33 +21,33 @@ function phishingBeacon() {
             </div>
             <div className='phishing_section3'>
                 <p className='phishing_section3_title'>Algoritmik services on </p>
-                <img src={hrline} className='phishing_hrline' />
+                <img src={hrline} className='phishing_hrline'  alt='hrline'/>
                 <div className='phishing_CardList'>
                     <div className='phishingCard'>
                         <p className='phishingCard_title'>Detect and analyze<br /> threats in advance</p>
                         <p className='phishingCard_desc'>Monitor active look alike domains and websites impersonating your brand as well as phishing kits reused by threat actors. Detect attacks against employees by spotting phishing target lists, email templates used in an attack, and other exposed data. Identify these and other threats to get early warning of ongoing and future phishing campaigns</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'/></p>
                     </div>
                     <div className='phishingCard'>
                         <p className='phishingCard_title'>Get <br />actionable alerts</p>
                         <p className='phishingCard_desc'> Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms. Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' /></p>
                     </div>
                 </div>
                 <div className='phishing_card3'>
                     <p className='phishing_card3_title'>Remediate<br />and takedown threats</p>
                     <p className='phishing_card3_Desc'>Initiate a take down process which involves notifying the relevant providers to remove the misleading content, block domains, and update public blacklists . Get detailed reports on each detected alert, including related IOCs, screenshots and recommendationsInitiate a take down process which involves notifying the relevant providers to remove the misleading content, block domains, and update public blacklists . Get detailed reports on each detected alert, including related IOCs, screenshots and recommendations</p>
-                    <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                    <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' /></p>
                 </div>
             </div>
             <div className='phishing_section4'>
                 <div className='phishing_left'>
-                    <p><img src={newBg}/><br />Introducing</p>
+                    <p><img src={newBg} alt='backimg'/><br />Introducing</p>
                 </div>
                 <div className='phishing_right'>
                     <p className='phishing_rightTitle'><img src={phishingLogo} />Phishing Beacon</p>
                     <p className='phishing_RightDesc'>Traditionally, cyber threat intelligence vendors uncover phishing websites through typo squat methods. Our solution uses such methods as well. However, many phishing pages are hosted on live, valid domains by adding a new URL with the phishing page, making these methods ineffective. That’s why Algoritmik has created its<span className='colorText'> own Phishing Detection technology.</span></p>
-                    <img className='phishingimg' src={phishingimg}/>
+                    <img className='phishingimg' src={phishingimg} alt='phishingimg'/>
                 </div>
             </div>
             <div className='phishing_section5'>

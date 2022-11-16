@@ -21,49 +21,49 @@ function deep() {
             </div>
             <div className='dark_section2'>
                 <p className='work_title'>How we work</p>
-                <img src={hrline} className='dark_hrline' />
+                <img src={hrline} className='dark_hrline' alt='hrline'/>
                 <p className='work_desc'>In addition, many high value closed sources present technical and financial barriers to entry.Using technology with a human touch, however, Algoritmik can access the most restricted channels to engage with threat actors and anticipate attacks targeting your organization, employees, and customers</p>
-                <img src={hrline} className='dark_hrline' />
+                <img src={hrline} className='dark_hrline' alt='hrline'/>
             </div>
             <div className='dark_section3'>
                 <div className='darkcard'>
                     <div className='darkcard_left'>
-                        <img className='leftcardimg' src={discoverimg} />
+                        <img className='leftcardimg' src={discoverimg} alt='card'/>
                         <p className='leftcard_title'>Continueslly discover new sources</p>
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Find new sources in deep and dark web marketplaces, forums, and sites with threat actor communities that can be volatile and difficult to track</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
                     <div className='darkcard_left'>
-                        <img className='leftcardimg' src={analysisimg} />
+                        <img className='leftcardimg' src={analysisimg} alt='card'/>
                         <p className='leftcard_title'>Get deep analysis and reports</p>
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Understand a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with this actor or group.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
                     <div className='darkcard_left'>
-                        <img className='leftcardimg' src={threatimg} />
+                        <img className='leftcardimg' src={threatimg}  alt='card'/>
                         <p className='leftcard_title'>Engage threat actors</p>
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Engage with threat actors through private messages, getting access to exclusive communities. Develop a fake persona so that you can post on sources and contact other threat actors.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
                     <div className='darkcard_left'>
-                        <img className='leftcardimg' src={mitigateimg} />
+                        <img className='leftcardimg' src={mitigateimg}  alt='card'/>
                         <p className='leftcard_title'>Mitigate and remediate threats</p>
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Assess and respond to threats to your physical and digital assets proactively with the help of our highly skilled analysts.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
                     </div>
                 </div>
             </div>
