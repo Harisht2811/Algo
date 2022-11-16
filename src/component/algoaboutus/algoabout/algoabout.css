@@ -1,0 +1,151 @@
+.algoabout{
+    padding: 3% 5%;
+    background-color: #000E08;
+}
+#aboutfirstText{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B3B3B3;
+    width: 45%;
+}
+#aboutsecondText{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B3B3B3;
+    width: 45%;
+    margin: -3% 0 0 0;
+}
+#aboutthirdText{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B3B3B3;
+    width: 45%;
+    margin: 2% 0 0 0;
+
+}
+#aboutfirstTitle{
+    font-family: Manrope;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 70%;
+}
+.flexabout{
+    display: flex;
+    width: 100%;
+}.flexabout1{
+    display: flex;
+    width: 100%;
+    margin: 5% 0 0 0;
+}
+.innerflex{
+   margin: 1% 0 0 30%;
+}
+.innerflex1{
+   margin: 1% 0 0 5%;
+}
+#traingleTitle1{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #00CD78;    
+}
+#triangleText1{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #9BA4A2;   
+    width: 65%;
+    margin: 0 0 0 8%; 
+}
+#triangleText2{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #9BA4A2;   
+    width: 85%;
+    margin: 0 0 0 12%;  
+}
+#greenText{
+    color: #00CD78;
+}
+.whoweare{
+display: flex;
+width: 50%;
+margin: 3% 0 0 0;
+}
+#whoTitle{
+    font-family: Manrope;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin: 3% 0 0 18%;
+}
+.aboutsection1{
+width: 20%;
+}
+.aboutsection2{
+width: 50%;
+background:url('../../../images/aboutus/aboutus2.png');
+background-repeat: no-repeat
+}
+.aboutsection3{
+width: 20%;
+}
+.firstCard,.secondCard,.thirdCard,.fourthCard{
+    background: rgba(255, 255, 255, 0.03);
+    height: 160px;
+    width: 185px;
+    border-radius: 23px;
+    margin: 8% 0 0 0;
+    padding: 2% 5%;
+}
+.algoaboutlogoIcon{
+    margin: 20% 0 0 35%;
+}
+#firstNumber{
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color:#FFFFFF;    
+    margin: 5% 0 0 0;
+}
+#firstText{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color:#CFCFCF;    
+}
+.whoweareIcon{
+    margin: 15% 0 0 40%;
+}

@@ -9,6 +9,10 @@ function aboutus() {
   return (
     <>
     <Header/>
+    <Algoaboutbanner/>
+    <Algoabout/>
+    <Algoculture/>
+    <Footer/>
     </>
   )
 }

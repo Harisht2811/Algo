@@ -40,7 +40,7 @@ top: 0px;
     height: 560px;
     width: 380px;
     padding: 1.5% 3%;
-    right: 45px;
+    right: 0px;
 }
 #popupCardTitle{
     font-size: 28px;
@@ -51,7 +51,7 @@ top: 0px;
 }
 @media screen and (max-width:768px) and (min-width:430px) {
     .popupCard{
-        height: 530px;
+        height: 660px;
         width: 380px;
         padding: 1.5% 3%;
         right: 0px;
@@ -67,7 +67,7 @@ top: 0px;
 }
 @media screen and (max-width:430px) and (min-width:375px) {
     .popupCard{
-        height: 750px;
+        height: 885px;
         padding: 3% 10%;
     }
     .closecardBtn{
@@ -79,7 +79,7 @@ top: 0px;
 }
 @media screen and (max-width:376px) {
     .popupCard{
-    height: 715px;
+    height: 825px;
     padding: 5% 18%;
     }
 }
