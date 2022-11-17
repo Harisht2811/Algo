@@ -26,28 +26,6 @@ function footer() {
                     <p id='copyrightText'>Copyright @algoritmik 2022. All right reserved</p>
                 </div>
                 <div className='section2'>
-<<<<<<< Updated upstream
-                    <p id='titlefooterText'>Quick Links</p>
-                    <p id='footerText'>Home</p>
-                    <p id='footerText'>About us</p>
-                </div>
-                <div className='section3'>
-                    <p id='titlefooterText'>Services</p>
-                    <Link to='/thirdparty'><p id='footerText'>3rd Party Cyber Risk</p></Link>
-                    <Link to='/attacksurface'><p id='footerText'>Attack Surface</p></Link>
-                    <p id='footerText'>DDoS Attack Simulation & Testing</p>
-                    <p id='footerText'>DDOS Incident Response</p>
-                    <Link to='/ddos'><p id='footerText'>Technology Hardening</p></Link>
-                    <Link to='/deepdark'><p id='footerText'>Deep & Dark Web</p></Link>
-                </div>
-                <div className='section4'>
-                    <p id='titlefooterText' style={{ color: 'transparent' }}>Services</p>
-                    <p id='footerText'>Deep Cyber Investigations</p>
-                    <Link to='/pentesting'><p id='footerText'>Pentesting</p></Link>
-                    <Link to='/phishing'><p id='footerText'>Phishing Detection</p></Link>
-                    <Link to='/virtualhumint'><p id='footerText'>Virtual Humint Operations</p></Link>
-                    <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
-=======
                 <p id='titlefooterText'>Quick Links</p>
                 <Link to='/'><p id='footerText'>Home</p></Link> 
                 <Link to='/aboutus'><p id='footerText'>About us</p></Link> 
@@ -69,7 +47,6 @@ function footer() {
                 <Link to='/phishing'><p id='footerText'>Phishing Detection</p></Link>
                 <Link to='/virtualhumint'><p id='footerText'>Virtual Humint Operations</p></Link>
                 <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
->>>>>>> Stashed changes
                 </div>
             </div>
 
