@@ -29,7 +29,7 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/deepdark">Deep & Dark Web</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Pentesting</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/pentesting">Pentesting</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ransomware">Ransomware</Link></p>
            <hr id='popuphrincard'></hr> 
