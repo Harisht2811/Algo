@@ -11,7 +11,7 @@ function Algoculture() {
   return (
     <>
       <div className='algoculture'>
-        <p id='algocultureText'><span id='coloraboutText'>The Culture </span>&Office</p>
+        <p id='algocultureText'><span id='coloraboutText'>The Culture </span>& Office</p>
 
         <div className='algoaboutCarousel'>
           <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -124,40 +124,34 @@ function Algoculture() {
         <div className='meetourTeam'>
           <p id='ourteamText'>Meet our team</p>
           <div className='ourteamProfile'>
+            <div>
             <div className='profile1'>
-
-
             </div>
-            <div className='profile2'>
-
-            </div>
-            <div className='profile3'>
-
-            </div>
-            <div className='profile4'>
-
-            </div>
-
-          </div>
-          <div className='ourteamProfileText'>
-            <div className='profileText1'>
               <p id='nameText'>Andrew </p>
               <p id='speccialist'>Head of Cyber Attack</p>
-
             </div>
-            <div className='profileText2'>
-              <p id='nameText'>Simon </p>
+            
+            <div>
+            <div className='profile2'>
+            </div>
+            <p id='nameText'>Simon </p>
               <p id='speccialist'>DDOS Expert</p>
             </div>
-            <div className='profileText3'>
-              <p id='nameText'>Edwin </p>
+            <div>
+            <div className='profile3'>
+            </div>
+            <p id='nameText'>Edwin </p>
               <p id='speccialist'>Phishing Expert</p>
             </div>
-            <div className='profileText4'>
-              <p id='nameText'>Melina </p>
+            <div>
+            <div className='profile4'>
+            </div>
+            <p id='nameText'>Melina </p>
               <p id='speccialist'>Pentesting Head</p>
             </div>
+
           </div>
+          
         </div>
       </div>
     </>

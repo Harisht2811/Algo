@@ -65,6 +65,10 @@ padding: 4% 5%;
         }
 }
 @media screen and (max-width:1024px) and  (min-width:768px) {
+    .aboutusText{
+        left: 50px;
+        top: 215px;
+        } 
     #aboutusTitle{
      margin: 0 0 0 -5%;
     }

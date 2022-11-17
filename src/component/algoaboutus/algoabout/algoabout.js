@@ -13,6 +13,8 @@ function algoabout() {
   return (
     <>
     <div className='algoabout'>
+      <div className='borderRight'>
+
       <p id='aboutfirstText'>Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations,.</p>
     <div className='flexabout'>
     <p id='aboutfirstTitle'>World-Class Security Operating Centres</p>
@@ -22,7 +24,7 @@ function algoabout() {
    </div>
     </div>
     <p id='aboutsecondText'>Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations, you can assess and respond to these threats with the help of our highly skilled analysts to build cybersecurity analysis, threat assessments, analytic projects and deep-dive reports, all customized to your needs</p>
-    <p id='aboutthirdText'>Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigation.</p>
+    <p id='aboutsecondText'>Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigation.</p>
     <p id='whoTitle'>Who we are?</p>
   <div className='whoweare'>
     <div className='aboutsection1'>
@@ -56,12 +58,13 @@ function algoabout() {
   </div>
   <div className='flexabout1'>
     <p id='aboutfirstTitle'>Proud that we have our own <span id='greenText'>Phishing Beacon</span></p>
-   <div className='innerflex1'>
+   <div className='innerflex'>
        <p id='traingleTitle1'><img className='triangleIcon' alt='traingleicon' src={Triangleicon}></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lets work with a cup of coffee</p>
        <p id='triangleText2'>We are a small team with professional players.</p>
    </div>
     </div>
     <p id='aboutsecondText'>Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations, you can assess and respond to these threats with the help of our highly skilled analysts to build cybersecurity analysis, threat assessments, analytic projects and deep-dive reports, all customized to your needs</p>
+    </div>
     </div>
     </>
   )

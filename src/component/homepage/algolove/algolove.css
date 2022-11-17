@@ -175,9 +175,8 @@
     .leftText {
         width: 40%;
         position: absolute;
-        top: 1x;
         left: 50px;
-        padding: 0% 3%;
+        padding: 7% 3%;
     }
     #titlealgotext{
         font-size: 30px;
