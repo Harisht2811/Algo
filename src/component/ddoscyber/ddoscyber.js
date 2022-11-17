@@ -68,9 +68,7 @@ function ddoscyber() {
             <img src={ThreatLandscape} className='cardImg' alt='threatlandscape'></img>
           </div>
         </div>
-      </div>
-      
-      <div className='heard'>
+        <div className='heard'>
             <div className='securityIssues'>
                 <div className='securityText'>
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
@@ -79,6 +77,9 @@ function ddoscyber() {
                 <button className='certificateButton'>Get a demo</button>
             </div>
         </div>
+      </div>
+      
+      
     </div>
   )
 }

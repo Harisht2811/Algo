@@ -1,4 +1,5 @@
 
+
 .ddosBanner{
     background-image: url(../../images/ddos/Bgimg1.png);
     background-size: 100% 100%;
@@ -6,6 +7,7 @@
     margin: 0%;
     padding: 0%;
 }
+
 .ddosSection1{
     padding-top: 4%;
     padding-left: 5%;
@@ -29,6 +31,16 @@ line-height: 170.1%;
 /* or 31px */
 color: #CBCBCB;
 width: 81%;
+}
+#dembtn {
+    width: 93px;
+    height: 33px;
+    left: 795px;
+    top: 546px;
+    background: #00CD78;
+    border-radius: 8px;
+    margin-left: 1%;
+    margin-bottom: 14%;
 }
 .demobtn1{
     width: 118px;

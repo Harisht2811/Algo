@@ -6,6 +6,7 @@
     }
     .cyberTitleFlex {
         margin-left: 25%;
+        padding-bottom: 7%;
     }
     #arrow {
         font-size: 12px;
@@ -30,6 +31,7 @@
         font-size: 12px;
         width: 77%;
         margin-left: 13%;
+        margin-top: -1%;
     }
     .cardsCyber {
         margin-top: -3%;
@@ -45,6 +47,7 @@
     }
     .threatCard3 {
         width: 93%;
+        margin-bottom: -4%;
     }
     .strategicCard1Title {
         font-size: 14px;

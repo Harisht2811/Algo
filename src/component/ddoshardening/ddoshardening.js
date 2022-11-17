@@ -17,7 +17,7 @@ function ddos() {
           <div className='ddosSection1'>
             <p className='ddosTitle'>Improve your <span className='colorText'>network architecture </span> against attacks</p>
             <p className='ddosDesc'>We identify which protection component will preven t each DDoS attack vector</p>
-            <button className='demobtn1'><b className='dembtn'>Get a Demo</b></button>
+            <button className='demobtn1'><b id='dembtn'>Get a Demo</b></button>
           </div>
           <div className='netwrokArchitecture'>
               <p className='netArch'>Network Architecture</p>

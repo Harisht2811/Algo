@@ -1,8 +1,95 @@
-@media screen and (max-width:1024px) and (min-width:775px){
-    .bannerTitle1{
-        font-size:53px ;
+@media screen and (max-width:1024px) and (min-width:775px) {
+    .bannerTitle1 {
+        font-size: 53px;
+        padding-top: 6%;
+        margin-left: 13%;
     }
+
     .bannertitle2 {
-        font-size:53px ;
+        font-size: 53px;
+    }
+
+    .ddosIncidentPara {
+        font-size: 14px;
+        margin-left: 53%;
+        width: 42%;
+    }
+
+    .dembtn {
+        margin-left: 53%;
+    }
+
+    .ddosIncidentBannerTitle2 {
+        font-size: 27px;
+    }
+
+    .serviceIncludesPara {
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    .IncidentFlexImage {
+        margin-left: -18%;
+        height: 94%;
+
+    }
+
+    .ddosIncidentFlexTitle {
+        width: 86%;
+        font-size: 25px;
+        padding-bottom: 4%;
+    }
+
+    .ddosIncidentFlexContent {
+        margin-left: 7%;
+    }
+
+    hr {
+        width: 76%;
+        padding-top: 3%;
+    }
+
+    .ddosIncidentFlexPara {
+        width: 79%;
+    }
+
+    .ddosIncidentBanner4BannerRight {
+        margin-left: 4%;
+    }
+
+    .ddosIncidentCardPara {
+        width: 83%;
+    }
+
+    .ddosIncidentBanner4Card1 {
+        padding-left: 13%;
+    }
+
+    .Banner4Img1 {
+        width: 94%;
+    }
+
+    .Banner4Img2 {
+        width: 86%;
+    }
+
+    .Banner4Img3 {
+        width: 83%;
+    }
+
+    .verticleLine {
+        margin-left: -7%;
+    }
+
+    .incidentPara {
+        width: 83%;
+    }
+
+    .ddosIncidentSection4Flex {
+        padding-bottom: 7%;
+        margin-bottom: -3%;
+        width: 85%;
+        margin-left: 8%;
+        margin-top: 4%;
     }
 }

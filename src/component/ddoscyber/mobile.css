@@ -1,10 +1,23 @@
 @media screen and (max-width:380px) {
+    .cyberBannerImg{
+        background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+    }
+    .cyberBanner2{
+        background-image: none;
+        background-color: #000E08;
+    }
     .cyberTitle1 {
         font-size: 22px;
         padding-top: 15%;
     }
     .cyberTitleFlex {
         margin-left: 12%;
+        padding-bottom: 7%;
+
     }
     .cyberTitleFlex img {
         width: 28px;
@@ -36,6 +49,8 @@
         font-size: 12px;
         width: 88%;
         margin-left: 6%;
+        margin-top: -1%;
+
     }
     .cardsCyber {
         margin-top: -5%;
@@ -54,6 +69,7 @@
     .threatCard3{
         width: 94%;
         display: block;
+        margin-bottom: -13%;
     }
     .strategicCard1Title {
         font-size: 12px;

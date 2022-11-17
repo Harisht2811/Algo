@@ -6,6 +6,9 @@ import Expertassign from '../../images/ddosincident/expertassign.png'
 import Systemhard from '../../images/ddosincident/systemhard.png'
 
 import './laptop.css'
+import './tab.css'
+import './mob.css'
+import './mobile.css'
 
 export default function
   () {

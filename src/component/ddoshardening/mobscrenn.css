@@ -1,17 +1,42 @@
 @media screen and (max-width:375px)  {
-    .ddosBanner {
+    
+    .ddosSection1{
+        background-image: url(../../images/ddos/ddosHardMobile.png);
         background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        height: 90vh;
+        width: 100%;
+        padding-left: 8%;
+        padding-top: 13%;
+    }
+    .netwrokArchitecture{
+        background-image: url(../../images/ddos/ddosHardMobile2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        height: 366px;
+        margin-top: 6%;
+    }
+    .ddosBanner{
+        background-image: none;
     }
     .ddosTitle {
-        font-size: 17px;
+        font-size: 21px;
         width: 95%;
     }   
     .ddosDesc {
+        font-size: 16px;
+        padding-top: 6%;
+    }
+    #dembtn {
         font-size: 10px;
     }
     .demobtn1 {
-        width: 63px;
-        height: 22px;
+        width: 71px;
+        height: 31px;
     }
     .dembtn{
         font-size: 10px;
@@ -20,6 +45,7 @@
         font-size: 14px;
         margin-left: -3%;
         margin-top: -17%;
+        padding-top: 41%;
     }
     .section2Content {
         font-size: 10px;
@@ -28,7 +54,7 @@
         padding-top: 4%;
     }
     .attackVectorAnalysis {
-        height: 215vh;
+        height: 194vh;
         margin-top: -5%;
     }
     #attackVector {
