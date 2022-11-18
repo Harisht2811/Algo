@@ -121,4 +121,8 @@
         margin-bottom: 14%;
         margin-top: 6%;
     }
+    .ddosIncidentBanner3 {
+        background-image: none;
+        background: #00CD78;
+    }
 }

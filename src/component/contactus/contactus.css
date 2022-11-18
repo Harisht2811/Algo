@@ -1,0 +1,176 @@
+.contactBanner{
+    background-color:#000E08 ;
+    background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.contactTitle1{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 144.1%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        padding-top: 4%;
+}
+.contactTitle2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 214.1%;
+    text-align: center;
+    color: #868686;
+    margin-top: -1%;
+}
+.ContactFlex{
+    display: flex;
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 6%;
+}
+.contactForm{
+    width: 563px;
+    height: 485px;
+    border: 1px solid  #2CD58B;
+    width: 51%;
+    height: 73vh;
+    border-radius: 13px;
+}
+.form{
+    padding-top: 5%;
+    padding-left: 8%;
+}
+.formContent1{
+    display: flex;
+}
+label{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150.6%;
+    color: #9BA4A2;
+}
+input{
+    border: 1px solid #696969;
+    border-radius: 5px;
+    background-color:#000E08 ;
+    width: 100%;
+    margin-right: 4%;
+    height: 30px;
+}
+input,label{
+    display: block;
+}
+.input{
+    margin-left: 24%;
+    width: 100%;
+}
+.inputMsg{
+    width: 91%;
+    height: 20vh;
+}
+.submitBtn{
+    background: linear-gradient(#2CD58B 10.43%, #3AC9FB 87.33%);
+    border-radius: 6px;
+    width: 28%;
+    height: 32px;
+    border: none;
+    margin-left: 62% ;
+    margin-top: 1%;
+}
+.submit{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.6%;
+    padding-top: 4%;
+    color: #000000;
+
+}
+.ContactPara{
+    display: block;
+    margin-left: 4%;
+}
+.ContactParaTitle1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140.1%;
+    letter-spacing: -0.04em;
+    width: 43%;
+    color: #E7E7E7;
+}
+.paraContent{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.6%;
+    color: #9BA4A2;
+    opacity: 0.6;
+    width: 48%;
+}
+.ContactParaTitle2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140.1%;
+    letter-spacing: -0.04em;
+    color: #E7E7E7;
+}
+.paraContent2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.6%;
+    color: #9BA4A2;
+
+}
+.linkCont{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150.6%;
+    color: #00CD78;
+    margin-top: -2%;
+}
+.css-g1d714-ValueContainer {
+    overflow: scroll;
+}
+.formContent{
+    width: 90%;
+}
+.css-6j8wv5-Input{
+    height: 30px;
+}
+.css-1s2u09g-control {
+    border: 1px solid #696969;
+    border-radius: 5px;
+    background-color:#000E08 !important;
+    width: 100%;
+    margin-right: 4%;
+    height: 30px;
+}
+.css-319lph-ValueContainer{
+    /* border: 1px solid #696969; */
+    background-color:#000E08 !important;
+    border-radius: 5px;
+    margin-bottom: -4px;
+    height: 30px;
+}
+.css-1hb7zxy-IndicatorsContainer{
+    background-color:#000E08 !important;
+}
+.css-1rhbuit-multiValue {
+    background: rgba(0, 205, 120, 0.11) !important;
+    border-radius: 3px !important;
+}

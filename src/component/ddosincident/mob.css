@@ -45,7 +45,7 @@
         padding-top: 9%;
     }
     hr {
-        width: 77%;
+        width: 87%;
         margin-left: 7%;
     }
     .ddosIncidentFlexPara {
@@ -116,5 +116,9 @@
     .incidentPara {
         font-size: 13px;
         width: 94%;
+    }
+    .ddosIncidentBanner3 {
+        background-image: none;
+        background: #00CD78;
     }
 }
