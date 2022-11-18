@@ -27,6 +27,9 @@
     border-radius: 11px;
     border:1px solid #5F5F5F ;
 }
+.innercard:hover{
+   border:1px solid #2CD58B;
+}
 .textCards{
     display: inline-flex;
     width: 100%;

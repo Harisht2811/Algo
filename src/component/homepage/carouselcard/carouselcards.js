@@ -25,37 +25,32 @@ function Carouselcards() {
     <>
 
       <div className='carouselCards'>
-{/* <div className='innerCarousel'> */}
+        {/* <div className='innerCarousel'> */}
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards1'>
-                <p id='carouselTitletext'>Ransomware</p>
+                <p id='carouselTitletext'>Deep & Dark Web</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ransomware'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-               
+                <Link to='/deepdark'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+
               </div>
 
               <div className='innercarouselCards2'>
-                <p id='carouselTitletext'>Threat Intelligence</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/threatintelligence'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-
-              <div className='innercarouselCards3'>
-                <p id='carouselTitletext'>DDoS Hardening</p>
+                <p id='carouselTitletext'>DDoS Technology Hardening</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+              <div className='innercarouselCards3'>
+                <p id='carouselTitletext'>DDoS Incident Response</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddosincident'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
-              <div className='innercarouselCards3'>
-                <p id='carouselTitletext'>DDoS Hardening</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
+
 
               <div className='innercarouselCards4'>
                 <p id='carouselTitletext'>3rd Party Cyber Risk</p>
@@ -68,115 +63,116 @@ function Carouselcards() {
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
-            </div>
-          </Carousel.Item> 
-          <Carousel.Item interval={3000}>
-            <div style={{ display: 'flex' }}>
-              <div className='innercarouselCards5'>
-                <p id='carouselTitletext'>Attack Surface</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-
               <div className='innercarouselCards6'>
-                <p id='carouselTitletext'>Deep Cyber Investigtions</p>
+                <p id='carouselTitletext'>Virtual Humint Operations</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/virtualhumint'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-              <div className='innercarouselCards7'>
-                <p id='carouselTitletext'>Phishing Detection</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/phishing'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
 
-
               <div className='innercarouselCards7'>
-                <p id='carouselTitletext'>Phishing Detection</p>
+                <p id='carouselTitletext'>Ddos Attack Simulation Testing</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/phishing'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
               <div className='innercarouselCards1'>
-                <p id='carouselTitletext'>Ransomware</p>
+                <p id='carouselTitletext'>Deep & Dark Web</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ransomware'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/deepdark'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+
               </div>
 
               <div className='innercarouselCards2'>
-                <p id='carouselTitletext'>Threat Intelligence</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/threatintelligence'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-
-            </div>
-          </Carousel.Item>
-          <Carousel.Item interval={3000}>
-            <div style={{ display: 'flex' }}>
-
-
-              <div className='innercarouselCards2'>
-                <p id='carouselTitletext'>Threat Intelligence</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/threatintelligence'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-              <div className='innercarouselCards3'>
-                <p id='carouselTitletext'>DDoS Hardening</p>
+                <p id='carouselTitletext'>DDoS Technology Hardening</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
-
-              <div className='innercarouselCards4'>
-                <p id='carouselTitletext'>3rd Party Cyber Risk</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/thirdparty'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
 
+              <div className='innercarouselCards3'>
+                <p id='carouselTitletext'>DDoS Incident Response</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddosincident'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
               <div className='innercarouselCards4'>
                 <p id='carouselTitletext'>3rd Party Cyber Risk</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/thirdparty'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
-              <div className='innercarouselCards5'>
-                <p id='carouselTitletext'>Attack Surface</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-
-              <div className='innercarouselCards6'>
-                <p id='carouselTitletext'>Deep Cyber Investigtions</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-
-            </div>
-          </Carousel.Item>
-          <Carousel.Item interval={3000}>
-            <div style={{ display: 'flex' }}>
-
 
               <div className='innercarouselCards5'>
                 <p id='carouselTitletext'>Attack Surface</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <div style={{ display: 'flex' }}>
 
               <div className='innercarouselCards6'>
-                <p id='carouselTitletext'>Deep Cyber Investigtions</p>
+                <p id='carouselTitletext'>Virtual Humint Operations</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/virtualhumint'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
               <div className='innercarouselCards7'>
-                <p id='carouselTitletext'>Phishing Detection</p>
+                <p id='carouselTitletext'>Ddos Attack Simulation Testing</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/phishing'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+              <div className='innercarouselCards1'>
+                <p id='carouselTitletext'>Deep & Dark Web</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/deepdark'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <div style={{ display: 'flex' }}>
+
+              <div className='innercarouselCards2'>
+                <p id='carouselTitletext'>DDoS Technology Hardening</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+              <div className='innercarouselCards3'>
+                <p id='carouselTitletext'>DDoS Incident Response</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddosincident'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+              <div className='innercarouselCards4'>
+                <p id='carouselTitletext'>3rd Party Cyber Risk</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/thirdparty'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <div style={{ display: 'flex' }}>
+
+              <div className='innercarouselCards5'>
+                <p id='carouselTitletext'>Attack Surface</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+
+              <div className='innercarouselCards6'>
+                <p id='carouselTitletext'>Virtual Humint Operations</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/virtualhumint'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+              <div className='innercarouselCards7'>
+                <p id='carouselTitletext'>Ddos Attack Simulation Testing</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
             </div>
           </Carousel.Item>
@@ -186,31 +182,31 @@ function Carouselcards() {
 
 
       <div className='carouselCardsRes'>
-{/* <div className='innerCarousel'> */}
+        {/* <div className='innerCarousel'> */}
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards1'>
-                <p id='carouselTitletext'>Ransomware</p>
+                <p id='carouselTitletext'>Deep & Dark Web</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ransomware'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/deepdark'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
               <div className='innercarouselCards2'>
-                <p id='carouselTitletext'>Threat Intelligence</p>
+                <p id='carouselTitletext'>DDoS Technology Hardening</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/threatintelligence'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-            
+
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards3'>
-                <p id='carouselTitletext'>DDoS Hardening</p>
+                <p id='carouselTitletext'>DDoS Incident Response</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/ddosincident'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
               <div className='innercarouselCards4'>
@@ -219,9 +215,9 @@ function Carouselcards() {
                 <Link to='/thirdparty'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-             
+
             </div>
-          </Carousel.Item> 
+          </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards5'>
@@ -231,12 +227,12 @@ function Carouselcards() {
               </div>
 
               <div className='innercarouselCards6'>
-                <p id='carouselTitletext'>Deep Cyber Investigtions</p>
+                <p id='carouselTitletext'>Virtual Humint Operations</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/virtualhumint'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-              
+
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
@@ -244,17 +240,17 @@ function Carouselcards() {
 
 
               <div className='innercarouselCards7'>
-                <p id='carouselTitletext'>Phishing Detection</p>
+                <p id='carouselTitletext'>Ddos Attack Simulation Testing</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/phishing'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
               <div className='innercarouselCards1'>
-                <p id='carouselTitletext'>Ransomware</p>
+                <p id='carouselTitletext'>Deep & Dark Web</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ransomware'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/deepdark'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-        
+
 
             </div>
           </Carousel.Item>
@@ -262,18 +258,19 @@ function Carouselcards() {
             <div style={{ display: 'flex' }}>
 
 
+
               <div className='innercarouselCards2'>
-                <p id='carouselTitletext'>Threat Intelligence</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/threatintelligence'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-              <div className='innercarouselCards3'>
-                <p id='carouselTitletext'>DDoS Hardening</p>
+                <p id='carouselTitletext'>DDoS Technology Hardening</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
+              <div className='innercarouselCards3'>
+                <p id='carouselTitletext'>DDoS Incident Response</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddosincident'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
 
-         
+
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
@@ -290,7 +287,6 @@ function Carouselcards() {
                 <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-             
 
             </div>
           </Carousel.Item>
@@ -298,47 +294,37 @@ function Carouselcards() {
             <div style={{ display: 'flex' }}>
 
 
-              <div className='innercarouselCards5'>
-                <p id='carouselTitletext'>Attack Surface</p>
+              <div className='innercarouselCards6'>
+                <p id='carouselTitletext'>Virtual Humint Operations</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/virtualhumint'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
 
-              <div className='innercarouselCards6'>
-                <p id='carouselTitletext'>Deep Cyber Investigtions</p>
+              <div className='innercarouselCards7'>
+                <p id='carouselTitletext'>Ddos Attack Simulation Testing</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
-              
             </div>
           </Carousel.Item>
         </Carousel>
       </div>
 
       <div className='carouselCardsmobres'>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards1'>
-                <p id='carouselTitletext'>Ransomware</p>
+                <p id='carouselTitletext'>Deep & Dark Web</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ransomware'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/deepdark'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
-            <div className='innercarouselCards2'>
-                <p id='carouselTitletext'>Threat Intelligence</p>
-                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/threatintelligence'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
-              </div>
-            </div>
-          </Carousel.Item> 
-          <Carousel.Item interval={3000}>
-            <div style={{ display: 'flex' }}>
-            <div className='innercarouselCards3'>
-                <p id='carouselTitletext'>DDoS Hardening</p>
+              <div className='innercarouselCards2'>
+                <p id='carouselTitletext'>DDoS Technology Hardening</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
@@ -346,7 +332,16 @@ function Carouselcards() {
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
-            <div className='innercarouselCards4'>
+              <div className='innercarouselCards3'>
+                <p id='carouselTitletext'>DDoS Incident Response</p>
+                <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
+                <Link to='/ddosincident'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+              </div>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <div style={{ display: 'flex' }}>
+              <div className='innercarouselCards4'>
                 <p id='carouselTitletext'>3rd Party Cyber Risk</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/thirdparty'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
@@ -355,7 +350,7 @@ function Carouselcards() {
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
-            <div className='innercarouselCards5'>
+              <div className='innercarouselCards5'>
                 <p id='carouselTitletext'>Attack Surface</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
                 <Link to='/attacksurface'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
@@ -365,18 +360,18 @@ function Carouselcards() {
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards6'>
-                <p id='carouselTitletext'>Deep Cyber Investigtions</p>
+                <p id='carouselTitletext'>Virtual Humint Operations</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/virtualhumint'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
             </div>
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <div style={{ display: 'flex' }}>
               <div className='innercarouselCards7'>
-                <p id='carouselTitletext'>Phishing Detection</p>
+                <p id='carouselTitletext'>Ddos Attack Simulation Testing</p>
                 <p id='carouselText'>Algoritmik enables you to continuously monitor the organization’s 3rd party vendors’ security posture and effectively prioritize and mitigate risks.</p>
-                <Link to='/Phishing'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+                <Link to='/ddoscyber'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
               </div>
             </div>
           </Carousel.Item>

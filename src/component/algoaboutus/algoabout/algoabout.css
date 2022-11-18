@@ -46,6 +46,7 @@
    width: 20%;
    position: absolute;
    right: 45px;
+   margin: -2% 0 0 0;
 
 }
 #traingleTitle1{
@@ -97,16 +98,16 @@ margin: 3% 0 0 0;
     margin: 3% 0 0 18%;
 }
 .aboutsection1{
-width: 15%;
+width: 20%;
 }
 .aboutsection2{
-width: 65%;
+width: 60%;
 background:url('../../../images/aboutus/aboutus2.png');
 background-repeat: no-repeat;
 background-position: center;
 }
 .aboutsection3{
-width: 15%;
+width: 20%;
 }
 .firstCard,.secondCard,.thirdCard,.fourthCard{
     background: rgba(255, 255, 255, 0.03);
@@ -117,13 +118,13 @@ width: 15%;
     padding: 2% 5%;
 }
 .aboutsection1 div:hover{
-    border: 1px solid #00CD78;
+    border: 1px solid #2CD58B;
 }
 .aboutsection3 div:hover{
-    border: 1px solid #00CD78;
+    border: 1px solid #2CD58B;
 }
 .algoaboutlogoIcon{
-    margin: 20% 0 0 40%;
+    margin: 35% 0 0 40%;
 }
 #firstNumber{
     font-family: Manrope;
@@ -144,6 +145,10 @@ width: 15%;
 }
 .whoweareIcon{
     margin: 15% 0 0 40%;
+}
+.carousel-indicators {
+    margin-bottom: -5em !important;
+    margin-left:12rem !important;
 }
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .innerflex{
@@ -180,6 +185,10 @@ width: 15%;
     }
     #whoTitle{
     margin: 3% 0 0 30%;
+    }
+    .carousel-indicators {
+        margin-bottom: -5em !important;
+        margin-left:10rem !important;
     }
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
@@ -219,7 +228,7 @@ width: 15%;
         margin: 0 0 5% 0;
     }
     .aboutsection1{
-        width: 30%;
+        width: 23%;
     }
     .aboutsection2{
         width: 40%;
@@ -228,7 +237,7 @@ width: 15%;
         background-position: center;
     }
     .aboutsection3{
-        width: 30%;
+        width: 23%;
     }
     #aboutfirstText{
         line-height: 28px;
@@ -239,5 +248,9 @@ width: 15%;
     #triangleText2{
         font-size: 12px;
         margin: 0 0 0 15%;
+    }
+    .carousel-indicators {
+        margin-bottom: -5em !important;
+        margin-left:8rem !important;
     }
 }

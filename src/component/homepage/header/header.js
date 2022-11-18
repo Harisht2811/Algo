@@ -46,21 +46,21 @@ function Header() {
         </div>
         <div className='links'>
 
-          {/* <ul>
+          <ul>
             { typeof window !== 'undefined'? 
             window.innerWidth<768?"":
             window.innerWidth>=1024?
               headerData.laptopMenu.map(item => {
                 console.log(headerData);
-                return <li><Link to={item.routeLink} styles={{}} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
+                return <li><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               }):headerData.tabMenu.map(item => {
                 console.log(headerData);
-                return <li><Link to={item.routeLink} className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
+                return <li><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
             :''}
            
-          </ul> */}
-          {
+          </ul>
+          {/* {
             typeof window !=='undefined'?
             window.innerWidth<768?"":
             window.innerWidth>=1024?
@@ -81,7 +81,7 @@ function Header() {
          </ul>
           </Router>:''
           
-          }
+          } */}
          
 
         </div>

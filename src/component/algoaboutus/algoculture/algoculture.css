@@ -19,12 +19,12 @@
 
 .algoaboutCarousel {
     width: 100%;
-    margin: 3% 0 0 -1%;
+    margin: 3% 0 0 2%;
 }
 .carouselImg1,.carouselImg2,.carouselImg3,.carouselImg4,.carouselImg5{
-    margin: 0 0 0 2%;
+    margin: 0 0 0 5%;
     height: 325px;
-    width: 30%;
+    width: 25%;
 }
 .carouselImg1 {
     background-image: url('../../../images/aboutus/aboutus10.png');
@@ -59,35 +59,35 @@
 .carouselImg1:hover {
     background-image: url('../../../images/aboutus/aboutus27.png');
     background-size: 100% 100%;
-    width: 30%;
+    width: 25%;
     background-repeat: no-repeat;
 }
 
 .carouselImg2:hover {
     background-image: url('../../../images/aboutus/aboutus26.png');
     background-size: 100% 100%;
-    width: 30%;
+    width: 25%;
     background-repeat: no-repeat;
 }
 
 .carouselImg3:hover {
     background-image: url('../../../images/aboutus/aboutus23.png');
     background-size: 100% 100%;
-    width: 30%;
+    width: 25%;
     background-repeat: no-repeat;
 }
 
 .carouselImg4:hover {
     background-image: url('../../../images/aboutus/aboutus24.png');
     background-size: 100% 100%;
-    width: 30%;
+    width: 25%;
     background-repeat: no-repeat;
 }
 
 .carouselImg5:hover {
     background-image: url('../../../images/aboutus/aboutus25.png');
     background-size: 100% 100%;
-    width: 30%;
+    width: 25%;
     background-repeat: no-repeat;
 }
 #cultureText{
@@ -99,7 +99,7 @@
     text-align: center;
     color: #B3B3B3;
     width: 60%;
-    margin: 5% 0 0 20%;
+    margin: 8% 0 0 20%;
 }
 #ourteamText{
     font-family: Manrope;
@@ -211,5 +211,14 @@ color: #00CD78;
         line-height: 28px;
         width: 95%;
         margin: 12% 0 0 3%;
+    }
+    .carouselImg1,.carouselImg2,.carouselImg3,.carouselImg4,.carouselImg5{
+        height:200px;
+    }
+    .carouselImg1:hover,.carouselImg2:hover,.carouselImg3:hover,.carouselImg4:hover,.carouselImg5:hover{
+        height:200px;
+    }
+    .ourteamProfile{
+    padding: 5% 5% 0;
     }
 }

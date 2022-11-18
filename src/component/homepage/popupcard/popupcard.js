@@ -14,11 +14,11 @@ const Popupcard=({closemodal})=> {
     typeof window !== 'undefined'? 
     window.innerWidth<=768?
     <div className='popupCard'>
-      <p id='popupCardText'>Home</p>
+       <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Home</Link></p>
       <hr id='popuphrincard'></hr>
-      <p id='popupCardText'>About us</p>
+      <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/aboutus">About us</Link></p>
       <hr id='popuphrincard'></hr>
-      <p id='popupCardText'>Contact us</p>
+      <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/contactus">Contact us</Link></p>
     <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img  src={Closebtn} alt='closeicon'></img></span></p>
     <div className='menuincards'>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/thirdparty">3rd Party Cyber Risk</Link></p>
