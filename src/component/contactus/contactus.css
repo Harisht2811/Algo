@@ -3,6 +3,8 @@
     background-size: 100% 100%;
     margin: 0%;
     padding: 0%;
+    margin-bottom: -5%;
+    padding-bottom: 4%;
 }
 .contactTitle1{
         font-family: 'Manrope';
@@ -32,12 +34,11 @@
     margin-top: 6%;
 }
 .contactForm{
-    width: 563px;
-    height: 485px;
+    height: 548px;
     border: 1px solid  #2CD58B;
     width: 51%;
-    height: 73vh;
     border-radius: 13px;
+    
 }
 .form{
     padding-top: 5%;
@@ -62,16 +63,29 @@ input{
     margin-right: 4%;
     height: 30px;
 }
+.serviceNeed{
+    margin-left: 0%;
+}
 input,label{
     display: block;
 }
-.input{
-    margin-left: 24%;
-    width: 100%;
+.input1{
+    margin-top: 2%;
+}
+.input3{
+    margin-top: 2%;
+}
+.input2{
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.email{
+    margin-left: 16%;
 }
 .inputMsg{
     width: 91%;
     height: 20vh;
+    margin-top: 2%;
 }
 .submitBtn{
     background: linear-gradient(#2CD58B 10.43%, #3AC9FB 87.33%);
@@ -114,7 +128,9 @@ input,label{
     line-height: 150.6%;
     color: #9BA4A2;
     opacity: 0.6;
-    width: 48%;
+    width: 49%;
+    padding-bottom: 4%;
+    margin-top: -1%;
 }
 .ContactParaTitle2{
     font-family: 'Manrope';
@@ -124,6 +140,7 @@ input,label{
     line-height: 140.1%;
     letter-spacing: -0.04em;
     color: #E7E7E7;
+    padding-top: 4%;
 }
 .paraContent2{
     font-family: 'Manrope';
@@ -132,7 +149,7 @@ input,label{
     font-size: 14px;
     line-height: 150.6%;
     color: #9BA4A2;
-
+    margin-top: -1%;
 }
 .linkCont{
     font-family: 'Manrope';
@@ -143,9 +160,6 @@ input,label{
     color: #00CD78;
     margin-top: -2%;
 }
-.css-g1d714-ValueContainer {
-    overflow: scroll;
-}
 .formContent{
     width: 90%;
 }
@@ -153,19 +167,19 @@ input,label{
     height: 30px;
 }
 .css-1s2u09g-control {
-    border: 1px solid #696969;
     border-radius: 5px;
     background-color:#000E08 !important;
     width: 100%;
     margin-right: 4%;
-    height: 30px;
+    min-height: 110px;
+
 }
 .css-319lph-ValueContainer{
-    /* border: 1px solid #696969; */
-    background-color:#000E08 !important;
+    background-color: #000E08 !important;
     border-radius: 5px;
-    margin-bottom: -4px;
-    height: 30px;
+    margin-bottom: -9px;
+    height: 35px;
+    margin-top: -2%;
 }
 .css-1hb7zxy-IndicatorsContainer{
     background-color:#000E08 !important;
@@ -173,4 +187,30 @@ input,label{
 .css-1rhbuit-multiValue {
     background: rgba(0, 205, 120, 0.11) !important;
     border-radius: 3px !important;
+}
+.css-g1d714-ValueContainer {
+    overflow-y: scroll !important;
+    height: 90px;
+    background-color: #000E08;
+}
+.css-12jo7m5 {
+    overflow: hidden;
+    color: #00CD78 !important;
+}
+.css-tj5bde-Svg {
+    fill: #00CD78 !important;
+}
+.css-tlfecz-indicatorContainer {
+    background-color: #000E08;
+}
+.ContactHr{
+    color: #B3B3B3;
+    width: 48%;
+    border-bottom: 1px solid;
+}
+.ContactSelect{
+background-color: #000000;
+}
+.selectValue{
+    margin-top: 2%;
 }
