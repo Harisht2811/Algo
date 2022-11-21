@@ -1,12 +1,12 @@
 import React from 'react'
-import Contact from '../component/contactus/contactus'
+import Contact from '../component/contactus/contact'
 import Footer from '../component/homepage/footer/footer'
 import Header from '../component/homepage/header/header'
 
 function Attacksurface() {
   return (
     <div>
-     <Header/>
+      <Header/>
       <Contact/>
       <Footer />
     </div>

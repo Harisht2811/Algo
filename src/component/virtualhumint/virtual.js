@@ -1,12 +1,17 @@
 import React from 'react'
+import { useState } from 'react'
 import './style.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import vectorHrline from '../../images/virtual/vectorHrline.png'
-function virtual() {
+import Popup from '../getdemo/getdemo'
+function Virtual() {
+  const [buttonPopup, setButtonPopup] =useState(false);
+
     return (
+        <>
         <div>
             <div className='virtual_section1'>
                 <p className='virtualBtn'>Virtual Humint Operations</p>
@@ -19,13 +24,13 @@ function virtual() {
                         <p className='virtualCard_title'>Assess veracity and imminence of threats </p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Gather additional information to shed light on crucial factors related to any threat–including possibly revealing the threat actor identity and providing it to law enforcement </p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
                     </div>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Obtain TTPs, motivation and accomplices</p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Deepen your understanding of the vectors behind the threat, the actor’s motivation, and TTPs in use so that you can prioritize and act accordingly</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='virtualcard1'>
@@ -33,13 +38,13 @@ function virtual() {
                         <p className='virtualCard_title'>Gather IOCs to further investigate threats</p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Engage in intelligence operation and communicate with threat actors in their communication channels</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
                     </div>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Analyze your entire threat landscape</p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Conduct deep dive investigations and get the context required to mitigate threats in the most effective way</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='virtualBox'>
@@ -84,7 +89,15 @@ function virtual() {
                 </div>
             </div>
         </div>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+     <p id='joinourTeam'>Join our team</p>
+     <input className='Fname' type="text" placeholder='Name*'></input>
+     <input className='Femail' type="text" placeholder='Email*'></input>
+     <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+     <button className='Fbutton'>Submit</button>    
+    </Popup>
+        </>
     )
 }
 
-export default virtual
+export default Virtual

@@ -251,3 +251,30 @@ body {
     padding: 2%;
     border-radius: 8px;
 }
+.Fbutton{
+    background: #00CD78;
+    border-radius: 8px;
+    width:150px;
+    height:40px;
+    outline: none;
+    border: none;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#joinourTeam{
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00CD78;
+} 
+input{
+    background-color: #020906;
+    color: #00CD78;
+}

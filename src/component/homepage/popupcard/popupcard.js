@@ -37,7 +37,7 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoscyber">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/virtualhumint">Virtual Humint Operations</Link></p>
     </div>
@@ -57,11 +57,11 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/deepdark">Deep & Dark Web</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Pentesting</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/pentesting">Pentesting</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoscyber">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/virtualhumint">Virtual Humint Operations</Link></p>
          </div>
@@ -79,11 +79,11 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/deepdark">Deep & Dark Web</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Pentesting</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/pentesting">Pentesting</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Deep Cyber Investigations</Link></p>
+           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoscyber">Deep Cyber Investigations</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/virtualhumint">Virtual Humint Operations</Link></p>
            </div>

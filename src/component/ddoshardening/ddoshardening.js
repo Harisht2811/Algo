@@ -1,8 +1,9 @@
 import React from 'react'
+import { useState } from 'react'
 import Bgimg1 from '../../images/ddos/Bgimg1.png'
 import Bgimg2 from '../../images/ddos/Bgimg2.png'
 import arrow from '../../images/attacker/Arrow.png'
-
+import Popup from '../getdemo/getdemo'
 import './ddoshardening.css'
 import './laptop.css'
 import './tab.css'
@@ -10,8 +11,10 @@ import './mobile.css'
 import './mobscrenn.css'
 
 
-function ddos() {
+function Ddos() {
+  const [buttonPopup, setButtonPopup] =useState(false);
   return (
+    <>
     <div>
         <div className='ddosBanner'>
           <div className='ddosSection1'>
@@ -37,12 +40,12 @@ function ddos() {
           <div className='configOptimiz'>
               <p id='config'>Configuration Optimization</p>
               <p id='configPara'>Installed DDoS protection solutions are often underutilized. Our team dives into your protection setup and provides detailed instructions on how to improve appliance configuration. For example, we ensure that rate limit thresholds are well-calibrated, that you have chosen the most appropriate web challenge, and that you fully utilize bot and geo-protection.</p>
-              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
+              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='vendorSelction'>
               <p id='vendorSelec'>Vendor Selection</p>
               <p id='vendorSelecPara'>An optional Red Button service includes methodical vendor evaluation, using a comprehensive RFP template. We then present our recommendations regarding several DDoS vendors with solutions most suitable for your needs, analyzing the pros and cons of each option.</p>
-              <p id='demo2'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' /></p>
+              <p id='demo2'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
           </div>
         </div>  
 
@@ -57,7 +60,15 @@ function ddos() {
         </div>
       </div>
     </div>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+        <p id='joinourTeam'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <button className='Fbutton'>Submit</button>    
+       </Popup>
+       </>
   )
 }
 
-export default ddos
+export default Ddos

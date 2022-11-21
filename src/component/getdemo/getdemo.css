@@ -1,0 +1,81 @@
+.popup {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup-inner{
+   position: relative;
+   padding: 32px;
+   width: 30%;
+   background-color:#000000;
+   opacity: .8;
+   border-radius:15px;
+
+}
+
+.popup-inner .close-btn{
+   position: absolute;
+   top: 16px;
+   right: 16px;
+}
+
+.popup-inner input{
+   width: 80%;
+   margin: 0 0 5% 0;
+   height: 45px;
+   background-color: transparent;
+   padding: 1% 2%;
+
+}
+@media screen and (max-width:1024px) and (min-width:768px) {
+   .popup-inner{
+      position: relative;
+      padding: 32px;
+      width: 50%;
+      background-color:#000000;
+      opacity: .8;
+      border-radius:15px;
+   
+   }
+}
+@media screen and (max-width:768px) and (min-width:445px) {
+   .popup-inner{
+      position: relative;
+      padding: 32px;
+      width: 60%;
+      background-color:#000000;
+      opacity: .8;
+      border-radius:15px;
+   
+   }
+}
+@media screen and (max-width:445px) and (min-width:375px) {
+   .popup-inner{
+      position: relative;
+      padding: 32px;
+      width: 80%;
+      background-color:#000000;
+      opacity: .8;
+      border-radius:15px;
+   
+   }
+}
+@media screen and (max-width:375px) {
+   .popup-inner{
+      position: relative;
+      padding: 32px;
+      width: 80%;
+      background-color:#000000;
+      opacity: .8;
+      border-radius:15px;
+   
+   }
+}

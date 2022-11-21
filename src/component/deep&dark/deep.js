@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState } from 'react'
+import Popup from '../getdemo/getdemo'
 import './style.css'
 import './laptop.css'
 import './tab.css'
@@ -11,8 +13,10 @@ import mitigateimg from '../../images/deepdark/mitigate.png'
 import threatimg from '../../images/deepdark/threat.png'
 
 
-function deep() {
+function Deep() {
+    const [buttonPopup, setButtonPopup] =useState(false);
     return (
+        <>
         <div>
             <div className='dark_section1'>
                 <div className='dark_Title'>Understand and engage <br /> <span className='colortext'>with the dark side</span></div>
@@ -33,7 +37,7 @@ function deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Find new sources in deep and dark web marketplaces, forums, and sites with threat actor communities that can be volatile and difficult to track</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'/></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
@@ -43,7 +47,7 @@ function deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Understand a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with this actor or group.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow'/></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
@@ -53,7 +57,7 @@ function deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Engage with threat actors through private messages, getting access to exclusive communities. Develop a fake persona so that you can post on sources and contact other threat actors.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
@@ -63,7 +67,7 @@ function deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Assess and respond to threats to your physical and digital assets proactively with the help of our highly skilled analysts.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow'/></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
             </div>
@@ -84,7 +88,15 @@ function deep() {
             </div>
 
         </div>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+        <p id='joinourTeam'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <button className='Fbutton'>Submit</button>    
+       </Popup>
+       </>
     )
 }
 
-export default deep
+export default Deep;
