@@ -1,0 +1,33 @@
+@media screen and (max-width:1024px) and (min-width:775px){
+    .ContactFlex {
+        margin-left: 8%;
+    }
+    .contactForm {
+        width: 100%;
+        height: 568px
+    }
+    .email {
+        margin-left: 8%;
+    }
+    .input2 {
+        margin-left: 8%;
+    }
+    .ContactParaTitle1 {
+        width: 68%;
+        font-size: 25px;
+    }
+    .paraContent {
+        width: 73%;
+    }
+    .ContactHr {
+        color: #B3B3B3;
+        width: 68%;
+        border-bottom: none;
+    }
+    .contactBanner {
+        padding-bottom: 9%;
+    }
+    .css-g1d714-ValueContainer {
+        margin-top: 1%;
+    }
+}

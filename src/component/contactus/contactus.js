@@ -2,6 +2,13 @@ import { Dropdown } from 'bootstrap'
 import React, { useEffect, useState } from 'react';
 import './contactus.css'
 import Select from 'react-select';
+import './laptop.css'
+import './tab.css'
+import './mob.css'
+import './mobile.css'
+
+
+
 const options = [  { value: '3rd Party Cyber Risk', label: '3rd Party Cyber Risk' },  
                    { value: 'Attack Surface', label: 'Attack Surface' },  
                    { value: 'DDoS Attack Simulation & Testing', label: 'DDoS Attack Simulation & Testing' },
@@ -17,7 +24,7 @@ const options = [  { value: '3rd Party Cyber Risk', label: '3rd Party Cyber Risk
 
 const contactus=()=> {
     
-   
+
     return (
         <div>
             <div className='contactBanner'>
@@ -28,28 +35,26 @@ const contactus=()=> {
                         <form className='form'>
                             <div className='formContent1'>
                                 <p className='label'>
-                                    <label>Name</label>
-                                    <input type='text' ></input>
+                                    <label>Your Name*</label>
+                                    <input type='text' className='input1'></input>
                                 </p>
                                 <p className='label'>
-                                    <label className='input'>Email id</label><br></br>
-                                    <input type='email' className='input' ></input>
-                                </p>
-                            </div>
-                            <div className='formContent'>
-                                <p className='label'>
-                                    <label>Company Name</label><br></br>
-                                    <input type='text'></input>
+                                    <label className='email'>Your Email*</label>
+                                    <input type='email' className='input2' ></input>
                                 </p>
                             </div>
                             <div className='formContent'>
                                 <p className='label'>
-                                    <label className='input'>Service You Need?</label>
+                                    <label>Company Name</label>
+                                    <input type='text' className='input3'></input>
+                                </p>
+                            </div>
+                            <div className='formContent'>
+                                <p className='label'>
+                                    <label className='serviceNeed'>Services You Need?</label>
                                     <div className='selectValue'>
-                                    <Select options={options} isMulti className='ContactSelect'/>
+                                    <Select options={options} isMulti className='ContactSelect' placeholder ='sevices'/>
                                     </div>
-                    
-                              
                                 </p>
                             </div>
                             <div className='formContent3'>
@@ -64,7 +69,7 @@ const contactus=()=> {
                     <div className='ContactPara'>
                         <p className='ContactParaTitle1'>World-Class Cyber-Security services & Testings</p>
                         <p className='paraContent'>Providing cyber security advice & services over 150+ world countries. With top analysis & execution we are proud to be the one of the best cyber security service provider in USA.</p>
-                        <hr></hr>
+                        <hr className='ContactHr'></hr>
                         <p className='ContactParaTitle2'>Looking for an expert advice ?</p>
                         <p className='paraContent2'>We are here to help. Email us your needs in a brief to</p>
                         <p className='linkCont'>kelly@algoritmik.com</p>

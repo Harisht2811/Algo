@@ -1,0 +1,75 @@
+@media screen and (max-width:380px) {
+    .contactTitle1 {
+        font-size: 27px;
+        padding-top: 10%;
+    }
+    .contactTitle2 {
+        font-size: 14px;
+        margin-top: -2%;
+        width: 57%;
+        margin-left: 22%;
+        line-height: 119%;
+    }
+    .ContactFlex {
+        display: block;
+        margin-left: 9%;
+    }
+    .contactForm {
+        width: 82%;
+        height: 646px;
+    }
+    .formContent1 {
+        display: block;
+    }
+    .input1 {
+        width: 90%;
+    }
+    .email {
+        margin-left: 0%;
+    }
+    .input2 {
+        margin-left: 0%;
+        width: 90%;
+    }
+    .css-319lph-ValueContainer {
+        height: 32px;
+    }
+    .css-6j8wv5-Input {
+        height: 29px;
+    }
+    .ContactParaTitle1{
+        margin-left:-4%;
+        font-size: 17px;
+        width: 66%;
+        margin-top: 10%;
+    }
+    .paraContent{
+        margin-left:-4%;
+        font-size: 12px;
+        width: 82%;
+    }
+    .ContactHr{
+        margin-left:-4%;
+        width: 81%;
+    }
+    .ContactParaTitle2{
+        margin-left:-4%;
+        font-size: 15px;
+    }
+    .paraContent2{
+        margin-left:-4%;
+        font-size: 13px;
+        width: 74%;
+    }
+    .linkCont{
+        margin-left:-4%;
+        margin-bottom: 9%;
+    }
+    .contactBanner {
+        margin-bottom: -3%;
+        padding-bottom: 13%;
+    }
+    .css-g1d714-ValueContainer {
+        height: 87px;
+    }
+}
