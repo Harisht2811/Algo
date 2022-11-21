@@ -96,6 +96,50 @@ function Algoculture() {
 
           </Carousel>
         </div>
+        <div className='algoaboutcarouselRes'>
+
+            <Carousel activeIndex={index} onSelect={handleSelect}>
+              <Carousel.Item interval={3000}>
+                <div style={{ display: 'flex' }}>
+                  <div className='carouselImg1'>
+
+                  </div>
+
+                </div>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+                <div className='carouselImg2'>
+
+                </div>
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+
+                <div className='carouselImg3'>
+
+                </div>
+
+
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+
+                <div className='carouselImg4'>
+
+                </div>
+
+              </Carousel.Item>
+              <Carousel.Item interval={3000}>
+
+                <div className='carouselImg5'>
+
+                </div>
+
+              </Carousel.Item>
+
+
+            </Carousel>
+
+        </div>
+
         <p id='cultureText'>Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations.</p>
         <div className='meetourTeam'>
           <p id='ourteamText'>Meet our team</p>

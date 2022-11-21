@@ -57,3 +57,14 @@
         line-height: 55px;
     }
 }
+@media screen and (max-width:445px) and (min-width:375px) {
+    .aboutusbannerimg{
+        height: 100vh;
+    }
+    #aboutText{
+            font-size: 55px;
+            line-height: 70px;
+            width: 90%;
+            margin: 5% 0 0 0;
+    }
+}

@@ -49,6 +49,12 @@
    margin: -2% 0 0 0;
 
 }
+.innerflex1{
+    width: 20%;
+    position: absolute;
+    right: 45px;
+    margin: -2% 0 0 0;
+ }
 #traingleTitle1{
     font-family: Manrope;
     font-size: 16px;
@@ -146,10 +152,7 @@ width: 20%;
 .whoweareIcon{
     margin: 15% 0 0 40%;
 }
-.carousel-indicators {
-    margin-bottom: -5em !important;
-    margin-left:12rem !important;
-}
+
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .innerflex{
         margin: -3% 0 0 0;
@@ -186,10 +189,7 @@ width: 20%;
     #whoTitle{
     margin: 3% 0 0 30%;
     }
-    .carousel-indicators {
-        margin-bottom: -5em !important;
-        margin-left:10rem !important;
-    }
+ 
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
     .borderRight{
@@ -249,8 +249,174 @@ width: 20%;
         font-size: 12px;
         margin: 0 0 0 15%;
     }
-    .carousel-indicators {
-        margin-bottom: -5em !important;
-        margin-left:8rem !important;
+   
+}
+@media screen and (max-width:768px) and (min-width:445px) {
+    .algoabout{
+        position: relative;
     }
+    .borderRight{
+        border-right:0px;
+        width: 100%;
+    }
+    .triangleIcon{
+        display: none;
+    }
+    #aboutfirstText{
+        font-size: 14px;
+    }
+    #aboutsecondText{
+        font-size: 14px;
+    }
+    .innerflex{
+        position: absolute;
+        left: 25px;
+        margin: -1% 0 0 0;
+        width: 100%;
+        top: 135px;
+     }
+     .innerflex1{
+        position: absolute;
+        left: 25px;
+        margin: -1% 0 0 0;
+        width: 100%;
+        bottom: 280px;
+      }
+      #traingleTitle1{
+        width: 100%;
+      }
+      #triangleText1{
+        width: 70%;
+        margin: -2% 0 0 2%;
+      }
+      #triangleText2{
+        width: 70%;
+        margin: -2% 0 0 2%;
+      }
+      .flexabout{
+        margin: 15% 0 0 0;
+      }
+      .flexabout1{
+        margin: 15% 0 0 0;
+      }
+      #whoTitle{
+        font-size: 30px;
+        text-align: center;
+        margin: 5% 0 0 0;
+      }
+      .whoweare{
+        width: 100%;
+        margin: 5% 0 0 0;
+      }
+      .aboutsection1{
+        width: 25%;
+      }
+      .aboutsection2{
+        width: 55%;
+      }
+      .aboutsection3{
+        width: 25%;
+      }
+      .algoaboutlogoIcon{
+        margin: 30% 0 0 32%;
+      }
+}
+@media screen and (max-width:445px) and (min-width:375px){
+    .algoabout{
+        position: relative;
+    }
+    .borderRight{
+        border-right:0px;
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+    .triangleIcon{
+        display: none;
+    }
+    #aboutfirstTitle{
+        font-size: 25px;
+        width: 100%;
+        margin: 3% 0 0 0;
+        line-height: 35px;
+    }
+    #aboutfirstText{
+        font-size: 14px;
+        width: 100%;
+        line-height: 25px;
+        margin: 5% 0 0 0;
+    }
+    #aboutsecondText{
+        font-size: 14px;
+        width: 100%;
+        line-height: 25px;
+        margin: 5% 0 0 0;
+    }
+    .innerflex{
+        left: 4px;
+        margin: -1% 0 0 0;
+        width: 100%;
+        top: 140px;
+     }
+     .innerflex1{
+        width: 100%;
+        left: 4px;
+        margin: -1% 0 0 0;
+        bottom: 355px;
+      }
+      #traingleTitle1{
+        width: 100%;
+      }
+      #triangleText1{
+        width: 90%;
+        margin: -2% 0 0 4%;
+      }
+      #triangleText2{
+        width: 90%;
+        margin: -2% 0 0 4%;
+      }
+      .flexabout{
+        margin: 30% 0 0 0;
+      }
+      .flexabout1{
+        margin: 35% 0 0 0;
+      }
+      #whoTitle{
+        font-size: 30px;
+        text-align: center;
+        margin: 5% 0 0 0;
+      }
+      .whoweare{
+        width: 100%;
+        margin: 5% 0 0 0;
+        display: block;
+      }
+      .aboutsection1{
+        width: 100%;
+        margin: 0 0 0 25%;
+      }
+      .aboutsection2{
+        width: 100%;
+        height: 200px;
+      }
+      .aboutsection3{
+        width: 100%;
+        margin: 0 0 0 25%;
+      }
+      .algoaboutlogoIcon{
+        margin: 15% 0 0 32%;
+      }
+}
+@media screen and (max-width:375px) {
+    .flexabout{
+        margin: 35% 0 0 0;
+      }
+      .flexabout1{
+        margin: 40% 0 0 0;
+      }
+      .innerflex{
+        left: 4px;
+        margin: -1% 0 0 0;
+        width: 100%;
+        top: 160px;
+     }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from '../component/contactus/Contactus'
+import Contact from '../component/contactus/contactus'
 import Footer from '../component/homepage/footer/footer'
 import Header from '../component/homepage/header/header'
 

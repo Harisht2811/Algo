@@ -58,7 +58,7 @@ function algoabout() {
           </div>
           <div className='flexabout1'>
             <p id='aboutfirstTitle'>Proud that we have our own <span id='greenText'>Phishing Beacon</span></p>
-            <div className='innerflex'>
+            <div className='innerflex1'>
               <p id='traingleTitle1'><img className='triangleIcon' alt='traingleicon' src={Triangleicon}></img>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lets work with a cup of coffee</p>
               <p id='triangleText2'>We are a small team with professional players.</p>
             </div>

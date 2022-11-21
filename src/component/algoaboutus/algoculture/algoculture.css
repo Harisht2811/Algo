@@ -3,6 +3,7 @@
     background-color: #000E08;
 }
 
+
 #algocultureText {
     font-family: Manrope;
     font-size: 37px;
@@ -20,6 +21,10 @@
 .algoaboutCarousel {
     width: 100%;
     margin: 3% 0 0 2%;
+    display:block;
+}
+.algoaboutcarouselRes{
+    display: none;
 }
 .carouselImg1,.carouselImg2,.carouselImg3,.carouselImg4,.carouselImg5{
     margin: 0 0 0 5%;
@@ -197,12 +202,20 @@ color: #00CD78;
     text-align: center;
     color: #B3B3B3;    
 }
+.carousel-indicators {
+    margin-bottom: -5em !important;
+    margin-left:12rem !important;
+}
 @media screen and (max-width:1705px) and (min-width:1024px) {
     .ourteamProfile{
         margin: 0 0 5% 0;
     }
     #cultureText{
         margin: 8% 0 0 20%;
+    }
+    .carousel-indicators {
+        margin-bottom: -5em !important;
+        margin-left:10rem !important;
     }
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
@@ -220,5 +233,63 @@ color: #00CD78;
     }
     .ourteamProfile{
     padding: 5% 5% 0;
+    }
+    .carousel-indicators {
+        margin-bottom: -5em !important;
+        margin-left:8rem !important;
+    }
+}
+@media screen and (max-width:768px) and (min-width:430px){
+    .carousel-indicators {
+        margin-bottom: -5em !important;
+        margin-left:5rem !important;
+    }
+}
+@media screen and (max-width:430px) and (min-width:375px) {
+    .algoaboutCarousel{
+        display: none;
+    }
+    .algoaboutcarouselRes{
+        display: block;
+        padding: 3% 3%;
+        margin: 3% 0 0 2%;
+        background-color: #000E08;
+    }
+    #algocultureText{
+    font-size: 28px;
+    }
+    #cultureText{
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 28px;
+    margin: 15% 0 0 5%;
+    width: 90%;
+    }
+    .carouselImg1,.carouselImg2,.carouselImg3,.carouselImg4,.carouselImg5{
+        height:400px;
+        width: 90%;
+    }
+    .carouselImg1:hover,.carouselImg2:hover,.carouselImg3:hover,.carouselImg4:hover,.carouselImg5:hover{
+        height:400px;
+        width: 90%;
+    }
+    .ourteamProfile{
+        padding: 5% 10% 0;
+        display: block;
+    }  
+    #ourteamText{
+        font-size: 28px;
+    }
+    .carousel-indicators  {
+        margin-bottom: -5em !important;
+        margin-left:4rem !important;
+    }
+}
+@media screen and (max-width:375px) {
+    .carousel-indicators  {
+        margin-bottom: -5em !important;
+        margin-left:3rem !important;
     }
 }
