@@ -1,0 +1,70 @@
+[
+    {
+        "title1":"DDoS Attack Simulation",
+        "title2":"& Testing",
+        "titleDesc":"Our testing service simulates deep multi-vector DDoS attacks.",
+        "demo":"Get a Demo",
+        "cardList":[
+            {
+                "cardTitle":"Volumetric attacks",
+                "cardDesc":"Generating multi-gigabit attack traffic from multiple global locations, we test your ability to withstand extreme and sustained attacks"
+            },
+            {
+                "cardTitle":"Application layer attacks",
+                "cardDesc":"We overwhelm your web server tier with excessive HTTP/S GET or POST requests that test our resistance to resource exhaustion"
+            },
+            {
+                "cardTitle":"Low-and- slow attacks",
+                "cardDesc":"Using attacks such as lowLoris, R.U.D.Y., and SSL enegotiation, we test your ability to detect low resource attacks"
+            }
+        ],
+
+        "structureTitle":"A Structured & Controlled Process",
+        "structureDesc":"Using a “white-box” test methodology, we analyze your entire network architecture and decide on the most relevant attack vectors to test",
+       
+        "structureList":[
+            {
+                "Blockicon":"../../images/ddosattack/planingImg.png",
+                "dotline":"../../images/ddosattack/hrline.png",
+                "BlockTitle":"Planning Session",
+                "BlockDesc1":"Understand your network \narchitecture.",
+                "BlockDesc2":"Define clear goals, attack vector"
+            },
+            {
+                "Blockicon":"../../images/ddosattack/controlImg.png",
+                "dotline":"../../images/ddosattack/hrline.png",
+                "BlockTitle":"Controlled Attack",
+                "BlockDesc1":"Execute tests with 6-12 attack vectors ", 
+                "BlockDesc2":"Cover all attack categories (volumetric, \napplication-layer, low and slow)"
+            },
+            {
+                "Blockicon":"../../images/ddosattack/reportImg.png",
+                "BlockTitle":"Report & Analysis",
+                "BlockDesc1":"Deliver test results.", 
+                "BlockDesc2":"Specify vulnerabilities and  \nreccomendations"
+            }
+        ],
+        "platformTitle":"DDOS ATTACK SIMULATOR PLATFORM",
+        "platformDesc":"Our extensible testing platform executes DDoS attacks from bots distributed around the world. It sends real traffic using Web, DNS, and network attack vectors",
+        "actionTitle":"Get Actionable Recommendations",
+        "ationDesc1":"Following the DDoS Test, you receive a detailed report containing a full gap analysis outlining the main weaknesses, their severity, and how they should be fixed",
+        "testingList":[
+            {
+                "testingTitle":"AWS DDoS Testing",
+                "testingDesc":"Make sure your AWS deployment is secure with simulated DDoS attacks in a controlled environment",
+                "testingexplain":"We help AWS customers verify their DDoS protection by simulating controlled attacks, providing detailed analysis, and making specific recommendations for improvement \n\nOur DDoS testing service, available to AWS Shield Advanced customers, is customized to match your AWS deployment architecture. So, whether you use EC2, ALB, ELB, Lamda, API Gateway or CloudFront–we’ll test the attack vectors that maximize valuefor your operational security",
+                "testBox":"Customized Testing",
+                "testhrline":"../../images/virtual/vectorHrline.png"
+            },
+            {
+                "testingTitle":"Azure DDoS Testing",
+                "testingDesc":"Ensure your Microsoft Azure deployment is secure with simulated DDoS attacks in a controlled environment.",
+                "testingexplain":"We help validate your DDoS protection and ensure your services or applications continue to function as expected during an attack. We provide simulated controlled DDoS attacks, accompanied by a detailed analysis, and specific recommendations for improvement. \n\nOur DDoS testing service, available to customers with an Azure DDoS Protection Standard plan, is customized to match your Azure deployment infrastructure. So, whether you use Azure CDN, Azure Gateway, or Azure Virtual Machines–we’ll test the attack vectors to maximize the value of your testing",
+                "testBox":"Customized Testing"
+            }
+        ],
+        "hearTitle":"Heard enough? See it for yourself.",
+        "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+        "heardBtn":"Get a Demo"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "title":"Gain an \nattacker's viewpoint",
+        "titleDesc":"To protect your organization, you first need to know what assets and digital surface to protect. It’s easy to perform a vulnerability scan against known assets, but it’s hard to keep track of new assets that are constantly being added to your infrastructure",
+        "demo":"Get a Demo",
+        "whyTitle":"We helps you in",
+        "cardList":[
+            {
+                "cardIcon":"../../images/attacker/Group186.png",
+                "cardDesc":"Identify vulnerabilities"
+            },
+            {
+                "cardIcon":"../../images/attacker/Group187.png",
+                "cardDesc":"Pinpoint user types",
+                "hrline":"../../images/attacker/Rectangle94.png"
+            },
+            {
+                "cardIcon":"../../images/attacker/Group188.png",
+                "cardDesc":"Perform a risk assessment",
+                "hrline":"../../images/attacker/Rectangle94.png"
+            },
+            {
+                "cardIcon":"../../images/attacker/Group189.png",
+                "cardDesc":"Secure your reporting",
+                "hrline":"../../images/attacker/Rectangle94.png"
+
+            }
+            
+        ],
+        "attack_section3_desc1":"Attack Surface Management provides", 
+        "attack_section3_desc2":" automatic and full visibility into your digital presence–uncovering security issues",
+        "attack_section3_desc3": " and vulnerabilities that can be exploited by potential adversaries",
+        "attack_section4_title":"Other Services",
+        "attack_sectionCard":[
+            {
+                "attack_cardTitle":"Uncover your digital presence",
+                "attack_cardDesc":"Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.",
+                "attack_cardBtn":"Get a Demo",
+                "attack_cardImg":"../../images/attacker/Group167.png"
+            },
+            {
+                "attack_cardTitle":"Identify security issues",
+                "attack_cardDesc":"Continuously scan and map the organization’s digital presence to detect issues and vulnerabilities such as leaked credentials, botnet infections, exploitable open ports, vulnerable web interfaces, and more",
+                "attack_cardBtn":"Get a Demo",
+                "attack_cardImg":"../../images/attacker/Group176.png"
+            },
+            {
+                "attack_cardTitle":"Assess and prioritize risks",
+                "attack_cardDesc":"Calculate a security score by comparing current threats against your organization’s current best practices. Track and manage identified issues and assets so that your organization can focus on and address the most critical issues first.",
+                "attack_cardBtn":"Get a Demo",
+                "attack_cardImg":"../../images/attacker/Group191.png"
+            },
+            {
+                "attack_cardTitle":"Monitor your attack surface",
+                "attack_cardDesc":"Monitor your organization’s constantly changing and entire digital presence to gain automatic and full visibility on an ongoing basis. Remap and continuously scan all assets every week, based on specific requirements",
+                "attack_cardBtn":"Get a Demo",
+                "attack_cardImg":"../../images/attacker/Group192.png"
+            }
+        ],
+        
+        
+        "hearTitle":"Heard enough? See it for yourself.",
+        "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+        "heardBtn":"Get a Demo"
+    }
+]

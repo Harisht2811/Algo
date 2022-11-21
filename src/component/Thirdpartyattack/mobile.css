@@ -1,8 +1,10 @@
+body {
+    padding: 0%;
+    margin: 0%;
+white-space:unset
+}
 @media screen and (max-width:425px) and (min-width:376px) {
-    body {
-        padding: 0%;
-        margin: 0%;
-    }
+    
     
     .party_section1 {
         background-image: url(../../images/thirdparty/mobBg.png);

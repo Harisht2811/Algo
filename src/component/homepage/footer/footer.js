@@ -34,7 +34,7 @@ function footer() {
                 <p id='titlefooterText'>Services</p>
                 <Link to='/thirdparty'><p id='footerText'>3rd Party Cyber Risk</p></Link> 
                 <Link to='/attacksurface'><p id='footerText'>Attack Surface</p></Link> 
-                <p id='footerText'>DDoS Attack Simulation & Testing</p>
+                <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Testing</p></Link>
                 <p id='footerText'></p>
                 <Link to='/ddosincident'><p id='footerText'>DDOS Incident Response</p></Link>
                 <Link to='/ddoshardening'><p id='footerText'>Technology Hardening</p></Link>
