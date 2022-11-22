@@ -1,43 +1,47 @@
-@media screen and (max-width:1024px) and (min-width:776px){
+@media screen and (max-width:1440px) and (min-width:1025px){
+    label {
+        font-size: 14px;
+    }
     .ContactFlex {
-        margin-left: 5%;
+        margin-left: 14%;
     }
     .contactForm {
-        width: 105%;
-        height: 619px
+        width: 47%;
+        height: 605px
     }
     .email {
         margin-left: 8%;
     }
     .input1 {
         margin-top: 2%;
-        width: 185px;
+        width: 201px;
     }
     .input2 {
         margin-left: 8%;
-        width: 185px;
+        width: 201px;
     }
     .ContactParaTitle1 {
-        width: 68%;
+        width: 45%;
         font-size: 25px;
     }
     .paraContent {
-        width: 77%;
-        font-size: 14px
+        width: 47%;
     }
     .ContactHr {
         color: #B3B3B3;
-        width: 68%;
+        width: 44%;
         border-bottom: none;
     }
     .contactBanner {
         padding-bottom: 9%;
     }
     .css-g1d714-ValueContainer {
-        margin-top: 1%;
+        margin-top: -0%;
     }
     .linkCont{
         opacity: 0.6;
     }
-    
+    .css-1s2u09g-control:hover {
+        border-color: hsl(0, 0%, 46%) !important;
+    }
 }

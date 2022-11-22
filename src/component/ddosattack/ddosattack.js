@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState } from 'react'
+import Popup from '../getdemo/getdemo'
 import './style.css'
 import './laptop.css'
 import './tab.css'
@@ -8,13 +10,16 @@ import planingImg from '../../images/ddosattack/planingImg.png'
 import controlImg from '../../images/ddosattack/controlImg.png'
 import reportImg from '../../images/ddosattack/reportImg.png'
 import hrline from '../../images/ddosattack/hrline.png'
-function ddosattack() {
+function Ddosattack() {
+  const [buttonPopup, setButtonPopup] =useState(false);
+
   return (
+    <>
     <div>
       <div className='ddosattack_section1'>
         <div className='ddosattack_Title'><span className='ddoscolorText'>DDoS Attack Simulation</span> <br />& Testing</div>
         <p className="ddosattackDesc">Our testing service simulates deep multi-vector DDoS attacks.</p>
-        <p className="ddosattackdemoBtn ">Get a Demo</p>
+        <p className="ddosattackdemoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
       </div>
       <div className='ddosattack_section2'>
         <div className='ddosattack_cardlist' >
@@ -119,16 +124,24 @@ function ddosattack() {
               <p id='titleIssues'>Heard enough? See it for yourself.</p>
               <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
             </div>
-            <button className='certificateButton'>Get a demo</button>
+            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
           </div>
 
         </div>
       </div>
     </div>
+      <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+      <p id='joinourTeam'>Join our team</p>
+      <input className='Fname' type="text" placeholder='Name*'></input>
+      <input className='Femail' type="text" placeholder='Email*'></input>
+      <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+      <button className='Fbutton'>Submit</button>    
+     </Popup>
+     </>
   )
 }
 
-export default ddosattack
+export default Ddosattack
 
 
 

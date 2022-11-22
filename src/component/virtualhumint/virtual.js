@@ -16,7 +16,7 @@ function Virtual() {
             <div className='virtual_section1'>
                 <p className='virtualBtn'>Virtual Humint Operations</p>
                 <div className='virtual_Title'>Active Engagement with <br /> Threat Actors</div>
-                <p className="virtual_demoBtn ">Get a Demo</p>
+                <p className="virtual_demoBtn" onClick={() => setButtonPopup(true)}>Get a Demo</p>
             </div>
             <div className='virtualCardlist'>
                 <div className='virtualcard1'>
@@ -84,7 +84,7 @@ function Virtual() {
                             <p id='titleIssues'>Heard enough? See it for yourself.</p>
                             <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                         </div>
-                        <button className='certificateButton'>Get a demo</button>
+                        <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
                     </div>
                 </div>
             </div>

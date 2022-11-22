@@ -9,6 +9,7 @@ import './laptop.css'
 import './tab.css'
 import './mobile.css'
 import './mobscrenn.css'
+import './desktop.css'
 
 
 function Ddos() {
@@ -20,7 +21,7 @@ function Ddos() {
           <div className='ddosSection1'>
             <p className='ddosTitle'>Improve your <span className='colorText'>network architecture </span> against attacks</p>
             <p className='ddosDesc'>We identify which protection component will preven t each DDoS attack vector</p>
-            <button className='demobtn1'><b id='dembtn'>Get a Demo</b></button>
+            <button className='demobtn1'><b id='dembtn' onClick={() => setButtonPopup(true)}>Get a Demo</b></button>
           </div>
           <div className='netwrokArchitecture'>
               <p className='netArch'>Network Architecture</p>
@@ -55,7 +56,7 @@ function Ddos() {
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                 </div>
-                <button className='certificateButton'>Get a demo</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
             </div>
         </div>
       </div>

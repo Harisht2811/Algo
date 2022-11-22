@@ -1,6 +1,6 @@
-@media screen and (max-width:1024px) and (min-width:775px) {
+@media screen and (max-width:1024px) and (min-width:769px) {
     .cyberTitle1 {
-        font-size: 36px;
+        font-size: 40px;
         padding-top: 9%;
     }
     .cyberTitleFlex {

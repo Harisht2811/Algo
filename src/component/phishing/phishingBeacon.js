@@ -19,7 +19,7 @@ function PhishingBeacon() {
             <div className='phishing_section1'>
                 <div className='phishing_Title'>Proactively Detect <br /> <span className='colorText'>Phishing Threats</span></div>
                 <p className="phishingDesc">Understand your organization’s security health and demonstrate real return on investment with intuitive dashboard results on-demand.</p>
-                <p className="phishingDemoBtn ">Get a Demo</p>
+                <p className="phishingDemoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
             </div>
             <div className='phishing_section2'>
                 <p className='phishing_section2Title'>Each year phishing attacks are becoming increasingly sophisticated. Today, threat actors spend months planning their phishing attacks and launch phishing scams directly targeting a specific organization, including both its customers and employees. The potential damage of a successful phishing attack to your organization is widespread, impacting your security operations and brand reputation, in addition to your data privacy and compliance.</p>
@@ -62,7 +62,7 @@ function PhishingBeacon() {
                             <p id='titleIssues'>Heard enough? See it for yourself.</p>
                             <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                         </div>
-                        <button className='certificateButton'>Get a demo</button>
+                        <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
                     </div>
                 </div>
             </div>
