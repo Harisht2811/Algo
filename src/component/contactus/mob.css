@@ -1,4 +1,4 @@
-@media screen and (max-width:430px) and (min-width:376px) {
+@media screen and (max-width:431px) and (min-width:377px) {
     .contactTitle1 {
         font-size: 30px;
         padding-top: 9%;
@@ -66,6 +66,7 @@
         margin-left: -3%;
         font-size: 13px;
         padding-bottom: 6%;
+            opacity: 0.6;
     }
     .contactBanner {
         margin-bottom: 0%;

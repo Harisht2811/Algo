@@ -5,8 +5,7 @@ import './laptop.css'
 import './tab.css'
 import './mob.css'
 import './mobile.css'
-
-
+import './desktop.css'
 
 
 

@@ -3,6 +3,7 @@
     .cyberTitle1 {
         font-size: 29px;
         padding-top: 11%;
+        
     }
     .cyberTitleFlex {
         margin-left: 25%;
@@ -18,19 +19,25 @@
     }
     #tick {
         font-size: 12px;
-        margin-left: 60%;
+        margin-left: 63%;
     }
     #hexagon {
         font-size: 12px;
-        margin-left: 59%;
+        margin-left: 41%;
        }
     .Hexagon img {
         margin-left: 178px;
+        width: 42%;
+        height: 42%;
+    }
+    .cyberTitleFlex img {
+        width: 40px;
+        height: 40px;
     }
     .cyberBanner2Par {
         font-size: 12px;
         width: 77%;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: -1%;
     }
     .cardsCyber {

@@ -1,3 +1,4 @@
+@media screen and (max-width:1440px) and (min-width:1025px) {
 .ddosIncidentBanner {
     background-image: url(../../images/ddosincident/ddosIncidentBanner.png);
     background-size: 100% 100%;
@@ -267,4 +268,5 @@ hr {
     height: 89px;
     padding-left: 22px;
     margin-left: -5%;
+}
 }

@@ -9,6 +9,7 @@ import './laptop.css'
 import './tab.css'
 import './mobile.css'
 import './mobscrenn.css'
+import './desktop.css'
 
 
 function Ddos() {

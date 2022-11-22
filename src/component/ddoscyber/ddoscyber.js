@@ -16,6 +16,7 @@ import './laptop.css'
 import './tab.css'
 import './mob.css'
 import './mobile.css'
+import './monitor.css'
 
 function Ddoscyber() {
   const [buttonPopup, setButtonPopup] =useState(false);
