@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState } from 'react'
+import Popup from '../getdemo/getdemo'
 import './style.css'
 import './laptop.css'
 import './tab.css'
@@ -7,14 +9,17 @@ import computerImg from '../../images/Ransomeware/computerImg.png'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
 import leftcurve from '../../images/Ransomeware/leftcurve.png'
 import rightcurve from '../../images/Ransomeware/rightcurve.png'
-function ransomware() {
+function Ransomware() {
+    const [buttonPopup, setButtonPopup] =useState(false);
+
     return (
+        <>
         <div>
             <div className='ransom_section1'>
                 <div className='ransome_part1'>
                     <p className='ransome_section1_title'><span className='colorText'>Prevent Ransomware with </span>Patented Ransomware Protection Technology</p>
                     <p className='ransome_section1_desc'>Prevent Both Known and Unknown (Zero-day) Attacks Before They Start, Regardless of Your Team’s Size and Skillset.</p>
-                    <p className='demobtn '> Get Demo</p>
+                    <p className='demobtn ' onClick={() => setButtonPopup(true)}> Get Demo</p>
                 </div>
                 <div className='ransome_part2'>
                     <div><img src={computerImg} /> </div>
@@ -31,7 +36,7 @@ function ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Our Hostile Environment Simulation</p>
                         <p className='ransomCard_desc'>Completely controls how processes perceive their environment. With HES, we turn the malware’s evasive properties against itself by convincing it that it is about to be detected by a local security measure, forcing it into hiding in order to “remain undetected”, which effectivelycauses it to never deploy.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo' onClick={() => setButtonPopup(true)}>Get Demo <img src={arrowG} className='arrowG' /></p>
                     </div>
                     <div className='ransomeDotImg'>
                         <img className='ransomeDotLeft' src={rightcurve} />
@@ -44,7 +49,7 @@ function ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Blocking malicious macros and powershell attacks</p>
                         <p className='ransomCard_desc'>Our Platform blocks ransomware that spreads via malicious documents. This methodology prevents documents from spawning malicious script driven attacks (macros, Powershell etc.), while still allowing the organization to use these processes for legitimate business purposes.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo' >Get Demo <img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
                     </div>
 
                 </div>
@@ -52,7 +57,7 @@ function ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Blocking Memory <br/>Injection</p>
                         <p className='ransomCard_desc'>Ransomware often evades detection by injecting malicious code into legitimate applications or OS components. This approach allows malware to get around traditional security mechanisms such as antivirus, application whitelisting and personal firewalls. Minerva’s memory injection module prevents all fileless attacks from taking place before they even start.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo' >Get Demo <img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                     <div className='ransomeDotImg'>
                         <img   className='ransomeDotLeft' src={rightcurve} />
@@ -62,13 +67,21 @@ function ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Ransomware Remediation</p>
                         <p className='ransomCard_desc'>Completely controls how processes perceive their environment. With HES, we turn the malware’s evasive properties against itself by convincing it that it is about to be detected by a local security measure, forcing it into hiding in order to “remain undetected”, which effectivelycauses it to never deploy.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
                     </div>
 
                 </div>
             </div>
         </div>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+        <p id='joinourTeam'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <button className='Fbutton'>Submit</button>    
+       </Popup>
+       </>  
     )
 }
 
-export default ransomware
+export default Ransomware

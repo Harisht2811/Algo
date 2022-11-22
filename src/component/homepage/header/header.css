@@ -129,6 +129,7 @@ a{
         display: inline-flex;
         margin: 0 0 0 -10%;
     }
+  
     .toggleicon {
         margin: 0% 0 0 28%;
     }
@@ -161,7 +162,7 @@ a{
         margin: 0 0 0 2%;
     }
     .algoLogo{
-      width: 65%;
+      width: 95%;
     }
  
     .links li{

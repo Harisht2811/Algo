@@ -4,6 +4,8 @@ import Ddosincident from '../../images/ddosincident/ddosincident.png'
 import Playbook from '../../images/ddosincident/playbook.png'
 import Expertassign from '../../images/ddosincident/expertassign.png'
 import Systemhard from '../../images/ddosincident/systemhard.png'
+import Popup from '../getdemo/getdemo'
+import { useState } from 'react'
 
 import './laptop.css'
 import './tab.css'
@@ -13,13 +15,16 @@ import './monitor.css'
 
 export default function
   () {
+  const [buttonPopup, setButtonPopup] =useState(false);
+
   return (
+    <>
     <div>
       <div className='ddosIncidentBanner'>
         <p className='bannerTitle1'>Stop DDoS attacks<br></br>
           <span className='bannertitle2'>Minimize outage time</span></p>
         <p className='ddosIncidentPara'>Our DDoS expert team offer the most up-to-date knowledge on DDoS attack trends, field-tested best practices, proficiency with all DDoS mitigation technology vendors,and extensive know-how to efficiently manage what is often a stressful event.</p>
-        <button className='dembtn'><p className='demopara'>Get a demo</p></button>
+        <button className='dembtn'><p className='demopara' onClick={() => setButtonPopup(true)}>Get a demo</p></button>
 
       </div>
       <div className='ddosIncidentBanner2'>
@@ -91,11 +96,19 @@ export default function
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                 </div>
-                <button className='certificateButton'>Get a demo</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
             </div>
         </div>
 
       </div>
     </div>
+     <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+     <p id='joinourTeam'>Join our team</p>
+     <input className='Fname' type="text" placeholder='Name*'></input>
+     <input className='Femail' type="text" placeholder='Email*'></input>
+     <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+     <button className='Fbutton'>Submit</button>    
+    </Popup>
+    </>
   )
 }

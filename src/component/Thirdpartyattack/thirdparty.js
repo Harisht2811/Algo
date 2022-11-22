@@ -1,4 +1,6 @@
 import React from 'react'
+import Popup from '../getdemo/getdemo'
+import { useState } from 'react'
 import './style.css'
 import './laptop.css'
 import './tab.css'
@@ -6,14 +8,16 @@ import './mobile.css'
 import vendorImg from '../../images/thirdparty/Group128.png'
 import sysImg from '../../images/thirdparty/Group142.png'
 import vline from '../../images/thirdparty/vline.png'
-function thirdparty() {
+function Thirdparty() {
+  const [buttonPopup, setButtonPopup] =useState(false);
     return (
+        <>
         <div>
             <div className='party_section1'>
                 <div className=''>
                     <div className='party_Title'>Identify the cyber risk <br /> within your supply chain</div>
                     <p className="partyDesc">Algoritmik enables you to continuously monitor the organization’s <br /> 3rd party vendors’ security posture and effectively prioritize and mitigate risks</p>
-                    <p className="party_demoBtn ">Get a Demo</p>
+                    <p className="party_demoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
                 </div>
                 <div className='party_section2'>
                     <img className='vendorImg' src={vendorImg} alt='vendor' />
@@ -69,15 +73,23 @@ function thirdparty() {
                                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                             </div>
-                            <button className='certificateButton'>Get a demo</button>
+                            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+        <p id='joinourTeam'>Join our team</p>
+        <input className='Fname' type="text" placeholder='Name*'></input>
+        <input className='Femail' type="text" placeholder='Email*'></input>
+        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+        <button className='Fbutton'>Submit</button>    
+        </Popup>
+        </>
     )
 }
- export default thirdparty
+ export default Thirdparty
 
 // import thirdData from '../../content/thirdpartyData.json'
 // function thirdparty() {

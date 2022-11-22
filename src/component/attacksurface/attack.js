@@ -27,7 +27,7 @@ function Attack() {
         <div className='attack_Title'>Gain an <br />attacker's viewpoint</div>
         <p className="attackDesc">To protect your organization, you first need to know what assets and digital surface to protect. It’s easy to perform a vulnerability scan against known assets,
           but it’s hard to keep track of new assets that are constantly being added to your infrastructure.</p>
-        <p className="demoBtn ">Get a Demo</p>
+        <p className="demoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
       </div>
       <div className='attack_section2'>
         <div className='attack_section2_title'>We helps you in</div>
@@ -107,7 +107,7 @@ function Attack() {
               <p id='titleIssues'>Heard enough? See it for yourself.</p>
               <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
             </div>
-            <button className='certificateButton'>Get a demo</button>
+            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
           </div>
         </div>
       </div>
