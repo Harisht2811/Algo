@@ -1,3 +1,29 @@
+
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    .ransomList4 {
+        margin-left: 52%;
+        margin-top: -6%;
+        width: 90%;
+    }
+    .ransomList2{
+        margin-left:68%;
+        margin-top: -6%;
+        width: 85%;
+    }     
+    .ransomeDotright{
+        width: 400px;
+        height: 201px;
+        margin-top: 0%;
+        margin-left: -25%;
+    }
+    .ransomeDotImg{
+        width: 261px;
+        height: 201px;
+        margin-top: 28%;
+        margin-left: -40%;
+    }
+}
+
 @media screen and (max-width:1024px) and (min-width:769px) {
     .ransom_section1{
         background-image: url('../../images/Ransomeware/ransomwareBg.png');

@@ -1,3 +1,4 @@
+
 .ransom_section1{
     background-image: url('../../images/Ransomeware/ransomwareBg.png');
     background-repeat: no-repeat;
@@ -85,6 +86,8 @@
 .ransomware_section2{
     background-color: #000E08;
     padding-bottom: 5%;
+    margin-top: -2%;
+
 }
 .ransomeware_section_title{
     font-family: 'Manrope';
@@ -143,17 +146,29 @@
     margin-top: 20%;
     margin-left: -39%;
 }
+.ransomeDotLeft{
+    width: 300px;
+    height: 201px;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+/* .ransomeDotright{
+    width: 560px;
+    height: 501px;
+    margin-top: -60%;
+    margin-left: -85%;
+} */
 .ransomList1, .ransomList3{
     padding-left: 15%;
     margin-top: -3%;
 }
 .ransomList2{
-    margin-left: 63%;
+    margin-left: 65%;
     margin-top: -6%;
     width: 85%;
 }     
 .ransomList4{
-    margin-left: 52%;
+    margin-left: 45%;
     margin-top: -6%;
-    width: 90%;
+    width: 85%;
 }                       
