@@ -56,9 +56,7 @@
                 "attack_cardBtn":"Get a Demo",
                 "attack_cardImg":"../../images/attacker/Group192.png"
             }
-        ],
-        
-        
+        ],        
         "hearTitle":"Heard enough? See it for yourself.",
         "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
         "heardBtn":"Get a Demo"

@@ -1,0 +1,51 @@
+    [
+        {
+            "titleBox": "Virtual Humint Operations",
+            "title": "Active Engagement with \nThreat Actors",
+            "demo": "Get a Demo",
+            "cardList": [
+                {
+                    "cardTitle": "Assess veracity and imminence of threats",
+                    "cardDesc": "Gather additional information to shed light on crucial factors related to any threat–including possibly revealing the threat actor identity and providing it to law enforcement",
+                    "cardbtn": "Get a Demo",
+                    "cardHr": "../../images/virtual/vectorHrline.png"
+                },
+                {
+                    "cardTitle": "Obtain TTPs, motivation and accomplices",
+                    "cardDesc": "Deepen your understanding of the vectors behind the threat, the actor’s motivation, and TTPs in use so that you can prioritize and act accordingly",
+                    "cardbtn": "Get a Demo",
+                    "cardHr": "../../images/virtual/vectorHrline.png"
+                }
+            ],
+            "cardList1": [
+                {
+                    "cardTitle": "Gather IOCs to further investigate threats",
+                    "cardDesc": "Engage in intelligence operation and communicate with threat actors in their communication channels",
+                    "cardbtn": "Get a Demo",
+                    "cardHr": "../../images/virtual/vectorHrline.png"
+                },
+                {
+                    "cardTitle": "Analyze your entire threat landscape",
+                    "cardDesc": "Conduct deep dive investigations and get the context required to mitigate threats in the most effective way",
+                    "cardbtn": "Get a Demo",
+                    "cardHr": "../../images/virtual/vectorHrline.png"
+                }
+            ],
+            "virtualTitle": "Virtual HumInt that Delivers Effective Mitigation",
+            "virtualDesc": "When it comes to research, investigation, and threat intelligence operations. \nDeepen your understanding of the vectors behind the threat itself, including the threat actor’s motivation, the \ntools, tactics and procedures (TTPs) in use, third-party vendors involved, and other crucial factors",
+            "humintTitle": "Leveraging Traditional",
+            "humintTitle1": "HUMINT Methodologies",
+            "humintTitle2": "in Cyberspace",
+            "humintDesc1": "Human intelligence, or HUMINT, is a term that traditionally refers to intelligence gathered through interpersonal contact. HUMINT activities involve human sources and human handlers – interactions with “assets”– i.e., traditional espionage strategies.",
+            "humintDesc2": "What’s key here is that classic HUMINT relies on personal meetings and engagements with people that create trust and lead to powerful, long-term relationships, with a high degree of commitment and devotion.",
+            "hrline": "../../images/virtual/vectorHrline.png",
+            "importantTitle": "The",
+            "importantTitle1": "Importance of HUMINT",
+            "importantTitle2": "in Business Intelligence",
+            "importantDesc1": "The integration of traditional HUMINT methodologies is crucial when hunting down cyber-criminals and identifying cyber security threats to businesses. That’s because the highest level of intelligence gathering requires human interaction and contact – a sensitive process that requires an intuitive and honed ability to understand and analyze people.",
+            "importantDesc2": "When a breach takes place, communicating with threat actors allows companies to understand the extent of the breach and learn how the attacker got into the system. HUMINT methodologies also help companies figure out the source of a leak and, in an extortion attack, it allows companies to identify whether an attacker’s demand for ransom is legitimate",
+            "hearTitle": "Heard enough? See it for yourself.",
+            "heardDesc": "Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+            "heardBtn": "Get a Demo"
+        }
+    ]
