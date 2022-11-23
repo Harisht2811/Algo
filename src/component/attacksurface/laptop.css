@@ -1,4 +1,4 @@
-@media screen and (max-width:1440px) and (min-width:1025px) {
+/* @media screen and (max-width:1440px) and (min-width:1025px) {
 
     body {
         padding: 0%;
@@ -361,6 +361,536 @@
     .hrLine{
         height: 60%;
    
+    }
+    .whyhelp_list {
+        padding: 2% 4%;
+        margin-left: 0%;
+    }
+
+    .list_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 137.6%;
+        color: #FFFFFF;
+    }
+
+
+    .attack_section3_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 170.1%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 5%;
+        width: 95%;
+        margin-left: 2%;
+        margin-top: -5%;
+    }
+
+    .colorText {
+        color: #00CD78;
+    }
+
+    .attack_section4 {
+        background-color: #000E08;
+        padding-bottom: 2%;
+    }
+
+    .attack_section4_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 120.1%;
+        text-align: center;
+        color: #00CD78;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+
+    .attack_sectionCard {
+        display: flex;
+        width: 90%;
+        background-color: #091610;
+        border-radius: 24px;
+        margin-left: 5%;
+        padding: 2%;
+        padding-bottom: 0%;
+        margin-bottom: 2%;
+    }
+
+    .attack_cardTitle {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 126.6%;
+        color: #FFFFFF;
+        width: 55%;
+    }
+
+    .attack_cardLeft {
+        width: 51%;
+        margin-left: 2%;
+    }
+
+    .attack_cardDesc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+    }
+
+    .attack_cardBtn {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 170.1%;
+        color: #00CD78;
+    }
+
+    .attack_cardRight img {
+        width: 90%;
+        height: 90%;
+        margin-top: -5%;
+        margin-left: 25%;
+    }
+
+    .attack_section5 {
+        background-color: #000E08;
+        padding: 5%;
+    }
+
+    .attack_section5_box {
+        width: 90%;
+        border: 1px solid #00CD78;
+        border-radius: 8px;
+    }
+
+    .attack_section5_box {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .attack_section5_box div {
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-bottom: 3%;
+        width: 50%;
+    }
+
+    .attack_box_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120.1%;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        width: 70%;
+    }
+
+    .attack_box_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 177%;
+        color: #CBCBCB;
+        width: 120%;
+    }
+
+    .attack_box_btn {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #020906;
+        background-color: #00CD78;
+        margin-left: 50%;
+        margin-top: 25%;
+        width: 30%;
+        padding: 2%;
+        border-radius: 8px;
+    }
+} */
+
+/* json css */
+
+@media screen and (max-width:1440px) and (min-width:1025px) {
+
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .attack_section1 {
+        background-image: url(../../images/attacker/Mask\ group.png);
+        background-size: 100% 110%;
+        background-repeat: no-repeat;
+        padding: 3% 0 6% 15%;
+        margin: 0%;
+    }
+    
+    .attack_Title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 114px;
+        line-height: 100.1%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        padding-bottom: 3%;
+    }
+    
+    .attackDesc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+        opacity: 0.86;
+        width: 85%;
+    }
+    
+    .demoBtn {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 10%;
+        text-align: center;
+        margin-left: 36%;
+        padding: 0.5%;
+        margin-top: 4%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .attack_section2 {
+        background-color: #000E08;
+        margin: 0;
+        margin-top: -2%;
+    }
+    
+    .attack_section2_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        text-align: center;
+        color: #00CD78;
+        padding-top: 2%;
+    }
+    
+    .attack_section2_list {
+        display: flex;
+        margin-left: 5%;
+        padding: 2% 0;
+    }
+    
+    .whyhelp_list {
+        padding: 4% 5%;
+    
+    }
+    
+    .list_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 137.6%;
+        color: #FFFFFF;
+        padding-top: 10%;
+    }
+    
+    .hrLine{
+        height: 95%;
+        margin-top: -63%;
+        margin-left: -45%;
+    }
+    .attack_section3 {
+        display: block;
+        position: relative;
+        margin-top: -2%;
+    }
+    .attack_section3 img {
+        width: 100%;
+    }
+    .attack_section3_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 170.1%;
+        text-align: center;
+        color: #FFFFFF;
+        width: 90%;
+        position: absolute;
+        top: 40%;
+        padding-left: 13%;
+    
+    }
+    
+    .colorText {
+        color: #00CD78;
+    }
+    
+    .attack_section4 {
+        background-color: #000E08;
+        padding-bottom: 1%;
+        margin-top: -1%;
+    }
+    
+    .attack_section4_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31px;
+        line-height: 120.1%;
+        text-align: center;
+        color: #00CD78;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+    
+    .attack_sectionCard {
+        display: flex;
+        width: 71%;
+        height: 355px;
+        background-color: #091610;
+        border-radius: 24px;
+        margin-left: 14%;
+        padding: 2%;
+        padding-bottom: 0%;
+        margin-bottom: 2%;
+    }
+    
+    .attack_cardTitle {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 126.6%;
+        color: #FFFFFF;
+        width: 55%;
+        padding-bottom: 5%;
+    }
+    
+    .attack_cardLeft {
+        width: 50%;
+        margin-left: 5%;
+        padding-top: 3%;
+    }
+    
+    .attack_cardDesc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+        padding-bottom: 1%;
+    }
+    
+    .attack_cardBtn {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 170.1%;
+        color: #00CD78;
+        margin-top: 4%;
+        cursor: pointer;
+    }
+    
+    .attack_cardRight img {
+        width: 100%;
+        height: 100%;
+        margin-top: -5%;
+        margin-left: 25%;
+    }
+    
+    .attack_section5 {
+        background-color: #000E08;
+        margin-top: -2%;
+    }
+    
+    .attack_section5_box {
+        width: 90%;
+        border: 1px solid #00CD78;
+        border-radius: 8px;
+    }
+    
+    .attack_section5_box {
+        display: flex;
+        margin-left: 5%;
+    }
+    
+    .attack_section5_box div {
+        padding-top: 3%;
+        padding-left: 5%;
+        padding-bottom: 3%;
+        width: 60%;
+    }
+    
+    .attack_box_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120.1%;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+    }
+    
+    .attack_box_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 177%;
+        color: #CBCBCB;
+        width: 120%;
+    }
+    
+    .attack_box_btn {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #020906;
+        background-color: #00CD78;
+        margin-left: 50%;
+        margin-top: 8%;
+        width: 30%;
+        padding: 2%;
+        border-radius: 8px;
+    }
+    .Fbutton{
+        background: #00CD78;
+        border-radius: 8px;
+        width:150px;
+        height:40px;
+        outline: none;
+        border: none;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    #joinourTeam{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00CD78;
+    } 
+    input{
+        background-color: #020906;
+        color: #00CD78;
+    }
+    .attack_section3_desc {
+        width: 85%;
+    }
+    .attack_cardDes{
+        width: 75%;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:769px) {
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .attack_section1 {
+        background-image: url(../../images/attacker/Mask\ group.png);
+        background-size: 100% 110%;
+        background-repeat: no-repeat;
+        padding: 0% 0 5% 15%;
+        margin: 0%;
+    }
+
+    .attack_Title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 94px;
+        line-height: 100.1%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        padding-top: 5%;
+        margin-left: -7%;
+    }
+
+    .attackDesc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+        opacity: 0.86;
+        width: 94%;
+        padding-bottom: 3%;
+        margin-left: -6%;
+    }
+
+    .demoBtn {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 15%;
+        text-align: center;
+        margin-left: 34%;
+        padding: 0.5%;
+        font-family: 'Manrope';
+        font-style: normal;
+        margin-left: 33%;
+    }
+
+    .attack_section2 {
+        background-color: #000E08;
+        margin: 0;
+    }
+
+    .attack_section2_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        text-align: center;
+        color: #00CD78;
+        padding-top: 2%;
+    }
+
+    .attack_section2_list {
+        display: flex;
+        margin-left: 4%;
+        padding: 2% 0;
+        margin-top: -2%;
+    }
+    .hrLine{
+        height: 60%;
+        margin-top: -65%;
+        margin-left: -45%;
     }
     .whyhelp_list {
         padding: 2% 4%;

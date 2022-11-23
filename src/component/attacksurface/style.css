@@ -283,6 +283,7 @@ input{
 body {
     padding: 0%;
     margin: 0%;
+    white-space: break-spaces;
 }
 
 .attack_section1 {
@@ -302,6 +303,8 @@ body {
     letter-spacing: -0.05em;
     color: #FFFFFF;
     padding-bottom: 3%;
+    white-space: break-spaces;
+
 }
 
 .attackDesc {
@@ -312,7 +315,7 @@ body {
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.86;
-    width: 85%;
+    width: 75%;
 }
 
 .demoBtn {
@@ -348,7 +351,7 @@ body {
 
 .attack_section2_list {
     display: flex;
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 2% 0;
 }
 
@@ -369,7 +372,8 @@ body {
 
 .hrLine{
     height: 95%;
-    margin-top: 3%;
+    margin-top: -63%;
+    margin-left: -45%;
 }
 .attack_section3 {
     display: block;
@@ -387,10 +391,10 @@ body {
     line-height: 170.1%;
     text-align: center;
     color: #FFFFFF;
-    width: 90%;
+    width: 75%;
     position: absolute;
     top: 40%;
-    padding-left: 13%;
+    padding-left: 23%;
 
 }
 

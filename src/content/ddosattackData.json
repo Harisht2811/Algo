@@ -39,7 +39,7 @@
             },
             {
                 "Blockicon":"../../images/ddosattack/reportImg.png",
-                "BlockTitle":"Report & Analysis",
+                "BlockTitle":"\nReport & Analysis",
                 "BlockDesc1":"Deliver test results.", 
                 "BlockDesc2":"Specify vulnerabilities and  \nreccomendations"
             }
