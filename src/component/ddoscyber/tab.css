@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) and (min-width:431px) 
+@media screen and (max-width:768px) and (min-width:426px) 
 {
     .cyberTitle1 {
         font-size: 29px;
@@ -6,7 +6,6 @@
         
     }
     .cyberTitleFlex {
-        margin-left: 25%;
         padding-bottom: 7%;
     }
     #arrow {

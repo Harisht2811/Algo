@@ -50,27 +50,27 @@ export default function
             <div className='ddosIncidentBanner4BannerLeft'>
               <img src={Expertassign} className='Banner4Img1' alt='Expertassign'></img>
             </div>
-            <div className='ddosIncidentBanner4BannerRight'>
+            <div className='ddosIncidentBanner4BannerRight1'>
               <p className='ddosIncidentCardTitle'>Immediate DDoS Expert Assignment</p>
-              <p className='ddosIncidentCardPara'>Our top DDoS response experts are immediately assigned to your incident. They analyze the attack and apply the appropriate measures until the attack has been fully mitigated</p>
+              <p className='ddosIncidentCardPara1'>Our top DDoS response experts are immediately assigned to your incident. They analyze the attack and apply the appropriate measures until the attack has been fully mitigated</p>
             </div>
           </div>
           <div className='ddosIncidentBanner4Card1'>
             <div className='ddosIncidentBanner4BannerLeft'>
               <img src={Playbook} className='Banner4Img2' alt='Playbook'></img>
             </div>
-            <div className='ddosIncidentBanner4BannerRight'>
+            <div className='ddosIncidentBanner4BannerRight2'>
               <p className='ddosIncidentCardTitle'>Testing and System Hardening</p>
-              <p className='ddosIncidentCardPara'> We audit your network architecture and DDoS protection system configuration, run a DDoS test, and provide detailed recommendations to prevent future attacks</p>
+              <p className='ddosIncidentCardPara2'> We audit your network architecture and DDoS protection system configuration, run a DDoS test, and provide detailed recommendations to prevent future attacks</p>
             </div>
           </div>
           <div className='ddosIncidentBanner4Card1'>
             <div className='ddosIncidentBanner4BannerLeft'>
               <img src={Systemhard} className='Banner4Img3' alt='Systemhard'></img>
             </div>
-            <div className='ddosIncidentBanner4BannerRight'>
+            <div className='ddosIncidentBanner4BannerRight3'>
               <p className='ddosIncidentCardTitle'>Training and DDoS Attack Playbook</p>
-              <p className='ddosIncidentCardPara'> We conduct DDoS training to increase your teams' skills, and provide a DDoS Playbook with
+              <p className='ddosIncidentCardPara3'> We conduct DDoS training to increase your teams' skills, and provide a DDoS Playbook with
                 procedures and activities for responding to any future attacks</p>
             </div>
           </div>

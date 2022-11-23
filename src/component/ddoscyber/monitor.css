@@ -4,8 +4,13 @@
         padding-top: 9%;
     }
     .cyberTitleFlex {
-        margin-left: 30%;
         padding-bottom: 4%;
+    }
+    .cardImg {
+        width: 40%;
+    }
+    .cyberCards {
+        margin-left: 18%;
     }
     #arrow {
         margin-left: -37%;
@@ -14,7 +19,7 @@
     }
     #tick {
         font-size: 19px;
-        margin-left: 32%;
+        margin-left: 37%;
         width: 110%;
     }
     .Tick img {
@@ -30,22 +35,22 @@
     }
     .strategicCard1Title 
     {
-        width: 37%;
+        width: 47%;
         font-size: 26px;
     }
     .card1Para {
-        width: 68%;
+        width: 85%;
         font-size: 14px;
     }
     .ThreatActorTitle {
         font-size: 26px;
     }
     .card2Para {
-        width: 73%;
+        width: 84%;
         font-size: 14px;
     }
     .threatCard3Title {
-        width: 44%;
+        width: 48%;
         font-size: 26px;
     }
     .card3Para {
@@ -66,12 +71,12 @@
         margin-bottom: -1%;
     }
     .strategicPara {
-        margin-top: 6%;
+        margin-top: 8%;
     }
     .threatPara {
-        margin-top: 6%;
+        margin-top: 8%;
     }
     .threatcar3Para {
-        margin-top: 6%;
+        margin-top: 8%;
     }
 }

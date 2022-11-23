@@ -20,14 +20,14 @@
 
     .ddosIncidentPara {
         font-size: 14px;
-    margin-left: 11%;
-    width: 79%;
+    margin-left: 7%;
+    width: 86%;
     margin-top: 9%;
     text-align: center;
     }
 
     .dembtn {
-        margin-left: 37%;
+        margin-left: 35%;
         margin-top: 5%;
     }
     .ddosIncidentBannerTitle2 {
@@ -36,10 +36,11 @@
     }
     .serviceIncludesPara {
         font-size: 14px;
-        width: 73%;
-        margin-left: 14%;
-        padding-bottom: 12%;
+        width: 82%;
+        margin-left: 9%;
+        padding-bottom: 14%;
     }
+   
     .ddosIncidentBanner3 {
         margin-top: -7%;
     }
@@ -90,8 +91,35 @@
         height: 96px;
         padding-top: 20%;
     }
-    .ddosIncidentBanner4BannerRight {
+    .ddosIncidentBanner4Card {
+        margin-left: -1%;
+        padding-top: 15%;
+
+    }
+    .ddosIncidentCardPara1 {
+        font-size: 12px;
+        width: 94%;
+    }
+    .ddosIncidentCardPara2 {
+        font-size: 12px;
+        width: 94%;
+    }
+    .ddosIncidentCardPara3 {
+        font-size: 12px;
+        width: 94%;
+    }
+
+    .ddosIncidentBanner4BannerRight1 {
         margin-left: 10%;
+        margin-bottom: 4%;
+    }
+    .ddosIncidentBanner4BannerRight2 {
+        margin-left: 10%;
+        margin-bottom: 4%;
+    }
+    .ddosIncidentBanner4BannerRight3 {
+        margin-left: 10%;
+        margin-bottom: 4%;
     }
     .ddosIncidentCardPara {
         font-size: 12px;
@@ -104,6 +132,7 @@
         display: block;
         margin-top: 11%;
         margin-bottom: -11%;
+        margin-left: 31px
     }
     .incidentTitle {
         font-size: 14px;
