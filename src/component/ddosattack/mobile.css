@@ -1,4 +1,4 @@
-
+/* 
 @media screen and (max-width:425px) and (min-width:376px) {
 
     .ddosattack_section1 {
@@ -769,4 +769,783 @@
         .ddosattack_section4{
             padding-top: 10%;
         }
-    }
+    } */
+
+
+
+    @media screen and (max-width:425px) and (min-width:376px) {
+
+        .ddosattack_section1 {
+            background-image: url('../../images/ddosattack/mobBg.png');
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+            padding: 30% 0 6% 0%;
+            margin: 0%;
+            height: 100vh;
+        }
+        
+        .ddosattack_Title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            color: #F5F5F5;
+        }
+        
+        .ddoscolorText {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            background: linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        
+        .ddosattackDesc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #FCFCFC;
+            opacity: 0.86;
+            padding-top: 3%;
+        }
+        
+        .ddosattackdemoBtn {
+            background-image: url('../../images/ddosattack/demoBg.png');
+            background-repeat: no-repeat;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            color: #FFFFFF;
+            padding: 5%;
+            background-position-x: center;
+            background-position-y: center;
+            margin-top: 10%;
+        }
+        
+        .ddosattack_section2 {
+            background-color: #000E08;
+        }
+        
+        .ddosattack_cardlist {
+            display: block;
+            margin-left: 2%;
+            margin-top: -2%;
+            padding-bottom: 5%;
+            padding-top: 10%;
+        }
+        
+        .ddosattack_card {
+            background-image: url('../../images/ddosattack/ddosattackcard.png');
+            background-repeat: no-repeat;
+            background-size: 95% 100%;
+            padding: 5%;
+            width: 100%;
+            height: 200px;
+            padding-top: 6%;
+            margin-bottom: 5%;
+            padding-bottom: 5%;
+        }
+        
+        .ddosattack_card:hover {
+            background-image: url('../../images/ddosattack/ddosattackcard.png');
+            background-repeat: no-repeat;
+            background-size: 95% 100%;
+            padding: 5%;
+            width: 100%;
+            height: 200px;
+            padding-top: 6%;
+            margin-bottom: 5%;
+            padding-bottom: 5%;
+        }
+        
+        
+        .ddosattack_CardTitle {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120.1%;
+            letter-spacing: -0.01em;
+            color: #A8A8A8;
+            width: 35%;
+        }
+        
+        .ddosattack_CardTitle:hover {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120.1%;
+            letter-spacing: -0.01em;
+            color: #00CD78;
+            width: 35%;
+        }
+        
+        .ddosattack_CardDesc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 203.1%;
+            color: #A8A8A8;
+            width: 98%;
+        }
+        
+        .ddosattack_section3 {
+            background-image: url('../../images/ddosattack/structuredBg.png');
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+            padding: 5% 0 6% 0%;
+            margin: 0%;
+        }
+        
+        .ddos_structure {
+            padding: 5% 0 10%;
+        }
+        
+        .structure_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #00CD78
+        }
+        
+        .structure_desc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #999999;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .structureList {
+            display: block;
+            margin-left: 3%;
+            margin-top: 15%;
+        }
+        
+        .structureBlock {
+            display: flex;
+            width: 95%;
+            margin-left: -35%;
+            margin-top: -14%;
+
+        
+        }
+        
+        .blocksIcon {
+            width: 44px;
+            height: 44px;
+        }
+        
+        .blocksPara {
+            margin-top: 17%;
+            margin-left: 10%;
+        }
+        
+        .block_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120.1%;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+            text-align: left;
+            white-space: nowrap;
+        }
+        
+        .imageFlex {
+            display: flex;
+            margin-top: 15%;
+        }
+        
+        .dotLine {
+            
+            display: none;
+        }
+        
+        .blockList li {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 170.1%;
+            text-align: left;
+            color: #868686;
+            list-style-position: inside;
+            margin-left: -5%;
+            white-space: pre;
+        }
+        .blockList li br{
+            display: none;
+        }
+        .ddosplatform {
+            margin-top: 15%;
+        }
+        
+        .ddosplatform_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120.1%;
+            letter-spacing: -0.05em;
+            text-transform: uppercase;
+            color: #00CD78;
+            text-align: center;
+        }
+        
+        .ddosplatform_desc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #FFFFFF;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .Actionable {
+            background-color: #00CD78;
+            padding: 5%;
+        }
+        
+        .Actionable_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            color: #000E08;
+        }
+        
+        .Actionable_desc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #000E08;
+            width: 95%;
+            margin-left: 2%;
+        }
+        
+        .ddostesting{
+            background-color: #000E08;
+            padding: 5%;
+        }
+        .ddostesting_list{
+            display: block;
+        }
+        
+        .ddostesting_left{
+            width: 100%;
+        }
+        .ddostesting_awsTitle{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 133.6%;
+            letter-spacing: -0.05em;
+            color: #FFFFFF;
+            width: 90%;
+        }
+        
+        .ddostesting_aswDesc{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13x;
+        line-height: 203.1%;
+        text-align: left;
+        color: #9BA4A2;
+        opacity: 0.6;
+        }
+        
+        .ddostesting_right{
+            margin-left: 4%;
+        }
+        .ddostesting_right1{
+            margin-left: 5%;
+        }
+        
+        .ddostesting_box{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        background: linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        border: 1px solid #00CD78;
+        width: 45%;
+        border-radius: 14px;
+        padding: 0.5% 0 0.5% 3%;
+        }
+        
+        .ddostesting_expl{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 98%;
+        }
+        
+        .testhrline{
+            width: 100%;
+            padding: 5% 0;
+        }
+        .ddosattack_section4{
+            background-color: #000E08;
+            margin-top: -15%;
+        }
+        }
+    
+    
+        
+    @media screen and (max-width: 375px) {
+    
+        .ddosattack_section1 {
+            background-image: url('../../images/ddosattack/mobBg.png');
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+            padding: 30% 0 6% 0%;
+            margin: 0%;
+            height: 100vh;
+        }
+        
+        .ddosattack_Title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            color: #F5F5F5;
+        }
+        
+        .ddoscolorText {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            background: linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        
+        .ddosattackDesc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #FCFCFC;
+            opacity: 0.86;
+            padding-top: 3%;
+        }
+        
+        .ddosattackdemoBtn {
+            background-image: url('../../images/ddosattack/demoBg.png');
+            background-repeat: no-repeat;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            color: #FFFFFF;
+            padding: 5%;
+            background-position-x: center;
+            background-position-y: center;
+            margin-top: 10%;
+        }
+        
+        .ddosattack_section2 {
+            background-color: #000E08;
+        }
+        
+        .ddosattack_cardlist {
+            display: block;
+            margin-left: 5%;
+            margin-top: -2%;
+            padding-bottom: 5%;
+            padding-top: 10%;
+        }
+        
+        .ddosattack_card {
+            background-image: url('../../images/ddosattack/ddosattackcard.png');
+            background-repeat: no-repeat;
+            background-size: 95% 100%;
+            padding: 5%;
+            width: 100%;
+            height: 200px;
+            padding-top: 6%;
+            margin-bottom: 5%;
+            padding-bottom: 5%;
+        }
+        
+        .ddosattack_card:hover {
+            background-image: url('../../images/ddosattack/ddosattackcard.png');
+            background-repeat: no-repeat;
+            background-size: 95% 100%;
+            padding: 5%;
+            width: 100%;
+            height: 200px;
+            padding-top: 6%;
+            margin-bottom: 5%;
+            padding-bottom: 5%;
+        }
+        
+        
+        .ddosattack_CardTitle {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120.1%;
+            letter-spacing: -0.01em;
+            color: #A8A8A8;
+            width: 40%;
+        }
+        
+        .ddosattack_CardTitle:hover {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120.1%;
+            letter-spacing: -0.01em;
+            color: #00CD78;
+            width: 40%;
+        }
+        
+        .ddosattack_CardDesc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 203.1%;
+            color: #A8A8A8;
+            width: 95%;
+        }
+        
+        .ddosattack_section3 {
+            background-image: url('../../images/ddosattack/structuredBg.png');
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+            padding: 5% 0 6% 0%;
+            margin: 0%;
+        }
+        
+        .ddos_structure {
+            padding: 5% 0 10%;
+        }
+        
+        .structure_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #00CD78
+        }
+        
+        .structure_desc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #999999;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .structureList {
+            display: block;
+            margin-left: 3%;
+            margin-top: 15%;
+        }
+        
+        .structureBlock {
+            display: flex;
+            width: 95%;
+            margin-left: -40%;
+            margin-top: -14%;        
+        }
+        
+        .blocksIcon {
+            width: 44px;
+            height: 44px;
+        }
+        
+        .blocksPara {
+            margin-top: 17%;
+            margin-left: 5%;
+        }
+        
+        .block_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120.1%;
+            letter-spacing: -0.01em;
+            color: #FFFFFF;
+            text-align: left;
+            white-space: nowrap;
+        }
+        
+        .imageFlex {
+            display: flex;
+            margin-top: 15%;
+        }
+        
+        .dotLine {
+            
+            display: none;
+        }
+        
+        .blockList li {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 170.1%;
+            text-align: left;
+            color: #868686;
+            list-style-position: inside;
+            margin-left: -10%;
+            white-space: pre;
+        }
+        .blockList li br{
+            display: none;
+        }
+        .ddosplatform {
+            margin-top: 15%;
+        }
+        
+        .ddosplatform_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120.1%;
+            letter-spacing: -0.05em;
+            text-transform: uppercase;
+            color: #00CD78;
+            text-align: center;
+        }
+        
+        .ddosplatform_desc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #FFFFFF;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .Actionable {
+            background-color: #00CD78;
+            padding: 5%;
+        }
+        
+        .Actionable_title {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120.1%;
+            text-align: center;
+            letter-spacing: -0.05em;
+            color: #000E08;
+        }
+        
+        .Actionable_desc {
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 170.1%;
+            text-align: center;
+            color: #000E08;
+            width: 95%;
+            margin-left: 2%;
+        }
+        
+        .ddostesting{
+            background-color: #000E08;
+            padding: 5%;
+        }
+        .ddostesting_list{
+            display: block;
+        }
+        
+        .ddostesting_left{
+            width: 100%;
+        }
+        .ddostesting_awsTitle{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 133.6%;
+            letter-spacing: -0.05em;
+            color: #FFFFFF;
+            width: 90%;
+        }
+        
+        .ddostesting_aswDesc{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13x;
+        line-height: 203.1%;
+        text-align: left;
+        color: #9BA4A2;
+        opacity: 0.6;
+        }
+        
+        .ddostesting_right{
+            margin-left: 4%;
+        }
+        .ddostesting_right1{
+            margin-left: 5%;
+        }
+        
+        .ddostesting_box{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        background: linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        border: 1px solid #00CD78;
+        width: 45%;
+        border-radius: 14px;
+        padding: 0.5% 0 0.5% 3%;
+        }
+        
+        .ddostesting_expl{
+            font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 98%;
+        }
+        
+        .testhrline{
+            width: 100%;
+            padding: 5% 0;
+        }
+        .ddosattack_section4{
+            background-color: #000E08;
+            margin-top: -15%;
+        }
+        }
+    
+    
+        @media screen and (max-width: 345px) {
+    
+            .ddosattack_Title {
+                font-size: 22px !important;
+            }
+            
+            .ddoscolorText {
+                font-size: 22px !important;            
+            }
+            
+            .ddosattackDesc {
+                font-size: 12px !important;
+            }
+           
+            .ddosattack_CardTitle, .ddosattack_CardTitle:hover {
+                width: 45%;
+            }
+    
+            .ddosattack_CardDesc {
+                font-size: 13px !important;   
+            }
+    
+            .structure_title {
+                font-size: 16px;
+            }
+    
+            .structure_desc {
+                font-size: 12px;
+            }
+    
+            .ddostesting_box{
+                width: 51%;
+            }
+            
+            .ddosattack_section4{
+                padding-top: 10%;
+            }
+        }
+        
