@@ -51,7 +51,7 @@ top: 0px;
 }
 @media screen and (max-width:768px) and (min-width:430px) {
     .popupCard{
-        height: 450px;
+        height: 660px;
         width: 380px;
         padding: 1.5% 3%;
         right: 0px;
