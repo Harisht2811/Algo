@@ -87,7 +87,7 @@ function Header() {
         </div>
         <div className='homeServices'>
           <img id="myBtn" onClick={openmodal} src={Toggleicon} alt='toggleicon'></img>
-          <p id='algoheaderText'>Services <div>  <img onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img> </div></p>
+          <p id='algoheaderText'>Services <img onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img></p>
 
 
           {

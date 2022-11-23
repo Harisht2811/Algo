@@ -36,7 +36,7 @@ export default function
         <div className='ddosIncidentFlex'>
           <div className='ddosIncidentFlexContent'>
             <p className='ddosIncidentFlexTitle'>Understanding the Theory Behind Incident Response</p>
-            <hr></hr>
+            <hr className='ddosincidenthr'></hr>
             <p className='ddosIncidentFlexPara'>Incident response is a fundamental responsibility for any IT program. With so many potential threats lurking around every digital turn, it’s not a matter of if something will happen—but when. Although it’s nearly impossible to consider every incident scenario, implementing a comprehensive incident response plan—complete with the incident response phases—ensures that your team is ready to spring into action at a moment’s notice.</p>
           </div>
           <div className='ddosIncidentFlexImage'>
