@@ -1,6 +1,7 @@
 import React from 'react'
 import '../certifications/certifications.css'
-
+import { useState } from 'react'
+import Popup from '../../getdemo/getdemo'
 import Certificate1 from '../../../images/homepage/algohome18.png'
 import Certificate2 from '../../../images/homepage/algohome19.png'
 import Certificate3 from '../../../images/homepage/algohome20.png'
@@ -8,7 +9,9 @@ import Certificate4 from '../../../images/homepage/algohome21.png'
 import Certificate5 from '../../../images/homepage/algohome22.png'
 
 
-function certifications() {
+function Certifications() {
+ const [buttonPopup, setButtonPopup] =useState(false);
+
   return (
     <>
     <div className='algocertifications'>
@@ -32,12 +35,19 @@ function certifications() {
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                 </div>
-                <button className='certificateButton'>Get a demo</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
             </div>
         </div>
         </div>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+     <p id='joinourTeam'>Join our team</p>
+     <input className='Fname' type="text" placeholder='Name*'></input>
+     <input className='Femail' type="text" placeholder='Email*'></input>
+     <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+     <button className='Fbutton'>Submit</button>    
+    </Popup>
     </>
   )
 }
 
-export default certifications
+export default Certifications
