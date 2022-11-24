@@ -1,4 +1,4 @@
-/* @media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1440px) and (min-width:1025px) {
 
     .ddosattack_section2{
         margin-top: -2%;
@@ -382,9 +382,9 @@ width: 98%;
     background-color: #000E08;
     margin-top: -5%;
 }
-} */
+}
 
-
+/* 
 
 @media screen and (max-width:1440px) and (min-width:1025px) {
     .ddosattack_section1 {
@@ -1119,4 +1119,4 @@ width: 98%;
     background-color: #000E08;
     margin-top: -5%;
 }
-}
+} */

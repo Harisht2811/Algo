@@ -1,4 +1,4 @@
-/* body {
+body {
     padding: 0%;
     margin: 0%;
 }
@@ -64,15 +64,21 @@
     padding-top: 2%;
 }
 
+  
 .attack_section2_list {
     display: flex;
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 2% 0;
+    margin-top: 2%;
 }
-
+.hrLine{
+    height: 60%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
 .whyhelp_list {
-    padding: 4% 5% 4% 5%;
-
+    padding: 2% 4%;
+    margin-left: 0%;
 }
 
 .list_title {
@@ -82,15 +88,8 @@
     font-size: 18px;
     line-height: 137.6%;
     color: #FFFFFF;
-    padding-top: 10%;
-    width: 80%;
 }
 
-.hrLine{
-    height: 95%;
-    margin-top: -70%;
-    margin-left: -40%;
-}
 .attack_section3 {
     display: block;
     position: relative;
@@ -277,9 +276,9 @@
 input{
     background-color: #020906;
     color: #00CD78;
-} */
+}
 
-
+/* 
 body {
     padding: 0%;
     margin: 0%;
@@ -561,4 +560,4 @@ body {
 input{
     background-color: #020906;
     color: #00CD78;
-}
+} */

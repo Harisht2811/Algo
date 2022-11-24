@@ -1,4 +1,4 @@
-/* @media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1440px) and (min-width:1025px) {
 
     body {
         padding: 0%;
@@ -68,15 +68,20 @@
     
     .attack_section2_list {
         display: flex;
-        margin-left: 5%;
+        margin-left: 10%;
         padding: 2% 0;
+        margin-top: 2%;
     }
-    
+    .hrLine{
+        height: 60%;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
     .whyhelp_list {
-        padding: 4% 5%;
-    
+        padding: 2% 4%;
+        margin-left: 0%;
     }
-    
+
     .list_title {
         font-family: 'Manrope';
         font-style: normal;
@@ -84,13 +89,8 @@
         font-size: 18px;
         line-height: 137.6%;
         color: #FFFFFF;
-        padding-top: 10%;
     }
-    
-    .hrLine{
-        height: 95%;
-        margin-top: 3%;
-    }
+
     .attack_section3 {
         display: block;
         position: relative;
@@ -356,11 +356,12 @@
         display: flex;
         margin-left: 4%;
         padding: 2% 0;
-        margin-top: -2%;
+        margin-top: 2%;
     }
     .hrLine{
         height: 60%;
-   
+        margin-top: 0%;
+        margin-left: 0%;
     }
     .whyhelp_list {
         padding: 2% 4%;
@@ -375,7 +376,6 @@
         line-height: 137.6%;
         color: #FFFFFF;
     }
-
 
     .attack_section3_desc {
         font-family: 'Manrope';
@@ -522,10 +522,10 @@
         padding: 2%;
         border-radius: 8px;
     }
-} */
+}
 
 /* json css */
-
+/* 
 @media screen and (max-width:1440px) and (min-width:1025px) {
 
     body {
@@ -1052,4 +1052,4 @@
         padding: 2%;
         border-radius: 8px;
     }
-}
+} */

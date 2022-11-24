@@ -1,4 +1,4 @@
-/* .virtual_section1 {
+.virtual_section1 {
     background-image: url(../../images/virtual/virtualBg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -213,9 +213,10 @@ margin-left: 20%;
 .virtual_section5{
     background-color: #000E08;
     margin-top: -10%;
-} */
+}
 
-
+/* json css */
+/* 
 *{
     white-space: break-spaces;
 
@@ -438,4 +439,4 @@ margin-left: 20%;
 .virtual_section5{
     background-color: #000E08;
     margin-top: -10%;
-}
+} */

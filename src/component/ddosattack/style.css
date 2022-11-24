@@ -1,4 +1,4 @@
-/* .ddosattack_section1 {
+.ddosattack_section1 {
     background-image: url('../../images/ddosattack/ddosattackBg.png');
     background-size: 100% 110%;
     background-repeat: no-repeat;
@@ -352,14 +352,14 @@ white-space: break-spaces;
 }
 .ddosattack_section4{
     background-color: #000E08;
-} */
+}
 
 
 
 /* json css */
 
 
-
+/* 
 .ddosattack_section1 {
     background-image: url('../../images/ddosattack/ddosattackBg.png');
     background-size: 100% 110%;
@@ -719,4 +719,4 @@ white-space: break-spaces;
 }
 .ddosattack_section4{
     background-color: #000E08;
-}
+} */
