@@ -51,7 +51,7 @@ top: 0px;
 }
 @media screen and (max-width:768px) and (min-width:430px) {
     .popupCard{
-        height: 660px;
+        height: 465px;
         width: 380px;
         padding: 1.5% 3%;
         right: 0px;
@@ -61,7 +61,7 @@ top: 0px;
         font-size: 24px;
     }
     #popupCardText{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 2px;
     }
 }
