@@ -12,7 +12,7 @@ const Popupcard=({closemodal})=> {
 
 
     typeof window !== 'undefined'? 
-    window.innerWidth<=768?
+    window.innerWidth<768?
     <div className='popupCard'>
        <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/">Home</Link></p>
       <hr id='popuphrincard'></hr>
@@ -33,8 +33,6 @@ const Popupcard=({closemodal})=> {
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ransomware">Ransomware</Link></p>
            <hr id='popuphrincard'></hr> 
-           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/threatintelligence">Threat Intelligence</Link></p>
-           <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/phishing">Phishing Detection</Link></p>
            <hr id='popuphrincard'></hr>
            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoscyber">Deep Cyber Investigations</Link></p>
