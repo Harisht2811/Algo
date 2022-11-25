@@ -103,19 +103,21 @@
     .ransomeCardList{
         display: flex;
         padding-left: 0%;
+        /* width: 50%; */
         margin-left: -3%;
     }
     .ransomeCard{
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
-        background-size: 60% 97%;
-        padding: 4%;
-        padding-top: 10%;
+        background-size: 100% 97%;
+        padding: 5%;
+        padding-top: 20%;
+        padding-right: 0%;
     }
     .ransomeCard:hover{
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
-        background-size: 60% 97%;
+        background-size: 100% 97%;
     }
     .ransomCard_title{
         font-family: 'Manrope';
@@ -126,7 +128,7 @@
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding-bottom: 2%;
-        width: 50%;
+        width: 90%;
     }
     .ransomCard_desc{
         font-family: 'Manrope';
@@ -138,43 +140,38 @@
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 2%;
-        width: 53%;
+        width: 92%;
     }   
-    /* .ransomeDotImg{
-        width: 161px;
-        height: 201px;
-        margin-top: 28%;
-        margin-left: -30%;
-    } */
     .ransomeDotLeft{
         width: 201px;
         height: 201px;
-        margin-top: 28%;
-        margin-left: 25%;
+        margin-top: 45%;
+        margin-left: 60%;
     }
     .ransomeDotright{
-        width: 200px;
+        width: 202px;
         height: 201px;
-        margin-top: 30%;
+        margin-top: 28%;
         margin-left: 30%;
     }
     .ransomList1{
         padding-left: 5%;
         margin-top: -3%;
+        width: 63%;
     }
     .ransomList3{
         margin-top: -10%;
         padding-left: 5%;
-        width: 105%;
+        width: 63%;
     }
     .ransomList2{
-        margin-left: 50%;
-        margin-top: -6%;
-        width: 90%;
+        margin-left: 35%;
+        margin-top: -10%;
+        width: 58%;
     }     
     .ransomList4{
-        margin-left: 55%;
+        margin-left: 50%;
         margin-top: -10%;
-        width: 90%;
+        width: 58%;
     }   
 }

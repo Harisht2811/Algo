@@ -111,9 +111,8 @@
     }
     .ransomeCardList{
         display: block;
-        width: 100%;
         padding-left: 0%;
-        margin-left: -3%;
+        margin-left: 7%;
     }
     .ransomeCard{
         background-image: url('../../images/Ransomeware/ransomCard.png');
@@ -136,7 +135,7 @@
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding-bottom: 2%;
-        width: 90%;
+        width: 100%;
     }
     .ransomCard_desc{
         font-family: 'Manrope';
@@ -144,7 +143,7 @@
         font-weight: 500;
         font-size: 13px;
         line-height: 203.1%;
-        text-align: justify;
+        text-align: left;
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 2%;
@@ -166,23 +165,23 @@
     .ransomList1{
         padding-left: 10%;
         margin-top: -3%;
-        width: 125%;
+        width: 100%;
 
     }
     .ransomList3{
         margin-top: 10%;
         padding-left: 10%;
-        width: 125%;
+        width: 100%;
     }
     .ransomList2{
-        margin-left: 5%;
+        margin-left: 15%;
         margin-top: -130%;
-        width: 120%;
+        width: 95%;
     }            
     .ransomList4{
-        margin-left: 5%;
+        margin-left: 15%;
         margin-top: -55%;
-        width: 120%;
+        width: 95%;
     }   
 }
 
@@ -299,9 +298,8 @@
     }
     .ransomeCardList{
         display: block;
-        width: 100%;
         padding-left: 0%;
-        margin-left: -3%;
+        margin-left: 10%;
     }
     .ransomeCard{
         background-image: url('../../images/Ransomeware/ransomCard.png');
@@ -319,15 +317,13 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 16px;
         line-height: 120.1%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding-bottom: 2%;
-        width: 100%;
-    }
-    .ransomCard_title br{
-        display: none;
+        padding-top: 5%;
+        width: 108%;
     }
     .ransomCard_desc{
         font-family: 'Manrope';
@@ -335,11 +331,11 @@
         font-weight: 500;
         font-size: 13px;
         line-height: 203.1%;
-        text-align: justify;
+        text-align: left;
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 2%;
-        width: 95%;
+        width: 98%;
     }   
     /* .ransomeDotImg{
         width: 161px;
@@ -355,24 +351,24 @@
 
     }
     .ransomList1{
-        padding-left: 10%;
+        padding-left: 5%;
         margin-top: -3%;
-        width: 125%;
+        width: 93%;
 
     }
     .ransomList3{
         margin-top: 10%;
-        padding-left: 10%;
-        width: 125%;
+        padding-left: 5%;
+        width: 93%;
     }
     .ransomList2{
-        margin-left: 5%;
-        margin-top: -150%;
-        width: 120%;
+        margin-left: 15%;
+        margin-top: -130%;
+        width: 90%;
     }            
     .ransomList4{
-        margin-left: 5%;
-        margin-top: -65%;
-        width: 120%;
+        margin-left: 15%;
+        margin-top: -55%;
+        width: 90%;
     }   
 }

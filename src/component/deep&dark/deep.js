@@ -100,3 +100,65 @@ function Deep() {
 }
 
 export default Deep;
+
+// import deepdark from '../../content/deepData.json'
+// function Deep() {
+//     const [buttonPopup, setButtonPopup] =useState(false);
+//     return (
+//         <>
+//          {deepdark.map(item => {
+//          return <div>
+//             <div className='dark_section1'>
+//                 <div className='dark_Title'>{item.title}<br /> <span className='colortext'>{item.title1}</span></div>
+//                 <p className="darkDesc">{item.titleDesc}</p>
+//                 <p className="dark_demoBtn " onClick={() => setButtonPopup(true)}>{item.demo}</p>
+//             </div>
+//             <div className='dark_section2'>
+//                 <p className='work_title'>{item.howweWork}</p>
+//                 <img src={item.workHr} className='dark_hrline' alt='hrline'/>
+//                 <p className='work_desc'>{item.workDesc}</p>
+//                 <img src={item.workHr} className='dark_hrline' alt='hrline'/>
+//             </div>
+//             <div className='dark_section3'>
+//             {item.workCard.map(item => {
+//             return <div className='darkcard'>
+//                     <div className='darkcard_left'>
+//                         <img className='leftcardimg' src={item.icon} alt='card'/>
+//                         <p className='leftcard_title'>{item.cardTitle}</p>
+//                     </div>
+//                     <div className='darkcard_right'>
+//                         <p className='rightcard_desc'>{item.cardDesc}</p>
+//                         <p className='darkdemo'>{item.carddemo}<img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+//                     </div>
+//                 </div>
+//             })}
+//             </div>
+//             <div className='deep_dark'>
+//                 <div className='deep_darkLeft'>{item.maneuver}</div>
+//                 <div className='deep_darkRight'>{item.maneuverDesc}</div>
+//             </div>
+//             <div className='dark_section5'>
+//                 <div className='heard'>
+//                     <div className='securityIssues'>
+//                         <div className='securityText'>
+//                             <p id='titleIssues'>{item.hearTitle}</p>
+//                             <p id='textIssues'>{item.heardDesc}</p>
+//                         </div>
+//                         <button className='certificateButton' onClick={() => setButtonPopup(true)}>{item.heardBtn}</button>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//          })}
+//         <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+//         <p id='joinourTeam'>Join our team</p>
+//         <input className='Fname' type="text" placeholder='Name*'></input>
+//         <input className='Femail' type="text" placeholder='Email*'></input>
+//         <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
+//         <button className='Fbutton'>Submit</button>    
+//        </Popup>
+//        </>
+//     )
+// }
+
+// export default Deep;

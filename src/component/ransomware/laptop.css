@@ -1,26 +1,76 @@
 
 @media screen and (max-width:1440px) and (min-width:1025px) {
-    .ransomList4 {
-        margin-left: 52%;
-        margin-top: -6%;
-        width: 90%;
+    .ransomeCardList{
+        display: flex;
+        padding-left: 0%;
+        width: 50%;
+        margin-left: 12%;
     }
-    .ransomList2{
-        margin-left:68%;
-        margin-top: -6%;
-        width: 85%;
-    }     
-    .ransomeDotright{
-        width: 400px;
+    .ransomeCard{
+        background-image: url('../../images/Ransomeware/ransomCard.png');
+        background-repeat: no-repeat;
+        background-size: 80% 97%;
+        padding: 5%;
+        padding-top: 15%;
+        padding-right: 0%;
+    }
+    .ransomeCard:hover{
+        background-image: url('../../images/Ransomeware/ransomCard.png');
+        background-repeat: no-repeat;
+        background-size: 80% 97%;
+    }
+    .ransomCard_title{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120.1%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        padding-bottom: 2%;
+        width: 55%;
+    }
+    .ransomCard_desc{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        padding-bottom: 2%;
+        width: 70%;
+    }   
+    .ransomeDotLeft{
+        width: 301px;
         height: 201px;
-        margin-top: 0%;
-        margin-left: -25%;
+        margin-top: 45%;
+        margin-left: 55%;
     }
-    .ransomeDotImg{
-        width: 261px;
+    .ransomeDotright{
+        width: 302px;
         height: 201px;
         margin-top: 28%;
-        margin-left: -40%;
+        margin-left: 0%;
+    }
+    .ransomList1{
+        padding-left: 5%;
+        margin-top: -3%;
+    }
+    .ransomList3{
+        margin-top: -5%;
+        padding-left: 5%;
+    }
+    .ransomList2{
+        margin-left: 50%;
+        margin-top: -4%;
+        /* width: 85%; */
+    }     
+    .ransomList4{
+        margin-left: 53%;
+        margin-top: -6%;
+        width: 44%;
     }
 }
 
@@ -124,18 +174,21 @@
     .ransomeCardList{
         display: flex;
         padding-left: 0%;
+        width: 50%;
+        margin-left: 5%;
     }
     .ransomeCard{
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
-        background-size: 59% 97%;
-        padding: 4%;
-        padding-top: 10%;
+        background-size: 100% 97%;
+        padding: 5%;
+        padding-top: 20%;
+        padding-right: 0%;
     }
     .ransomeCard:hover{
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
-        background-size: 59% 97%;
+        background-size: 100% 97%;
     }
     .ransomCard_title{
         font-family: 'Manrope';
@@ -146,7 +199,7 @@
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding-bottom: 2%;
-        width: 42%;
+        width: 80%;
     }
     .ransomCard_desc{
         font-family: 'Manrope';
@@ -158,19 +211,19 @@
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 2%;
-        width: 50%;
+        width: 90%;
     }   
-    .ransomeDotImg{
-        width: 261px;
+    .ransomeDotLeft{
+        width: 301px;
         height: 201px;
-        margin-top: 28%;
-        margin-left: -30%;
+        margin-top: 45%;
+        margin-left: 60%;
     }
     .ransomeDotright{
-        width: 400px;
+        width: 302px;
         height: 201px;
-        margin-top: 0%;
-        margin-left: -25%;
+        margin-top: 28%;
+        margin-left: 0%;
     }
     .ransomList1{
         padding-left: 5%;
@@ -181,13 +234,13 @@
         padding-left: 5%;
     }
     .ransomList2{
-        margin-left: 59%;
-        margin-top: -6%;
-        width: 85%;
+        margin-left: 45%;
+        margin-top: -4%;
+        /* width: 85%; */
     }     
     .ransomList4{
         margin-left: 57%;
         margin-top: -6%;
-        width: 90%;
+        width: 44%;
     }   
 }
