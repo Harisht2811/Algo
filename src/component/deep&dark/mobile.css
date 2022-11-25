@@ -28,7 +28,8 @@
         line-height: 170.1%;
         text-align: center;
         color: #FFFFFF;
-        padding: 0% 0 3%;
+        padding: 0% 0 3% 5%;
+        width: 90%;
     }
 
     .colortext {
@@ -36,16 +37,21 @@
     }
 
     .dark_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        text-align: center;
-        margin-left: 35%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 8% 0 0 30%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 2%;
+    
     }
 
 
@@ -214,18 +220,21 @@
     }
 
     .dark_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        text-align: center;
-        margin-left: 35%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 8% 0 0 30%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 3%;
     }
-
 
     .dark_section2 {
         background-color: #000E08;

@@ -38,14 +38,21 @@
     }
 
     .demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 20%;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 3% 0 5% 25%;
+        outline: none;
         text-align: center;
-        margin-left: 30%;
-        padding: 0.5%;
-        font-family: 'Manrope';
-        font-style: normal;
+        width: 150px;
+        padding-top: 1.5%;
+        cursor: pointer;
     }
 
     .attack_section2 {

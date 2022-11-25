@@ -46,17 +46,21 @@
     }
     
     .phishingDemoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 15%;
-        text-align: center;
-        margin-left: 34%;
-        padding: 0.5%;
-        margin-top: 4%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
-        margin-left: 0%;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 3% 0 0 0%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 1%;
+        cursor: pointer;
     }
     
     .phishing_section2 {

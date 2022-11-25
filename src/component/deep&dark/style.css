@@ -1,6 +1,7 @@
-*{
+* {
     white-space: break-spaces;
 }
+
 .dark_section1 {
     background-image: url(../../images/deepdark/darkBg.png);
     background-size: 100% 100%;
@@ -37,16 +38,20 @@
 }
 
 .dark_demoBtn {
-    background: #00CD78;
+    background: #00cd78;
+    border: none;
     border-radius: 8px;
-    width: 10%;
-    text-align: center;
-    margin-left: 45%;
-    padding: 0.5%;
-    margin-top: 2%;
-    font-family: 'Manrope';
-    font-style: normal;
+    font-family: Manrope;
+    font-size: 14px;
     font-weight: 700;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin: 3% 0 0 45%;
+    outline: none;
+    text-align: center;
+    width: 150px;
+    padding-top: 0.5%;
     cursor: pointer;
 }
 
@@ -95,7 +100,7 @@
 }
 
 .darkcard {
-    background-image: url('../../images/deepdark/cardbg1.png');  
+    background-image: url('../../images/deepdark/cardbg1.png');
     background-repeat: no-repeat;
     background-size: 90% 70%;
     padding: 3%;
@@ -103,12 +108,15 @@
     display: flex;
     padding-bottom: 10%;
 }
-.darkcard:hover{
-    background-image: url('../../images/deepdark/cardbg.png');  
+
+.darkcard:hover {
+    background-image: url('../../images/deepdark/cardbg.png');
 }
-.leftcardimg:hover{
+
+.leftcardimg:hover {
     border-color: rgba(44, 213, 139, 1);
 }
+
 .darkcard_left {
     width: 19%;
     margin-top: -6%;
@@ -126,10 +134,12 @@
     padding-top: 5%;
 
 }
-.leftcard_title:hover{
+
+.leftcard_title:hover {
     color: #00CD78;
     cursor: pointer;
 }
+
 .darkcard_right {
     width: 68%;
     padding-left: 5%;
@@ -173,16 +183,17 @@
     width: 35%;
 }
 
-.deep_darkRight{
+.deep_darkRight {
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 170.1%;
-color: #CBCBCB;
-width: 60%;
-padding-left: 8%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170.1%;
+    color: #CBCBCB;
+    width: 60%;
+    padding-left: 8%;
 }
-.dark_section5{
+
+.dark_section5 {
     background-color: #000E08;
 }

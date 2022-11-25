@@ -38,18 +38,21 @@
     }
 
     .virtual_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 18%;
-        text-align: center;
-        margin-left: 45%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 5% 0 0 40%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 1.5%;
         cursor: pointer;
-        margin-left: 43%;
     }
 
     .virtualCardlist {

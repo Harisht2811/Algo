@@ -40,17 +40,21 @@
     }
     
     .phishingDemoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        text-align: center;
-        margin-left: 34%;
-        padding: 0.5%;
-        margin-top: 4%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
-        margin-left: 30%;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 3% 0 0 30%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 2.5%;
+        cursor: pointer;
     }
     
     .phishing_section2 {
@@ -108,8 +112,12 @@
     }
     
     .phishingCard:hover {
-        background-image: url('../../images/phishing/cardbg.png');
+        background-image: url('../../images/phishing/cardbg1.png');
         background-repeat: no-repeat;
+        background-size: 100% 92%;
+        width: 95%;
+        padding: 5%;
+        margin-right: 3%;
     }
     
     .phishingCard_title {
@@ -290,17 +298,21 @@
         padding-bottom: 5%;
     }    
     .phishingDemoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        text-align: center;
-        margin-left: 34%;
-        padding: 0.5%;
-        margin-top: 4%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
-        margin-left: 30%;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 3% 0 0 25%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 3%;
+        cursor: pointer;
     }
     
     .phishing_section2 {
@@ -358,9 +370,12 @@
     }
     
     .phishingCard:hover {
-        background-image: url('../../images/phishing/cardbg.png');
+        background-image: url('../../images/phishing/cardbg1.png');
         background-repeat: no-repeat;
-    }
+        background-size: 100% 95%;
+        width: 95%;
+        padding: 5%;
+        margin-right: 3%;}
     
     .phishingCard_title {
         font-family: 'Manrope';

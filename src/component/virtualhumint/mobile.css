@@ -10,20 +10,20 @@
     }
 
     .virtualBtn {
-        background-image: url(../../images/virtual/virtualBtn.png);
+        kground-image: url(/static/virtualBtn-36d8124….png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15%;
-        width: 150%;
+        padding: 21%;
+        width: 100%;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 14px;
         line-height: 120.1%;
         text-align: center;
         letter-spacing: -0.05em;
         color: #00CD78;
-        margin-left: -25%;
+        margin-left: 0%;
     }
 
     .virtual_Title {
@@ -35,22 +35,25 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        margin-top: -10%;
+        margin-top: -15%;
     }
 
     .virtual_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        text-align: center;
-        margin-left: 45%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 5% 0 0 33%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 2%;
         cursor: pointer;
-        margin-left: 35%;
     }
 
     .virtualCardlist {
@@ -255,20 +258,20 @@
     }
 
     .virtualBtn {
-        background-image: url(../../images/virtual/virtualBtn.png);
+        kground-image: url(/static/virtualBtn-36d8124….png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15%;
-        width: 150%;
+        padding: 21%;
+        width: 100%;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 120.1%;
         text-align: center;
         letter-spacing: -0.05em;
         color: #00CD78;
-        margin-left: -25%;
+        margin-left: 0%;
     }
 
     .virtual_Title {
@@ -280,22 +283,25 @@
         text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        margin-top: -10%;
+        margin-top: -15%;
     }
 
     .virtual_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        text-align: center;
-        margin-left: 45%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        font-family: Manrope;
+        font-size: 14px;
         font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 5% 0 0 33%;
+        outline: none;
+        text-align: center;
+        width: 150px;
+        padding-top: 2.5%;
         cursor: pointer;
-        margin-left: 35%;
     }
 
     .virtualCardlist {

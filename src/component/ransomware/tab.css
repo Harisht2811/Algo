@@ -33,17 +33,21 @@
         width: 100%;
     }
     .demobtn{
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
-        padding: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
-        font-weight: 700;
+        font-family: Manrope;
         font-size: 14px;
+        font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
         line-height: 19px;
+        margin: 3% 0 15% 0%;
+        outline: none;
         text-align: center;
-        color: #020906;
+        width: 150px;
+        padding-top: 2.5%;
+        cursor: pointer;
     }
     .ransome_part2{
         display: block;
@@ -170,8 +174,8 @@
         width: 58%;
     }     
     .ransomList4{
-        margin-left: 50%;
+        margin-left: 51%;
         margin-top: -10%;
-        width: 58%;
+        width: 49%;
     }   
 }

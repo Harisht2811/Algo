@@ -40,18 +40,25 @@ white-space:unset
         color: #CBCBCB;
         width: 90%;
         padding-left: 10%;
+        padding-top: 4%;
     }
     
     .party_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 7% 0 0 35%;
+        outline: none;
         text-align: center;
-        margin-left: 35%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        width: 150px;
+        padding-top: 2%;
+        cursor: pointer;
     }
     
     .party_section2 {
@@ -61,7 +68,7 @@ white-space:unset
     }
     
     .vendorImg {
-        width: 409px;
+        width: 368px;
         height: 406.78px;
         margin-top: -10%;
         margin-left: -15%;
@@ -184,7 +191,7 @@ white-space:unset
     
     .impactList>div {
         display: flex;
-        margin-left: 10%;
+        margin-left: 5%;
         padding-bottom: 2%;
     }
     .listTitle:hover {
@@ -206,7 +213,7 @@ white-space:unset
         line-height: 137.6%;
         color: #FFFFFF;
         padding-bottom: 0%;
-        width: 80%;
+        width: 85%;
     }
     
     .listDesc {
@@ -326,18 +333,25 @@ white-space:unset
         color: #CBCBCB;
         width: 90%;
         padding-left: 11%;
+        padding-top: 5%;
     }
     
     .party_demoBtn {
-        background: #00CD78;
+        background: #00cd78;
+        border: none;
         border-radius: 8px;
-        width: 30%;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        height: 40px;
+        letter-spacing: 0;
+        line-height: 19px;
+        margin: 8% 0 0 30%;
+        outline: none;
         text-align: center;
-        margin-left: 35%;
-        padding: 0.5%;
-        margin-top: 2%;
-        font-family: 'Manrope';
-        font-style: normal;
+        width: 150px;
+        padding-top: 2%;
+        cursor: pointer;
     }
     
     .party_section2 {
@@ -347,7 +361,7 @@ white-space:unset
     }
     
     .vendorImg {
-        width: 409px;
+        width: 336px;
         height: 406.78px;
         margin-top: -10%;
         margin-left: -20%;

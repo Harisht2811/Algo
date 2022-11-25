@@ -27,7 +27,7 @@ function Attack() {
         <div className='attack_Title'>Gain an <br />attacker's viewpoint</div>
         <p className="attackDesc">To protect your organization, you first need to know what assets and digital surface to protect. It’s easy to perform a vulnerability scan against known assets,
           but it’s hard to keep track of new assets that are constantly being added to your infrastructure.</p>
-        <p className="demoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p>
+        <p className="demoBtn" onClick={() => setButtonPopup(true)}>Enquire Now</p>
       </div>
       <div className='attack_section2'>
         <div className='attack_section2_title'>We helps you in</div>

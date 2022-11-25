@@ -37,17 +37,22 @@ body {
 }
 
 .party_demoBtn {
-    background: #00CD78;
+    background: #00cd78;
+    border: none;
     border-radius: 8px;
-    width: 10%;
-    text-align: center;
-    margin-left: 45%;
-    padding: 0.5%;
-    margin-top: 2%;
-    font-family: 'Manrope';
-    font-style: normal;
+    font-family: Manrope;
+    font-size: 14px;
     font-weight: 700;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin: 3% 0 0 45%;
+    outline: none;
+    text-align: center;
+    width: 150px;
+    padding-top: 0.5%;
     cursor: pointer;
+
 }
 
 .party_section2 {
