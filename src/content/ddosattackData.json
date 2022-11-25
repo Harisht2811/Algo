@@ -3,7 +3,7 @@
         "title1":"DDoS Attack Simulation",
         "title2":"& Testing",
         "titleDesc":"Our testing service simulates deep multi-vector DDoS attacks.",
-        "demo":"Get a Demo",
+        "demo":"Enquire Now",
         "cardList":[
             {
                 "cardTitle":"Volumetric attacks",
@@ -65,6 +65,6 @@
         ],
         "hearTitle":"Heard enough? See it for yourself.",
         "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
-        "heardBtn":"Get a Demo"
+        "heardBtn":"Enquire Now"
     }
 ]

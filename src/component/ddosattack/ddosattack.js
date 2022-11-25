@@ -19,7 +19,7 @@ function Ddosattack() {
       <div className='ddosattack_section1'>
         <div className='ddosattack_Title'><span className='ddoscolorText'>DDoS Attack Simulation</span> <br />& Testing</div>
         <p className="ddosattackDesc">Our testing service simulates deep multi-vector DDoS attacks.</p>
-        <p className="ddosattackdemoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
+        <p className="ddosattackdemoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p>
       </div>
       <div className='ddosattack_section2'>
         <div className='ddosattack_cardlist' >
@@ -124,7 +124,7 @@ function Ddosattack() {
               <p id='titleIssues'>Heard enough? See it for yourself.</p>
               <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
             </div>
-            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
           </div>
 
         </div>

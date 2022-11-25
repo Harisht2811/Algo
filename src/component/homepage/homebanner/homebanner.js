@@ -34,7 +34,7 @@ function homebanner() {
       </div>
     </div>
     <div className='bannerButton'>
-    <button className='exploreButton'>Explore more</button>
+    <button className='exploreButton'>Enquire Now</button>
     </div>
     </div>
    

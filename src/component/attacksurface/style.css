@@ -68,7 +68,7 @@ body {
 .attack_section2_list {
     display: flex;
     margin-left: 10%;
-    padding: 2% 0;
+    padding: 2% 10%;
     margin-top: 2%;
 }
 .hrLine{
@@ -88,6 +88,8 @@ body {
     font-size: 18px;
     line-height: 137.6%;
     color: #FFFFFF;
+    margin: 5% 0 0 0;
+    width: 75%;
 }
 
 .attack_section3 {
@@ -106,10 +108,13 @@ body {
     line-height: 170.1%;
     text-align: center;
     color: #FFFFFF;
-    width: 90%;
+    width: 70%;
     position: absolute;
     top: 40%;
     padding-left: 13%;
+    margin: 0 0 0 10%
+
+
 
 }
 

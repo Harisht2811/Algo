@@ -4,7 +4,7 @@
         "title2": "within your supply chain",
         "titleDesc1":"Algoritmik enables you to continuously monitor the organization’s",
         "titleDesc2":"3rd party vendors’ security posture and effectively prioritize and mitigate risks",
-        "demo":"Get a Demo",
+        "demo":"Enquire Now",
         "vendorTitle":"Vendor Risk Management Features",
         "vendorDesc":"Algoritmik’s Vendor Risk Management provides your organization with a tool that automatically monitors the level of resilience of your supply chain partners and vendors and provides a score to their security posture. It offers a continuous monitoring of the organization’s 3rd party vendors’ cyber posture to ensure the ability to demand better security hygiene practices from your 3rd party partners as well as the visibility into how your partners may expose you to threats and incidents",
         "cyberTitle":"Cyber Scoring",
@@ -28,6 +28,6 @@
         ],
         "hearTitle":"Heard enough? See it for yourself.",
         "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
-        "heardBtn":"Get a Demo"
+        "heardBtn":"Enquire Now"
     }
 ]

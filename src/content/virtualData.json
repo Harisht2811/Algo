@@ -2,18 +2,18 @@
         {
             "titleBox": "Virtual Humint Operations",
             "title": "Active Engagement with \nThreat Actors",
-            "demo": "Get a Demo",
+            "demo": "Enquire Now",
             "cardList": [
                 {
                     "cardTitle": "Assess veracity and imminence of threats",
                     "cardDesc": "Gather additional information to shed light on crucial factors related to any threat–including possibly revealing the threat actor identity and providing it to law enforcement",
-                    "cardbtn": "Get a Demo",
+                    "cardbtn": "Enquire Now",
                     "cardHr": "../../images/virtual/vectorHrline.png"
                 },
                 {
                     "cardTitle": "Obtain TTPs, motivation and accomplices",
                     "cardDesc": "Deepen your understanding of the vectors behind the threat, the actor’s motivation, and TTPs in use so that you can prioritize and act accordingly",
-                    "cardbtn": "Get a Demo",
+                    "cardbtn": "Enquire Now",
                     "cardHr": "../../images/virtual/vectorHrline.png"
                 }
             ],
@@ -21,13 +21,13 @@
                 {
                     "cardTitle": "Gather IOCs to further investigate threats",
                     "cardDesc": "Engage in intelligence operation and communicate with threat actors in their communication channels",
-                    "cardbtn": "Get a Demo",
+                    "cardbtn": "Enquire Now",
                     "cardHr": "../../images/virtual/vectorHrline.png"
                 },
                 {
                     "cardTitle": "Analyze your entire threat landscape",
                     "cardDesc": "Conduct deep dive investigations and get the context required to mitigate threats in the most effective way",
-                    "cardbtn": "Get a Demo",
+                    "cardbtn": "Enquire Now",
                     "cardHr": "../../images/virtual/vectorHrline.png"
                 }
             ],
@@ -46,6 +46,6 @@
             "importantDesc2": "When a breach takes place, communicating with threat actors allows companies to understand the extent of the breach and learn how the attacker got into the system. HUMINT methodologies also help companies figure out the source of a leak and, in an extortion attack, it allows companies to identify whether an attacker’s demand for ransom is legitimate",
             "hearTitle": "Heard enough? See it for yourself.",
             "heardDesc": "Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
-            "heardBtn": "Get a Demo"
+            "heardBtn": "Enquire Now"
         }
     ]

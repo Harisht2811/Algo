@@ -17,7 +17,7 @@ function Thirdparty() {
                 <div className=''>
                     <div className='party_Title'>Identify the cyber risk <br /> within your supply chain</div>
                     <p className="partyDesc">Algoritmik enables you to continuously monitor the organization’s <br /> 3rd party vendors’ security posture and effectively prioritize and mitigate risks</p>
-                    <p className="party_demoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
+                    <p className="party_demoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p>
                 </div>
                 <div className='party_section2'>
                     <img className='vendorImg' src={vendorImg} alt='vendor' />
@@ -73,7 +73,7 @@ function Thirdparty() {
                                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                             </div>
-                            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+                            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
                         </div>
                     </div>
                 </div>

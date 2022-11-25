@@ -27,7 +27,7 @@ function Attack() {
         <div className='attack_Title'>Gain an <br />attacker's viewpoint</div>
         <p className="attackDesc">To protect your organization, you first need to know what assets and digital surface to protect. It’s easy to perform a vulnerability scan against known assets,
           but it’s hard to keep track of new assets that are constantly being added to your infrastructure.</p>
-        <p className="demoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
+        <p className="demoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p>
       </div>
       <div className='attack_section2'>
         <div className='attack_section2_title'>We helps you in</div>
@@ -63,7 +63,7 @@ function Attack() {
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Uncover your digital presence</p>
             <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+            <p className='attack_cardBtn'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='attack_cardRight'>
             <img className='attack_cardImg' src={digitalpresence} alt='digital' />
@@ -73,7 +73,7 @@ function Attack() {
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Identify security issues</p>
             <p className='attack_cardDesc'>Continuously scan and map the organization’s digital presence to detect issues and vulnerabilities such as leaked credentials, botnet infections, exploitable open ports, vulnerable web interfaces, and more</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+            <p className='attack_cardBtn'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='attack_cardRight'>
             <img className='attack_cardImg' src={security} alt='security' />
@@ -83,7 +83,7 @@ function Attack() {
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Assess and prioritize risks</p>
             <p className='attack_cardDesc'>Calculate a security score by comparing current threats against your organization’s current best practices. Track and manage identified issues and assets so that your organization can focus on and address the most critical issues first.</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+            <p className='attack_cardBtn'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='attack_cardRight'>
             <img className='attack_cardImg' src={assess} alt='assess' />
@@ -93,7 +93,7 @@ function Attack() {
           <div className='attack_cardLeft'>
             <p className='attack_cardTitle'>Monitor your attack surface</p>
             <p className='attack_cardDesc'>Monitor your organization’s constantly changing and entire digital presence to gain automatic and full visibility on an ongoing basis. Remap and continuously scan all assets every week, based on specific requirements</p>
-            <p className='attack_cardBtn'>Get a Demo <img src={arrow} alt='arrow' className='demoArrow' onClick={() => setButtonPopup(true)}/></p>
+            <p className='attack_cardBtn'>Enquire Now <img src={arrow} alt='arrow' className='demoArrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='attack_cardRight'>
             <img className='attack_cardImg' src={monitor} alt='monitor' />
@@ -107,7 +107,7 @@ function Attack() {
               <p id='titleIssues'>Heard enough? See it for yourself.</p>
               <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
             </div>
-            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
           </div>
         </div>
       </div>

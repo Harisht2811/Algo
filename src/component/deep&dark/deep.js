@@ -21,7 +21,7 @@ function Deep() {
             <div className='dark_section1'>
                 <div className='dark_Title'>Understand and engage <br /> <span className='colortext'>with the dark side</span></div>
                 <p className="darkDesc">Cybercriminals lurk in the dark web where they can methodically coordinate their attacks, distribute malware <br />and phishing kits, sell illicit goods, and share other pre-built exploits.</p>
-                <p className="dark_demoBtn " onClick={() => setButtonPopup(true)}>Get a Demo</p>
+                <p className="dark_demoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p>
             </div>
             <div className='dark_section2'>
                 <p className='work_title'>How we work</p>
@@ -37,7 +37,7 @@ function Deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Find new sources in deep and dark web marketplaces, forums, and sites with threat actor communities that can be volatile and difficult to track</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
@@ -47,7 +47,7 @@ function Deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Understand a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with this actor or group.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
@@ -57,7 +57,7 @@ function Deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Engage with threat actors through private messages, getting access to exclusive communities. Develop a fake persona so that you can post on sources and contact other threat actors.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG'  alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='darkcard'>
@@ -67,7 +67,7 @@ function Deep() {
                     </div>
                     <div className='darkcard_right'>
                         <p className='rightcard_desc'>Assess and respond to threats to your physical and digital assets proactively with the help of our highly skilled analysts.</p>
-                        <p className='darkdemo'>Get Demo <img src={arrowG} className='arrowG'  alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG'  alt='arrow' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@ function Deep() {
                             <p id='titleIssues'>Heard enough? See it for yourself.</p>
                             <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                         </div>
-                        <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+                        <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
                     </div>
                 </div>
             </div>

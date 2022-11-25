@@ -24,7 +24,7 @@ export default function
         <p className='bannerTitle1'>Stop DDoS attacks<br></br>
           <span className='bannertitle2'>Minimize outage time</span></p>
         <p className='ddosIncidentPara'>Our DDoS expert team offer the most up-to-date knowledge on DDoS attack trends, field-tested best practices, proficiency with all DDoS mitigation technology vendors,and extensive know-how to efficiently manage what is often a stressful event.</p>
-        <button className='dembtn'><p className='demopara' onClick={() => setButtonPopup(true)}>Get a demo</p></button>
+        <button className='dembtn'><p className='demopara' onClick={() => setButtonPopup(true)}>Enquire Now</p></button>
 
       </div>
       <div className='ddosIncidentBanner2'>
@@ -96,7 +96,7 @@ export default function
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                 </div>
-                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
             </div>
         </div>
 

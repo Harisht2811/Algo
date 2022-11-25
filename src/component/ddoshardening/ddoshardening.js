@@ -21,7 +21,7 @@ function Ddos() {
           <div className='ddosSection1'>
             <p className='ddosTitle'>Improve your <span className='colorText'>network architecture </span> against attacks</p>
             <p className='ddosDesc'>We identify which protection component will preven t each DDoS attack vector</p>
-            <button className='demobtn1'><b id='dembtn' onClick={() => setButtonPopup(true)}>Get a Demo</b></button>
+            <button className='demobtn1'><b id='dembtn' onClick={() => setButtonPopup(true)}>Enquire Now</b></button>
           </div>
           <div className='netwrokArchitecture'>
               <p className='netArch'>Network Architecture</p>
@@ -41,12 +41,12 @@ function Ddos() {
           <div className='configOptimiz'>
               <p id='config'>Configuration Optimization</p>
               <p id='configPara'>Installed DDoS protection solutions are often underutilized. Our team dives into your protection setup and provides detailed instructions on how to improve appliance configuration. For example, we ensure that rate limit thresholds are well-calibrated, that you have chosen the most appropriate web challenge, and that you fully utilize bot and geo-protection.</p>
-              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+              <p id='demo1'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='vendorSelction'>
               <p id='vendorSelec'>Vendor Selection</p>
               <p id='vendorSelecPara'>An optional Red Button service includes methodical vendor evaluation, using a comprehensive RFP template. We then present our recommendations regarding several DDoS vendors with solutions most suitable for your needs, analyzing the pros and cons of each option.</p>
-              <p id='demo2'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
+              <p id='demo2'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow'  onClick={() => setButtonPopup(true)}/></p>
           </div>
         </div>  
 
@@ -56,7 +56,7 @@ function Ddos() {
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                 </div>
-                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
             </div>
         </div>
       </div>

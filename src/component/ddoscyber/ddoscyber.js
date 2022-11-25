@@ -52,7 +52,7 @@ function Ddoscyber() {
             <div className='strategicPara'> 
               <p className='strategicCard1Title'>Strategic <br></br> Threat Intelligence</p>
               <p className='card1Para'>Identify meaningful trends to gain a wider perspective by continuously analyzing threat data. Create strategic threat intelligence and security advisory reports that provide the basis for the formulation of strategy, policy, and longer-term decision-making</p>
-              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+              <p id='demo1'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
             </div>
             <img src={Rocket} className='cardImg' alt='rocket'></img>
           </div>
@@ -60,7 +60,7 @@ function Ddoscyber() {
             <div className='threatPara'>
               <p className='ThreatActorTitle'>Threat <br></br>Actor Profiling</p>
               <p className='card2Para'>Achieve deeper understanding of a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with those groups</p>
-              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+              <p id='demo1'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
             </div>
             <img src={ThreatActor} className='cardImg' alt='threatactor'></img>
           </div>
@@ -68,7 +68,7 @@ function Ddoscyber() {
             <div className='threatcar3Para'> 
               <p className='threatCard3Title'>Threat <br></br>Landscape Reports</p>
               <p className='card3Para'>Gain a more comprehensive view of the cyber threat landscape with reports focused on specific verticals that deliver an overview of the current situation and its relation to your industry</p>
-              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+              <p id='demo1'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
             </div>
             <img src={ThreatLandscape} className='cardImg' alt='threatlandscape'></img>
           </div>
@@ -79,7 +79,7 @@ function Ddoscyber() {
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
                 <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                 </div>
-                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Get a demo</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
             </div>
         </div>
       </div>

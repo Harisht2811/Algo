@@ -3,7 +3,7 @@
         "title":"Understand and engage",
         "title1": "with the dark side",
         "titleDesc":"Cybercriminals lurk in the dark web where they can methodically coordinate their attacks, distribute malware \nand phishing kits, sell illicit goods, and share other pre-built exploits.",
-        "demo":"Get a Demo",
+        "demo":"Enquire Now",
         "howweWork":"How we work",
         "workDesc":"In addition, many high value closed sources present technical and financial barriers to entry.Using technology with a human touch, however, Algoritmik can access the most restricted channels to engage with threat actors and anticipate attacks targeting your organization, employees, and customers",
         "workHr":"../../images/deepdark/hrline.png",
@@ -12,31 +12,31 @@
                 "icon":"../../images/deepdark/discover.png",
                 "cardTitle":"Continueslly discover new sources",
                 "cardDesc":"Find new sources in deep and dark web marketplaces, forums, and sites with threat actor communities that can be volatile and difficult to track",
-                "carddemo":"Get Demo"
+                "carddemo":"Enquire Now"
             },
             {
                 "icon":"../../images/deepdark/analysis.png",
                 "cardTitle":"Get deep analysis and reports",
                 "cardDesc":"Understand a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with this actor or group.",
-                "carddemo":"Get Demo"
+                "carddemo":"Enquire Now"
             },
             {
                 "icon":"../../images/deepdark/threat.png",
                 "cardTitle":"Engage threat actors",
                 "cardDesc":"Engage with threat actors through private messages, getting access to exclusive communities. Develop a fake persona so that you can post on sources and contact other threat actors.",
-                "carddemo":"Get Demo"
+                "carddemo":"Enquire Now"
             },
             {
                 "icon":"../../images/deepdark/mitigate.png",
                 "cardTitle":"Mitigate and remediate threats",
                 "cardDesc":"Assess and respond to threats to your physical and digital assets proactively with the help of our highly skilled analysts.",
-                "carddemo":"Get Demo"
+                "carddemo":"Enquire Now"
             }
         ],
         "maneuver":"Maneuver the Deep and Dark web",
         "maneuverDesc":"In addition, many high value closed sources present technical and financial barriers to entry.Using technology with a human touch, however, Algoritmik can access the most restricted channels to engage with threat actors and anticipate attacks targeting your organization, employees, and customers",
         "hearTitle":"Heard enough? See it for yourself.",
         "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
-        "heardBtn":"Get a Demo"
+        "heardBtn":"Enquire Now"
     }
 ]
