@@ -68,13 +68,16 @@ function PhishingBeacon() {
             </div>
 
         </div>
-          <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
-          <p id='joinourTeam'>Join our team</p>
-          <input className='Fname' type="text" placeholder='Name*'></input>
-          <input className='Femail' type="text" placeholder='Email*'></input>
-          <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
-          <button className='Fbutton'>Submit</button>    
-         </Popup>
+        <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+     <p id='getintouch'>Get in touch with us </p>
+     <label>Name*</label>
+     <input className='Fname' type="text" ></input>
+     <label>Email*</label>
+     <input className='Femail' type="text" ></input>
+     <label>Mobile Number*</label>
+     <input className='Fphone' type="phone" ></input>
+     <button className='Fbutton'>Submit</button>    
+    </Popup>
          </>
     )
 }

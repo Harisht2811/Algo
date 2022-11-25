@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import Header from '../component/homepage/header/header'
-import Homebanner  from "../component/homepage/homebanner/homebanner"
+import Algohome  from "../component/homepage/homebanner/homebanner"
 import Carouselcards from '../component/homepage/carouselcard/carouselcards'
 import Services from '../component/homepage/services/services'
 import Aboutus from '../component/homepage/aboutus/aboutus'
@@ -15,7 +15,7 @@ const IndexPage = () => {
        <div>
       <title>Algoritmik</title>
      <Header/>
-     <Homebanner/>
+     <Algohome/>
      <Carouselcards/>
      <Services/>
      <Aboutus/>

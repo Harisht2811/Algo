@@ -1,10 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
 import '../homebanner/homebanner.css'
-
+import Popup from '../../getdemo/getdemo'
 import Homebanner from '../../../images/homepage/algohome1.png'
 import HomebannerRes from '../../../images/homepage/algohome34.png'
 
-function homebanner() {
+function Algohome() {
+  const [buttonPopup, setButtonPopup] =useState(false);
+
   return (
     <>
     <div className='homebg'>
@@ -34,12 +37,21 @@ function homebanner() {
       </div>
     </div>
     <div className='bannerButton'>
-    <button className='exploreButton'>Enquire Now</button>
+    <button className='exploreButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
     </div>
     </div>
-   
+    <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
+     <p id='getintouch'>Get in touch with us </p>
+     <label>Name*</label>
+     <input className='Fname' type="text" ></input>
+     <label>Email*</label>
+     <input className='Femail' type="text" ></input>
+     <label>Mobile Number*</label>
+     <input className='Fphone' type="phone" ></input>
+     <button className='Fbutton'>Submit</button>    
+    </Popup>
     </>
   )
 }
 
-export default homebanner
+export default Algohome

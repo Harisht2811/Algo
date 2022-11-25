@@ -272,8 +272,10 @@ body {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
+    float: right;
+    margin: 5% 0 0 0;
 }
-#joinourTeam{
+#getintouch{
     font-family: Manrope;
     font-size: 32px;
     font-weight: 600;
@@ -557,7 +559,7 @@ body {
     letter-spacing: 0em;
     text-align: center;
 }
-#joinourTeam{
+#getintouch{
     font-family: Manrope;
     font-size: 32px;
     font-weight: 600;
