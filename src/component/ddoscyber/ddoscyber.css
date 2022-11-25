@@ -103,10 +103,10 @@
 .cardsCyber{
     margin-top: -2%;
     background-color: #000E08;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
 }
 .cyberCards{
-    margin-left: 15%;
+    margin-left: 17%;
     display: block;
 }
 .strategicCard1{
@@ -139,7 +139,7 @@
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.64;
-    width: 53%; 
+    width: 54%; 
 }
 .cardImg{
     width: 30%;
@@ -174,7 +174,7 @@
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.64;
-    width: 53%; 
+    width: 55%; 
 }
 .card3Para{
     font-family: 'Manrope';
@@ -184,7 +184,7 @@
     line-height: 170.1%;
     color: #FFFFFF;
     opacity: 0.64;
-    width: 53%; 
+    width: 55%; 
 }
 .threatcar3Para{
     margin-left: 4%;
