@@ -31,28 +31,28 @@
     }
     #attackVector {
         font-size: 20px;
-        margin-left: -61%;
+        margin-left: -50%;
     }
     #attackVectorPara {
         font-size: 12px;
         width: 26%;
-        margin-left: 6%;
+        margin-left: 11%;
     }
     .section4Flex {
-        margin-left: -3%;
+        margin-left: -10%;
         width: 100%;
     }
     #configPara {
         width: 75%;
     }
     #vendorSelecPara {
-        width: 94%;
+        width: 108%;
     }
     #demo2 {
-        padding-top: 19%;
+        padding-top: 32%;
     }
     .attackVectorAnalysis {
-        height: 180vh;
+        height: 159vh;
     }
     .netwrokArchitecture {
         padding-top: 44%;

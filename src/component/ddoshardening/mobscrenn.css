@@ -25,11 +25,12 @@
     }
     .ddosTitle {
         font-size: 21px;
-        width: 95%;
+        width: 57%;
     }   
     .ddosDesc {
         font-size: 16px;
         padding-top: 6%;
+        width: 89%;
     }
     #dembtn {
         font-size: 10px;
@@ -43,34 +44,39 @@
     }
     .netArch {
         font-size: 14px;
-        margin-left: -3%;
-        margin-top: -17%;
-        padding-top: 41%;
+    margin-left: -3%;
+    margin-top: -13%;
+    padding-top: 34%;
+    padding-bottom: 9%;
     }
     .section2Content {
         font-size: 10px;
-        margin-left: 16%;
-        width: 65%;
+        margin-left: 9%;
+        width: 82%;
         padding-top: 4%;
     }
     .attackVectorAnalysis {
-        height: 194vh;
+        height: 169vh;
         margin-top: -5%;
     }
     #attackVector {
         font-size: 14px;
-        margin-left: -51%;
+        margin-left: -62%;
         padding-top: 13%;
     }
     #attackVectorPara {
         font-size: 10px;
         width: 47%;
-        margin-left: 6%;
+        margin-left: -1%;
     }
     .section2Img {
         margin-top: -21px;
-        margin-left: 5%;
+        margin-left: -1%;
         width: 91%;
+    }
+    .vendorSelction {
+        margin-left: 0%;
+        margin-bottom: -6%;
     }
     .section4Flex {
         display: block;
@@ -79,7 +85,7 @@
     }
     #config {
         font-size: 12px;
-        width: 46%;
+        width: 44%;
     }
     #configPara {
         font-size: 13px;
@@ -90,6 +96,7 @@
     }
     #vendorSelec {
         font-size: 12px;
+        width: 27%;
     }
     #vendorSelecPara {
         font-size: 13px;

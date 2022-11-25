@@ -7,6 +7,12 @@
     #banimg{
         width: 78%;
     }
+    .ddosDesc {
+        width: 95%;
+    }
+    .ddosSection1 {
+        padding-bottom: 14%;
+    }
     .ddosBanner{
         background-image: url(../../images/ddos/Bgimg1.png);
         background-size: 100% 100%;
@@ -17,6 +23,7 @@
     }
     .netArch {
         font-size: 37px;
+        margin-top: -31%;
     }
     .section2Content {
         font-size: 14px;
@@ -24,30 +31,36 @@
         margin-left: 18%;
     }
     #attackVector {
-        margin-left: -47%;
+        margin-left: -44%;
+    font-size: 33px;
     }
     #attackVectorPara {
-        width: 23%;
-        margin-left: 14%;
+        width: 26%;
+        margin-left: 100px;
+        font-size: 14px;
     }
     .section2Img {
-        margin-left: 14%;
+        margin-left: 11%;
         width: 72%;
+        margin-top: -38px;
     }
     .attackVectorAnalysis {
-        height: 188vh;
+        height: 166vh;
     }
     #configPara {
-        width: 91%;
+        width: 66%;
+    }
+    .vendorSelction {
+        margin-right: -14%;
     }
     #vendorSelecPara {
-        width: 120%;
+        width: 91%;
     }
     .section4Flex {
         width: 88%;
-        padding-left: 6%;
+        padding-left: 5%;
     }
     #demo2 {
-        padding-top: 18%;
+        padding-top: 13%;
     }
 }

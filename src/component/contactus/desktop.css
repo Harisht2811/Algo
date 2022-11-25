@@ -1,4 +1,4 @@
-@media screen and (max-width:1440px) and (min-width:1025px){
+@media screen  and (min-width:1025px) and (max-width:1440px){
     label {
         font-size: 14px;
     }
@@ -12,13 +12,16 @@
     .email {
         margin-left: 8%;
     }
+    .formContent1 {
+        width: 100%;
+    }
     .input1 {
         margin-top: 2%;
-        width: 201px;
+        width: 98%;
     }
     .input2 {
         margin-left: 8%;
-        width: 201px;
+        width: 98%;
     }
     .ContactParaTitle1 {
         width: 45%;

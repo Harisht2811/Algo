@@ -103,7 +103,9 @@
     .incidentPara {
         width: 83%;
     }
-
+    .incidentPara1 {
+        width: 80%;
+    }
     .ddosIncidentSection4Flex {
         padding-bottom: 7%;
         margin-bottom: -3%;

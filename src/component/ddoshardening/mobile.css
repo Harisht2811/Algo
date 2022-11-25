@@ -17,7 +17,7 @@
         margin: 0%;
         padding: 0%;
         height: 366px;
-        margin-top: 24%;
+        margin-top: 22%;
     }
     .ddosBanner{
         background-image: none;
@@ -38,7 +38,6 @@
         width: 86px;
         height: 25px;
         margin-top: 5%;
-
     }
     .netArch {
         font-size: 19px;
@@ -46,7 +45,7 @@
         margin-bottom: -20%;
     }
     .section2Content {
-        font-size: 10px;
+    font-size: 10px;
     margin-left: 16%;
     width: 70%;
     padding-top: 29%;
@@ -61,37 +60,38 @@
         padding-top: 18%;
     }
     .section2Img {
-        margin-top: -10px;
-        margin-left: 10%;
-        width: 80%;
+        margin-top: -23px;
+    margin-left: 6%;
+    width: 80%;
     }
     #attackVectorPara {
         font-size: 10px;
         width: 46%;
-        margin-left: 8%;
+        margin-left: 7%;
     }
-    .section4Flex {
-        padding-left: 7%;
-    }
+
     #config {
         font-size: 16px;
-        width: 55%;
+        width: 52%;
     }
     #vendorSelec {
         font-size: 16px;
      }
      .section4Flex {
         display: block;
-        padding-left: 9%;
+        padding-left: 5%;
         width: 99%;
+    }
+    .vendorSelction {
+        margin-left: -1%;
     }
     #configPara {
         font-size: 14px;
-        width: 91%;
+        width: 96%;
     }
     #vendorSelecPara {
         font-size: 14px;
-        width: 91%;
+        width: 94%;
     }
     #demo2 {
         padding-top: 0%;

@@ -4,13 +4,13 @@
     margin: 0%;
     padding: 0%;
     margin-bottom: -5%;
-    padding-bottom: 4%;
+    padding-bottom: 14%;
 }
 .contactTitle1{
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 47px;
+        font-size: 66.7113px;
         line-height: 144.1%;
         text-align: center;
         letter-spacing: -0.04em;
@@ -21,7 +21,7 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 24px;
     line-height: 214.1%;
     text-align: center;
     color: #868686;
@@ -32,11 +32,12 @@
     width: 100%;
     margin-left: 13%;
     margin-top: 6%;
+    margin-bottom: 9%;
 }
 .contactForm{
-    height: 548px;
+    height: 71vh;
     border: 1px solid  #2CD58B;
-    width: 51%;
+    width: 40%;
     border-radius: 13px;
     
 }
@@ -71,6 +72,7 @@ input,label{
 }
 .input1{
     margin-top: 2%;
+    width: 274px;
 }
 .input3{
     margin-top: 2%;
@@ -78,6 +80,7 @@ input,label{
 .input2{
     margin-left: 16%;
     margin-top: 2%;
+    width: 274px;
 }
 .email{
     margin-left: 16%;
@@ -178,8 +181,8 @@ input,label{
     background-color: #000E08 !important;
     border-radius: 5px;
     margin-bottom: -9px;
-    height: 35px;
-    margin-top: -2%;
+    height: 36px;
+    margin-top: -9px;
 }
 .css-1hb7zxy-IndicatorsContainer{
     background-color:#000E08 !important;
@@ -190,8 +193,11 @@ input,label{
 }
 .css-g1d714-ValueContainer {
     overflow-y: scroll !important;
-    height: 90px;
-    background-color: #000E08;
+    height: 90px !important;
+    background-color: #000E08 !important;
+}
+.css-1s2u09g-control {
+    border-color: hsl(0, 0%, 49%) !important;
 }
 .css-12jo7m5 {
     overflow: hidden;
@@ -201,7 +207,7 @@ input,label{
     fill: #00CD78 !important;
 }
 .css-tlfecz-indicatorContainer {
-    background-color: #000E08;
+    background-color: #000E08 !important; 
 }
 .ContactHr{
     color: #B3B3B3;
@@ -213,4 +219,16 @@ background-color: #000000;
 }
 .selectValue{
     margin-top: 2%;
+}
+.css-1pahdxg-control{
+    border-color: white !important;
+    box-shadow: none;
+}
+.css-1pahdxg-control:hover{
+    border-color: #E7E7E7 !important;
+    box-shadow: none;
+}
+.css-1pahdxg-control::selection{
+    border-color: #E7E7E7 !important;
+    box-shadow: none;
 }

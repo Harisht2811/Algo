@@ -21,6 +21,7 @@
     line-height: 120.1%;
     letter-spacing: -0.05em;
     color: #FFFFFF;
+    width: 70%;
 }
 .ddosDesc{
     font-family: 'Manrope';
@@ -30,7 +31,7 @@ font-size: 18px;
 line-height: 170.1%;
 /* or 31px */
 color: #CBCBCB;
-width: 81%;
+width: 58%;
 }
 #dembtn {
     width: 93px;
@@ -58,7 +59,7 @@ width: 81%;
     border: none;
 }
 .netwrokArchitecture{
-    padding-top: 39%;
+    padding-top: 35%;
 }
 
 .netArch{
@@ -70,7 +71,7 @@ width: 81%;
     text-align: center;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    margin-top: -28%;
+    margin-top: -23%;
 }
 .section2Content{
     width: 714px;
@@ -83,48 +84,49 @@ width: 81%;
     line-height: 170.1%;
     text-align: center;
     color: #CBCBCB;
-    margin-left: 23%;
+    margin-left: 32%;
     margin-top: 8%;
 }
 .attackVectorAnalysis{
     background-color: #000E08;
-    height: 243vh;
+    height: 175vh;
     margin-top: -2%;
 }
 #attackVector {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 37px;
     line-height: 120.1%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #00CD78;
-    margin-left: -45%;
+    margin-left: -43%;
     padding-top: 4%;
 }
 #attackVectorPara {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 170.1%;
     color: #CBCBCB;
-    width: 17%;
+    width: 15%;
     margin-left: 18%;
 }
 .section2Img {
-    margin-top: -59px;
-    margin-left: 13%;
+    margin-top: -61px;
+    margin-left: 18%;
 }
-
+.bgimg{
+    margin-left: 7%;
+}
 .section4Flex {
     display: flex;
     background-color: #000E08;
     margin-top: 6%;
-    padding-left: 9%;
-    width: 80;
-    width: 99%;
+    padding-left: 17%;
+    width: 82;
 }
 #config{
     font-family: 'Manrope';
@@ -132,7 +134,7 @@ width: 81%;
     font-weight: 700;
     font-size: 26px;
     line-height: 120.1%;
-    width: 46%;
+    width: 30%;
     letter-spacing: -0.01em;
     color: #FFFFFF;
 }
@@ -145,7 +147,7 @@ width: 81%;
     text-align: justify;
     color: #9BA4A2;
     opacity: 0.6;
-    width: 62%;
+    width: 39%;
 }
 #vendorSelec{
     font-family: 'Manrope';
@@ -154,9 +156,12 @@ width: 81%;
     font-size: 26px;
     line-height: 120.1%;
     letter-spacing: -0.01em;
-    width: 38%;
+    width: 24%;
     color: #FFFFFF;
     opacity: 0.8;
+}
+.vendorSelction{
+    margin-left: -24%;
 }
 #vendorSelecPara{
     font-family: 'Manrope';
@@ -167,7 +172,7 @@ width: 81%;
     text-align: justify;
     color: #9BA4A2;
     opacity: 0.6;
-    width: 83%;
+    width: 51%;
 }
 #demo1{
     font-family: 'Manrope';
@@ -183,6 +188,6 @@ width: 81%;
     font-weight: 700;
     font-size: 16px;
     line-height: 170.1%;
-    padding-top: 13%;
+    padding-top: 7%;
     color: #00CD78;
 }

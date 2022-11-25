@@ -238,13 +238,13 @@ hr {
 .ddosIncidentSection4Flex {
     display: flex;
     background-color: #02160E;
-    width: 82%;
-    margin-left: 9%;
+    width: 72%;
+    margin-left: 13%;
     border-radius: 20px;
     margin-top: 3%;
     padding-left: 10%;
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .ddosIncidentSection4Title {
@@ -275,7 +275,7 @@ hr {
     line-height: 170.1%;
     color: #8A8A8A;
     padding-top: 3%;
-    width: 81%;
+    width: 73%;
 }
 
 .incidentPara1 {
@@ -285,7 +285,7 @@ hr {
     font-size: 14px;
     line-height: 170.1%;
     color: #8A8A8A;
-    width: 84%;
+    width: 74%;
     padding-top: 3%;
 }
 

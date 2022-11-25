@@ -14,12 +14,12 @@
     }
     .bannertitle2 {
         font-size: 32px;
-        margin-left: -3%;
+        margin-left: -5%;
     }
     .ddosIncidentPara {
         font-size: 14px;
-        margin-left: 11%;
-        width: 80%;
+        margin-left: 4%;
+        width: 92%;
         margin-top: 9%;
         text-align: center;
     }
@@ -32,8 +32,11 @@
     }
     .serviceIncludesPara {
         font-size: 13px;
-        width: 76%;
-        margin-left: 12%;
+        width: 83%;
+        margin-left: 8%;
+    }
+    .incidentPara1 {
+        width: 87%;
     }
     .ddosIncidentBanner2{
         padding-top: 4%;

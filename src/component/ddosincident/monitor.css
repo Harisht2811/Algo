@@ -38,7 +38,7 @@
     text-align: justify;
     color: #CBCBCB;
     margin-left: 56%;
-    width: 85%;
+    width: 35%;
     margin-top: 2%;
 }
 .ddosIncidentPara1 {
@@ -216,17 +216,17 @@ hr {
 }
 
 .Banner4Img1 {
-    width: 78%;
+    width: 89%;
     height: 93%;
 }
 
 .Banner4Img2 {
-    width: 70%;
+    width: 79%;
     height: 93%;
 }
 
 .Banner4Img3 {
-    width: 70%;
+    width: 77%;
     height: 93%;
 }
 
@@ -245,8 +245,8 @@ hr {
     border-radius: 20px;
     margin-top: 3%;
     padding-left: 10%;
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 4%;
+    padding-bottom: 5%;
 }
 
 .ddosIncidentSection4Title {

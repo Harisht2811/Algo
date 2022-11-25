@@ -132,7 +132,8 @@
         display: block;
         margin-top: 11%;
         margin-bottom: -11%;
-        margin-left: 31px
+        margin-left: 31px;
+        width: 82%;
     }
     .incidentTitle {
         font-size: 14px;
