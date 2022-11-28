@@ -8,17 +8,17 @@
         "AlgoritmikTitle":"Algoritmik services on ",
         "cardList":[
             {
-                "cardTitle":"Detect and analyze threats in advance",
+                "cardTitle":"Detect and analyze \nthreats in advance",
                 "cardDesc":"Monitor active look alike domains and websites impersonating your brand as well as phishing kits reused by threat actors. Detect attacks against employees by spotting phishing target lists, email templates used in an attack, and other exposed data. Identify these and other threats to get early warning of ongoing and future phishing campaigns",
                 "carddemo":"Enquire Now "
             },
             {
-                "cardTitle":"Get actionable alerts",
+                "cardTitle":"Get \nactionable alerts",
                 "cardDesc":" Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms. Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms",
                 "carddemo":"Enquire Now "
             }
         ],
-        "remediateTitle":"Remediate and takedown threats",
+        "remediateTitle":"Remediate \nand takedown threats",
         "remediateDesc":"Initiate a take down process which involves notifying the relevant providers to remove the misleading content, block domains, and update public blacklists . Get detailed reports on each detected alert, including related IOCs, screenshots and recommendationsInitiate a take down process which involves notifying the relevant providers to remove the misleading content, block domains, and update public blacklists . Get detailed reports on each detected alert, including related IOCs, screenshots and recommendations",
         "remediateDemo":"Enquire Now",
         "newImg":"../../images/phishing/newBg.png",
