@@ -51,18 +51,18 @@
     .ddosattackdemoBtn {
         background-image: url('../../images/ddosattack/demoBg.png');
         background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -42px;
+        height: 250px;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 120.1%;
-        text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding: 5%;
-        background-position-x: center;
-        background-position-y: center;
-        margin-top: 10%;
+        text-align: center;
+        padding-top: 17%;
     }
     
     .ddosattack_section2 {
@@ -71,7 +71,7 @@
     
     .ddosattack_cardlist {
         display: block;
-        margin-left: 2%;
+        margin-left: -2%;
         margin-top: -2%;
         padding-bottom: 5%;
         padding-top: 10%;
@@ -80,28 +80,23 @@
     .ddosattack_card {
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
-        background-size: 95% 100%;
-        padding: 5%;
-        width: 100%;
-        height: 200px;
-        padding-top: 6%;
+        background-size: 100% 100%;
+        padding: 15% 1% 5% 10%;
         margin-bottom: 5%;
         padding-bottom: 5%;
+        height: 280px;
+        width: 400px;
+        margin-right: 0%;
     }
     
     .ddosattack_card:hover {
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
-        background-size: 95% 100%;
-        padding: 5%;
-        width: 100%;
-        height: 200px;
-        padding-top: 6%;
-        margin-bottom: 5%;
-        padding-bottom: 5%;
+        background-size: 100% 100%;
+        padding: 15% 1% 5% 10%;
+        height: 280px;
+        width: 400px;
     }
-    
-    
     .ddosattack_CardTitle {
         font-family: 'Manrope';
         font-style: normal;
@@ -110,7 +105,7 @@
         line-height: 120.1%;
         letter-spacing: -0.01em;
         color: #A8A8A8;
-        width: 35%;
+        width: 55%;
     }
     
     .ddosattack_CardTitle:hover {
@@ -121,7 +116,7 @@
         line-height: 120.1%;
         letter-spacing: -0.01em;
         color: #00CD78;
-        width: 35%;
+        width: 55%;
     }
     
     .ddosattack_CardDesc {
@@ -179,17 +174,17 @@
         display: flex;
         width: 95%;
         margin-left: 2%;
-    
+        padding-bottom: 5%;
     }
     
     .blocksIcon {
         width: 44px;
         height: 44px;
-        margin-left: 40%;
+        margin-left: 0%;
     }
     
     .blocksPara {
-        margin-top: 17%;
+        margin-top: 3%;
         margin-left: 10%;
     }
     
@@ -418,27 +413,26 @@
     .ddosattackdemoBtn {
         background-image: url('../../images/ddosattack/demoBg.png');
         background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -52px;
+        height: 250px;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 120.1%;
-        text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding: 5%;
-        background-position-x: center;
-        background-position-y: center;
-        margin-top: 10%;
+        text-align: center;
+        padding-top: 17%;
     }
     
     .ddosattack_section2 {
         background-color: #000E08;
     }
-    
     .ddosattack_cardlist {
         display: block;
-        margin-left: 5%;
+        margin-left: -2%;
         margin-top: -2%;
         padding-bottom: 5%;
         padding-top: 10%;
@@ -447,28 +441,23 @@
     .ddosattack_card {
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
-        background-size: 95% 100%;
-        padding: 5%;
-        width: 100%;
-        height: 200px;
-        padding-top: 6%;
+        background-size: 100% 100%;
+        padding: 15% 1% 5% 10%;
         margin-bottom: 5%;
         padding-bottom: 5%;
+        height: 250px;
+        width: 370px;
+        margin-right: 0%;
     }
     
     .ddosattack_card:hover {
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
-        background-size: 95% 100%;
-        padding: 5%;
-        width: 100%;
-        height: 200px;
-        padding-top: 6%;
-        margin-bottom: 5%;
-        padding-bottom: 5%;
+        background-size: 100% 100%;
+        padding: 15% 1% 5% 10%;
+        height: 250px;
+        width: 370px;
     }
-    
-    
     .ddosattack_CardTitle {
         font-family: 'Manrope';
         font-style: normal;
@@ -477,7 +466,7 @@
         line-height: 120.1%;
         letter-spacing: -0.01em;
         color: #A8A8A8;
-        width: 40%;
+        width: 65%;
     }
     
     .ddosattack_CardTitle:hover {
@@ -488,9 +477,9 @@
         line-height: 120.1%;
         letter-spacing: -0.01em;
         color: #00CD78;
-        width: 40%;
+        width: 65%;
     }
-    
+   
     .ddosattack_CardDesc {
         font-family: 'Manrope';
         font-style: normal;
@@ -546,18 +535,18 @@
         display: flex;
         width: 95%;
         margin-left: 0%;
-    
+        padding-bottom: 5%;
     }
     
     .blocksIcon {
         width: 44px;
         height: 44px;
-        margin-left: 40%;
+        margin-left: 0%;
     }
     
     .blocksPara {
-        margin-top: 17%;
-        margin-left: 10%;
+        margin-top: 3%;
+        margin-left: 5%;
     }
     
     .block_title {

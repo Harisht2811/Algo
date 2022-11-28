@@ -45,10 +45,7 @@ function Ddosattack() {
         </div>
         <div className='structureList'>
           <div className='structureBlock'>
-            <div className='imageFlex'>
               <img className='blocksIcon' src={planingImg} alt='icons' />
-              <img className='dotLine' src={hrline} alt='liine' />
-            </div>
             <div className='blocksPara'>
               <p className='block_title'>Planning Session</p>
               <ul className='blockList'>
@@ -58,10 +55,7 @@ function Ddosattack() {
             </div>
           </div>
           <div className='structureBlock'>
-            <div className='imageFlex'>
-              <img className='blocksIcon' src={controlImg} alt='icons' />
-              <img className='dotLine' src={hrline} alt='liine' />
-            </div>
+            <img className='blocksIcon' src={controlImg} alt='icons' />
             <div className='blocksPara '>
               <p className='block_title'>Controlled Attack</p>
               <ul className='blockList'>
@@ -71,9 +65,7 @@ function Ddosattack() {
             </div>
           </div>
           <div className='structureBlock'>
-            <div className='imageFlex'>
               <img className='blocksIcon' src={reportImg} alt='icons' />
-            </div>
             <div className='blocksPara'>
               <p className='block_title'>Report & Analysis</p>
               <ul className='blockList'>

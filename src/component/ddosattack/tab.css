@@ -49,18 +49,18 @@
     .ddosattackdemoBtn {
         background-image: url('../../images/ddosattack/demoBg.png');
         background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: -40px;
+        height: 250px;
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 120.1%;
-        text-align: center;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        padding: 2%;
-        background-position-x: center;
-        background-position-y: center;
-        margin-top: 5%;
+        text-align: center;
+        padding-top: 10%;
     }
     
     .ddosattack_section2 {
@@ -71,33 +71,26 @@
         display: flex;
         margin-left: 2%;
     }
-    
     .ddosattack_card {
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
-        background-size: 95% 100%;
-        padding: 3%;
-        width: 35%;
-        height: 305px;
-        padding-top: 6%;
+        background-size: 100% 100%;
+        padding: 10% 1% 5% 5%;
         margin-bottom: 5%;
         padding-bottom: 5%;
-        
+        height: 389px;
+        width: 306px;
+        margin-right: 2%;
     }
     
     .ddosattack_card:hover {
-        background-image: url('../../images/ddosattack/ddosattackcard.png');
+        background-image: url('../../images/ddosattack/ddoscardHover.png');
         background-repeat: no-repeat;
-        background-size: 95% 100%;
-        padding: 3%;
-        width: 35%;
-        height: 305px;
-        padding-top: 6%;
-        margin-bottom: 5%;
-        padding-bottom: 5%;
+        background-size: 100% 100%;
+        padding: 10% 1% 5% 5%;
+        height: 389px;
+        width: 306px;
     }
-    
-    
     .ddosattack_CardTitle {
         font-family: 'Manrope';
         font-style: normal;
@@ -106,7 +99,7 @@
         line-height: 120.1%;
         letter-spacing: -0.01em;
         color: #A8A8A8;
-        width: 70%;
+        width: 80%;
     }
     
     .ddosattack_CardTitle:hover {
@@ -117,7 +110,7 @@
         line-height: 120.1%;
         letter-spacing: -0.01em;
         color: #00CD78;
-        width: 70%;
+        width: 80%;
     }
     
     .ddosattack_CardDesc {

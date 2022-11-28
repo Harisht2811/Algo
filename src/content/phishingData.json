@@ -1,0 +1,35 @@
+[
+    {
+        "title1":"Proactively Detect ",
+        "title2":" Phishing Threats ",
+        "titleDesc":"Understand your organization’s security health and demonstrate real return on investment with intuitive dashboard results on-demand.",
+        "demo":"Enquire Now",
+        "phishingdesc":"Each year phishing attacks are becoming increasingly sophisticated. Today, threat actors spend months planning their phishing attacks and launch phishing scams directly targeting a specific organization, including both its customers and employees. The potential damage of a successful phishing attack to your organization is widespread, impacting your security operations and brand reputation, in addition to your data privacy and compliance.",
+        "AlgoritmikTitle":"Algoritmik services on ",
+        "cardList":[
+            {
+                "cardTitle":"Detect and analyze threats in advance",
+                "cardDesc":"Monitor active look alike domains and websites impersonating your brand as well as phishing kits reused by threat actors. Detect attacks against employees by spotting phishing target lists, email templates used in an attack, and other exposed data. Identify these and other threats to get early warning of ongoing and future phishing campaigns",
+                "carddemo":"Enquire Now "
+            },
+            {
+                "cardTitle":"Get actionable alerts",
+                "cardDesc":" Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms. Act on alerts that can lead to the most immediate action, such as phishing websites that have not yet been launched. Integrate these structured alerts via AP, SOAR or ticketing platforms",
+                "carddemo":"Enquire Now "
+            }
+        ],
+        "remediateTitle":"Remediate and takedown threats",
+        "remediateDesc":"Initiate a take down process which involves notifying the relevant providers to remove the misleading content, block domains, and update public blacklists . Get detailed reports on each detected alert, including related IOCs, screenshots and recommendationsInitiate a take down process which involves notifying the relevant providers to remove the misleading content, block domains, and update public blacklists . Get detailed reports on each detected alert, including related IOCs, screenshots and recommendations",
+        "remediateDemo":"Enquire Now",
+        "newImg":"../../images/phishing/newBg.png",
+        "newTitle":"Introducing ",
+        "phishingtitle":"Phishing Beacon",
+        "phishingDesc":"Traditionally, cyber threat intelligence vendors uncover phishing websites through typo squat methods. Our solution uses such methods as well. However, many phishing pages are hosted on live, valid domains by adding a new URL with the phishing page, making these methods ineffective. That’s why Algoritmik has created its",
+        "phishingColor":" own Phishing Detection technology.",
+        "phishingImg":"../../images/phishing/phishingimg.png",        
+        "hearTitle":"Heard enough? See it for yourself.",
+        "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+        "heardBtn":"Enquire Now"
+
+    }
+]

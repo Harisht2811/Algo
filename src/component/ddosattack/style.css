@@ -46,18 +46,18 @@
 .ddosattackdemoBtn {
     background-image: url('../../images/ddosattack/demoBg.png');
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -35px;
+    height: 250px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 120.1%;
-    text-align: center;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    padding: 3%;
-    background-position-x: center;
-    background-position-y: center;
-    margin-top: 5%;
+    text-align: center;
+    padding-top: 6%;
 }
 
 .ddosattack_section2 {
@@ -73,24 +73,23 @@
 .ddosattack_card {
     background-image: url('../../images/ddosattack/ddosattackcard.png');
     background-repeat: no-repeat;
-    background-size: 85% 100%;
-    padding: 3%;
-    width: 31%;
-    height: 345px;
+    background-size: 100% 100%;
+    padding: 5% 3% 5% 5%;
     margin-bottom: 5%;
     padding-bottom: 5%;
-
+    height: 389px;
+    width: 306px;
+    margin-right: 5%;
 }
 
 .ddosattack_card:hover {
     background-image: url('../../images/ddosattack/ddoscardHover.png');
     background-repeat: no-repeat;
-    padding: 3%;
-    padding-top: 5%;
-    padding-left: 6%;
-    padding-right: 3.8%;
-    width: 35%;
-    height: 345px;
+    background-size: 100% 100%;
+    padding: 5% 3% 5% 5%;
+    height: 389px;
+    width: 306px;
+
 }
 
 
@@ -102,7 +101,7 @@
     line-height: 120.1%;
     letter-spacing: -0.01em;
     color: #A8A8A8;
-    width: 55%;
+    width: 95%;
 }
 
 .ddosattack_CardTitle:hover {
@@ -113,7 +112,7 @@
     line-height: 120.1%;
     letter-spacing: -0.01em;
     color: #00CD78;
-    width: 55%;
+    width: 95%;
 }
 
 .ddosattack_CardDesc {
@@ -123,7 +122,6 @@
     font-size: 16px;
     line-height: 203.1%;
     color: #A8A8A8;
-    width: 83%;
 }
 
 .ddosattack_section3 {
