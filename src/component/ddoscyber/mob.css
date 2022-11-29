@@ -1,4 +1,4 @@
-@media screen and (max-width:425px) and (min-width:381px) {
+/* @media screen and (max-width:425px) and (min-width:381px) {
     .cyberBannerImg{
         background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
         background-size: 100% 100%;
@@ -43,6 +43,128 @@
     .cyberTitleFlex img {
         width: 30px;
         height: 30px;
+    }
+    .cyberBanner2Par {
+        font-size: 12px;
+        width: 85%;
+        margin-left: 8%;
+        margin-top: -1%;
+    }
+    .cardsCyber {
+        margin-top: -4%;
+    }
+    .cyberCards {
+        margin-left: 8%;
+    }
+    .strategicCard1 {
+        width: 91%;
+        display: block;
+    }
+    .strategicCard1Title {
+        font-size: 14px;
+        width: 44%;
+        padding-top: 5%;
+    }
+    .card1Para {
+        font-size: 12px;
+        width: 97%;
+    }
+    #demo1 {
+        font-size: 12px !important;
+    }
+    .cardImg {
+        width: 47%;
+        margin-left: 28%;
+    }
+    .threatCard2 {
+        width: 91%;
+        display: block;
+    }
+    .ThreatActorTitle{
+        font-size: 14px;
+        width: 44%;
+        padding-top: 5%;
+    }
+    .card2Para{
+        font-size: 12px;
+        width: 97%;
+    }
+    .cardImg{
+        width: 47%;
+        margin-left: 28%;
+    }
+    .threatCard3{
+        width: 91%;
+        display: block;
+        margin-bottom: -13%;
+    }
+    .threatCard3Title{
+        font-size: 14px;
+        width: 44%;
+        padding-top: 5%;
+    }
+    .card3Para{
+        font-size: 12px;
+        width: 97%;
+    }
+    .cardImg{
+        width: 47%;
+        margin-left: 28%;
+    }
+    #demo1 {
+        font-size: 14px;
+    }
+} */
+
+
+/* JOSN CSS */
+@media screen and (max-width:425px) and (min-width:381px) {
+    .cyberBannerImg{
+        background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+    }
+    .cyberBanner2{
+        background-image: none;
+        background-color: #000E08;
+    }
+    .cyberTitle1 {
+        font-size: 22px;
+        padding-top: 11%;
+        margin-left: 0%;
+    }
+    .cyberTitleFlex {
+        display: flex;
+        justify-content: center;
+        padding-top: 8%;
+        padding-bottom: 7%;
+    }
+    .Tick img {
+        margin-left: 25%;
+    }
+    .Hexagon img {
+        margin-left: 59px;
+    }
+    #arrow {
+        font-size: 10px;
+        margin-left: -24%;
+        width: 92px;
+    }
+    #tick {
+        font-size: 10px;
+        margin-left: -7%;
+    }
+    #hexagon {
+        font-size: 10px;
+        margin-left: 31%;
+        width: 100%;
+    }
+    .cyberTitleFlex img {
+        width: 30px;
+        height: 30px;
+        margin-left: 8%;
     }
     .cyberBanner2Par {
         font-size: 12px;

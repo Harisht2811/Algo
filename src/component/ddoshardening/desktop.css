@@ -1,4 +1,4 @@
-@media screen and (max-width:1440px) and (min-width:1025px) {
+/* @media screen and (max-width:1440px) and (min-width:1025px) {
 
     body {
         padding: 0%;
@@ -66,6 +66,83 @@
         width: 88%;
         padding-left: 13%;
     }
+    #demo2 {
+        padding-top: 14%;
+    }
+} */
+
+
+/* JSON CSS */
+@media screen and (max-width:1440px) and (min-width:1025px) {
+
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+    #banimg{
+        width: 78%;
+    }
+    .ddosDesc {
+        width: 76%;
+    }
+    .ddosSection1 {
+        margin-bottom: 26%;
+    }
+    .netwrokArchitecture {
+        padding-top: 18%;
+    }
+    .ddosBanner{
+        background-image: url(../../images/ddos/Bgimg1.png);
+        background-size: 100% 100%;
+    }
+    .ddosTitle {
+        width: 94%;
+        font-size: 64px;
+    }
+    .netArch {
+        font-size: 59px;
+        margin-top: -29%;
+    }
+    .section2Content {
+        font-size: 16px;
+        width: 50%;
+        margin-left: 26%;
+        text-align: center;
+    }
+    #attackVector {
+        margin-left: -51%;
+        font-size: 37px;
+    }
+    #attackVectorPara {
+        width: 20%;
+        margin-left: 141px;
+        font-size: 16px;
+    }
+    .section2Img {
+        margin-left: 11%;
+        width: 72%;
+        margin-top: -67px;
+    }
+    .attackVectorAnalysis {
+        height: 188vh;
+    }
+    #configPara {
+        width: 69%;
+        font-size: 16px;
+    }
+    .vendorSelction {
+        margin-left: -1%;
+    }
+    #vendorSelecPara {
+        width: 92%;
+        font-size: 16px;
+    }
+    .section4Flex {
+        margin-left: 12%;
+    }
+    /* .section4Flex {
+        width: 88%;
+    } */
     #demo2 {
         padding-top: 14%;
     }

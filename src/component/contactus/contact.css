@@ -91,10 +91,11 @@ input,label{
     margin-top: 2%;
 }
 .submitBtn{
-    background: linear-gradient(#2CD58B 10.43%, #3AC9FB 87.33%);
+    /* background: linear-gradient(#2CD58B 10.43%, #3AC9FB 87.33%); */
+    background-color: #2CD58B;
     border-radius: 6px;
-    width: 28%;
-    height: 32px;
+    width: 25%;
+    height: 36px;
     border: none;
     margin-left: 62% ;
     margin-top: 1%;

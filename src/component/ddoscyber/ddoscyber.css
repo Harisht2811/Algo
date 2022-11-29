@@ -1,4 +1,4 @@
-.cyberBannerImg{
+/* .cyberBannerImg{
     background-image: url(../../images/ddoscyber/ddoscyberbanner.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -53,6 +53,228 @@
         width: 100%;
         margin-left: -31%;
         margin-top: 6%;
+}
+#tick{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 143.6%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-left: 61%;
+    width: 110%;
+    margin-top: 6%;
+}
+#hexagon{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 143.6%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-left: 42%;
+    width: 100%;
+    margin-top: 2%;
+}
+.cyberBanner2{
+    background-image: url(../../images/ddoscyber/cyberBanner2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.cyberBanner2Par{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 214.1%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 46%;
+    margin-left: 26%;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+.cardsCyber{
+    margin-top: -2%;
+    background-color: #000E08;
+    padding-bottom: 5%;
+}
+.cyberCards{
+    margin-left: 17%;
+    display: block;
+}
+.strategicCard1{
+    background-color: #091610;
+    width: 78%;
+    border-radius: 24px;
+    padding-bottom: 3%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.strategicCard1Title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 126.6%;
+    color: #FFFFFF;
+    width: 100%;
+}
+.strategicPara{
+    margin-left: 4%;
+    margin-top: 4%;
+    
+}
+.card1Para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.64;
+    width: 54%; 
+}
+.cardImg{
+    width: 30%;
+}
+.threatCard2{
+    background-color: #091610;
+    width: 78%;
+    border-radius: 24px;
+    padding-bottom: 3%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.threatPara{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.ThreatActorTitle{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 126.6%;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 1%;
+}
+.card2Para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.64;
+    width: 55%; 
+}
+.card3Para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.64;
+    width: 55%; 
+}
+.threatcar3Para{
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.threatCard3{
+    background-color: #091610;
+    width: 78%;
+    margin-bottom: 4%;
+    border-radius: 24px;
+    padding-bottom: 3%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.threatCard3Title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 126.6%;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 2%;
+} */
+
+
+
+/* json css */
+.cyberBannerImg{
+    background-image: url(../../images/ddoscyber/ddoscyberbanner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+.Arrow{
+    margin-left: 12%;
+    margin-right: 3%;
+}
+.cyberTitle1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66.7113px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: white;
+    padding-top: 5%;
+}
+.cyberTitleFlex {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    width: 100%;
+    margin-right: 4%;
+}
+.cyberTitleFlex img{
+    width: 59px;
+    height: 59px;
+}
+.Tick{
+    margin-left: 3%;
+}
+
+.Tick img{
+    margin-left: 93%;
+}
+.Hexagon{
+    margin-left: 3%;
+}
+.Hexagon img{
+    margin-left: 285px;
+    width: 59px;
+    height: 59px;
+
+}
+#arrow {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 143.6%;
+        text-align: center;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+        width: 100%;
+        margin-left: -28%;
+        margin-top: 6%;
+        
 }
 #tick{
     font-family: 'Manrope';

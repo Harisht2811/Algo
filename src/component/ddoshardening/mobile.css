@@ -1,4 +1,4 @@
-@media screen and (max-width:425px) and (min-width:376px) {
+/* @media screen and (max-width:425px) and (min-width:376px) {
     .ddosSection1{
         background-image: url(../../images/ddos/ddosHardMobile.png);
         background-size: 100% 100%;
@@ -88,6 +88,107 @@
     #configPara {
         font-size: 14px;
         width: 96%;
+    }
+    #vendorSelecPara {
+        font-size: 14px;
+        width: 94%;
+    }
+    #demo2 {
+        padding-top: 0%;
+        font-size: 12px;
+    }
+} */
+
+/* JSON */
+@media screen and (max-width:425px) and (min-width:376px) {
+    .ddosSection1{
+        background-image: url(../../images/ddos/ddosHardMobile.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        height: 90vh;
+        width: 100%;
+        padding-left: 8%;
+        padding-top: 13%;
+    }
+    .netwrokArchitecture{
+        background-image: url(../../images/ddos/ddosHardMobile2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0%;
+        padding: 0%;
+        height: 366px;
+        margin-top: 22%;
+    }
+    .ddosBanner{
+        background-image: none;
+    }
+    .ddosTitle {
+        font-size: 24px;
+        width: 58%;
+        padding-bottom: 6%;
+    }
+    .ddosDesc {
+        font-size: 16px;
+        width: 85%;
+    }
+    #dembtn {
+        font-size: 12px;
+    }
+    .demobtn1 {
+        width: 86px;
+        height: 25px;
+        margin-top: 5%;
+    }
+    .netArch {
+        font-size: 19px;
+        padding-top: 28%;
+        margin-bottom: -20%;
+    }
+    .section2Content {
+    font-size: 10px;
+    margin-left: 16%;
+    width: 70%;
+    padding-top: 29%;
+    }
+    .attackVectorAnalysis {
+        height: 180vh;
+        margin-top: -5%;
+    }
+    #attackVector {
+        font-size: 17px;
+        margin-left: -43%;
+        padding-top: 18%;
+    }
+    .section2Img {
+        margin-top: -23px;
+    margin-left: 6%;
+    width: 80%;
+    }
+    #attackVectorPara {
+        font-size: 10px;
+        width: 46%;
+        margin-left: 7%;
+    }
+
+    #config {
+        font-size: 16px;
+        width: 52%;
+    }
+    #vendorSelec {
+        font-size: 16px;
+     }
+     .section4Flex {
+        display: block;
+        margin-left: 10%;
+    }
+    .vendorSelction {
+        margin-left: -1%;
+    }
+    #configPara {
+        font-size: 14px;
+        width: 342PX;
     }
     #vendorSelecPara {
         font-size: 14px;

@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px) and (min-width:769px) {
+/* @media screen and (max-width:1024px) and (min-width:769px) {
     .cyberTitle1 {
         font-size: 53px;
         padding-top: 9%;
@@ -15,12 +15,7 @@
         width: 50px;
         height: 50px;
     }
-    /* .Tick {
-        margin-left: -3%;
-    }
-    .Hexagon {
-        margin-left: -3%;
-    } */
+
     #tick {
         font-size: 14px;
         margin-left: 123%;
@@ -76,3 +71,84 @@
         margin-bottom: -7%;
     }
 }
+ */
+
+
+ /* JSON CSS */
+ @media screen and (max-width:1024px) and (min-width:769px) {
+    .cyberTitle1 {
+        font-size: 53px;
+        padding-top: 9%;
+    }
+    .cyberTitleFlex {
+        padding-bottom: 4%;
+    }
+    #arrow {
+        margin-left: -25%;
+        width: 100%;
+        font-size: 14px;
+    }
+    .arrowLogo{
+        margin-left: 0%;
+    }
+    .cyberTitleFlex img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #tick {
+        font-size: 14px;
+        margin-left: 123%;
+        width: 110%;
+    }
+    .Tick img {
+        margin-left: 153%;
+    }
+    .Hexagon img {
+        width: 50px;
+        height: 50px;
+    }
+    #hexagon {
+        font-size: 14px;
+        margin-left: 63%;
+        width: 60%;
+    }
+    .strategicCard1Title 
+    {
+        width: 34%;
+        font-size: 16px;
+    }
+    .card1Para {
+        width: 84%;
+        font-size: 12px;
+    }
+    .ThreatActorTitle {
+        font-size: 16px;
+    }
+    .card2Para {
+        width: 85%;
+        font-size: 12px;
+    }
+    .threatCard3Title {
+        width: 44%;
+        font-size: 16px;
+    }
+    .card3Para {
+        width: 91%;
+        font-size: 12px;
+    }
+    #demo1 {
+        font-size: 12px;
+    }
+    .cyberBanner2Par {
+        width: 74%;
+        margin-left: 12%;
+        font-size: 14px;
+        margin-top: -1%;
+
+    }
+    .threatCard3 {
+        margin-bottom: -7%;
+    }
+}
+

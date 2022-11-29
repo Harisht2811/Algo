@@ -1,0 +1,29 @@
+[
+    {
+        "title" : "Improve your",
+        "title1" : "network architecture",
+        "title2" : "against attacks",
+        "titlePara" : "We identify which protection component will preven t each DDoS attack vector",
+        "titleBtn" : "Enquire Now",
+        "secondTitle" : "Network Architecture",
+        "secondPara" : "Our experts audit your DDoS network architecture infrastructure to identify weaknessess nd provide recommendations for maximizing DDoS protection. This step, taken regardless of which vendor you use, ensures a solid foundation for DDoS protection, with the right components in the right locations.",
+        "thirdTitle" : "Attack Vector Analysis",
+        "thirdPara" : "We identify which protection component will prevent each DDoS attack vector.",
+        "thirdImg" : "../../images/ddos/Bgimg2.png",
+        "hardeningFlex": [
+            {
+                "title" : "Configuration Optimization",
+                "description" : "Installed DDoS protection solutions are often underutilized. Our team dives into your protection setup and provides detailed instructions on how to improve appliance configuration. For example, we ensure that rate limit thresholds are well-calibrated, that you have chosen the most appropriate web challenge, and that you fully utilize bot and geo-protection.",
+                "btn" : "Enquire Now"
+            },
+            {
+                "title" : "Vendor Selection",
+                "description" : "An optional Red Button service includes methodical vendor evaluation, using a comprehensive RFP template. We then present our recommendations regarding several DDoS vendors with solutions most suitable for your needs, analyzing the pros and cons of each option.\n\n\n" ,
+                "btn" :"Enquire Now"
+            }
+    ],
+    "cardTitle" : "Heard enough? See it for yourself.",
+    "cardPara" :"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+    "cardBtn" : "Enquire Now"
+    }
+]
