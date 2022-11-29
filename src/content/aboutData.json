@@ -1,0 +1,45 @@
+[
+    {
+        "abouBg":"../../../images/aboutus/aboutus1.png",
+        "aboutBtn":"../../../images/aboutus/aboutus8.png",
+        "aboutTitle":"The leading Cyber Security partner -World’s No. 1 partner",
+        "abouttitleDesc":"Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations,.",
+        "worldTitle":"World-Class Security Operating Centres",
+        "Worlddesc":"Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations, you can assess and respond to these threats with the help of our highly skilled analysts to build cybersecurity analysis, threat assessments, analytic projects and deep-dive reports, all customized to your needs \n\nMost businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigation.",
+        "triangle":"../../../images/aboutus/aboutus9.svg",
+        "aboutUs":"About us",
+        "aboutusdesc":"A cybersecurity company that protects both public and private sector from the hostile cyber environment",
+        "whotitle":"Who we are?",
+        "section1":[
+            {
+                "icon":"../../../images/aboutus/aboutus4.svg",
+                "number":"200+",
+                "title":"Professionals"
+            },
+            {
+                "icon":"../../../images/aboutus/aboutus6.svg",
+                "number":"5000+",
+                "title":"Testings & Attacks"
+            }
+        ],
+        "algortmiklogo":"../../../images/aboutus/aboutus7.png",
+        "section3":[
+            {
+                "icon":"../../../images/aboutus/aboutus3.svg",
+                "number":"100+",
+                "title":"Clients & Customers"
+            },
+            {
+                "icon":"../../../images/aboutus/aboutus5.svg",
+                "number":"50+",
+                "title":"World countries"
+            }
+        ],
+        "proudtitle1":"Proud that we have our own",
+        "proudtitle2":"Phishing Beacon",
+        "Prouddesc":"Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets. With Algoritmik’s Deep Dive Investigations, you can assess and respond to these threats with the help of our highly skilled analysts to build cybersecurity analysis, threat assessments, analytic projects and deep-dive reports, all customized to your needs",
+        "coffeetitle":"Lets work with a cup of coffee",
+        "coffeedesc":"We are a small team with professional players."
+        
+    }
+]

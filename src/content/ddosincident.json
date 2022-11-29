@@ -1,0 +1,45 @@
+[
+    {
+        "title":"Stop DDoS attacks",
+        "title1":"Minimize outage time",
+        "titleDesc":"Our DDoS expert team offer the most up-to-date knowledge on DDoS attack trends, field-tested best practices, proficiency with all DDoS mitigation technology vendors,and extensive know-how to efficiently manage what is often a stressful event.",
+        "demo":"Enquire Now",
+        "incidenttitle":"30-day DDoS incident response",
+        "incidenttitle1":"service includes",
+        "incidentdesc":"We offer the most up-to-date knowledge on DDoS attack trends, field-tested best practices, proficiency with all DDoS mitigation technology vendors,and extensive know-how to efficiently manage what is often a stressful event.",
+        "responseTitle":"Understanding the Theory Behind Incident Response",
+        "responsedesc":"Incident response is a fundamental responsibility for any IT program. With so many potential threats lurking around every digital turn, it’s not a matter of if something will happen—but when. Although it’s nearly impossible to consider every incident scenario, implementing a comprehensive incident response plan—complete with the incident response phases—ensures that your team is ready to spring into action at a moment’s notice.",
+        "responseImg":"../../images/ddosincident/ddosincident.png",
+        "cardlist":[
+            {
+                "cardTitle":"Immediate DDoS Expert Assignment",
+                "cardicon":"../../images/ddosincident/playbook.png",
+                "carddesc":"Our top DDoS response experts are immediately assigned to your incident. They analyze the attack and apply the appropriate measures until the attack has been fully mitigated"
+            },
+            {
+                "cardTitle":"Testing and System Hardening",
+                "cardicon":"./../images/ddosincident/expertassign.png",
+                "carddesc":" We audit your network architecture and DDoS protection system configuration, run a DDoS test, and provide detailed recommendations to prevent future attacks"
+            },
+            {
+                "cardTitle":"Training and DDoS Attack Playbook",
+                "cardicon":"../../images/ddosincident/systemhard.png",
+                "carddesc":"We conduct DDoS training to increase your teams' skills, and provide a DDoS Playbook with procedures and activities for responding to any future attacks"
+            }
+        ],
+        "mitigattitle":"Mitigating a DDoS Attack",
+        "mitigatlist":[
+            {
+                "listtitel":"Stop the attack",
+                "listdesc":" Our DDoS experts work closely with your security and IT teams to deliver the fastest attack mitigation"
+            },
+            {
+                "listtitel":"Prepare for the next strike",
+                "listdesc":"We harden the assets that are most likely to be attacked and run tests to uncover vulnerabilities"
+            }
+        ],
+        "hearTitle":"Heard enough? See it for yourself.",
+        "heardDesc":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+        "heardBtn":"Enquire Now"
+    }
+]
