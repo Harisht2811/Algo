@@ -1,18 +1,12 @@
-    {
-        "algoloveTitle":"Why our Clients Love Algoritmik ?",
+[    {
+        "algoloveTitle":"Why our Clients Love",
+        "algoloveTitle1": "Algoritmik ?",
         "algoText":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization and suggest countermeasures to reduce the risk.",
-        "issueCard":[
-            {
-                "issue1":"01",
-                "issueText1":"Security issues that the penetration test uncovers should be reported to the system owner"
-            },
-            {
-                "issue1":"02",
-                "issueText1":"Security issues that the penetration test uncovers should be reported to the system owner"
-            },
-            {
-                "issue1":"03",
-                "issueText1":"Security issues that the penetration test uncovers should be reported to the system owner"
-            }
-        ]
+        "issue1":"01",
+        "issueText1":"Security issues that the penetration test uncovers should be reported to the system owner",
+        "issue2":"02",
+        "issueText2":"Security issues that the penetration test uncovers should be reported to the system owner",
+        "issue3":"03",
+        "issueText3":"Security issues that the penetration test uncovers should be reported to the system owner"
     } 
+]

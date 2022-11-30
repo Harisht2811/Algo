@@ -1,8 +1,7 @@
-
+[
 {
-    
         "bannerTitle1":"Innovative tool for creating ",
-        "bannerTitle2":"highly customized security roadmaps.",
+        "bannerTitle2":"highly customized security",
         "bannerTitle3":"roadmaps.",
         "bannerText":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization and suggest countermeasures to reduce the risk.",
         "achievements":[
@@ -20,3 +19,4 @@
            }
         ]
 }
+]
