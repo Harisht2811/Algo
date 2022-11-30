@@ -48,7 +48,10 @@
             "cardContImg" : "../../images/attacker/Arrow.png",
             "cardImg" : "../../images/ddoscyber/threatLandscape.png"
         }
-    ]
+    ],
+        "cardTitle" : "Heard enough? See it for yourself.",
+        "cardPara" :"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
+        "cardBtn" : "Enquire Now"
 
 }
 ]

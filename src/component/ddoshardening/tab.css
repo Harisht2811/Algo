@@ -105,6 +105,7 @@
     }
     .section4Flex {
         margin-left: 7%;
+        margin-bottom: -44px;
     }
     #configPara {
         width: 85%;
@@ -116,7 +117,7 @@
         padding-top: 32%;
     }
     .attackVectorAnalysis {
-        height: 159vh;
+        height: auto;
     }
     .netwrokArchitecture {
         padding-top: 44%;

@@ -208,7 +208,7 @@ width: 58%;
     padding-left: 5%;
     width: 50%;
 }
-.ddosTitle{
+.ddosTitle {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -216,7 +216,7 @@ width: 58%;
     line-height: 120.1%;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    width: 70%;
+    width: 72%;
 }
 .ddosDesc{
     font-family: 'Manrope';
@@ -265,7 +265,7 @@ width: 58%;
     text-align: center;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    margin-top: -23%;
+    margin-top: -23.5%;
 }
 .section2Content{
     
@@ -284,7 +284,7 @@ width: 58%;
 }
 .attackVectorAnalysis{
     background-color: #000E08;
-    height: 175vh;
+    height: auto;
     margin-top: -2%;
 }
 #attackVector {
@@ -296,7 +296,7 @@ width: 58%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #00CD78;
-    margin-left: -43%;
+    margin-left: -58%;
     padding-top: 4%;
 }
 #attackVectorPara {
@@ -307,11 +307,12 @@ width: 58%;
     line-height: 170.1%;
     color: #CBCBCB;
     width: 15%;
-    margin-left: 18%;
+    margin-left: 10.5%;
 }
 .section2Img {
-    margin-top: -61px;
-    margin-left: 18%;
+    margin-left: 10.5%;
+    width: 72%;
+    margin-top: -67px;
 }
 .bgimg{
     margin-left: 7%;

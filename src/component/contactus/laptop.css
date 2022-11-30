@@ -1,9 +1,9 @@
-@media screen and (max-width:1025px) and (min-width:768px){
+@media screen and (max-width:1024px) and (min-width:768px){
     .ContactFlex {
         margin-left: 5%;
     }
     .contactForm {
-        width: 105%;
+        width: 840px;
         height: 619px
     }
     .email {

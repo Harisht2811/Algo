@@ -110,21 +110,21 @@
         text-align: center;
     }
     #attackVector {
-        margin-left: -51%;
+        margin-left: -62%;
         font-size: 37px;
     }
     #attackVectorPara {
         width: 20%;
-        margin-left: 141px;
+        margin-left: 65px;
         font-size: 16px;
     }
     .section2Img {
-        margin-left: 11%;
-        width: 72%;
+        margin-left: 5%;
+        width: 80%;
         margin-top: -67px;
     }
     .attackVectorAnalysis {
-        height: 188vh;
+        height: auto;
     }
     #configPara {
         width: 69%;
@@ -139,10 +139,9 @@
     }
     .section4Flex {
         margin-left: 12%;
+        margin-bottom: -40px;
+
     }
-    /* .section4Flex {
-        width: 88%;
-    } */
     #demo2 {
         padding-top: 14%;
     }

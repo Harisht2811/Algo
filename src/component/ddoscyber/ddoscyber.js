@@ -112,7 +112,7 @@ function Ddoscyber() {
         return <div> 
     <div>
     <div className='cyberBannerImg'>
-        <p className='cyberTitle1'><span className='colorText'>{item.cyberTitle1}</span>{item.cyberTitle2}<br></br>{item.cyberTitle3}</p>
+        <p className='cyberTitle1'><span className='colorText'>{item.cyberTitle1}</span> {item.cyberTitle2}<br></br>{item.cyberTitle3}</p>
           <div className='cyberTitleFlex'>
          {item.flex.map (item => {
           return <div className='Arrow'>
@@ -145,10 +145,10 @@ function Ddoscyber() {
         <div className='heard'>
             <div className='securityIssues'>
                 <div className='securityText'>
-                <p id='titleIssues'>Heard enough? See it for yourself.</p>
-                <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
+                <p id='titleIssues'>{item.cardTitle}</p>
+                <p id='textIssues'>{item.cardPara}</p>
                 </div>
-                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>{item.cardBtn}</button>
             </div>
         </div>
       </div>

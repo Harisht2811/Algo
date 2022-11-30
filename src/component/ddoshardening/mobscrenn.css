@@ -167,7 +167,7 @@
         padding-top: 4%;
     }
     .attackVectorAnalysis {
-        height: 169vh;
+        height: auto;
         margin-top: -5%;
     }
     #attackVector {
@@ -192,6 +192,7 @@
     .section4Flex {
         display: block;
         margin-left: 6%;
+        margin-bottom: -66px;
     }
     #config {
         font-size: 12px;
