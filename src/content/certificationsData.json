@@ -1,0 +1,16 @@
+    {
+        "certificationsTitle":"Our Certifications",
+        "certificationsText":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess.",
+        "certificateImages":[
+          {
+              "image1":"../../images/homepage/algohome18.png",
+              "image2":"../../images/homepage/algohome19.png",
+              "image3":"../../images/homepage/algohome20.png",
+              "image4":"../../images/homepage/algohome21.png",
+              "image5":"../../images/homepage/algohome22.png"
+      
+          }
+        ],
+        "heardTitle":"Heard enough? See it for yourself.",
+        "heardText":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization."
+      }

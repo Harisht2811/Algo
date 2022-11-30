@@ -1,5 +1,50 @@
-[
-    {
-        
-    }
-]
+
+    
+{
+    "laptopmenuFooter":[
+        {
+            "section1":[
+                {
+                    "footerLogo":"../../images/homepage/algohome29.png"
+                },
+                {
+                "mediaIcon1":"../../images/homepage/algohome24.png",
+                "mediaIcon2":"../../images/homepage/algohome25.png",
+                "mediaIcon3":"../../images/homepage/algohome26.png",
+                "mediaIcon4":"../../images/homepage/algohome27.png"
+                },
+                {
+                  "copyrightText":"Copyright @algoritmik 2022. All right reserved"
+                }
+            ],
+            "section2":[
+                {
+                    "quickLinkstext":"Quick Links",
+                    "link1":"Home",
+                    "link2":"About us"
+                }
+            ],
+            "section3":[
+                {
+                    "quickLinkstext":"Services",
+                    "link1":"3rd Party Cyber Risk",
+                    "link2":"Attack Surface",
+                    "link3":"DDoS Attack Simulation & Testing",
+                    "link4":"DDOS Incident Response",
+                    "link5":"Technology Hardening",
+                    "link6":"Deep & Dark Web"
+                }
+            ],
+            "section4":[
+                {
+                    "link1":"Deep Cyber Investigations",
+                    "link2":"Pentesting",
+                    "link3":"Phishing Detection",
+                    "link4":"DDOS Incident Response",
+                    "link5":"Virtual Humint Operations",
+                    "link6":"Ransomeware"
+                }
+            ]
+        }
+    ]
+}

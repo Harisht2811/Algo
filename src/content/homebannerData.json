@@ -1,0 +1,22 @@
+
+{
+    
+        "bannerTitle1":"Innovative tool for creating ",
+        "bannerTitle2":"highly customized security roadmaps.",
+        "bannerTitle3":"roadmaps.",
+        "bannerText":"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization and suggest countermeasures to reduce the risk.",
+        "achievements":[
+           { "counts":"200+",
+            "serviceText":"Professionals"
+           },
+           { "counts":"5000+",
+            "serviceText":"Testings & attacks"
+           },
+           { "counts":"100+",
+            "serviceText":"Clients & Customers"
+           },
+           { "counts":"50+",
+            "serviceText":"World countries"
+           }
+        ]
+}

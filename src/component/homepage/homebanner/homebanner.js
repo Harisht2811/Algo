@@ -40,6 +40,7 @@ function Algohome() {
     <button className='exploreButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
     </div>
     </div>
+    
     <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
      <p id='getintouch'>Get in touch with us </p>
      <label>Name*</label>

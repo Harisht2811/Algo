@@ -14,7 +14,7 @@ import { NavLink, BrowserRouter as Router } from 'react-router-dom'
 
 function Header() {
   const [open, setOpen] = useState(false);
-
+ console.log(headerData);
 
   const openmodal = () => {
     console.log('open clicked')

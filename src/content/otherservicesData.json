@@ -1,0 +1,23 @@
+
+    {
+        "otherServicesTitle":"Other Services",
+        "otherServicessub":[
+            {
+                "service1":"Deep Cyber Investigations",
+                "servicesDesc":"Most businesses and organizations don’t have the tools or time to keep up with escalating and increasingly sophisticated threats to their physical and digital assets."
+            },
+            {
+                "service1":"Pentesting",
+                "servicesDesc":"To protect your organization, you first need to know what assets and digital surface to protect"
+            },
+            {
+                "service1":"Phishing Detection",
+                "servicesDesc":"To protect your organization, you first need to know what assets and digital surface to protect"
+            },
+            {
+                "service1":"Ransomeware",
+                "servicesDesc":"To protect your organization, you first need to know what assets and digital surface to protect"
+            }
+        ]
+    }
+    
