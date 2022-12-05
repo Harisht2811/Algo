@@ -368,3 +368,48 @@
         left: 145px;
     }
 }
+@media screen and (max-width:280px) and (max-height:675px) {
+    .carouselCards{
+        display: none;
+    }
+    .carouselCardsRes{
+        display: none;
+    }
+    .carouselCardsmobres{
+        background-color: black;
+        padding: 8% 5%;
+        display: block;
+        width: 100%;
+    }
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 100px;
+    }
+    
+    .innercarouselCards1,
+    .innercarouselCards2,
+    .innercarouselCards3,
+    .innercarouselCards4,
+    .innercarouselCards5,
+    .innercarouselCards6,
+    .innercarouselCards7 {
+        padding: 20% 2%;
+        width: 100%;
+        background-size: 100% 80%;
+    }
+    .innercarouselCards1:hover,
+    .innercarouselCards2:hover,
+    .innercarouselCards3:hover,
+    .innercarouselCards4:hover,
+    .innercarouselCards5:hover,
+    .innercarouselCards6:hover,
+    .innercarouselCards7:hover {
+        width: 100%;
+        background-size: 100% 80%;
+    }
+    .carousel-indicators {
+        margin-bottom: 1rem !important;
+        margin-left: 2rem !important;
+    }
+}

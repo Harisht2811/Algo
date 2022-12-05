@@ -301,3 +301,50 @@
         margin: 5% 0 0 0;
     }
 }
+@media screen and (max-width:280px) and (max-height:675px) {
+    .homeBannerimg{
+        display: none;
+    }
+    .homeBannerimgRes{
+        display: block;
+        width: 100%;
+    }
+    .homeBanner{
+    padding: 5% 5%;
+    position: absolute;
+    top:80px;
+   }
+    #homeBannerTitle{
+        font-size: 25px;
+        width: 100%;
+        line-height: 35px;
+    }
+    #homeBannerText{
+    font-size: 12px;
+    margin: 1% 0 0 0;
+    width: 100%;
+    line-height: 20px;
+    }
+    #colorText{
+    color: #00CD78;
+    }
+    .clients{
+    display: inline-flex;
+    margin: 5% 0 0 -5%;
+    width: 100%;
+    }
+    .clients div{
+    margin: 0 0 0 4%;
+    }
+    #clientnoText{
+    font-size: 20px;
+    }
+    #clientText{
+    font-size: 10px;
+    }
+    .exploreButton{
+        width: 50%;
+        height: 40px;
+        margin: 5% 0 0 0;
+    }
+}
