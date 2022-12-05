@@ -8,7 +8,7 @@
         background-image: url(../../images/attacker/Mask\ group.png);
         background-size: 100% 110%;
         background-repeat: no-repeat;
-        padding: 0% 0 5% 15%;
+        padding: 0% 0 5% 10%;
         margin: 0%;
     }
 
@@ -75,7 +75,7 @@
     .attack_section2_list {
         display: block;
         margin-left: 4%;
-        padding: 2% 0;
+        padding: 2% 0 5%;
     }
     .hrLine{
         display: none;
@@ -157,7 +157,6 @@
         font-size: 20px;
         line-height: 126.6%;
         color: #FFFFFF;
-        width: 40%;
         padding-bottom: 0%;
     }
 
@@ -253,5 +252,44 @@
         width: 30%;
         padding: 2%;
         border-radius: 8px;
+    }
+}
+
+
+@media screen and (max-width:550px)  {
+
+    .attack_Title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 100.1%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        padding-top: 5%;
+        margin-left: -7%;
+    }
+    .attack_section4 {
+        background-color: #000E08;
+        padding-bottom: 2%;
+        padding-top: 22%;
+    }
+    .attack_sectionCard {
+        display: flex;
+        width: 94%;
+        height: 258px;
+        background-color: #091610;
+        border-radius: 24px;
+        margin-left: 3%;
+        padding-bottom: 0%;
+        margin-bottom: 3%;
+        padding-left: 3%;
+    }
+  
+    .attack_cardDesc {
+        width: 100%;
+    }
+    .attack_cardBtn {
+        margin-top: -2%;
     }
 }

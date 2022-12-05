@@ -61,7 +61,7 @@ function Attack() {
         <div className='attack_section4_title'>Other Services</div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
-            <p className='attack_cardTitle'>Uncover your digital presence</p>
+            <p className='attack_cardTitle'>Uncover your <br/>digital presence</p>
             <p className='attack_cardDesc'>Discover and map all externally facing digital assets such as domains, IP addresses, websites, and cloud storage and more. Collect information from multiple open, deep and dark data sources to uncover your organization’s entire digital presence and help mitigate Shadow IT.</p>
             <p className='attack_cardBtn'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
@@ -71,7 +71,7 @@ function Attack() {
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
-            <p className='attack_cardTitle'>Identify security issues</p>
+            <p className='attack_cardTitle'>Identify security <br/>issues</p>
             <p className='attack_cardDesc'>Continuously scan and map the organization’s digital presence to detect issues and vulnerabilities such as leaked credentials, botnet infections, exploitable open ports, vulnerable web interfaces, and more</p>
             <p className='attack_cardBtn'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
@@ -81,7 +81,7 @@ function Attack() {
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
-            <p className='attack_cardTitle'>Assess and prioritize risks</p>
+            <p className='attack_cardTitle'>Assess and <br/>prioritize risks</p>
             <p className='attack_cardDesc'>Calculate a security score by comparing current threats against your organization’s current best practices. Track and manage identified issues and assets so that your organization can focus on and address the most critical issues first.</p>
             <p className='attack_cardBtn'>Enquire Now <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
@@ -91,7 +91,7 @@ function Attack() {
         </div>
         <div className='attack_sectionCard'>
           <div className='attack_cardLeft'>
-            <p className='attack_cardTitle'>Monitor your attack surface</p>
+            <p className='attack_cardTitle'>Monitor your attack <br/>surface</p>
             <p className='attack_cardDesc'>Monitor your organization’s constantly changing and entire digital presence to gain automatic and full visibility on an ongoing basis. Remap and continuously scan all assets every week, based on specific requirements</p>
             <p className='attack_cardBtn'>Enquire Now <img src={arrow} alt='arrow' className='demoArrow' onClick={() => setButtonPopup(true)}/></p>
           </div>

@@ -7,7 +7,7 @@ body {
     background-image: url(../../images/attacker/Mask\ group.png);
     background-size: 100% 110%;
     background-repeat: no-repeat;
-    padding: 3% 0 6% 15%;
+    padding: 3% 0 6% 10%;
     margin: 0%;
 }
 
@@ -163,7 +163,6 @@ body {
     font-size: 26px;
     line-height: 126.6%;
     color: #FFFFFF;
-    width: 55%;
     padding-bottom: 5%;
 }
 

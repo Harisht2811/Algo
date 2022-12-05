@@ -30,11 +30,26 @@
         outline: none;
         text-align: center;
         width: 150px;
-        padding-top: 0.5%;
+        padding-top: 0.8%;
         cursor: pointer;
     }
+    .sysImg{
+        width: 41%;
+        height: 400px;
+        margin-top: 5%;
+        margin-left: 55%;
+        position: absolute;
+    }
 }
-
+@media screen and (max-width:1300px) {
+.sysImg{
+    width: 41%;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 55%;
+    position: absolute;
+}
+}
 @media screen and (max-width:1024px) and (min-width:775px) {
     body {
         padding: 0%;
@@ -143,13 +158,13 @@
         background-color: #000E08;
     }
     
-    .sysImg {
+    /* .sysImg {
         width: 367.09px;
         height: 360px;
         margin-top: 7%;
         margin-left: 60%;
         position: absolute;
-    }
+    } */
     
     .cyberleft {
         width: 58%;
@@ -207,12 +222,14 @@
     
     .impactList{
         padding-bottom: 3%;
+        
     }
     
     .impactList>div {
         display: flex;
         margin-left: 18%;
         padding-bottom: 2%;
+        
     }
     .listTitle:hover {
         color: #00CD78;
@@ -240,7 +257,9 @@
         line-height: 170.1%;
         color: #8A8A8A;
     }
-    
+    .listDesc br{
+        display: none;
+    }
     .listName {
         margin-left: 5%;
     }
