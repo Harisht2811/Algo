@@ -10,6 +10,7 @@ import planingImg from '../../images/ddosattack/planingImg.png'
 import controlImg from '../../images/ddosattack/controlImg.png'
 import reportImg from '../../images/ddosattack/reportImg.png'
 import hrline from '../../images/ddosattack/hrline.png'
+import demo from "../../images/ddosattack/demobg1.png"
 function Ddosattack() {
   const [buttonPopup, setButtonPopup] =useState(false);
 
@@ -19,7 +20,8 @@ function Ddosattack() {
       <div className='ddosattack_section1'>
         <div className='ddosattack_Title'><span className='ddoscolorText'>DDoS Attack Simulation</span> <br />& Testing</div>
         <p className="ddosattackDesc">Our testing service simulates deep multi-vector DDoS attacks.</p>
-        <p className="ddosattackdemoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p>
+        {/* <p className="ddosattackdemoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p> */}
+        <img  className='ddosdemo' src={demo} onClick={() => setButtonPopup(true)}/>
       </div>
       <div className='ddosattack_section2'>
         <div className='ddosattack_cardlist' >

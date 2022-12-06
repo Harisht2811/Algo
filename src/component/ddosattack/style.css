@@ -43,6 +43,18 @@
     opacity: 0.86;
 }
 
+.ddosdemo{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120.1%;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: 33%;
+}
+
 .ddosattackdemoBtn {
     background-image: url('../../images/ddosattack/demoBg.png');
     background-repeat: no-repeat;

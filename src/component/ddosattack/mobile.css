@@ -47,7 +47,18 @@
         opacity: 0.86;
         padding-top: 3%;
     }
-    
+    .ddosdemo{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
     .ddosattackdemoBtn {
         background-image: url('../../images/ddosattack/demoBg.png');
         background-repeat: no-repeat;
@@ -71,7 +82,7 @@
     
     .ddosattack_cardlist {
         display: block;
-        margin-left: -2%;
+        margin-left: -5%;
         margin-top: -2%;
         padding-bottom: 5%;
         padding-top: 10%;
@@ -85,7 +96,7 @@
         margin-bottom: 5%;
         padding-bottom: 5%;
         height: 280px;
-        width: 400px;
+        width: 100%;
         margin-right: 0%;
     }
     
@@ -95,7 +106,7 @@
         background-size: 100% 100%;
         padding: 15% 1% 5% 10%;
         height: 280px;
-        width: 400px;
+        width: 100%;
     }
     .ddosattack_CardTitle {
         font-family: 'Manrope';
@@ -361,7 +372,7 @@
 
 
     
-@media screen and (max-width: 375px) and (min-width:321px){
+@media screen and (max-width: 375px) and (min-width:281px) {
 
     .ddosattack_section1 {
         background-image: url('../../images/ddosattack/mobBg.png');
@@ -409,7 +420,18 @@
         opacity: 0.86;
         padding-top: 3%;
     }
-    
+    .ddosdemo{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+    }
     .ddosattackdemoBtn {
         background-image: url('../../images/ddosattack/demoBg.png');
         background-repeat: no-repeat;
@@ -432,7 +454,7 @@
     }
     .ddosattack_cardlist {
         display: block;
-        margin-left: -2%;
+        margin-left: -5%;
         margin-top: -2%;
         padding-bottom: 5%;
         padding-top: 10%;
@@ -446,7 +468,7 @@
         margin-bottom: 5%;
         padding-bottom: 5%;
         height: 250px;
-        width: 370px;
+        width: 100%;
         margin-right: 0%;
     }
     
@@ -456,7 +478,7 @@
         background-size: 100% 100%;
         padding: 15% 1% 5% 10%;
         height: 250px;
-        width: 370px;
+        width: 100%;
     }
     .ddosattack_CardTitle {
         font-family: 'Manrope';
@@ -721,7 +743,7 @@
     }
 
 
-    @media screen and (max-width: 345px) {
+    /* @media screen and (max-width: 345px) and(min-width:281px) {
 
         .ddosattack_Title {
             font-size: 22px !important;
@@ -759,7 +781,7 @@
             padding-top: 10%;
         }
     }
-
+ */
 
     @media screen and (max-width: 280px) {
 
@@ -809,7 +831,18 @@
             opacity: 0.86;
             padding-top: 3%;
         }
-        
+        .ddosdemo{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 120.1%;
+            letter-spacing: -0.05em;
+            color: #FFFFFF;
+            text-align: center;
+            width: 100%;
+            margin-left: 0%;
+        }
         .ddosattackdemoBtn {
             background-image: url('../../images/ddosattack/demoBg.png');
             background-repeat: no-repeat;
@@ -832,7 +865,7 @@
         }
         .ddosattack_cardlist {
             display: block;
-            margin-left: -2%;
+            margin-left: -5%;
             margin-top: -2%;
             padding-bottom: 5%;
             padding-top: 10%;
@@ -846,7 +879,7 @@
             margin-bottom: 5%;
             padding-bottom: 5%;
             height: 250px;
-            width: 300px;
+            width: 100%;
             margin-right: 0%;
         }
         
@@ -856,7 +889,7 @@
             background-size: 100% 100%;
             padding: 15% 1% 5% 10%;
             height: 250px;
-            width: 300px;
+            width: 100%;
         }
         .ddosattack_CardTitle {
             font-family: 'Manrope';
