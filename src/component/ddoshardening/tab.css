@@ -1,8 +1,8 @@
-/* @media screen and (max-width:775px) and (min-width:426px) 
+@media screen and (max-width:775px) and (min-width:426px) 
 {
     .ddosTitle {
         font-size: 32px;
-        width: 87%;
+        width: 89%;
     }
     .bgimg{
         margin-top: -3%;
@@ -52,7 +52,7 @@
         padding-top: 32%;
     }
     .attackVectorAnalysis {
-        height: 159vh;
+        height: auto;
     }
     .netwrokArchitecture {
         padding-top: 44%;
@@ -60,10 +60,10 @@
     .vendorSelction{
         margin-left: -11%;
     }
-} */
+}
 
 /* JSON CSS */
-@media screen and (max-width:775px) and (min-width:426px) 
+/* @media screen and (max-width:775px) and (min-width:426px) 
 {
     .ddosTitle {
         font-size: 32px;
@@ -125,4 +125,4 @@
     .vendorSelction{
         margin-left: -11%;
     }
-}
+} */

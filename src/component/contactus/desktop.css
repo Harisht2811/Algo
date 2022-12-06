@@ -1,4 +1,4 @@
-@media screen  and (min-width:1024px) and (max-width:1440px){
+@media screen   and (max-width:1440px)and (min-width:1026px){
     label {
         font-size: 14px;
     }
@@ -17,18 +17,18 @@
     }
     .input1 {
         margin-top: 2%;
-        width: 180px;
+        width: 169px;
     }
     .input2 {
         margin-left: 8%;
-        width: 180px;
+        width: 169px;
     }
     .ContactParaTitle1 {
         width: 45%;
         font-size: 25px;
     }
     .paraContent {
-        width: 45%;
+        width: 46%;
     }
     .ContactHr {
         color: #B3B3B3;

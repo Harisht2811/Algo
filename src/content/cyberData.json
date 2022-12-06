@@ -28,7 +28,7 @@
             "cardTitle" :"Strategic",
             "cardTit" : "Threat Intelligence",
             "cardPara" : "Identify meaningful trends to gain a wider perspective by continuously analyzing threat data. Create strategic threat intelligence and security advisory reports that provide the basis for the formulation of strategy, policy, and longer-term decision-making",
-            "cardcont" : "Enquire Now",
+            "cardcont" : "Get a Demo",
             "cardContImg" : "../../images/attacker/Arrow.png",
             "cardImg" : "../../images/ddoscyber/rocket.png"
         },
@@ -36,7 +36,7 @@
             "cardTitle" :"Threat",
             "cardTit" : "Actor Profiling",
             "cardPara" : "Achieve deeper understanding of a specific threat actor and group profiling, including the place of operations, targeted countries or verticals, tools in use and the type of operations often associated with those groups",
-            "cardcont" : "Enquire Now",
+            "cardcont" : "Get a Demo",
             "cardContImg" : "../../images/attacker/Arrow.png",
             "cardImg" : "../../images/ddoscyber/threatActor.png"
         },
@@ -44,14 +44,14 @@
             "cardTitle" :"Threat",
             "cardTit" :"Landscape Reports",
             "cardPara" : "Gain a more comprehensive view of the cyber threat landscape with reports focused on specific verticals that deliver an overview of the current situation and its relation to your industry",
-            "cardcont" : "Enquire Now",
+            "cardcont" : "Get a Demo",
             "cardContImg" : "../../images/attacker/Arrow.png",
             "cardImg" : "../../images/ddoscyber/threatLandscape.png"
         }
     ],
         "cardTitle" : "Heard enough? See it for yourself.",
         "cardPara" :"Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.",
-        "cardBtn" : "Enquire Now"
+        "cardBtn" : "Get a Demo"
 
 }
 ]

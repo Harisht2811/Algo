@@ -1,4 +1,4 @@
-/* @media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1440px) and (min-width:1025px) {
 
     body {
         padding: 0%;
@@ -8,7 +8,7 @@
         width: 78%;
     }
     .ddosDesc {
-        width: 76%;
+        width: 83%;
     }
     .ddosSection1 {
         margin-bottom: 26%;
@@ -21,7 +21,7 @@
         background-size: 100% 100%;
     }
     .ddosTitle {
-        width: 93%;
+        width: 100%;
         font-size: 64px;
     }
     .netArch {
@@ -30,13 +30,13 @@
     }
     .section2Content {
         font-size: 16px;
-        width: 50%;
-        margin-left: 26%;
+        width: 52%;
+        margin-left: 25%;
         text-align: center;
     }
     #attackVector {
-        margin-left: -51%;
         font-size: 37px;
+        margin-left: -594px;
     }
     #attackVectorPara {
         width: 20%;
@@ -49,17 +49,17 @@
         margin-top: -67px;
     }
     .attackVectorAnalysis {
-        height: 188vh;
+        height: auto;
     }
     #configPara {
-        width: 69%;
+        width: 76%;
         font-size: 16px;
     }
     .vendorSelction {
         margin-left: -1%;
     }
     #vendorSelecPara {
-        width: 92%;
+        width: 98%;
         font-size: 16px;
     }
     .section4Flex {
@@ -69,11 +69,11 @@
     #demo2 {
         padding-top: 14%;
     }
-} */
+}
 
 
 /* JSON CSS */
-@media screen and (max-width:1440px) and (min-width:1025px) {
+/* @media screen and (max-width:1440px) and (min-width:1025px) {
 
     body {
         padding: 0%;
@@ -110,7 +110,7 @@
         text-align: center;
     }
     #attackVector {
-        margin-left: -62%;
+        margin-left: -746px;
         font-size: 37px;
     }
     #attackVectorPara {
@@ -145,4 +145,4 @@
     #demo2 {
         padding-top: 14%;
     }
-}
+} */

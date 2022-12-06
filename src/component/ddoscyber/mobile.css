@@ -1,4 +1,4 @@
-/* @media screen and (max-width:380px) {
+@media screen and (max-width:380px) {
     .cyberBannerImg{
         background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
         background-size: 100% 100%;
@@ -104,11 +104,11 @@
         width: 47%;
         margin-left: 26%;
     }
-} */
+}
 
 
 /* JSON  */
-@media screen and (max-width:380px) {
+/* @media screen and (max-width:380px) {
     .cyberBannerImg{
         background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
         background-size: 100% 100%;
@@ -214,4 +214,4 @@
         width: 47%;
         margin-left: 26%;
     }
-}
+} */

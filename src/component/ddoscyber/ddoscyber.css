@@ -1,4 +1,4 @@
-/* .cyberBannerImg{
+.cyberBannerImg{
     background-image: url(../../images/ddoscyber/ddoscyberbanner.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -208,12 +208,12 @@
     color: #FFFFFF;
     width: 100%;
     margin-top: 2%;
-} */
+}
 
 
 
 /* json css */
-.cyberBannerImg{
+/* .cyberBannerImg{
     background-image: url(../../images/ddoscyber/ddoscyberbanner.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -431,4 +431,4 @@
     color: #FFFFFF;
     width: 100%;
     margin-top: 2%;
-}
+} */

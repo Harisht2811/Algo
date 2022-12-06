@@ -1,4 +1,4 @@
-/* @media screen and (max-width:425px) and (min-width:381px) {
+@media screen and (max-width:425px) and (min-width:381px) {
     .cyberBannerImg{
         background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
         background-size: 100% 100%;
@@ -114,11 +114,11 @@
     #demo1 {
         font-size: 14px;
     }
-} */
+}
 
 
 /* JOSN CSS */
-@media screen and (max-width:425px) and (min-width:381px) {
+/* @media screen and (max-width:425px) and (min-width:381px) {
     .cyberBannerImg{
         background-image: url(../../images/ddoscyber/ddosCyberMobile.png);
         background-size: 100% 100%;
@@ -236,4 +236,4 @@
     #demo1 {
         font-size: 14px;
     }
-}
+} */
