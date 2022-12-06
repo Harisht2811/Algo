@@ -287,7 +287,33 @@ input{
     background-color: #020906;
     color: #00CD78;
 }
-
+@media screen and (max-width:280px) {
+    #getintouch{
+        font-family: Manrope;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #00CD78;
+    }  
+    .Fbutton{
+        background: #00CD78;
+        border-radius: 8px;
+        width:150px;
+        height:40px;
+        outline: none;
+        border: none;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        float: right;
+        margin: 10% 0 0 0;
+    }
+}
 /* 
 body {
     padding: 0%;

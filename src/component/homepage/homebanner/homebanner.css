@@ -301,7 +301,7 @@
         margin: 5% 0 0 0;
     }
 }
-@media screen and (max-width:280px) and (max-height:675px) {
+@media screen and (max-width:280px)  {
     .homeBannerimg{
         display: none;
     }
@@ -310,14 +310,14 @@
         width: 100%;
     }
     .homeBanner{
-    padding: 5% 5%;
+    padding: 10% 5%;
     position: absolute;
     top:80px;
    }
     #homeBannerTitle{
-        font-size: 25px;
+        font-size: 20px;
         width: 100%;
-        line-height: 35px;
+        line-height: 28px;
     }
     #homeBannerText{
     font-size: 12px;
@@ -334,17 +334,18 @@
     width: 100%;
     }
     .clients div{
-    margin: 0 0 0 4%;
+    margin: 0 0 0 5%;
     }
     #clientnoText{
-    font-size: 20px;
+    font-size: 16px;
     }
     #clientText{
     font-size: 10px;
     }
     .exploreButton{
-        width: 50%;
-        height: 40px;
+        width: 45%;
+        height: 35px;
         margin: 5% 0 0 0;
-    }
+        font-size: 12px;
+    } 
 }

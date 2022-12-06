@@ -293,3 +293,45 @@ color: #00CD78;
         margin-left:3rem !important;
     }
 }
+@media screen and (max-width:280px) {
+    .algoaboutCarousel{
+        display: none;
+    }
+    .algoaboutcarouselRes{
+        display: block;
+        padding: 3% 3%;
+        margin: 3% 0 0 2%;
+        background-color: #000E08;
+    }
+    #algocultureText{
+    font-size: 28px;
+    }
+    #cultureText{
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    line-height: 28px;
+    margin: 15% 0 0 5%;
+    width: 90%;
+    }
+    .carouselImg1,.carouselImg2,.carouselImg3,.carouselImg4,.carouselImg5{
+        height:300px;
+        width: 90%;
+    }
+    .carouselImg1:hover,.carouselImg2:hover,.carouselImg3:hover,.carouselImg4:hover,.carouselImg5:hover{
+        height:300px;
+        width: 90%;
+    }
+    .ourteamProfile{
+        padding: 5% 10% 0;
+        display: block;
+    }  
+    #ourteamText{
+        font-size: 28px;
+    }
+    .carousel-indicators  {
+        margin-bottom: -5em!important;
+        margin-left:4rem!important;
+    }
+}

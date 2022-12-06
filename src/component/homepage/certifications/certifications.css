@@ -214,9 +214,9 @@ button{
         margin: 8% 0 0 5%;
     }
 }
-@media screen and (max-width:280px) and (max-height:675px) {
+@media screen and (max-width:280px) {
     .algocertifications{
-        margin: -2% 0 0 0;
+        margin: -3% 0 0 0;
     }
     .certificateImages{
         padding: 5% 5% 0;

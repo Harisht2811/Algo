@@ -273,6 +273,50 @@
         margin-bottom: -5rem !important;
     }
 }
+@media screen and (max-width:850px) and (min-width:768px) {
+    .carouselCards{
+        display: none;
+    }
+    .carouselCardsRes{
+        background-color: black;
+        padding: 8% 5%;
+        display: inline-flex;
+        width: 100%;
+    }
+    .carouselCardsmobres{
+        display: none;
+    }
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 130px;
+    }
+    
+    .innercarouselCards1,
+    .innercarouselCards2,
+    .innercarouselCards3,
+    .innercarouselCards4,
+    .innercarouselCards5,
+    .innercarouselCards6,
+    .innercarouselCards7 {
+        padding: 10% 2%;
+        width: 100%;
+        background-size: 100% 90%;
+    }
+    .innercarouselCards1:hover,
+    .innercarouselCards2:hover,
+    .innercarouselCards3:hover,
+    .innercarouselCards4:hover,
+    .innercarouselCards5:hover,
+    .innercarouselCards6:hover,
+    .innercarouselCards7:hover {
+        width: 100%;
+        background-size: 100% 90%;
+    }
+    .carousel-indicators {
+        margin-bottom: -5rem !important;
+    }
+}
 @media screen and (max-width:768px) and (min-width:430px) {
     .carouselCards{
         display: none;
@@ -368,7 +412,7 @@
         left: 145px;
     }
 }
-@media screen and (max-width:280px) and (max-height:675px) {
+@media screen and (max-width:365px){
     .carouselCards{
         display: none;
     }
@@ -384,7 +428,7 @@
     .whiteArrow {
         position: absolute;
         top: 300px;
-        left: 100px;
+        left: 135px;
     }
     
     .innercarouselCards1,
@@ -411,5 +455,12 @@
     .carousel-indicators {
         margin-bottom: 1rem !important;
         margin-left: 2rem !important;
+    }
+}
+@media screen and (max-width:280px) {
+    .whiteArrow {
+        position: absolute;
+        top: 300px;
+        left: 100px;
     }
 }

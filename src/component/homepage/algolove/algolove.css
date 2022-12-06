@@ -202,7 +202,7 @@
 @media screen and (max-width:768px) and (min-width:430px) {
     .algoLove{
         background-color: #05DA8D;
-        height: 75vh;
+        height: 700px;
     }
     .leftText{
         width: 100%;
@@ -274,7 +274,7 @@
 @media screen and (max-width:430px) and (min-width:375px) {
     .algoLove{
         background-color: #05DA8D;
-        height: 145vh;
+        height: 1295px;
         padding: 2% 3%;
     }
     .leftText{
@@ -365,20 +365,12 @@
     }
     
 }
-@media screen and (max-width:375px) and (max-height:675px) {
-    .algoLove{
 
-    background-color: #05DA8D;
-    height: 192vh;
-    padding: 2% 3%;
-    }
-}
-@media screen and (max-width:280px) and (max-height:675px) {
+@media screen and (max-width:280px) {
     .algoLove{
-    background-color: #05DA8D;
-    height: 192vh;
-    padding: 2% 3%;
-    margin: 0 0 -2% 0;
+        background-color: #05DA8D;
+        height: 1290px;
+        padding: 2% 3%;
     }
     .leftText{
         width: 100%;
@@ -392,8 +384,7 @@
     }
     #algotext{
         width: 95%;
-        font-size:12px ;
-        line-height: 20px;
+        font-size:14px ;
     }
     #hrinalgLove{
         border: 1px solid #F5F5F5;
@@ -407,11 +398,11 @@
         width: 130px;
         height: 100px;
         position: absolute;
-        top: 200px;
-        left: 70px;
+        top: 170px;
+        left: 78px;
     }
     .algoanimation {
-        top: 300px;
+        top: 350px;
         left:1px; 
         width: 100%;
         padding: 5% 4%;
@@ -422,11 +413,6 @@
         margin: 0 0 10% 2%;
 
     }
-    /* .algoanimation div:hover{
-        margin: none;
-        transform: none;
-        transition: none;
-    } */
     .animation1{
             height: 280px;
             transform:none;
