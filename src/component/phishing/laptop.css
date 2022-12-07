@@ -42,9 +42,11 @@
         font-size: 14px;
         line-height: 170.1%;
         color: #FFFFFF;
-        width: 51%;
+        width: 53%;
     }
-    
+    .RightSide {
+        margin-top: 10%;
+    }
     .phishingDemoBtn {
         background: #00cd78;
         border: none;
@@ -178,7 +180,7 @@
         color: #9BA4A2;
         opacity: 0.6;
         padding-bottom: 1%;
-        width: 100%;
+        width: 851px;
     
     }
     .phishing_section4{
@@ -223,6 +225,7 @@
         text-align: justify;
         color: #5F6A66;
         padding: 3% 0;
+        width: 681px;
     }
     .phishingimg{
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
