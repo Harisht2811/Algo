@@ -32,7 +32,7 @@
     font-size: 16px;
     line-height: 170.1%;
     color: #FFFFFF;
-    width: 50%;
+    width: 47%;
 }
 
 .phishingDemoBtn {
@@ -88,7 +88,7 @@
 }
 
 .phishing_hrline {
-    margin-left: 34%;
+    margin-left: 27%;
 }
 
 .phishing_CardList {
@@ -228,7 +228,9 @@ opacity: 0.6;
     opacity: 1;
     /* transition: all 0.4s ease-out;   */
 }
-
+.RightSide{
+    margin-top: 9%;
+}
 .phishing_section5{
     background-color: #000E08;
 }
