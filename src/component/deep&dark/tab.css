@@ -125,7 +125,7 @@
 
     .darkcard_right {
         width: 67%;
-        margin-top: 4%;
+        margin-top: 2%;
     }
 
     .rightcard_desc {
@@ -175,4 +175,102 @@
         background-color: #000E08;
         margin-top: -5%;
     }
+}
+
+
+@media screen and (max-width:610px) and (min-width:426px){
+    .dark_demoBtn {
+        margin-left: 30%;
+    }
+    
+    .dark_hrline {
+        margin-left: 10%;
+        padding-bottom: 2%;
+        width: 80%;
+    }
+
+    .dark_section3 {
+        background-color: #000E08;
+        margin-top: -1%;
+    }
+
+    .darkcard {
+        background-image: url('../../images/deepdark/cardbg.png');
+        background-repeat: no-repeat;
+        background-size: 98% 85%;
+        padding: 3%;
+        margin-left: 3%;
+        display: flex;
+        padding-bottom: 10%;
+    }
+
+    .darkcard_left {
+        width: 35%;
+        margin-top: -7%;
+        margin-left: -3%;
+    }
+
+    .leftcard_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 120.1%;
+        letter-spacing: -0.02em;
+        color: rgba(255, 255, 255, 0.5);
+        padding-top: 10%;
+
+    }
+
+    .darkcard_right {
+        width: 67%;
+        margin-top: 8%;
+    }
+
+    .rightcard_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170.1%;
+        padding-bottom: 0%;
+    }
+
+    .darkdemo {
+        color: #00CD78;
+        margin-top: -2%;
+    }
+
+    .deep_dark {
+        background: linear-gradient(270deg, #12613F -20.75%, #072525 100%);
+        padding: 4% 0 ;
+        display: flex;
+        padding-left: 5%;
+        padding-bottom: 10%;
+    }
+
+    .deep_darkLeft {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120.1%;
+        letter-spacing: -0.065em;
+        color: #FFFFFF;
+        width: 35%;
+    }
+
+    .deep_darkRight {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 170.1%;
+        color: #CBCBCB;
+        width: 60%;
+        padding-left: 2%;
+    }
+
+
+
 }
