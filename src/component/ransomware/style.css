@@ -106,7 +106,7 @@
 .ransomeCardList{
     display: flex;
 }
-.ransomeCard{
+.ransomeCard{  
     background-image: url('../../images/Ransomeware/ransomeCard.png');
     background-repeat: no-repeat;
     background-size: 48% 95%;
@@ -174,4 +174,4 @@
     margin-left: 47%;
     margin-top: -6%;
     width: 85%;
-}                       
+}   
