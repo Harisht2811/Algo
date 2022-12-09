@@ -240,3 +240,115 @@
         padding-bottom: 5%;
     }
 }
+
+
+@media screen and (max-width: 610px) and (min-width: 426px) {
+    .virtualBtn {
+        background-image: url(../../images/virtual/virtualBtn.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 12%;
+        width: 113%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120.1%;
+        text-align: center;
+        letter-spacing: -0.05em;
+        color: #00CD78;
+        margin-left: -4%;
+    }
+    .virtualBox_title {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 133.6%;
+      text-align: center;
+      letter-spacing: -0.05em;
+      color: #00CD78;
+      padding-top: 5%;
+      width: 75%;
+      margin-left: 10%;
+    }
+    .virtualCard_title {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 120.1%;
+      letter-spacing: -0.01em;
+      color: #919191;
+      width: 90%;
+    }
+    .Leveraging_title {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133.6%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    .Leveraging_title1 {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 133.6%;
+      letter-spacing: -0.05em;
+      color: #FFFFFF;
+      width: 100%;
+    }
+
+    .Leveraging_desc1 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        /* color: #9BA4A2; */
+        opacity: 0.6;
+        width: 77%;
+        margin-left: 3%;
+    }
+    .Leveraging_desc2 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 203.1%;
+        text-align: justify;
+        color: #9BA4A2;
+        opacity: 0.6;
+        width: 87%;
+        margin-left: -10%;
+    }
+    .Leveraging_desc3 {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 203.1%;
+      text-align: justify;
+      color: #9BA4A2;
+      opacity: 0.6;
+      width: 80%;
+      margin-left: 16%;
+    }
+    .Leveraging_desc4 {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 203.1%;
+      text-align: justify;
+      color: #9BA4A2;
+      opacity: 0.6;
+      width: 75%;
+      margin-left: 7%;
+    }
+    }

@@ -468,3 +468,41 @@
         padding-bottom: 3%;
     }
 }
+
+
+@media screen and (max-width: 920px) and (min-width: 770px) {
+    .virtualBox {
+        background-repeat: no-repeat;
+        height: 354px;
+        padding: 5% 5%;
+        background-size: 100% 111%;
+        background-position-x: -2vw;
+    }
+    .virtualBox_desc {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 223.1%;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 3%;
+        width: 90%;
+    }
+    .virtualBox br{
+        display: none;
+    }
+.virtualBox_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 133.6%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #00CD78;
+    padding-top: 5%;
+    width: 71%;
+    margin-left: 15%;
+}
+}
