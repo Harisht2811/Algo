@@ -68,6 +68,17 @@
             margin: 5% 0 0 0;
     }
 }
+@media screen and (max-width:360px) {
+    .aboutusbannerimg{
+        height: 100vh;
+    }
+    #aboutText{
+            font-size: 55px;
+            line-height: 70px;
+            width: 90%;
+            margin: 5% 0 0 0;
+    }
+}
 @media screen and (max-width:280px) {
     .algoaboutBanner{
         height: 600px;

@@ -453,8 +453,14 @@
         background-size: 100% 80%;
     }
     .carousel-indicators {
-        margin-bottom: 1rem !important;
+        margin-bottom: -3rem !important;
         margin-left: 2rem !important;
+    }
+}
+@media screen and (max-width:360px) {
+    .carousel-indicators {
+        margin-bottom: 2rem !important;
+        margin-left: 3rem !important;
     }
 }
 @media screen and (max-width:280px) {
@@ -462,5 +468,9 @@
         position: absolute;
         top: 300px;
         left: 100px;
+    }
+    .carousel-indicators {
+        margin-bottom: -2rem !important;
+        margin-left: 2rem !important;
     }
 }

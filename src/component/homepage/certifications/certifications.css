@@ -214,6 +214,49 @@ button{
         margin: 8% 0 0 5%;
     }
 }
+@media screen and (max-width:360px) {
+    .algocertifications{
+        margin: -2% 0 0 0;
+    }
+    .certificateImages{
+        padding: 5% 15% 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 8%;
+        grid-column-gap: 0%;
+    }
+    #titleCertificate{
+        font-size: 30px;
+    }
+    #textCertificate{
+        font-size:14px;
+        width: 85%;
+        margin: 0 0 0 8%;
+    }
+    .certificaterRes{
+      margin: 0 0 0 15%;
+      display: grid;
+    }
+    .heard{
+        padding: 10% 3%;
+    }
+    .securityIssues{
+        display: block;
+        height: 425px;
+        margin: 15% 0 0 5%;
+    }
+    .securityText{
+        width: 100%;
+        padding: 10% 5%;
+    }
+    #titleIssues{
+        font-size: 22px;
+        width: 100%;
+    }
+    .certificateButton{
+        margin: 8% 0 0 5%;
+    }
+}
 @media screen and (max-width:280px) {
     .algocertifications{
         margin: -3% 0 0 0;
