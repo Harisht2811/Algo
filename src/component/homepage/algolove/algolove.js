@@ -43,8 +43,8 @@ import algoloveData from "../../../content/algoloveData.json"
 function Carousel() {
   return (
     <>
-      {algoloveData.map(item =>{
-      return <div className='algoLove'>
+      {algoloveData.map((item,index) =>{
+      return <div className='algoLove' key={index}>
         <img className='algoImg' src={Algoimage} alt='algoimages'></img>
         <img className='algoImgRes' src={Algoimageres} alt='algoimages'></img>
         <div className='leftText'>

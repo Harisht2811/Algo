@@ -49,12 +49,12 @@ import serviceData from "../../../content/otherservicesData.json"
 function Services() {
   return (
   <>
-   {serviceData.map(item =>{
-    return <div className='algoservices'>
+   {serviceData.map((item,index) =>{
+    return <div className='algoservices' key={index}>
     <p id='servicesText'>{item.otherServicesTitle}</p>
     <div className='servicesCard'>
-        {item.otherServicessub.map(item =>{
-          return <div className='innercard'>
+        {item.otherServicessub.map((item,index) =>{
+          return <div className='innercard' key={index}>
           <div className='textCards'>
             <p id='cardText'>{item.service1}</p>
             <Link to='/'><img className='arrowImg' src={Arrowimage} alt='arrowImage'></img></Link>

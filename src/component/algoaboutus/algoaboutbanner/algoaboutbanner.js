@@ -25,9 +25,9 @@ import aboutData from "../../../content/aboutData.json"
 function algoaboutbanner() {
   return (
     <>
-    {aboutData.map(item => {
+    {aboutData.map((item,index) => {
     return <div>
-    <div className='algoaboutBanner'>
+    <div className='algoaboutBanner' key={index}>
       <img className='aboutusbannerimg' src={item.abouBg} alt='bannerimg'></img>
     </div>
     <div className='aboutbannerText'>

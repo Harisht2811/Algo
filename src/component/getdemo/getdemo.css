@@ -87,6 +87,15 @@ input[type=text]:focus {
       margin: 0 0 0 -12%;
    }
 }
+@media screen and (max-width:360px) {
+   .popup-inner{
+      position: relative;
+      padding: 32px;
+      width: 90%;
+      border-radius:15px;
+      margin: 0 0 0 0%;
+   }
+}
 @media screen and (max-width:280px) {
    .popup-inner{
       position: relative;

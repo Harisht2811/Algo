@@ -50,12 +50,12 @@ function Header() {
             { typeof window !== 'undefined'? 
             window.innerWidth<768?"":
             window.innerWidth>=1024?
-              headerData.laptopMenu.map(item => {
+              headerData.laptopMenu.map((item,index) => {
                 console.log(headerData);
-                return <li><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
-              }):headerData.tabMenu.map(item => {
+                return <li key={index}><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
+              }):headerData.tabMenu.map((item,index) => {
                 console.log(headerData);
-                return <li><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
+                return <li key={index}><Link to={item.routeLink} activeClassName="active-link" className={item ? item.activeLink : " "}>{item.navLink}</Link></li>
               })
             :''}
            
@@ -87,7 +87,7 @@ function Header() {
         </div>
         <div className='homeServices'>
           <img id="myBtn" onClick={openmodal} src={Toggleicon} alt='toggleicon'></img>
-          <p id='algoheaderText'>Services <img onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img></p>
+          <p id='algoheaderText'>Services&nbsp;&nbsp;&nbsp;<img onClick={openmodal} className='toggleicon' src={Toggleicon} alt='toggleicon'></img></p>
 
 
           {

@@ -76,8 +76,8 @@ import aboutdata from "../../../content/aboutData.json"
 function algoabout() {
   return (
     <>
-      {aboutdata.map(item => {
-        return <div className='algoabout'>
+      {aboutdata.map((item,index) => {
+        return <div className='algoabout'key={index}>
         <div className='borderRight'>
 
           <p id='aboutfirstText'>{item.abouttitleDesc}</p>
@@ -92,8 +92,8 @@ function algoabout() {
           <p id='whoTitle'>{item.whotitle}</p>
           <div className='whoweare'>
             <div className='aboutsection1'>
-            {item.section1.map(item => {
-               return <div className='firstCard'>
+            {item.section1.map((item,index)=> {
+               return <div className='firstCard' key={index}>
                 <img className='whoweareIcon' src={item.icon} alt='icon'></img>
                 <p id='firstNumber'>{item.number}</p>
                 <p id='firstText'>{item.title}</p>
@@ -104,8 +104,8 @@ function algoabout() {
               <img className='algoaboutlogoIcon' src={item.algortmiklogo} alt='logo'></img>
             </div>
             <div className='aboutsection3'>
-            {item.section3.map(item => {
-               return <div className='thirdCard'>
+            {item.section3.map((item,index)=> {
+               return <div className='thirdCard' key={index}>
                 <img className='whoweareIcon' src={item.icon} alt='icon'></img>
                 <p id='firstNumber'>{item.number}</p>
                 <p id='firstText'>{item.title}</p>

@@ -67,13 +67,13 @@ function Algohome() {
         <img className='homeBannerimgRes' src={HomebannerRes} alt='homebanner'></img>
 
       </div>
-      {hombannerData.map(item =>{
-      return <div className='homeBanner'>
+      {hombannerData.map((item,index)=>{
+      return <div className='homeBanner' key={index}>
         <p id='homeBannerTitle'>{item.bannerTitle1}<span id='colorText'>{item.bannerTitle2} </span>{item.bannerTitle3}</p>
         <p id='homeBannerText'>{item.bannerText}</p>
         <div className='clients'>
-          {item.achievements.map(item =>{
-          return <div className='client1'>
+          {item.achievements.map((item,index) =>{
+          return <div className='client1' key={index}>
             <p id='clientnoText'>{item.counts}</p>
             <p id='clientText'>{item.serviceText}</p>
           </div>

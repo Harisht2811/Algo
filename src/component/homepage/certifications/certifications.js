@@ -62,14 +62,14 @@ function Certifications() {
 
   return (
     <>
-      {certificateData.map(item => {
-        return <div>
-        <div className='algocertifications'>
+      {certificateData.map((item,index) => {
+        return <div key={index}>
+        <div className='algocertifications' >
         <p id='titleCertificate'>{item.certificationsTitle}</p>
         <p id='textCertificate'>{item.certificationsText}</p>
           <div className='certificateImages'>
-          {item.certificateImages.map(item => {
-        return <img className='imgCertificates' src={item.image1} alt='certificates'></img>   
+          {item.certificateImages.map((item,index)=> {
+        return <img className='imgCertificates' key={index} src={item.image1} alt='certificates'></img>   
         })}
        
         </div>

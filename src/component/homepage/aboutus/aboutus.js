@@ -28,8 +28,8 @@ import aboutus from "../../../content/aboutusData.json"
 function Aboutus() {
   return (
     <>
-    {aboutus.map(item => {
-     return <div className='algoAboutus'>
+    {aboutus.map((item,index)=> {
+     return <div className='algoAboutus' key={index}>
         <img className='aboutusImg' src={AboutusImg} alt='aboutusimg'></img>
         <img className='aboutusImgRes' src={AboutusImgRes} alt='aboutusimg'></img>
         <div className='aboutusText'>
