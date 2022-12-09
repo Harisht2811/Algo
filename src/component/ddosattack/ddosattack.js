@@ -10,7 +10,7 @@ import planingImg from '../../images/ddosattack/planingImg.png'
 import controlImg from '../../images/ddosattack/controlImg.png'
 import reportImg from '../../images/ddosattack/reportImg.png'
 import hrline from '../../images/ddosattack/hrline.png'
-import demo from "../../images/ddosattack/demobg1.png"
+import demo from "../../images/ddosattack/demoBg1.png"
 function Ddosattack() {
   const [buttonPopup, setButtonPopup] =useState(false);
 

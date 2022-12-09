@@ -365,7 +365,93 @@
     }
     
 }
+@media screen and (max-width:360px) {
+    .algoLove{
+        background-color: #05DA8D;
+        height: 1295px;
+        padding: 2% 3%;
+    }
+    .leftText{
+        width: 100%;
+        padding: 5% 0;
+    }
+    #titlealgotext{
+        text-align: center;
+        width:90%;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #algotext{
+        width: 95%;
+        font-size:14px ;
+    }
+    #hrinalgLove{
+        border: 1px solid #F5F5F5;
+        width: 90%;
+      }
+    .algoImg {
+        display: none;
+    }
+    .algoImgRes{
+        display: block;
+        width: 230px;
+        height: 200px;
+        position: absolute;
+        top: 118px;
+        left: 100px;
+    }
+    .algoanimation {
+        top: 300px;
+        left:1px; 
+        width: 100%;
+        padding: 5% 4%;
+        display: block;
+    }
+    .algoanimation div{
+        width: 95%;
+        margin: 0 0 10% 2%;
 
+    }
+    /* .algoanimation div:hover{
+        margin: none;
+        transform: none;
+        transition: none;
+    } */
+    .animation1{
+            height: 280px;
+            transform:none;
+            margin:0 0 0 0;
+    }
+    .animation2 {
+        height: 280px;
+        transform:none;
+        margin:0 0 0 0;
+
+    }
+    .animation3 {
+        height: 280px;
+        transform:none;
+        margin:0 0 0 0;
+    }
+    .algoanimation:hover .animation1{
+        transform: none;
+        transition: none;
+        margin: 0 0 10% 2%;
+    }
+    .algoanimation:hover .animation2{
+        transform: none;
+        transition:none;
+        margin: 0 0 10% 2%;
+    }
+    .algoanimation:hover .animation3{
+        transform: none;
+        transition: none;
+        margin: 0 0 10% 2%;
+    }
+    #issueText{
+        margin: 3% 0 0 0;
+    }
+}
 @media screen and (max-width:280px) {
     .algoLove{
         background-color: #05DA8D;
