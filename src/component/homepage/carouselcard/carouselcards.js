@@ -3,14 +3,14 @@ import '../carouselcard/carouselcard.css'
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 import { Link } from 'gatsby';
-import Carouselcards1 from '../../../images/homepage/algohome2.png'
-import Carouselcards2 from '../../../images/homepage/algohome3.png'
-import Carouselcards3 from '../../../images/homepage/algohome4.png'
-import Carouselcards4 from '../../../images/homepage/algohome5.png'
-import Carouselcards5 from '../../../images/homepage/algohome6.png'
-import Carouselcards6 from '../../../images/homepage/algohome7.png'
-import Carouselcards7 from '../../../images/homepage/algohome8.png'
-import Carouselcards8 from '../../../images/homepage/algohome9.png'
+// import Carouselcards1 from '../../../images/homepage/algohome2.png'
+// import Carouselcards2 from '../../../images/homepage/algohome3.png'
+// import Carouselcards3 from '../../../images/homepage/algohome4.png'
+// import Carouselcards4 from '../../../images/homepage/algohome5.png'
+// import Carouselcards5 from '../../../images/homepage/algohome6.png'
+// import Carouselcards6 from '../../../images/homepage/algohome7.png'
+// import Carouselcards7 from '../../../images/homepage/algohome8.png'
+// import Carouselcards8 from '../../../images/homepage/algohome9.png'
 import whiteArow from '../../../images/homepage/algohome28.png'
 
 

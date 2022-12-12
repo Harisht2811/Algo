@@ -5,10 +5,10 @@ import './style.css'
 import './laptop.css'
 import './tab.css'
 import './mobile.css'
-import computerImg from '../../images/Ransomeware/computerImg.png'
+// import computerImg from '../../images/Ransomeware/computerImg.png'
 import arrowG from '../../images/deepdark/Arrowgreen.png'
-import leftcurve from '../../images/Ransomeware/leftcurve.png'
-import rightcurve from '../../images/Ransomeware/rightcurve.png'
+// import leftcurve from '../../images/Ransomeware/leftcurve.png'
+// import rightcurve from '../../images/Ransomeware/rightcurve.png'
 // function Ransomware() {
 //     const [buttonPopup, setButtonPopup] =useState(false);
 

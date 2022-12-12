@@ -1,13 +1,13 @@
 import React from 'react'
 import '../algoabout/algoabout.css'
 
-import Triangleicon from '../../../images/aboutus/aboutus9.svg'
-import Cardicon1 from '../../../images/aboutus/aboutus3.svg'
-import Cardicon2 from '../../../images/aboutus/aboutus4.svg'
-import Cardicon3 from '../../../images/aboutus/aboutus5.svg'
-import Cardicon4 from '../../../images/aboutus/aboutus6.svg'
+// import Triangleicon from '../../../images/aboutus/aboutus9.svg'
+// import Cardicon1 from '../../../images/aboutus/aboutus3.svg'
+// import Cardicon2 from '../../../images/aboutus/aboutus4.svg'
+// import Cardicon3 from '../../../images/aboutus/aboutus5.svg'
+// import Cardicon4 from '../../../images/aboutus/aboutus6.svg'
 
-import Aboutlogo from '../../../images/aboutus/aboutus7.png'
+// import Aboutlogo from '../../../images/aboutus/aboutus7.png'
 
 // function algoabout() {
 //   return (

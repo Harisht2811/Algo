@@ -1,8 +1,8 @@
 import React from 'react'
 import '../algoaboutbanner/algoaboutbanner.css'
 
-import Aboutbanner from '../../../images/aboutus/aboutus1.png'
-import Aboutbtnimg from '../../../images/aboutus/aboutus8.png'
+// import Aboutbanner from '../../../images/aboutus/aboutus1.png'
+// import Aboutbtnimg from '../../../images/aboutus/aboutus8.png'
 
 
 // function algoaboutbanner() {

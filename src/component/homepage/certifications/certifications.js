@@ -2,11 +2,11 @@ import React from 'react'
 import '../certifications/certifications.css'
 import { useState } from 'react'
 import Popup from '../../getdemo/getdemo'
-import Certificate1 from '../../../images/homepage/algohome18.png'
-import Certificate2 from '../../../images/homepage/algohome19.png'
-import Certificate3 from '../../../images/homepage/algohome20.png'
-import Certificate4 from '../../../images/homepage/algohome21.png'
-import Certificate5 from '../../../images/homepage/algohome22.png'
+// import Certificate1 from '../../../images/homepage/algohome18.png'
+// import Certificate2 from '../../../images/homepage/algohome19.png'
+// import Certificate3 from '../../../images/homepage/algohome20.png'
+// import Certificate4 from '../../../images/homepage/algohome21.png'
+// import Certificate5 from '../../../images/homepage/algohome22.png'
 
 
 // function Certifications() {

@@ -6,9 +6,9 @@ import headerData from '../../../content/headerData.json'
 import Popup from '../../../component/homepage/popupcard/popupcard'
 import algoLogo from '../../../images/homepage/algohome23.png'
 import Toggleicon from '../../../images/homepage/algohome31.svg'
-import Closebtn from '../../../images/homepage/algohome32.svg'
-import { color, fontWeight } from '@mui/system'
-import { NavLink, BrowserRouter as Router } from 'react-router-dom'
+// import Closebtn from '../../../images/homepage/algohome32.svg'
+// import { color, fontWeight } from '@mui/system'
+// import { NavLink, BrowserRouter as Router } from 'react-router-dom'
 
 
 
@@ -26,14 +26,7 @@ function Header() {
     setOpen(data)
   }
 
-  const activeLinkstyles = ({ isActive }) => {
-    return {
-      color: isActive ? '#00CD78' : 'white',
-      fontWeight: isActive ? 'bold' : 'normal'
-    }
 
-
-  }
 
 
   return (

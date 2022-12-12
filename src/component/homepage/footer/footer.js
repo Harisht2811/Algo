@@ -10,8 +10,8 @@ import socialIcon1 from '../../../images/homepage/algohome24.png'
 import socialIcon2 from '../../../images/homepage/algohome25.png'
 import socialIcon3 from '../../../images/homepage/algohome26.png'
 import socialIcon4 from '../../../images/homepage/algohome27.png'
-import { color } from '@mui/system'
-import { NavItem } from 'react-bootstrap'
+// import { color } from '@mui/system'
+// import { NavItem } from 'react-bootstrap'
 
 function footer() {
     console.log(footerData)
