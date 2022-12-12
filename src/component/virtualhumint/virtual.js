@@ -9,14 +9,14 @@ import vectorHrline from '../../images/virtual/vectorHrline.png'
 import Popup from '../getdemo/getdemo'
 function Virtual() {
   const [buttonPopup, setButtonPopup] =useState(false);
-
+ 
     return (
         <>
         <div>
             <div className='virtual_section1'>
                 <p className='virtualBtn'>Virtual Humint Operations</p>
                 <div className='virtual_Title'>Active Engagement with <br /> Threat Actors</div>
-                <p className="virtual_demoBtn" onClick={() => setButtonPopup(true)} onKeyDown={this.handleClick}>Enquire Now</p>
+                <p className="virtual_demoBtn" onClick={() => setButtonPopup(true)} onKeyDown={() => setButtonPopup(true)}>Enquire Now</p>
             </div>
             <div className='virtualCardlist'>
                 <div className='virtualcard1'>
@@ -24,13 +24,13 @@ function Virtual() {
                         <p className='virtualCard_title'>Assess veracity and imminence of threats </p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Gather additional information to shed light on crucial factors related to any threat–including possibly revealing the threat actor identity and providing it to law enforcement </p>
-                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={this.handleClick}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={() => setButtonPopup(true)}/></p>
                     </div>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Obtain TTPs, motivation and accomplices</p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Deepen your understanding of the vectors behind the threat, the actor’s motivation, and TTPs in use so that you can prioritize and act accordingly</p>
-                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={this.handleClick}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='virtualcard1'>
@@ -38,13 +38,13 @@ function Virtual() {
                         <p className='virtualCard_title'>Gather IOCs to further investigate threats</p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Engage in intelligence operation and communicate with threat actors in their communication channels</p>
-                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={this.handleClick}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={() => setButtonPopup(true)}/></p>
                     </div>
                     <div className='virtualCard'>
                         <p className='virtualCard_title'>Analyze your entire threat landscape</p>
                         <img className='vectorHrline' src={vectorHrline} alt='hrline' />
                         <p className='virtualCard_desc'>Conduct deep dive investigations and get the context required to mitigate threats in the most effective way</p>
-                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={this.handleClick}/></p>
+                        <p className='darkdemo'>Enquire Now <img src={arrowG} className='arrowG' alt='arrow'  onClick={() => setButtonPopup(true)} onKeyDown={() => setButtonPopup(true)}/></p>
                     </div>
                 </div>
                 <div className='virtualBox'>
@@ -84,7 +84,7 @@ function Virtual() {
                             <p id='titleIssues'>Heard enough? See it for yourself.</p>
                             <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
                         </div>
-                        <button className='certificateButton' onClick={() => setButtonPopup(true)} onKeyDown={this.handleClick}>Enquire Now</button>
+                        <button className='certificateButton' onClick={() => setButtonPopup(true)} onKeyDown={() => setButtonPopup(true)}>Enquire Now</button>
                     </div>
                 </div>
             </div>
