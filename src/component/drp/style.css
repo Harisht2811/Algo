@@ -1,0 +1,484 @@
+.drpbanner {
+    background-image: url(../../images/drp/banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5% 0 10% 3%;
+    margin: 0%;
+    background-color: #000E08;
+}
+
+.textcolor {
+    color: #00CD78;
+}
+
+.drp_Title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-bottom: 4%;
+
+}
+
+.drpDesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170.1%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.drp_demoBtn {
+    background: #00cd78;
+    border: none;
+    border-radius: 8px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 19px;
+    margin: 3% 0 0 45%;
+    outline: none;
+    text-align: center;
+    width: 150px;
+    padding-top: 0.8%;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+.utilizing {
+    background-color: #000E08;
+    margin: 0;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.utilizingTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 190.1%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    margin-bottom: 10%;
+}
+
+.utilizingBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20%;
+    grid-column-gap: 0%;
+    padding-left: 12%;
+}
+
+.uticon {
+    width: 58px;
+    height: 58px;
+    margin-bottom: 5%;
+}
+
+.utTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 190.1%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.challenge {
+    margin-left: 12%;
+    margin-top: 15%;
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.challengeImg {
+    width: 405.73px;
+    height: 354.29px;
+}
+
+.challengeRight {
+    margin-left: 5%;
+}
+
+.challengeRight_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 148.1%;
+    letter-spacing: -0.035em;
+    color: #CBCBCB;
+}
+
+.challengeBlock {
+    background-image: url(../../images/drp/blockbg.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 90%;
+    margin-top: 5%;
+    padding: 5%;
+    opacity: 0.6;
+}
+
+.challengeBlock:hover {
+    opacity: 1;
+}
+
+.challengeList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20%;
+    grid-column-gap: 12%;
+}
+
+.challengeList li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.5%;
+    color: #FFFFFF;
+    opacity: 0.8;
+
+}
+
+.drive {
+    margin-left: 5%;
+}
+
+.driveTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 148.1%;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    width: 65%;
+
+}
+
+.drivedesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190.1%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 67%;
+}
+
+.drive_CardList {
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.driveCard {
+    background-image: url('../../images/phishing/cardbg1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 92%;
+    width: 44%;
+    padding: 5%;
+    margin-right: 5%;
+}
+
+.driveCard:hover {
+    background-image: url('../../images/phishing/cardbg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 92%;
+    width: 44%;
+}
+
+.driveCard_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120.1%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding-bottom: 5%;
+}
+
+.driveCard_desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 203.1%;
+    text-align: justify;
+    color: #FFFFFF;
+    opacity: 0.8;
+    padding-bottom: 2%;
+}
+
+.forensicdesc1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 226.6%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.searchiconimg {
+    margin-top: -25%;
+    margin-left: 20%;
+}
+
+.forensictitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120.1%;
+    letter-spacing: -0.025em;
+    color: #00CD78;
+    text-align: center;
+    margin-top: -18%;
+}
+
+.forensicdesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 226.6%;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 10%;
+}
+
+.forensicflex {
+    display: flex;
+    margin-left: 5%;
+    padding-bottom: 10%;
+}
+
+.forensicflexLeft {
+    background: linear-gradient(113.36deg, #2CD58B 0%, #3AC9FB 100%);
+    border-radius: 12px;
+    padding: 3%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120.1%;
+    letter-spacing: -0.025em;
+    color: #000E08;
+    width: 532px;
+    height: 362px;
+}
+
+.forensicflexRight {
+    width: 602px;
+    height: 192px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.forensicflexRightTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120.1%;
+    color: #FFFFFF;
+}
+
+.forensicflexRightDesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 203.1%;
+    text-align: justify;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+
+.benefit {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120.1%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+.benefitBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10%;
+    grid-column-gap: 0%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.benefitList {
+    margin-top: 10%;
+
+}
+
+.benefiticon {
+    Width: 18px;
+    Height: 18px;
+    margin-bottom: 5%;
+}
+
+.benefitTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 203.1%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.linev {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.theate {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.theartTitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120.1%;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #00CD78;
+}
+
+.threatdecs {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 96%;
+}
+
+.partnership {
+    display: flex;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.partnershipImg {
+    width: 412px;
+    height: 412px;
+    margin-top: 5%;
+}
+
+.partnershipRight {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 180.1%;
+    color: #FFFFFF;
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 45%;
+}
+
+.analysts {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.analystsleft {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 180.1%;
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 47%;
+}
+
+.benefit {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.1%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #00CD78;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+
+.benefitBlock {
+    background: #02160E;
+    border-radius: 20px;
+    margin: 0% 7%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 0%;
+    grid-column-gap: 0%;
+    padding-top: 4%;
+}
+
+.benefitList {
+    display: flex;
+    width: 500px;
+}
+
+.benefitListName {
+    margin-left: 6%;
+}
+
+.benefitListDesc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170.1%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
