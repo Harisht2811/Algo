@@ -11,6 +11,9 @@ import controlImg from '../../images/ddosattack/controlImg.png'
 import reportImg from '../../images/ddosattack/reportImg.png'
 import hrline from '../../images/ddosattack/hrline.png'
 import demo from "../../images/ddosattack/demobg1.png"
+import ddosession from "../../images/ddosattack/ddosSession.png"
+import attackcode from "../../images/ddosattack/attackcode.png"
+import Hardening from "../../component/ddoshardening/ddoshardening"
 function Ddosattack() {
   const [buttonPopup, setButtonPopup] =useState(false);
 
@@ -18,7 +21,7 @@ function Ddosattack() {
     <>
     <div>
       <div className='ddosattack_section1'>
-        <div className='ddosattack_Title'><span className='ddoscolorText'>DDoS Attack Simulation</span> <br />& Testing</div>
+        <div className='ddosattack_Title'>DDoS Attack Simulation Testing & <br />Technology Hardening</div>
         <p className="ddosattackDesc">Our testing service simulates deep multi-vector DDoS attacks.</p>
         {/* <p className="ddosattackdemoBtn " onClick={() => setButtonPopup(true)}>Enquire Now</p> */}
         <img  className='ddosdemo' src={demo} onClick={() => setButtonPopup(true)}/>
@@ -45,9 +48,12 @@ function Ddosattack() {
           <p className='structure_desc'>Using a “white-box” test methodology, we analyze your entire network
             architecture and decide on the most relevant attack vectors to test</p>
         </div>
+        <div className='ddossession'>
+          <img src={ddosession} alt ="ddosession"></img>
+        </div>
         <div className='structureList'>
           <div className='structureBlock'>
-              <img className='blocksIcon' src={planingImg} alt='icons' />
+              {/* <img className='blocksIcon' src={planingImg} alt='icons' /> */}
             <div className='blocksPara'>
               <p className='block_title'>Planning Session</p>
               <ul className='blockList'>
@@ -57,7 +63,7 @@ function Ddosattack() {
             </div>
           </div>
           <div className='structureBlock'>
-            <img className='blocksIcon' src={controlImg} alt='icons' />
+            {/* <img className='blocksIcon' src={controlImg} alt='icons' /> */}
             <div className='blocksPara '>
               <p className='block_title'>Controlled Attack</p>
               <ul className='blockList'>
@@ -67,7 +73,7 @@ function Ddosattack() {
             </div>
           </div>
           <div className='structureBlock'>
-              <img className='blocksIcon' src={reportImg} alt='icons' />
+              {/* <img className='blocksIcon' src={reportImg} alt='icons' /> */}
             <div className='blocksPara'>
               <p className='block_title'>Report & Analysis</p>
               <ul className='blockList'>
@@ -98,7 +104,7 @@ function Ddosattack() {
               Our DDoS testing service, available to AWS Shield Advanced customers, is customized to match your AWS deployment architecture. So, whether you use EC2, ALB, ELB, Lamda, API Gateway or CloudFront–we’ll test the attack vectors that maximize valuefor your operational security</p>
           </div>
         </div>
-        <img className='testhrline' src={vectorHrline} alt='hrilne' />
+        <img className='testhrline' src={attackcode} alt='hrilne' />
         <div className='ddostesting_list'>
           <div className='ddostesting_left'>
             <p className='ddostesting_awsTitle'>Azure DDoS Testing</p>
@@ -111,6 +117,7 @@ function Ddosattack() {
           </div>
         </div>
       </div>
+      <Hardening/>
       <div className='ddosattack_section4'>
         <div className='heard'>
           <div className='securityIssues'>

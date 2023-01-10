@@ -1,13 +1,23 @@
 
 
 .ddosBanner{
-    background-image: url(../../images/ddos/Bgimg1.png);
+    /* background-image: url(../../images/ddos/Bgimg1.png); */
+    background-color: #000E08;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0%;
     padding: 0%;
 }
-
+.ddosbanflex{
+    display: flex;
+}
+.hardenimg img{
+   margin-left: 270px;
+}
+.hardeningim2 img{
+    width: 2111px;
+    margin-top: -39%;
+}
 .ddosSection1{
     padding-top: 4%;
     padding-left: 5%;
@@ -21,7 +31,7 @@
     line-height: 120.1%;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    width: 70%;
+    width: 64%;
 }
 .ddosDesc{
     font-family: 'Manrope';

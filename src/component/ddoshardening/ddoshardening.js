@@ -4,6 +4,8 @@ import Bgimg1 from '../../images/ddos/Bgimg1.png'
 import Bgimg2 from '../../images/ddos/Bgimg2.png'
 import arrow from '../../images/attacker/Arrow.png'
 import Popup from '../getdemo/getdemo'
+import hardeningim1 from '../../images/ddos/hardeningim1.png'
+import hardeningim2 from '../../images/ddos/hardeningim2.png'
 import './ddoshardening.css'
 import './laptop.css'
 import './tab.css'
@@ -18,19 +20,26 @@ function Ddos() {
     <>
     <div>
         <div className='ddosBanner'>
+          <div className='ddosbanflex'>
           <div className='ddosSection1'>
             <p className='ddosTitle'>Improve your <span className='colorText'>network architecture </span>against attacks</p>
             <p className='ddosDesc'>We identify which protection component will prevent each DDoS attack vector</p>
-            <button className='demobtn1'><b id='dembtn' onClick={() => setButtonPopup(true)}>Get a Demo</b></button>
+            <button className='demobtn1'><b id='dembtn' onClick={() => setButtonPopup(true)}>Get a Demo</b></button> 
           </div>
+          <div className='hardenimg'>
+          <img src={hardeningim1} alt="hardeningim1"></img>
+          </div>
+          </div>
+          
           <div className='netwrokArchitecture'>
               <p className='netArch'>Network Architecture</p>
               <p className='section2Content'>Our experts audit your DDoS network architecture infrastructure to identify weaknessess nd provide recommendations for maximizing DDoS protection. This step, taken regardless of which vendor you use, ensures a solid foundation for DDoS protection, with the right components in the right locations.</p>
           </div>
+          <div className='hardeningim2'>
+          <img src = {hardeningim2} alt ="hardeningim2"></img>
         </div>
-
-       
-
+        </div>
+        
         <div className='attackVectorAnalysis'>
             <div className='bgimg'>
               <p id ="attackVector">Attack Vector Analysis</p>
@@ -50,7 +59,7 @@ function Ddos() {
           </div>
         </div>  
 
-        <div className='heard'>
+        {/* <div className='heard'>
             <div className='securityIssues'>
                 <div className='securityText'>
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
@@ -58,7 +67,7 @@ function Ddos() {
                 </div>
                 <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
     <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
