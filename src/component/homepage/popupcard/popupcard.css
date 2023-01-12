@@ -1,6 +1,6 @@
 .popupCard{
 background-color: #141414;
-height: 580px;
+height: 300px;
 width: 425px;
 padding: 1.5% 3%;
 position: absolute;
@@ -37,7 +37,7 @@ top: 0px;
 }
 @media screen and (max-width:1024px) and (min-width:768px) {
 .popupCard{
-    height: 560px;
+    height: 300px;
     width: 380px;
     padding: 1.5% 3%;
     right: 0px;
@@ -51,7 +51,7 @@ top: 0px;
 }
 @media screen and (max-width:768px) and (min-width:430px) {
     .popupCard{
-        height: 465px;
+        height: 700px;
         width: 380px;
         padding: 1.5% 3%;
         right: 0px;
@@ -62,12 +62,12 @@ top: 0px;
     }
     #popupCardText{
         font-size: 16px;
-        line-height: 2px;
+        line-height: 30px;
     }
 }
 @media screen and (max-width:430px) and (min-width:375px) {
     .popupCard{
-        height: 885px;
+        height: 700px;
         padding: 3% 10%;
     }
     .closecardBtn{
@@ -76,16 +76,19 @@ top: 0px;
         right: 25px;
     }
 
+    #popupCardTitle{
+        margin-top: 8%;
+    }
 }
 @media screen and (max-width:376px) {
     .popupCard{
-    height: 825px;
+    height: 600px;
     padding: 5% 18%;
     }
 }
 @media screen and (max-width:365px){
     .popupCard{
-        height: 800px;
+        height: 650px;
         padding: 3% 10%;
         width: 375px;
     }

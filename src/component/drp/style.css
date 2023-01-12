@@ -59,6 +59,7 @@
     margin: 0;
     margin-top: 0%;
     padding-top: 0%;
+    padding-bottom: 10%;
 }
 
 .utilizingTitle {
@@ -127,9 +128,9 @@
 .challengeBlock {
     background-image: url(../../images/drp/blockbg.png);
     background-repeat: no-repeat;
-    background-size: 90%;
-    height: 90%;
-    margin-top: 5%;
+    background-size: 100% 100%;
+    background-blend-mode: lighten;
+    margin-top: 9%;
     padding: 5%;
     opacity: 0.6;
 }
@@ -141,8 +142,9 @@
 .challengeList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 20%;
+    grid-row-gap: 6%;
     grid-column-gap: 12%;
+    margin-right: -17%;
 }
 
 .challengeList li {
@@ -246,7 +248,7 @@
 
 .searchiconimg {
     margin-top: -25%;
-    margin-left: 20%;
+    margin-left: 22%;
 }
 
 .forensictitle {
@@ -278,7 +280,7 @@
 
 .forensicflex {
     display: flex;
-    margin-left: 5%;
+    margin-left: 6%;
     padding-bottom: 10%;
 }
 
@@ -440,7 +442,7 @@
     width: 47%;
 }
 
-.benefit {
+.benefit1 {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -453,18 +455,20 @@
     padding-bottom: 3%;
 }
 
-.benefitBlock {
+.benefitBlock1 {
     background: #02160E;
     border-radius: 20px;
     margin: 0% 7%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 0%;
+    grid-row-gap: 5%;
     grid-column-gap: 0%;
     padding-top: 4%;
+    padding-bottom: 10%;
+    padding-left: 4%;
 }
 
-.benefitList {
+.benefitList1 {
     display: flex;
     width: 500px;
 }
@@ -482,3 +486,4 @@
     color: #FFFFFF;
     opacity: 0.8;
 }
+

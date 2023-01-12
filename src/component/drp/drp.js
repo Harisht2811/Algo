@@ -23,7 +23,9 @@ import hline from '../../images/drp/hline.png'
 
 import Popup from '../getdemo/getdemo'
 import './style.css'
-
+import './laptop.css'
+import './tab.css'
+import './mobile.css'
 function Drp() {
     const [buttonPopup, setButtonPopup] = useState(false);
 
@@ -67,7 +69,7 @@ function Drp() {
                         <img className='challengeImg' src={vendorImg} alt='vendor' />
                     </div>
                     <div className='challengeRight'>
-                        <p className='challengeRight_title'><span className='textcolor'> Algoritmik addresses </span> the following business challenges &nbsp;&nbsp;&nbsp; <img src={Darrow} /> </p>
+                        <p className='challengeRight_title'><span className='textcolor'> Algoritmik addresses </span> the following business <br/> challenges &nbsp;&nbsp;&nbsp; <img src={Darrow} /> </p>
                         <div className='challengeBlock'>
                             <ul className='challengeList'>
                                 <li>Brand protection</li>
@@ -106,7 +108,7 @@ function Drp() {
                         <p>Proactive phishing detection technology & takedowns</p>
                     </div>
                     <div className='forensicflexRight'>
-                        <p className='forensicflexRightTitle'><img src={phishingLogo} />Phishing Beacon</p>
+                        <p className='forensicflexRightTitle'><img src={phishingLogo} /> &nbsp;&nbsp;&nbsp;Phishing Beacon</p>
                         <p className='forensicflexRightDesc'>Algoritmik’s Phishing Beacon is a proprietary module that provides real-time visibility into newly created phishing sites that have been cloned from an organization’s website. Threat actors frequently used this technique, but Algoritmik’s rapid detection allows us to take down these sites on behalf of your organization, reducing the risk of account takeover, customer churn and damage to brand reputation.</p>
                     </div>
                 </div>
@@ -164,51 +166,51 @@ function Drp() {
                         </div>
                     </div>
                 </div>
-                <p className='benefit'>Benefits of partnership with Algoritmik’s managed threat-intelligence services</p>
-                <div className='benefitBlock'>
-                    <div className='benefitList'>
+                <p className='benefit1'>Benefits of partnership with Algoritmik’s managed threat-intelligence services</p>
+                <div className='benefitBlock1'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Threat detection</p>
                             <p className='benefitListDesc'>Algoritmik’s predictive intelligence can help your organization identify  and detect potential threats before they occur.</p>
                         </div>
                     </div>
-                    <div className='benefitList'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Identification of fraud operations</p>
                             <p className='benefitListDesc'>Algoritmik can provide actionable intelligence on how to respond  and mitigate fraud operations.</p>
                         </div>
                     </div>
-                    <div className='benefitList'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Virtual HUMINT capabilities</p>
                             <p className='benefitListDesc'>Algoritmik’s services allow you to communicate directly with threat actors and attribute their activity to specific campaigns, providing valuable context and intelligence.</p>
                         </div>
                     </div>
-                    <div className='benefitList'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>VIP threat investigations</p>
                             <p className='benefitListDesc'>Algoritmik can monitor the online presence of your executives to prevent threat actors from obtaining personal information for malicious use.</p>
                         </div>
                     </div>
-                    <div className='benefitList'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Real-time phishing detection</p>
                             <p className='benefitListDesc'>Algoritmik’s real-time phishing website detection and takedown operations can help protect your organization against phishing attacks.</p>
                         </div>
                     </div>
-                    <div className='benefitList'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Mapping and monitoring of digital presence</p>
                             <p className='benefitListDesc'>Algoritmik can help your organization map and monitor its digital presence, including credential leaks, digital vulnerabilities, and sensitive document leakage.</p>
                         </div>
                     </div>
-                    <div className='benefitList'>
+                    <div className='benefitList1'>
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Identification of severity</p>

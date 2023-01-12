@@ -1,0 +1,118 @@
+@media screen and (max-width:1024px) and (min-width:769px) {
+    
+    .drp_demoBtn {
+        margin-left: 40%; 
+    }
+    .utilizingBlock {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20%;
+        grid-column-gap: 0%;
+        padding-left: 5%;
+    }
+    .drive_CardList {
+        display: flex;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+    .challenge {
+        margin-left: 5%;
+        margin-top: 15%;
+        display: flex;
+        padding-bottom: 10%;
+    }
+
+    .challengeImg {
+        width: 380.73px;
+        height: 354.29px;
+    }
+
+    .challengeRight {
+        margin-left: 0%;
+    }
+    .challengeRight_title br{
+        display: none;
+    }
+    .challengeBlock {
+
+        margin-right: 9%;
+    }
+
+    .driveTitle {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 148.1%;
+        letter-spacing: -0.035em;
+        color: #FFFFFF;
+        width: 90%;
+    }
+
+    .searchiconimg {
+        margin-top: -35%;
+        margin-left: 10%;
+    }
+    .forensictitle {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120.1%;
+        letter-spacing: -0.025em;
+        color: #00CD78;
+        text-align: center;
+        margin-top: -24%;
+    }
+    .forensicflexLeft {
+        background: linear-gradient(113.36deg, #2CD58B 0%, #3AC9FB 100%);
+        border-radius: 12px;
+        padding: 3%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120.1%;
+        letter-spacing: -0.025em;
+        color: #000E08;
+        width: 480px;
+        height: 295px;
+    }
+    .forensicflexRight {
+        width: 365px;
+        height: 192px;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+
+    .benefitBlock {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 5%;
+        grid-column-gap: 0%;
+        padding-left: 5%;
+        padding-bottom: 10%;
+    }
+    .benefit {
+        margin-left: 5%;
+    }
+    .analysts {
+        display: flex;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .partnershipImg {
+        width: 400px;
+        height: 412px;
+        margin-top: 5%;
+    }
+    .partnership {
+        display: flex;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .benefitList1 {
+        display: flex;
+        width: 400px;
+    }
+}

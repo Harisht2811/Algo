@@ -12,8 +12,8 @@
     
         },
         {
-            "navLink":"Attack Surface",
-            "routeLink":"/attacksurface"
+            "navLink":"DRP",
+            "routeLink":"/drp"
         },
         {
             "navLink":"About us",
