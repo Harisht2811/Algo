@@ -1,13 +1,36 @@
 @media screen and (max-width:1024px) and (min-width:770px){
     .ContactFlex {
-        margin-left: 5%;
+        margin-left: 6%;
+    }
+    .ContactFlex {
+        display: flex;
+        width: 87%;
+        margin-left: 13%;
+        margin-top: 6%;
+        margin-bottom: 9%;
     }
     .contactForm {
-        width: 840px !important;
-        height: 619px
+        width: 963px !important;
+        height: 571px;
+        margin-left: -7%;
+    }
+    .submitBtn {
+        width: 29%;
+        margin-top: 4%;
+    }
+    label {
+        margin-top: 5%;
+    }
+    .inputMsg {
+        margin-top: 0%;
     }
     .contactTitle1 {
-        font-size: 50.7113px;
+        font-size: 47.7113px;
+    }
+    .contactTitle2 {
+        font-size: 19px;
+    margin-top: 0%;
+    margin-left: 1%;
     }
     .email {
         margin-left: 8%;
@@ -26,12 +49,17 @@
     }
     .paraContent {
         width: 77%;
-        font-size: 14px
+        font-size: 14px;
+        margin-top: 3%;
+    }
+    .paraContent2 {
+        margin-top: 2%;
     }
     .ContactHr {
         color: #B3B3B3;
-        width: 68%;
+        width: 73%;
         border-bottom: none;
+        margin-left: 0%;
     }
     .contactBanner {
         padding-bottom: 9%;
@@ -41,6 +69,7 @@
     }
     .linkCont{
         opacity: 0.6;
+        margin-top: 2%;
     }
     .meetourTeam{
         display: none;

@@ -1,12 +1,14 @@
 @media screen   and (max-width:1705px)and (min-width:1026px){
     label {
         font-size: 14px;
+        margin-top: 6%;
     }
     .ContactFlex {
-        margin-left: 14%;
+        margin-left: 16%;
+    width: 84%;
     }
     .contactForm {
-        width: 576px;
+        width: 874px;
         height: 605px
     }
     .email {
@@ -15,25 +17,42 @@
     .formContent1 {
         width: 100%;
     }
+    .ContactPara {
+        margin-left: 5%;
+    }
+    .inputMsg {
+        margin-top: -2%;
+    }
+    .submitBtn {
+        margin-top: 4%;
+        width: 30%;
+    }
     .input1 {
         margin-top: 2%;
         width: 188px;
     }
     .input2 {
         margin-left: 8%;
-        width: 188px;
+        width: 199px;
     }
     .ContactParaTitle1 {
-        width: 43%;
+        width: 49%;
         font-size: 26px;
     }
     .paraContent {
-        width: 46%;
+        width: 64%;
+    margin-top: 4%;
+    font-size: 16px;
+    }
+    .paraContent2 {
+        margin-top: 2%;
+        font-size: 15px;
     }
     .ContactHr {
         color: #B3B3B3;
-        width: 44%;
+        width: 64%;
         border-bottom: none;
+        margin-left: 0%;
     }
     .contactBanner {
         padding-bottom: 9%;
@@ -43,6 +62,10 @@
     }
     .linkCont{
         opacity: 0.6;
+        margin-top: 1%;
+    }
+    .ContactParaTitle2 {
+        font-size: 19px;
     }
     .css-1s2u09g-control:hover {
         border-color: hsl(0, 0%, 46%) !important;
@@ -53,13 +76,15 @@
 }
 
 
-/* @media screen   and (max-width:14405px)and (min-width:1026px){
-    .input1 {
+
+
+@media screen   and (max-width:14405px)and (min-width:1026px){
+    /* .input1 {
         margin-top: 2%;
         width: 178px;
-    }
+    } */
     .input2 {
         margin-left: 8%;
-        width: 183px;
+        width: 184px;
     }
-} */
+}

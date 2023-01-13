@@ -93,7 +93,8 @@ input,label{
 }
 .submitBtn{
     /* background: linear-gradient(#2CD58B 10.43%, #3AC9FB 87.33%); */
-    background-color: #2CD58B;
+    background: linear-gradient(95.27deg, #2CD58B 10.43%, #3AC9FB 87.33%);
+border-radius: 6px;
     border-radius: 6px;
     width: 25%;
     height: 36px;

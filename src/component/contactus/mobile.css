@@ -4,19 +4,24 @@
         padding-top: 10%;
     }
     .contactTitle2 {
-        font-size: 14px;
-        margin-top: -2%;
-        width: 57%;
-        margin-left: 22%;
-        line-height: 119%;
+        font-size: 12px;
+    margin-top: 2%;
+    width: 57%;
+    margin-left: 21%;
+    line-height: 119%;
     }
     .ContactFlex {
         display: block;
         margin-left: 9%;
     }
     .contactForm {
-        width: 82%;
-        height: 646px;
+        width: 90%;
+        height: 587px;
+    }
+    .inputMsg {
+        width: 91%;
+        height: 20vh;
+        margin-top: -2%;
     }
     .formContent1 {
         display: block;
@@ -46,11 +51,11 @@
     .paraContent{
         margin-left:-4%;
         font-size: 12px;
-        width: 82%;
+        width: 92%;
     }
     .ContactHr{
         margin-left:-4%;
-        width: 81%;
+        width: 90%;
     }
     .ContactParaTitle2{
         margin-left:-4%;
@@ -59,7 +64,7 @@
     .paraContent2{
         margin-left:-4%;
         font-size: 13px;
-        width: 74%;
+        width: 84%;
     }
     .linkCont{
         margin-left:-4%;
