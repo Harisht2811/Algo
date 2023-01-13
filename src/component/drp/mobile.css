@@ -8,7 +8,7 @@
     }
     .drp_demoBtn {
         margin-left: 30%;
-        padding: 2%; 
+        line-height: 30px;
     }
     .utilizingTitle {
         font-family: 'Manrope';
@@ -21,6 +21,7 @@
         color: #FFFFFF;
         margin-bottom: 10%;
         width: 95%;
+        padding-left: 2%;
     }
 
     .utilizingBlock {
@@ -34,7 +35,7 @@
         display: none;
     }
     .challengeImg {
-        width: 405.73px;
+        width: 375.73px;
         height: 354.29px;
         margin-left: 10%;
         margin-top: 25%;
@@ -53,6 +54,8 @@
         grid-column-gap: 0%;
         margin-right: 1%;
         padding-bottom: 20%;
+        padding-left: 6%;
+
     }
 
     .challengeBlock {
@@ -83,7 +86,7 @@
         padding-left: 1%;
     }
     .driveCard, .driveCard:hover {
-        width: 95%;
+        width: 85%;
     }
     .forensicflexRight {
         width: 95%;
@@ -162,7 +165,7 @@
         letter-spacing: -0.03em;
         color: #FFFFFF;
         margin-left: 5%;
-        margin-top: 35%;
+        margin-top: 45%;
     }
     .partnershipImg, .analystsImg {
         display: none;
@@ -248,7 +251,7 @@
     }
     .drp_demoBtn {
         margin-left: 30%;
-        padding: 2%; 
+        line-height: 30px;
     }
     .utilizingTitle {
         font-family: 'Manrope';
@@ -261,6 +264,8 @@
         color: #FFFFFF;
         margin-bottom: 10%;
         width: 95%;
+        padding-left: 2%;
+
     }
 
     .utilizingBlock {
@@ -293,6 +298,8 @@
         grid-column-gap: 0%;
         margin-right: 1%;
         padding-bottom: 20%;
+        padding-left: 6%;
+
     }
 
     .challengeBlock {
@@ -323,7 +330,7 @@
         padding-left: 1%;
     }
     .driveCard, .driveCard:hover {
-        width: 95%;
+        width: 85%;
     }
     .forensicflexRight {
         width: 95%;
@@ -402,7 +409,7 @@
         letter-spacing: -0.03em;
         color: #FFFFFF;
         margin-left: 5%;
-        margin-top: 35%;
+        margin-top: 55%;
     }
     .partnershipImg, .analystsImg {
         display: none;

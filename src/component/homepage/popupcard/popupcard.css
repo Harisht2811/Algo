@@ -6,6 +6,7 @@ padding: 1.5% 3%;
 position: absolute;
 right: 0px;
 top: 0px;
+
 }
 #popupCardTitle{
     font-family: Manrope;
@@ -31,6 +32,8 @@ top: 0px;
     height: 0px;
     width: 315px;
     border: 1px solid #00CD78;
+    margin: 6% 0;
+
 }
 .closecardBtn{
     float:right;
@@ -68,7 +71,8 @@ top: 0px;
 @media screen and (max-width:430px) and (min-width:375px) {
     .popupCard{
         height: 700px;
-        padding: 3% 10%;
+        width: 400px;
+        padding: 3% 0 3% 6%;
     }
     .closecardBtn{
         position: absolute;
@@ -83,7 +87,8 @@ top: 0px;
 @media screen and (max-width:376px) {
     .popupCard{
     height: 600px;
-    padding: 5% 18%;
+    width: 345px;
+    padding: 5% 0 5% 8%;
     }
 }
 @media screen and (max-width:365px){

@@ -2,13 +2,16 @@
     width: 100%;
     position: relative;
     display: inline-flex;
+    height: 450px;
+
 }
 
 .algoImg {
     width: 100%;
     display: block;
 }
-.algoImgRes{
+
+.algoImgRes {
     display: none;
 }
 
@@ -43,35 +46,34 @@
     letter-spacing: 0em;
     text-align: left;
     color: #000000;
-    width: 75%;
+    width: 85%;
     margin: 5% 0 0 0;
 }
+
 .algoanimation {
     width: 50%;
     display: inline-flex;
     position: absolute;
-    top: 80px;
+    top: 40px;
     right: 0px;
 
 }
-.algoanimation:hover .animation1{
+
+.algoanimation:hover .animation1 {
     transform: none;
     transition: 0.7s;
 }
-.algoanimation:hover .animation2{
+
+.algoanimation:hover .animation2 {
     transform: none;
-    margin: 0 0 0 3%;
+    margin: 0 0 0 5%;
     transition: 0.7s;
 }
-.algoanimation:hover .animation3{
-    transform: none;
-    margin: 0 0 0 3%;
-    transition: 0.7s;
-}
-.animation1{
+
+.animation1 {
     background-color: #05DA8D;
-    height: 370px;
-    width: 25%;
+    height: 300px;
+    width: 30%;
     border-radius: 13px;
     padding: 5% 3%;
     -webkit-transform: rotate(2deg);
@@ -79,52 +81,53 @@
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     transition: 0.7s;
 }
+
 .animation2 {
     background-color: #05DA8D;
-    height: 370px;
-    width: 25%;
+    height: 300px;
+    width: 30%;
     border-radius: 13px;
     padding: 5% 3%;
-    margin: 1% 0 0 -11%;
+    margin: 1% 0 0 -22%;
     -webkit-transform: rotate(-10deg);
     transform: rotate(-6deg);
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     transition: 0.7s;
 }
-.animation3 {
-    background-color: #05DA8D;
-    height: 370px;
-    width: 25%;
-    border-radius: 13px;
-    padding: 5% 3%;
-    margin: 0 0 0 -12%;
-    -webkit-transform: rotate(5deg);
-    transform: rotate(10deg);
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    transition: 0.7s;
-}
+
 #numberText {
-    font-family: Manrope;
-    font-size: 43px;
+    font-family: 'Manrope';
+    font-style: normal;
     font-weight: 700;
-    line-height: 52px;
+    font-size: 26px;
+    line-height: 120.1%;
     letter-spacing: -0.04em;
-    text-align: left;
-    color: white;
+    color: #FFFFFF;
 }
+
 #issueText {
-    font-family: Manrope;
-    font-size: 14px;
+    font-family: 'Manrope';
+    font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-    margin: 45% 0 0 0;
+    font-size: 14px;
+    line-height: 170.1%;
+    color: #070707;
 }
-#hrinalgLove{
-  border: 1px solid #F5F5F5;
+
+.addrs {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 153.1%;
+    color: #FFFFFF;
+    margin-top: 7%;
 }
+
+#hrinalgLove {
+    border: 1px solid #F5F5F5;
+}
+
 @media screen and (max-width:1705px) and (min-width:1024px) {
 
     .leftText {
@@ -134,171 +137,282 @@
         left: 50px;
         padding: 5% 3%;
     }
-    #titlealgotext{
-         width: 100%;
+
+    #titlealgotext {
+        width: 100%;
     }
-    .algoImgRes{
+
+    .algoImgRes {
         display: none;
     }
-    
+
     #algotext {
-        width:100%;
+        width: 85%;
     }
-    .algoanimation {
-        top: 50px;
-        left: 650px; 
+
+    .algoanimation  div{
+        top: 40px;
+        left: 650px;
     }
-    .animation1,.animation2,.animation3{
-        height: 335px;
-        width: 28%;
+
+    .animation1,
+    .animation2 {
+        height: 300px;
+        width: 35%;
     }
+
     #issueText {
-        
-        margin: 35% 0 0 0;
+
+        margin: 15% 0 0 0;
     }
 }
-@media screen and (max-width:1024px) and (min-width:768px) {
-    .algoanimation {
-        top: 15px;
-        left: 450px; 
-    }
-    .animation1,.animation2,.animation3{
-        height:265px;
-        width: 30%;
-        padding: 1% 3%;
 
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .algoLove {
+        width: 100%;
+        position: relative;
+        display: inline-flex;
+        height: 500px;
     }
-    .algoImgRes{
+    
+    .algoImg {
+        width: 100%;
+        display: block;
+    }
+    
+    .algoImgRes {
         display: none;
     }
     
     .leftText {
-        width: 40%;
+        width: 50%;
         position: absolute;
-        left: 50px;
-        padding: 7% 3%;
+        top: 20px;
+        left: 10px;
+        padding: 5% 5%;
     }
-    #titlealgotext{
-        font-size: 30px;
-        line-height: 35px;
+    
+    #titlealgotext {
+        font-family: Manrope;
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #000000;
+        width: 85%;
     }
-    #algotext{
+    
+    #blackText {
+        color: white;
+    }
+    
+    #algotext {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        width: 80%;
+        margin: 5% 0 0 0;
+    }
+    
+    .algoanimation {
+        width: 50%;
+        display: inline-flex;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        margin-left: -15%;
+    }
+    
+    .algoanimation:hover .animation1 {
+        transform: none;
+        transition: 0.7s;
+    }
+    
+    .algoanimation:hover .animation2 {
+        transform: none;
+        margin: 0 5% 0 5%;
+        transition: 0.7s;
+    }
+    
+    .animation1 {
+        background-color: #05DA8D;
+        height: 300px;
+        width: 50%;
+        border-radius: 13px;
+        padding: 5% 3%;
+        -webkit-transform: rotate(2deg);
+        transform: rotate(4deg);
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        transition: 0.7s;
+    }
+    
+    .animation2 {
+        background-color: #05DA8D;
+        height: 300px;
+        width: 50%;
+        border-radius: 13px;
+        padding: 5% 3%;
+        margin: 1% 0 0 -25%;
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-6deg);
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        transition: 0.7s;
+    }
+    
+    #numberText {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 120.1%;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+    }
+    
+    #issueText {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
         font-size: 14px;
-        line-height: 22px; 
-        width: 100%;
+        line-height: 170.1%;
+        color: #070707;
     }
-    #numberText{
-    font-size: 30px;
-
+    
+    .addrs {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 153.1%;
+        color: #FFFFFF;
+        margin-top: 7%;
     }
-    #issueText{
-        font-size: 14px;
-        line-height: 22px; 
-        width: 100%;
-        margin: 25% 0 0 0;
-
+    .addrs br{
+        display: none;
+    }
+    #hrinalgLove {
+        border: 1px solid #F5F5F5;
     }
 }
+
 @media screen and (max-width:768px) and (min-width:430px) {
-    .algoLove{
+    .algoLove {
         background-color: #05DA8D;
         height: 700px;
     }
-    .leftText{
+
+    .leftText {
         width: 100%;
         padding: 5% 0;
     }
-    #titlealgotext{
+
+    #titlealgotext {
         text-align: center;
-        width:90%;
-    }
-    #algotext{
         width: 90%;
     }
-    #hrinalgLove{
+
+    #algotext {
+        width: 90%;
+    }
+
+    #hrinalgLove {
         border: 1px solid #F5F5F5;
         width: 90%;
-      }
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+
     .algoImg {
         display: none;
     }
-    .algoImgRes{
+
+    .algoImgRes {
         display: block;
         width: 230px;
         height: 200px;
         position: absolute;
-        top:200px;
+        top: 200px;
         left: 280px;
     }
+
     .algoanimation {
         top: 300px;
-        left: 3px; 
         width: 100%;
         padding: 5% 5%;
     }
-    .algoanimation div{
+
+    .algoanimation div {
         width: 30%;
-        margin: 0 0 0 2%;
+        margin: -2% 0 0 10%;
     }
-    .animation1{
-            height: 280px;
-            transform:none;
-            margin:0 0 0 0;
+
+    .animation1 {
+        height: 280px;
+        transform: none;
+        margin: 0 0 0 0;
     }
+
     .animation2 {
         height: 280px;
-        transform:none;
-        margin:0 0 0 0;
+        transform: none;
+        margin: -3% 0 0 0;
 
     }
-    .animation3 {
-        height: 280px;
-        transform:none;
-        margin:0 0 0 0;
-    }
-    .algoanimation:hover .animation1{
+
+
+    .algoanimation:hover .animation1 {
         transform: none;
         transition: none;
     }
-    .algoanimation:hover .animation2{
-        transform: none;
-        transition:none;
-        margin: 0 0 0 2%;
-    }
-    .algoanimation:hover .animation3{
+
+    .algoanimation:hover .animation2 {
         transform: none;
         transition: none;
-        margin: 0 0 0 2%;
+        margin-top: -3%;        
     }
-} 
+
+}
+
 @media screen and (max-width:430px) and (min-width:375px) {
-    .algoLove{
+    .algoLove {
         background-color: #05DA8D;
-        height: 1295px;
+        height: 1100px;
         padding: 2% 3%;
+        width: 95%;
     }
-    .leftText{
-        width: 100%;
+
+    .leftText {
+        width: 90%;
         padding: 5% 0;
     }
-    #titlealgotext{
+
+    #titlealgotext {
         text-align: center;
-        width:90%;
+        width: 90%;
         font-size: 30px;
         line-height: 32px;
     }
-    #algotext{
+
+    #algotext {
         width: 95%;
-        font-size:14px ;
+        font-size: 14px;
     }
-    #hrinalgLove{
+
+    #hrinalgLove {
         border: 1px solid #F5F5F5;
         width: 90%;
-      }
+    }
+
     .algoImg {
         display: none;
     }
-    .algoImgRes{
+
+    .algoImgRes {
         display: block;
         width: 230px;
         height: 200px;
@@ -306,93 +420,96 @@
         top: 118px;
         left: 100px;
     }
+
     .algoanimation {
         top: 300px;
-        left:1px; 
-        width: 100%;
+        left: 1px;
+        width: 90%;
         padding: 5% 4%;
         display: block;
     }
-    .algoanimation div{
+
+    .algoanimation div {
         width: 95%;
-        margin: 0 0 10% 2%;
+        margin: 0 0 10% -2%;
 
     }
-    /* .algoanimation div:hover{
-        margin: none;
+
+  
+    .animation1 {
+        height: 280px;
         transform: none;
-        transition: none;
-    } */
-    .animation1{
-            height: 280px;
-            transform:none;
-            margin:0 0 0 0;
+        margin: 0 0 0 0;
     }
+
     .animation2 {
         height: 280px;
-        transform:none;
-        margin:0 0 0 0;
+        transform: none;
+        margin: 0 0 0 0;
 
     }
-    .animation3 {
-        height: 280px;
-        transform:none;
-        margin:0 0 0 0;
-    }
-    .algoanimation:hover .animation1{
+
+
+    .algoanimation:hover .animation1 {
         transform: none;
         transition: none;
-        margin: 0 0 10% 2%;
+        margin: 0 0 10% -2%;
     }
-    .algoanimation:hover .animation2{
-        transform: none;
-        transition:none;
-        margin: 0 0 10% 2%;
-    }
-    .algoanimation:hover .animation3{
+
+    .algoanimation:hover .animation2 {
         transform: none;
         transition: none;
-        margin: 0 0 10% 2%;
+        margin: 0 0 10% -2%;
     }
-    #issueText{
+
+
+    #issueText {
         margin: 3% 0 0 0;
     }
 }
+
 @media screen and (max-width:375px) {
-    .algoImgRes{
+    .algoImgRes {
         top: 125px;
         left: 75px;
     }
-    
+
 }
+
 @media screen and (max-width:360px) {
-    .algoLove{
+    .algoLove {
         background-color: #05DA8D;
         height: 1295px;
         padding: 2% 3%;
     }
-    .leftText{
+
+    .leftText {
         width: 100%;
         padding: 5% 0;
     }
-    #titlealgotext{
+
+    #titlealgotext {
         text-align: center;
-        width:90%;
+        width: 90%;
         font-size: 30px;
         line-height: 32px;
     }
-    #algotext{
+
+    #algotext {
         width: 95%;
-        font-size:14px ;
+        font-size: 14px;
     }
-    #hrinalgLove{
+
+    #hrinalgLove {
         border: 1px solid #F5F5F5;
         width: 90%;
-      }
+    }
+
     .algoImg {
         display: none;
     }
-    .algoImgRes{
+
+    .algoImgRes {
         display: block;
         width: 230px;
         height: 200px;
@@ -400,86 +517,102 @@
         top: 118px;
         left: 100px;
     }
+
     .algoanimation {
         top: 300px;
-        left:1px; 
-        width: 100%;
+        left: 1px;
+        width: 95%;
         padding: 5% 4%;
         display: block;
     }
-    .algoanimation div{
-        width: 95%;
+
+    .algoanimation div {
+        width: 90%;
         margin: 0 0 10% 2%;
 
     }
+
     /* .algoanimation div:hover{
         margin: none;
         transform: none;
         transition: none;
     } */
-    .animation1{
-            height: 280px;
-            transform:none;
-            margin:0 0 0 0;
+    .animation1 {
+        height: 280px;
+        transform: none;
+        margin: 0 0 0 0;
     }
+
     .animation2 {
         height: 280px;
-        transform:none;
-        margin:0 0 0 0;
+        transform: none;
+        margin: 0 0 0 0;
 
     }
+
     .animation3 {
         height: 280px;
-        transform:none;
-        margin:0 0 0 0;
+        transform: none;
+        margin: 0 0 0 0;
     }
-    .algoanimation:hover .animation1{
+
+    .algoanimation:hover .animation1 {
         transform: none;
         transition: none;
         margin: 0 0 10% 2%;
     }
-    .algoanimation:hover .animation2{
-        transform: none;
-        transition:none;
-        margin: 0 0 10% 2%;
-    }
-    .algoanimation:hover .animation3{
+
+    .algoanimation:hover .animation2 {
         transform: none;
         transition: none;
         margin: 0 0 10% 2%;
     }
-    #issueText{
+
+    .algoanimation:hover .animation3 {
+        transform: none;
+        transition: none;
+        margin: 0 0 10% 2%;
+    }
+
+    #issueText {
         margin: 3% 0 0 0;
     }
 }
+
 @media screen and (max-width:280px) {
-    .algoLove{
+    .algoLove {
         background-color: #05DA8D;
         height: 1290px;
         padding: 2% 3%;
     }
-    .leftText{
+
+    .leftText {
         width: 100%;
         padding: 5% 0;
     }
-    #titlealgotext{
+
+    #titlealgotext {
         text-align: center;
-        width:90%;
+        width: 90%;
         font-size: 30px;
         line-height: 32px;
     }
-    #algotext{
+
+    #algotext {
         width: 95%;
-        font-size:14px ;
+        font-size: 14px;
     }
-    #hrinalgLove{
+
+    #hrinalgLove {
         border: 1px solid #F5F5F5;
         width: 90%;
-      }
+    }
+
     .algoImg {
         display: none;
     }
-    .algoImgRes{
+
+    .algoImgRes {
         display: block;
         width: 130px;
         height: 100px;
@@ -487,50 +620,59 @@
         top: 170px;
         left: 78px;
     }
+
     .algoanimation {
         top: 350px;
-        left:1px; 
-        width: 100%;
+        left: 1px;
+        width: 95%;
         padding: 5% 4%;
         display: block;
     }
-    .algoanimation div{
-        width: 95%;
+
+    .algoanimation div {
+        width: 90%;
         margin: 0 0 10% 2%;
 
     }
-    .animation1{
-            height: 280px;
-            transform:none;
-            margin:0 0 0 0;
+
+    .animation1 {
+        height: 280px;
+        transform: none;
+        margin: 0 0 0 0;
     }
+
     .animation2 {
         height: 280px;
-        transform:none;
-        margin:0 0 0 0;
+        transform: none;
+        margin: 0 0 0 0;
 
     }
+
     .animation3 {
         height: 280px;
-        transform:none;
-        margin:0 0 0 0;
+        transform: none;
+        margin: 0 0 0 0;
     }
-    .algoanimation:hover .animation1{
+
+    .algoanimation:hover .animation1 {
         transform: none;
         transition: none;
         margin: 0 0 10% 2%;
     }
-    .algoanimation:hover .animation2{
-        transform: none;
-        transition:none;
-        margin: 0 0 10% 2%;
-    }
-    .algoanimation:hover .animation3{
+
+    .algoanimation:hover .animation2 {
         transform: none;
         transition: none;
         margin: 0 0 10% 2%;
     }
-    #issueText{
+
+    .algoanimation:hover .animation3 {
+        transform: none;
+        transition: none;
+        margin: 0 0 10% 2%;
+    }
+
+    #issueText {
         margin: 3% 0 0 0;
     }
 }

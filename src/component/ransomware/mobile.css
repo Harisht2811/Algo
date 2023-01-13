@@ -9,6 +9,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 100vh;
+        padding-left: 0%;
     }
     .ransome_section1_title{
         font-family: 'Manrope';
@@ -38,6 +39,7 @@
         padding-bottom: 1%;
         width: 90%;
         text-align: center;
+        margin: 3% 0 0 3%;
     }
     .demobtn{
         background: #00cd78;
@@ -203,6 +205,8 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 100vh;
+        padding-left: 0%;
+
     }
     .ransome_section1_title{
         font-family: 'Manrope';
@@ -232,6 +236,8 @@
         padding-bottom: 1%;
         width: 90%;
         text-align: center;
+        margin-left: 3%;
+        margin-top: 3%;
     }
     .demobtn{
         background: #00cd78;

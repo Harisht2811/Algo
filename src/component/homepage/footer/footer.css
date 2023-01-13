@@ -75,7 +75,7 @@
 @media screen and (max-width:1705px) and (min-width:1024px) {
 
     .algofooter {
-        padding: 3% 5%;
+        padding: 3% 0%;
     }
 
     .algofooterRes {
@@ -107,9 +107,10 @@
         width: 400px;
     }
 }
-    @media screen and (max-width:1024px) and (min-width:768px) {
+    @media screen and (max-width:1024px) and (min-width:769px) {
         .algofooter {
-            padding: 3% 2%;
+            padding: 3% 0%;
+            width: 100%;
         }
 
         .algofooterRes {
@@ -130,7 +131,7 @@
 
         .socialIcons {
             display: inline-flex;
-            margin: -3% 0 0 -12%;
+            margin: -3% 0 0 -5%;
         }
         #footerText {
             width: 400px;
@@ -179,7 +180,7 @@
         }
 
         .socialIcons {
-            margin: 2% 0 0 -6%;
+            margin: 2% 0 0 -4%;
         }
 
         .footericon {
@@ -198,6 +199,7 @@
             display: block;
             padding: 5% 8%;
             background-color: #00CD78;
+            width: 85%;
         }
 
         .resFlex {
@@ -235,7 +237,7 @@
         }
 
         .socialIcons {
-            margin: 2% 0 0 -9%;
+            margin: 2% 0 0 -5%;
         }
 
         .footericon {

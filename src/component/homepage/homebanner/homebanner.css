@@ -1,19 +1,23 @@
-.homebg{
+.homebg {
     position: relative;
 }
-.homeBannerimg{
+
+.homeBannerimg {
     width: 100%;
     display: block;
 }
-.homeBannerimgRes{
+
+.homeBannerimgRes {
     display: none;
 }
-.homeBanner{
+
+.homeBanner {
     padding: 5% 5%;
     position: absolute;
-    top:150px;
-   }
-#homeBannerTitle{
+    top: 150px;
+}
+
+#homeBannerTitle {
     font-family: Manrope;
     font-size: 50px;
     font-weight: 700;
@@ -21,58 +25,33 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    width: 45%;
 }
-#homeBannerText{
+
+#homeBannerText {
     font-family: Manrope;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    width: 45%;
-    color:#CBCBCB;
+    width: 47%;
+    color: #CBCBCB;
     margin: 1% 0 0 0;
 }
-#colorText{
-   color: #00CD78;
+
+#colorText {
+    color: #00CD78;
 }
-.clients{
-    display: inline-flex;
-    margin: 2% 0 0 -4%;
-    width: 50%;
-}
-.clients div{
-    margin: 0 0 0 8%;
-}
-#clientnoText{
-    font-family: Manrope;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color:#00CD78;
-}
-#clientText{
-    font-family: Manrope;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left; 
-    color:#FFFFFF;
-    margin: 5% 0 0 0;
-    opacity: .5;
-}
-.bannerButton{
+
+.bannerButton {
     margin: 3% 0 0 0;
 }
-.exploreButton{
+
+.exploreButton {
     background: #00CD78;
     border-radius: 8px;
-    width:150px;
-    height:40px;
+    width: 150px;
+    height: 40px;
     outline: none;
     border: none;
     font-family: Manrope;
@@ -83,269 +62,438 @@
     text-align: center;
 
 }
-@media screen and (max-width:1705px) and (min-width:1024px) {
 
-    .homebg{
-        margin: 0% 0 0 0;
+
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    .homebg {
+        position: relative;
     }
-    .homeBannerimgRes{
+
+    .homeBannerimg {
+        width: 100%;
+        display: block;
+    }
+
+    .homeBannerimgRes {
         display: none;
     }
-    #homeBannerTitle{
-        font-size: 41px;
-        }
-        #homeBannerText{
+
+    .homeBanner {
+        padding: 5% 5%;
+        position: absolute;
+        top: 150px;
+    }
+
+    #homeBannerTitle {
+        font-family: Manrope;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+
+    #homeBannerText {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 47%;
+        color: #CBCBCB;
+        margin: 1% 0 0 0;
+    }
+
+    #colorText {
+        color: #00CD78;
+    }
+
+    .bannerButton {
+        margin: 3% 0 0 0;
+    }
+
+    .exploreButton {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        outline: none;
+        border: none;
+        font-family: Manrope;
         font-size: 14px;
-        margin: 1% 0 0 0;
-        width: 50%;
-        }
-        #colorText{
-        color: #00CD78;
-        }
-        .clients{
-        display: inline-flex;
-        margin: 2% 0 0 -3.5%;
-        width: 45%;
-        }
-        .clients div{
-        margin: 0 0 0 8%;
-        }
-        #clientnoText{
-        font-size: 23px;
-        }
-        #clientText{
-        font-size: 11px;
-        }
-        
-}
-@media screen and (max-width:1024px) and (min-width:768px){
-    .homebg{
-        margin: 0% 0 0 0;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+
     }
-    .homeBannerimgRes{
+}
+
+@media screen and (min-width:1441px) {
+
+    .homebg {
+        position: relative;
+    }
+
+    .homeBannerimg {
+        width: 100%;
+        display: block;
+    }
+
+    .homeBannerimgRes {
         display: none;
     }
-    .homeBanner{
+
+    .homeBanner {
         padding: 5% 5%;
         position: absolute;
-        top:80px;
-       }
-        #homeBannerTitle{
-        font-size: 35px;
-        width: 55%;
-        }
-        #homeBannerText{
-        font-size: 12px;
+        top: 150px;
+    }
+
+    #homeBannerTitle {
+        font-family: Manrope;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+
+    #homeBannerText {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 41%;
+        color: #CBCBCB;
         margin: 1% 0 0 0;
-        width: 60%;
-        }
-        #colorText{
+    }
+
+    #colorText {
         color: #00CD78;
-        }
-        .clients{
-        display: inline-flex;
-        margin: 2% 0 0 -4.5%;
-        width: 55%;
-        }
-        .clients div{
-        margin: 0 0 0 8%;
-        }
-        #clientnoText{
-        font-size: 20px;
-        }
-        #clientText{
-        font-size: 10px;
-        }
-        .exploreButton{
-            width:15%;
-            height:45px;
-        
-        }
+    }
+
+    .bannerButton {
+        margin: 3% 0 0 0;
+    }
+
+    .exploreButton {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        outline: none;
+        border: none;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
 }
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .homebg {
+        position: relative;
+    }
+
+    .homeBannerimg {
+        width: 100%;
+        display: block;
+    }
+
+    .homeBannerimgRes {
+        display: none;
+    }
+
+    .homeBanner {
+        padding: 5% 5%;
+        position: absolute;
+        top: 150px;
+    }
+
+    #homeBannerTitle {
+        font-family: Manrope;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        margin-bottom: 3%;
+    }
+
+    #homeBannerText {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 47%;
+        color: #CBCBCB;
+        margin: 1% 0 0 0;
+    }
+
+    #colorText {
+        color: #00CD78;
+    }
+
+    .bannerButton {
+        margin: 3% 0 0 0;
+    }
+
+    .exploreButton {
+        background: #00CD78;
+        border-radius: 8px;
+        width: 150px;
+        height: 40px;
+        outline: none;
+        border: none;
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+}
+
 @media screen and (max-width:768px) and (min-width:430px) {
-    .homebg{
+    .homebg {
         margin: 0% 0 0 0;
     }
-    .homeBannerimgRes{
+
+    .homeBannerimgRes {
         display: none;
     }
-    .homeBanner{
+
+    .homeBanner {
         padding: 5% 5%;
         position: absolute;
-        top:80px;
-       }
-        #homeBannerTitle{
+        top: 80px;
+    }
+
+    #homeBannerTitle {
         font-size: 30px;
         width: 60%;
         line-height: 30px;
-        }
-        #homeBannerText{
+    }
+
+    #homeBannerText {
         font-size: 12px;
         margin: 1% 0 0 0;
         width: 60%;
         line-height: 20px;
-        }
-        #colorText{
+    }
+
+    #colorText {
         color: #00CD78;
-        }
-        .clients{
+    }
+
+    .clients {
         display: inline-flex;
         margin: 2% 0 0 -5.5%;
         width: 70%;
-        }
-        .clients div{
+    }
+
+    .clients div {
         margin: 0 0 0 8%;
-        }
-        #clientnoText{
+    }
+
+    #clientnoText {
         font-size: 20px;
-        }
-        #clientText{
+    }
+
+    #clientText {
         font-size: 10px;
-        }
-        .exploreButton{
-            width: 18%;
-            height: 35px;
-        }
+    }
+
+    .exploreButton {
+        width: 18%;
+        height: 35px;
+    }
 }
-@media screen and (max-width:430px) and (min-width:376px) {
-        .homeBannerimg{
-            display: none;
-        }
-        .homeBannerimgRes{
-            display: block;
-            width: 100%;
-        }
-        .homeBanner{
-        padding: 15% 5%;
-        position: absolute;
-        top:80px;
-       }
-        #homeBannerTitle{
-            font-size: 30px;
-            width: 100%;
-            line-height: 35px;
-        }
-        #homeBannerText{
-        font-size: 12px;
-        margin: 1% 0 0 0;
-        width: 100%;
-        line-height: 20px;
-        }
-        #colorText{
-        color: #00CD78;
-        }
-        .clients{
-        display: inline-flex;
-        margin: 5% 0 0 -8.5%;
-        width: 100%;
-        }
-        .clients div{
-        margin: 0 0 0 8%;
-        }
-        #clientnoText{
-        font-size: 20px;
-        }
-        #clientText{
-        font-size: 10px;
-        }
-        .exploreButton{
-            width: 35%;
-            height: 40px;
-            margin: 5% 0 0 0;
-        }
-}
-@media screen and (max-width:376px) {
-    .homeBannerimg{
+
+@media screen and (max-width:425px) and (min-width:376px) {
+    .homeBannerimg {
         display: none;
     }
-    .homeBannerimgRes{
+
+    .homeBannerimgRes {
         display: block;
         width: 100%;
     }
-    .homeBanner{
-    padding: 15% 5%;
-    position: absolute;
-    top:80px;
-   }
-    #homeBannerTitle{
+
+    .homeBanner {
+        padding: 15% 5%;
+        position: absolute;
+        top: 80px;
+    }
+
+    #homeBannerTitle {
         font-size: 30px;
         width: 100%;
         line-height: 35px;
     }
-    #homeBannerText{
-    font-size: 12px;
-    margin: 1% 0 0 0;
-    width: 100%;
-    line-height: 20px;
+
+    #homeBannerText {
+        font-size: 12px;
+        margin: 1% 0 0 0;
+        width: 100%;
+        line-height: 20px;
     }
-    #colorText{
-    color: #00CD78;
+
+    #colorText {
+        color: #00CD78;
     }
-    .clients{
-    display: inline-flex;
-    margin: 5% 0 0 -8.5%;
-    width: 100%;
+
+    .clients {
+        display: inline-flex;
+        margin: 5% 0 0 -8.5%;
+        width: 100%;
     }
-    .clients div{
-    margin: 0 0 0 8%;
+
+    .clients div {
+        margin: 0 0 0 8%;
     }
-    #clientnoText{
-    font-size: 20px;
+
+    #clientnoText {
+        font-size: 20px;
     }
-    #clientText{
-    font-size: 10px;
+
+    #clientText {
+        font-size: 10px;
     }
-    .exploreButton{
+
+    .exploreButton {
         width: 35%;
         height: 40px;
         margin: 5% 0 0 0;
     }
 }
-@media screen and (max-width:280px)  {
-    .homeBannerimg{
+
+@media screen and (max-width:376px) {
+    .homeBannerimg {
         display: none;
     }
-    .homeBannerimgRes{
+
+    .homeBannerimgRes {
         display: block;
         width: 100%;
     }
-    .homeBanner{
-    padding: 10% 5%;
-    position: absolute;
-    top:80px;
-   }
-    #homeBannerTitle{
+
+    .homeBanner {
+        padding: 15% 5%;
+        position: absolute;
+        top: 80px;
+    }
+
+    #homeBannerTitle {
+        font-size: 30px;
+        width: 100%;
+        line-height: 35px;
+    }
+
+    #homeBannerText {
+        font-size: 12px;
+        margin: 1% 0 0 0;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    #colorText {
+        color: #00CD78;
+    }
+
+    .clients {
+        display: inline-flex;
+        margin: 5% 0 0 -8.5%;
+        width: 100%;
+    }
+
+    .clients div {
+        margin: 0 0 0 8%;
+    }
+
+    #clientnoText {
+        font-size: 20px;
+    }
+
+    #clientText {
+        font-size: 10px;
+    }
+
+    .exploreButton {
+        width: 35%;
+        height: 40px;
+        margin: 5% 0 0 0;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .homeBannerimg {
+        display: none;
+    }
+
+    .homeBannerimgRes {
+        display: block;
+        width: 100%;
+    }
+
+    .homeBanner {
+        padding: 10% 5%;
+        position: absolute;
+        top: 80px;
+    }
+
+    #homeBannerTitle {
         font-size: 20px;
         width: 100%;
         line-height: 28px;
     }
-    #homeBannerText{
-    font-size: 12px;
-    margin: 1% 0 0 0;
-    width: 100%;
-    line-height: 20px;
+
+    #homeBannerText {
+        font-size: 12px;
+        margin: 1% 0 0 0;
+        width: 100%;
+        line-height: 20px;
     }
-    #colorText{
-    color: #00CD78;
+
+    #colorText {
+        color: #00CD78;
     }
-    .clients{
-    display: inline-flex;
-    margin: 5% 0 0 -5%;
-    width: 100%;
+
+    .clients {
+        display: inline-flex;
+        margin: 5% 0 0 -5%;
+        width: 100%;
     }
-    .clients div{
-    margin: 0 0 0 5%;
+
+    .clients div {
+        margin: 0 0 0 5%;
     }
-    #clientnoText{
-    font-size: 16px;
+
+    #clientnoText {
+        font-size: 16px;
     }
-    #clientText{
-    font-size: 10px;
+
+    #clientText {
+        font-size: 10px;
     }
-    .exploreButton{
+
+    .exploreButton {
         width: 45%;
         height: 35px;
         margin: 5% 0 0 0;
         font-size: 12px;
-    } 
+    }
 }

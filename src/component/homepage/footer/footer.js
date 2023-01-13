@@ -30,38 +30,39 @@ function footer() {
                     <p id='copyrightText'>Copyright @algoritmik 2022. All right reserved</p>
                 </div>
                 <div className='section2'>
-                <p id='titlefooterText'>Quick Links</p>
-                <Link to='/'><p id='footerText'>Home</p></Link> 
-                <Link to='/aboutus'><p id='footerText'>About us</p></Link> 
-                <Link to='/contactus'><p id='footerText'>Contact us</p></Link> 
+                    <p id='titlefooterText'>Quick Links</p>
+                    <Link to='/'><p id='footerText'>Home</p></Link>
+                    <Link to='/aboutus'><p id='footerText'>About us</p></Link>
+                    <Link to='/contactus'><p id='footerText'>Contact us</p></Link>
                 </div>
                 <div className='section3'>
-                <p id='titlefooterText'>Services</p>
-                <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link> 
-                <Link to='/drp'><p id='footerText'>Digital Risk Protection</p></Link> 
-                <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Technology Hardening</p></Link>
-                <p id='footerText'></p>
-                <Link to='/ddosincident'><p id='footerText'>DDos Incident Response</p></Link>
-                <Link to='/pentesting'><p id='footerText'>Pentesting</p></Link>
+                    <p id='titlefooterText'>Services</p>
+                    <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
+                    <Link to='/drp'><p id='footerText'>Digital Risk Protection</p></Link>
+                    <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Technology Hardening</p></Link>
+                    <p id='footerText'></p>
+                    <Link to='/ddosincident'><p id='footerText'>DDos Incident Response</p></Link>
+                    <Link to='/pentesting'><p id='footerText'>Pentesting</p></Link>
                 </div>
             </div>
 
             <div className='algofooterRes'>
                 <div className='section2'>
                     <p id='titlefooterText'>Quick Links</p>
-                    <p id='footerText'>Home</p>
-                    <p id='footerText'>About us</p>
+                    <Link to='/'><p id='footerText'>Home</p></Link>
+                    <Link to='/aboutus'><p id='footerText'>About us</p></Link>
+                    <Link to='/contactus'><p id='footerText'>Contact us</p></Link>
                 </div>
                 <div className='resFlex'>
-                <div className='section3'>
-                <p id='titlefooterText'>Services</p>
-                <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link> 
-                <Link to='/drp'><p id='footerText'>Digital Risk Protection</p></Link> 
-                <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Technology Hardening</p></Link>
-                <p id='footerText'></p>
-                <Link to='/ddosincident'><p id='footerText'>DDos Incident Response</p></Link>
-                <Link to='/pentesting'><p id='footerText'>Pentesting</p></Link>
-                </div>
+                    <div className='section3'>
+                        <p id='titlefooterText'>Services</p>
+                        <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
+                        <Link to='/drp'><p id='footerText'>Digital Risk Protection</p></Link>
+                        <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Technology Hardening</p></Link>
+                        <p id='footerText'></p>
+                        <Link to='/ddosincident'><p id='footerText'>DDos Incident Response</p></Link>
+                        <Link to='/pentesting'><p id='footerText'>Pentesting</p></Link>
+                    </div>
                 </div>
                 <img className='footericon' src={algofooter} alt='footericon'></img>
                 <div className='section1'>
