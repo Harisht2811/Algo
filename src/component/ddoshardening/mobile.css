@@ -19,7 +19,8 @@
     }
     .hardeningim2 img {
         width: 425px;
-        margin-top: -95%;
+    margin-top: -63%;
+    margin-bottom: 32%;
     }
     .netwrokArchitecture{
         /* background-image: url(../../images/ddos/ddosHardMobile2.png); */
@@ -28,7 +29,7 @@
         margin: 0%;
         padding: 0%;
         height: 366px;
-        margin-top: 22%;
+        margin-top: 7%;
     }
     .ddosBanner{
         background-image: none;
@@ -53,14 +54,14 @@
     }
     .netArch {
         font-size: 19px;
-        padding-top: 28%;
-        margin-bottom: -20%;
+    padding-top: 33%;
+    margin-bottom: -20%;
     }
     .section2Content {
     font-size: 12px;
     margin-left: 14%;
     width: 70%;
-    padding-top: 29%;
+    padding-top: 27%;
     }
     .attackVectorAnalysis {
         height: auto;
@@ -68,18 +69,18 @@
     }
     #attackVector {
         font-size: 17px;
-        margin-left: -43%;
-        padding-top: 18%;
+        margin-left: -58%;
+        padding-top: 3%;
     }
     .section2Img {
-        margin-top: -23px;
-    margin-left: 6%;
-    width: 80%;
+        margin-top: -12px;
+    margin-left: -2%;
+    width: 95%;
     }
     #attackVectorPara {
         font-size: 10px;
         width: 46%;
-        margin-left: 7%;
+        margin-left: -1%;
     }
 
     #config {
@@ -89,14 +90,27 @@
     #vendorSelec {
         font-size: 16px;
         opacity: 1.8;
+        width: 40%;
+        margin-top: 3%;
      }
      .section4Flex {
         display: block;
         padding-left: 5%;
-        width: 99%;
+        width: 95%;
+        margin-bottom: 15%;
+    }
+    .configOptimiz {
+        margin-left: 0%;
     }
     .vendorSelction {
         margin-left: -1%;
+    }
+    #demo3 {
+        font-size: 14px;
+    }
+    #demo2 {
+        font-size: 14px;
+        padding-top: 0%;
     }
     #configPara {
         font-size: 13px;
@@ -106,10 +120,7 @@
         font-size: 13px;
         width: 94%;
     }
-    #demo2 {
-        padding-top: 0%;
-        font-size: 12px;
-    }
+    
 }
 
 /* JSON */

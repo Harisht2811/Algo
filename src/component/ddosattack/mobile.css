@@ -98,11 +98,11 @@
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        padding: 15% 1% 5% 10%;
+        padding: 15% 1% 5% 12%;
         margin-bottom: 5%;
         padding-bottom: 5%;
-        height: 280px;
-        width: 94%;
+        height: 150px;
+        width: 82%;
         margin-right: 0%;
     }
     
@@ -110,9 +110,9 @@
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        padding: 15% 1% 5% 10%;
-        height: 280px;
-        width: 94%;
+        padding: 15% 1% 5% 12%;
+        height: 150px;
+        width: 82%;
     }
     .ddosattack_CardTitle {
         font-family: 'Manrope';
@@ -144,6 +144,7 @@
         line-height: 203.1%;
         color: #A8A8A8;
         width: 98%;
+        margin-top: 2%;
     }
     
     .ddosattack_section3 {
@@ -180,6 +181,7 @@
         opacity: 0.8;
         width: 80%;
         margin-left: 10%;
+        margin-top: 3%;
     }
     
     .structureList {
@@ -234,7 +236,7 @@
         font-size: 12px;
         line-height: 170.1%;
         text-align: left;
-        color: #f;
+        color: #FFFFFF;
         list-style-position: inside;
         margin-left: -5%
     }
@@ -267,6 +269,7 @@
         color: #FFFFFF;
         width: 80%;
         margin-left: 10%;
+        margin-top: 2%;
     }
     
     .Actionable {
@@ -278,7 +281,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 28px;
         line-height: 120.1%;
         text-align: center;
         letter-spacing: -0.05em;
@@ -289,12 +292,13 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 13px;
         line-height: 170.1%;
         text-align: center;
         color: #000E08;
         width: 95%;
         margin-left: 2%;
+        margin-top: 2%;
     }
     
     .ddostesting{
@@ -333,9 +337,11 @@
     
     .ddostesting_right{
         margin-left: 1%;
+        margin-top: 4%;
     }
     .ddostesting_right1{
         margin-left: 1%;
+        margin-top: 4%;
     }
     
     .ddostesting_box{
@@ -364,6 +370,7 @@
     line-height: 203.1%;
     text-align: justify;
     color: #FFFFFF;
+    margin-top: 4%;
     opacity: 0.6;
     width: 98%;
     }
@@ -476,11 +483,11 @@
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        padding: 15% 1% 5% 10%;
+        padding: 15% 1% 5% 12%;
         margin-bottom: 5%;
         padding-bottom: 5%;
-        height: 250px;
-        width: 94%;
+        height: 140px;
+        width: 84%;
         margin-right: 0%;
     }
     
@@ -488,9 +495,9 @@
         background-image: url('../../images/ddosattack/ddosattackcard.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        padding: 15% 1% 5% 10%;
-        height: 250px;
-        width: 94%;
+        padding: 15% 1% 5% 12%;
+        height: 140px;
+        width: 84%;
     }
     .ddosattack_CardTitle {
         font-family: 'Manrope';
@@ -529,7 +536,7 @@
         background-size: 100% 110%;
         background-repeat: no-repeat;
         padding: 5% 0 6% 0%;
-        margin: 0%;
+        margin-top: -1%;
     }
     
     .ddos_structure {
@@ -554,14 +561,16 @@
         font-size: 14px;
         line-height: 170.1%;
         text-align: center;
-        color: #999999;
+        color: #FFFFFF;
+        opacity: 0.7;
         width: 80%;
+        margin-top: 4%;
         margin-left: 10%;
     }
     
     .structureList {
         display: block;
-        margin-left: 3%;
+        margin-left: 9%;
         margin-top: 0%;
     }
     
@@ -611,9 +620,10 @@
         font-size: 12px;
         line-height: 170.1%;
         text-align: left;
-        color: #868686;
+        color: #FFFFFF;
+        opacity: 0.7;
         list-style-position: inside;
-        margin-left: -8%
+        margin-left: -5%
     }
     .blockList li br{
         display: none;
@@ -626,7 +636,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 120.1%;
         letter-spacing: -0.05em;
         text-transform: uppercase;
@@ -644,6 +654,7 @@
         color: #FFFFFF;
         width: 80%;
         margin-left: 10%;
+        margin-top: 2%;
     }
     
     .Actionable {
@@ -655,7 +666,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
+        font-size: 25px;
         line-height: 120.1%;
         text-align: center;
         letter-spacing: -0.05em;
@@ -666,7 +677,8 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 12px;
+        font-size: 13px;
+        margin-top: 3%;
         line-height: 170.1%;
         text-align: center;
         color: #000E08;
@@ -720,6 +732,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
+    margin-top: 3%;
     line-height: 203.1%;
     text-align: justify;
     background: linear-gradient(180deg, #2CD58B 0%, #3AC9FB 100%);
@@ -743,6 +756,7 @@
     color: #FFFFFF;
     opacity: 0.6;
     width: 98%;
+    margin-top: 5%;
     }
     
     .testhrline{
@@ -891,7 +905,7 @@
             padding: 15% 1% 5% 10%;
             margin-bottom: 5%;
             padding-bottom: 5%;
-            height: 250px;
+            height: 200px;
             width: 100%;
             margin-right: 0%;
         }
@@ -901,7 +915,7 @@
             background-repeat: no-repeat;
             background-size: 100% 100%;
             padding: 15% 1% 5% 10%;
-            height: 250px;
+            height: 200px;
             width: 100%;
         }
         .ddosattack_CardTitle {

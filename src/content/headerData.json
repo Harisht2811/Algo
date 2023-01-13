@@ -17,7 +17,7 @@
         },
         {
             "navLink":"About us",
-            "routeLink":"/aboutus"
+            "routeLink":"/aboutusNew"
         },
         {
             "navLink":"Contact us",
@@ -33,7 +33,7 @@
         },
         {
             "navLink":"About us",
-            "routeLink":"/aboutus"
+            "routeLink":"/aboutusNew"
         },
         {
             "navLink":"Contact us",

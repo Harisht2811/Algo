@@ -32,7 +32,7 @@ function footer() {
                 <div className='section2'>
                     <p id='titlefooterText'>Quick Links</p>
                     <Link to='/'><p id='footerText'>Home</p></Link>
-                    <Link to='/aboutus'><p id='footerText'>About us</p></Link>
+                    <Link to='/aboutusNew'><p id='footerText'>About us</p></Link>
                     <Link to='/contactus'><p id='footerText'>Contact us</p></Link>
                 </div>
                 <div className='section3'>
@@ -50,7 +50,7 @@ function footer() {
                 <div className='section2'>
                     <p id='titlefooterText'>Quick Links</p>
                     <Link to='/'><p id='footerText'>Home</p></Link>
-                    <Link to='/aboutus'><p id='footerText'>About us</p></Link>
+                    <Link to='/aboutusNew'><p id='footerText'>About us</p></Link>
                     <Link to='/contactus'><p id='footerText'>Contact us</p></Link>
                 </div>
                 <div className='resFlex'>

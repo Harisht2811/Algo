@@ -50,7 +50,7 @@ function Ddos() {
           <div className='configOptimiz'>
               <p id='config'>Configuration Optimization</p>
               <p id='configPara'>Installed DDoS protection solutions are often underutilized. Our team dives into your protection setup and provides detailed instructions on how to improve appliance configuration. For example, we ensure that rate limit thresholds are well-calibrated, that you have chosen the most appropriate web challenge, and that you fully utilize bot and geo-protection.</p>
-              <p id='demo1'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
+              <p id='demo3'>Get a Demo <img src={arrow} className='demoArrow' alt='arrow' onClick={() => setButtonPopup(true)}/></p>
           </div>
           <div className='vendorSelction'>
               <p id='vendorSelec'>Vendor Selection</p>

@@ -7,11 +7,16 @@
     .ddosdemo {
         margin-left: 35%;
     }
+    .hardenimg img {
+        margin-left: 60px !important;
+        width: 564px;
+        margin-top: -8%;
+    }
     #banimg{
         width: 78%;
     }
     .ddosDesc {
-        width: 97%;
+        width: 90%;
     font-size: 22px;
     }
     .ddosSection1 {
@@ -19,7 +24,7 @@
     }
     .hardeningim2 img {
         width: 1498px;
-        margin-top: -39%;
+        margin-top: -38%;
     }
     .netwrokArchitecture {
         padding-top: 18%;
@@ -38,7 +43,7 @@
     margin-bottom: 10%;
     }
     .section2Content {
-        font-size: 17px;
+        font-size: 18px;
         width: 51%;
         margin-left: 25%;
         text-align: center;
@@ -51,6 +56,7 @@
         width: 20%;
         margin-left: 141px;
         font-size: 16px;
+        margin-top: 2%;
     }
     .section2Img {
         margin-left: 10%;
@@ -61,22 +67,22 @@
         height: auto;
     }
     #configPara {
-        width: 72%;
+        width: 73%;
     font-size: 18px;
     }
     .vendorSelction {
         margin-left: -1%;
     }
     #vendorSelecPara {
-        width: 99%;
+        width: 98%;
         font-size: 18px;
     }
     .section4Flex {
-        width: 88%;
-        padding-left: 13%;
+        width: 78%;
+    padding-left: 12%;
     }
     #demo2 {
-        padding-top: 22%;
+        padding-top: 17%;
     }
 }
 
@@ -86,9 +92,9 @@
         margin-top: -39%;
     }
     .hardenimg img {
-        margin-left: 100px !important;
-        width: 656px;
-        margin-top: -8%;
+        margin-left: 50px !important;
+    width: 546px;
+    margin-top: -8%;
     }
     .ddosBanner {
         margin-top: -1%;
@@ -97,7 +103,7 @@
         margin-left: -684px;
     }
     #demo2 {
-        padding-top: 14%;
+        padding-top: 18%;
     }
     .netArch {
         font-size: 59px;

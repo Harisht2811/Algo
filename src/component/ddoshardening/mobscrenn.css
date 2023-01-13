@@ -17,7 +17,8 @@
     }
     .hardeningim2 img {
         width: 374px;
-        margin-top: -98%;
+    margin-top: -66%;
+    margin-bottom: 44%;
     }
     .netwrokArchitecture{
         /* background-image: url(../../images/ddos/ddosHardMobile2.png); */
@@ -46,7 +47,7 @@
     }
     .demobtn1 {
         width: 71px;
-        height: 31px;
+        height: 27px;
     }
     .dembtn{
         font-size: 10px;
@@ -54,8 +55,8 @@
     .netArch {
         font-size: 14px;
     margin-left: -3%;
-    margin-top: -13%;
-    padding-top: 34%;
+    margin-top: -22%;
+    padding-top: 35%;
     padding-bottom: 9%;
     }
     .section2Content {
@@ -70,18 +71,18 @@
     }
     #attackVector {
         font-size: 14px;
-        margin-left: -62%;
+        margin-left: -56%;
         padding-top: 13%;
     }
     #attackVectorPara {
         font-size: 10px;
         width: 47%;
-        margin-left: -1%;
+        margin-left: 2%;
     }
     .section2Img {
-        margin-top: -21px;
-        margin-left: -1%;
-        width: 91%;
+        margin-top: -11px;
+    margin-left: -1%;
+    width: 94%;
     }
     .vendorSelction {
         margin-left: 0%;
@@ -89,31 +90,36 @@
     }
     .section4Flex {
         display: block;
-        padding-left: 6%;
-        width: 99%;
+        padding-left: 8%;
+        width: 94%;
+        margin-bottom: 15%;
     }
     #config {
-        font-size: 12px;
-        width: 44%;
+        font-size: 14px;
+        width: 52%;
     }
     #configPara {
         font-size: 13px;
-        width: 95%;
+        width: 94%;
     }
-    #demo1 {
+    #demo3 {
         font-size: 12px;
+        margin-bottom: 4%;
     }
     #vendorSelec {
-        font-size: 12px;
-        width: 27%;
+        font-size: 14px;
+        width: 36%;
+        margin-left: -10px;
     }
     #vendorSelecPara {
         font-size: 13px;
-        width: 95%;
+        width: 96%;
+        margin-left: -10px;
     }
     #demo2 {
         font-size: 12px;
         padding-top: 0%;
+        margin-left: -3%;
     }
 }
 

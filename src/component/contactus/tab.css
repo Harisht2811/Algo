@@ -8,8 +8,17 @@
     margin-top: 0%;
         margin-left: -2%;
     }
-    .label{
-        margin-top: 2%;
+    .email {
+        margin-left: 16%;
+    }
+    label {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: #9BA4A2;
+        margin-top: 3%;
     }
     .submitBtn {
         width: 29%;

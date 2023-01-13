@@ -1,4 +1,4 @@
-@media screen and (max-width:775px) and (min-width:426px) 
+@media screen and (max-width:768px) and (min-width:426px) 
 {
     .ddosTitle {
         font-size: 33px;
@@ -6,7 +6,7 @@
     margin-top: 9%;
     }
     .hardenimg img {
-        margin-left: 92px;
+        margin-left: 70px;
     width: 79%;
     }
     .hardeningim2 img {
@@ -37,9 +37,9 @@
         width: 64%;
     }
     .section2Img {
-        width: 76%;
-        margin-top: -57px;
-        margin-left: 11%;
+        width: 79%;
+    margin-top: -32px;
+    margin-left: 11%;
     }
     #config {
 
@@ -55,21 +55,22 @@
         margin-top: 3%;
     }
     #attackVectorPara {
-        font-size: 12px;
+        font-size: 13px;
         width: 26%;
         margin-left: 11%;
+        margin-top: 2%;
     }
     .section4Flex {
-        margin-left: -10%;
-        width: 100%;
+        margin-left: -9%;
+        width: 89%;
         
     }
     #configPara {
-        width: 75%;
+        width: 73%;
         font-size: 15px;
     }
     #vendorSelecPara {
-        width: 108%;
+        width: 96%;
         font-size: 15px;
     }
     #demo2 {

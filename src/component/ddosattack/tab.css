@@ -10,8 +10,8 @@
     }
     .ddossession img {
         width: 576px;
-    margin-bottom: -37%;
-    margin-left: -10%;
+    margin-bottom: -13%;
+    margin-left: -12%;
     }
     .ddosattack_Title {
         font-family: 'Manrope';
@@ -88,7 +88,8 @@
     
     .ddosattack_cardlist {
         display: flex;
-        margin-left: 2%;
+        margin-left: 0%;
+        width: 97%;
     }
     .ddosattack_card {
         background-image: url('../../images/ddosattack/ddosattackcard.png');
@@ -97,7 +98,7 @@
         padding: 10% 1% 5% 5%;
         margin-bottom: 5%;
         padding-bottom: 5%;
-        height: 389px;
+        height: 260px;
         width: 100%;
         margin-right: 2%;
     }
@@ -107,7 +108,7 @@
         background-repeat: no-repeat;
         background-size: 100% 100%;
         padding: 10% 1% 5% 5%;
-        height: 389px;
+        height: 260px;
         width: 100%;
     }
     .ddosattack_CardTitle {
@@ -140,6 +141,7 @@
         line-height: 203.1%;
         color: #A8A8A8;
         width: 98%;
+        margin-top: 10%;
     }
     
     .ddosattack_section3 {
@@ -175,6 +177,7 @@
         text-align: center;
         color: #FFFFFF;
         opacity: 0.8;
+        margin-top: 2%;
         width: 60%;
         margin-left: 20%;
     }
@@ -182,7 +185,7 @@
     .structureList {
         display: flex;
         margin-left: -8%;
-        margin-top: 12%;
+        margin-top: 7%;
     }
     
     .structureBlock {
@@ -199,6 +202,8 @@
     
     .blocksPara {
         margin-top: 15%;
+        width: 234px;
+        margin-left: 20%;
     }
     
     .block_title {
@@ -210,6 +215,7 @@
         letter-spacing: -0.01em;
         color: #FFFFFF;
         text-align: center;
+        margin-bottom: 3%;
     }
     
     .imageFlex {
@@ -231,9 +237,10 @@
         font-size: 12px;
         line-height: 170.1%;
         text-align: center;
-        color: #868686;
+        color: #FFFFFF;
+        opacity: 0.7;
         list-style-position: inside;
-        margin-left: -13%
+        margin-left: -3%
     }
     
     .ddosplatform {
@@ -262,6 +269,7 @@
         color: #FFFFFF;
         width: 65%;
         margin-left: 18%;
+        margin-top: 2%;
     }
     
     .Actionable {
@@ -289,6 +297,7 @@
         text-align: center;
         color: #000E08;
         width: 80%;
+        margin-top: 1%;
         margin-left: 10%;
     }
     
@@ -318,12 +327,13 @@
         font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 203.1%;
     text-align: left;
     color: #FFFFFF;
     opacity: 0.8;
-    width: 84%;
+    width: 96%;
+    margin-top: 2%;
     }
     
     .ddostesting_right{
@@ -355,11 +365,12 @@
         font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 203.1%;
     text-align: justify;
     color: #FFFFFF;
     opacity: 0.8;
+    margin-top: 3%;
     width: 98%;
     }
     

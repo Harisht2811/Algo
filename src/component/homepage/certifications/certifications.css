@@ -124,12 +124,12 @@ button {
 
     .heard {
         padding: 10% 3%;
-        width: 95%;
+        width: 94%;
     }
 
     .securityIssues {
         display: block;
-        height: 425px;
+        height: 345px;
         margin: 15% 0 0 5%;
     }
 
@@ -144,7 +144,7 @@ button {
     }
 
     .certificateButton {
-        margin: 8% 0 0 25%;
+        margin: 1% 0 0 25%;
     }
 }
 
@@ -197,7 +197,7 @@ button {
     }
 
     .certificateButton {
-        margin: 8% 0 0 5%;
+        margin: 1% 0 0 5%;
     }
 }
 
