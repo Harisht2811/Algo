@@ -1,8 +1,17 @@
 @media screen and (max-width:775px) and (min-width:426px) 
 {
     .ddosTitle {
-        font-size: 32px;
-        width: 89%;
+        font-size: 33px;
+    width: 313px;
+    margin-top: 9%;
+    }
+    .hardenimg img {
+        margin-left: 92px;
+    width: 79%;
+    }
+    .hardeningim2 img {
+        width: 768px;
+    margin-top: -49%;
     }
     .bgimg{
         margin-top: -3%;
@@ -19,8 +28,11 @@
         font-size: 29px;
         margin-top: -226px;
     }
+    .ddosbanflex {
+        margin-top: -1%;
+    }
     .section2Content {
-        font-size: 11px;
+        font-size: 14px;
         margin-left: 128px;
         width: 64%;
     }
@@ -29,9 +41,18 @@
         margin-top: -57px;
         margin-left: 11%;
     }
+    #config {
+
+        font-size: 22px;
+    }
+    #vendorSelec {
+        font-size: 22px;
+        opacity: 1.8;
+    }
     #attackVector {
         font-size: 20px;
         margin-left: -50%;
+        margin-top: 3%;
     }
     #attackVectorPara {
         font-size: 12px;
@@ -41,18 +62,25 @@
     .section4Flex {
         margin-left: -10%;
         width: 100%;
+        
     }
     #configPara {
         width: 75%;
+        font-size: 15px;
     }
     #vendorSelecPara {
         width: 108%;
+        font-size: 15px;
     }
     #demo2 {
-        padding-top: 32%;
+        padding-top: 20%;
+    }
+    #demo1 {
+        font-size: 16px !important;
     }
     .attackVectorAnalysis {
         height: auto;
+        margin-bottom: -6%;
     }
     .netwrokArchitecture {
         padding-top: 44%;

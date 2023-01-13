@@ -1,17 +1,28 @@
 @media screen and (max-width:425px) and (min-width:376px) {
     .ddosSection1{
-        background-image: url(../../images/ddos/ddosHardMobile.png);
+        /* background-image: url(../../images/ddos/ddosHardMobile.png); */
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 0%;
         padding: 0%;
-        height: 90vh;
+        height: auto;
         width: 100%;
-        padding-left: 8%;
+        padding-left: 6%;
         padding-top: 13%;
     }
+    .ddosbanflex {
+        margin-top: -1%;
+    }
+    .hardenimg img {
+        margin-left: 13px;
+        width: 86%;
+    }
+    .hardeningim2 img {
+        width: 425px;
+        margin-top: -95%;
+    }
     .netwrokArchitecture{
-        background-image: url(../../images/ddos/ddosHardMobile2.png);
+        /* background-image: url(../../images/ddos/ddosHardMobile2.png); */
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 0%;
@@ -23,12 +34,13 @@
         background-image: none;
     }
     .ddosTitle {
-        font-size: 24px;
-        width: 58%;
+        font-size: 20px;
+        width: 189px;
         padding-bottom: 6%;
+        margin-top: -10%;
     }
     .ddosDesc {
-        font-size: 14px;
+        font-size: 12px;
         width: 89%;
     }
     #dembtn {
@@ -45,8 +57,8 @@
         margin-bottom: -20%;
     }
     .section2Content {
-    font-size: 10px;
-    margin-left: 16%;
+    font-size: 12px;
+    margin-left: 14%;
     width: 70%;
     padding-top: 29%;
     }
@@ -76,6 +88,7 @@
     }
     #vendorSelec {
         font-size: 16px;
+        opacity: 1.8;
      }
      .section4Flex {
         display: block;
@@ -86,11 +99,11 @@
         margin-left: -1%;
     }
     #configPara {
-        font-size: 14px;
+        font-size: 13px;
         width: 96%;
     }
     #vendorSelecPara {
-        font-size: 14px;
+        font-size: 13px;
         width: 94%;
     }
     #demo2 {

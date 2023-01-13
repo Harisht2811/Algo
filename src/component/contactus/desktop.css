@@ -1,4 +1,4 @@
-@media screen   and (max-width:1440px)and (min-width:1026px){
+@media screen   and (max-width:1705px)and (min-width:1026px){
     label {
         font-size: 14px;
     }
@@ -17,15 +17,15 @@
     }
     .input1 {
         margin-top: 2%;
-        width: 169px;
+        width: 188px;
     }
     .input2 {
         margin-left: 8%;
-        width: 169px;
+        width: 188px;
     }
     .ContactParaTitle1 {
-        width: 45%;
-        font-size: 25px;
+        width: 43%;
+        font-size: 26px;
     }
     .paraContent {
         width: 46%;
@@ -47,4 +47,19 @@
     .css-1s2u09g-control:hover {
         border-color: hsl(0, 0%, 46%) !important;
     }
+    .meetourTeam{
+        display: none;
+    }
 }
+
+
+/* @media screen   and (max-width:14405px)and (min-width:1026px){
+    .input1 {
+        margin-top: 2%;
+        width: 178px;
+    }
+    .input2 {
+        margin-left: 8%;
+        width: 183px;
+    }
+} */

@@ -15,6 +15,7 @@
     .contactForm {
         width: 69%;
         margin-left: 3%;
+        height: 575px;
     }
     .input1 {
         width: 202px;
@@ -26,7 +27,7 @@
         height: 87px;
     }
     .contactForm {
-        height: 605px;
+        height: 575px;
     }
     .ContactParaTitle1 {
         margin-top: 4%;
@@ -48,5 +49,8 @@
     .contactBanner {
         margin-bottom: -1%;
         padding-bottom: 9%;
+    }
+    .meetourTeam{
+        display: none;
     }
 }

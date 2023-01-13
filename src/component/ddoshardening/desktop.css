@@ -1,42 +1,51 @@
-@media screen and (max-width:1440px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1025px) {
 
     body {
         padding: 0%;
         margin: 0%;
     }
+    .ddosdemo {
+        margin-left: 35%;
+    }
     #banimg{
         width: 78%;
     }
     .ddosDesc {
-        width: 83%;
+        width: 97%;
+    font-size: 22px;
     }
     .ddosSection1 {
         margin-bottom: 26%;
+    }
+    .hardeningim2 img {
+        width: 1498px;
+        margin-top: -39%;
     }
     .netwrokArchitecture {
         padding-top: 18%;
     }
     .ddosBanner{
-        background-image: url(../../images/ddos/Bgimg1.png);
+        /* background-image: url(../../images/ddos/Bgimg1.png); */
         background-size: 100% 100%;
     }
     .ddosTitle {
-        width: 100%;
-        font-size: 64px;
+        font-size: 65px;
+        width: 626px;
     }
     .netArch {
         font-size: 59px;
-        margin-top: -29%;
+    margin-top: -25%;
+    margin-bottom: 10%;
     }
     .section2Content {
-        font-size: 16px;
-        width: 52%;
+        font-size: 17px;
+        width: 51%;
         margin-left: 25%;
         text-align: center;
     }
     #attackVector {
         font-size: 37px;
-        margin-left: -594px;
+        margin-left: -736px;
     }
     #attackVectorPara {
         width: 20%;
@@ -44,7 +53,7 @@
         font-size: 16px;
     }
     .section2Img {
-        margin-left: 11%;
+        margin-left: 10%;
         width: 72%;
         margin-top: -67px;
     }
@@ -52,26 +61,50 @@
         height: auto;
     }
     #configPara {
-        width: 76%;
-        font-size: 16px;
+        width: 72%;
+    font-size: 18px;
     }
     .vendorSelction {
         margin-left: -1%;
     }
     #vendorSelecPara {
-        width: 98%;
-        font-size: 16px;
+        width: 99%;
+        font-size: 18px;
     }
     .section4Flex {
         width: 88%;
         padding-left: 13%;
     }
     #demo2 {
-        padding-top: 14%;
+        padding-top: 22%;
     }
 }
 
-
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    .hardeningim2 img {
+        width: 1438px;
+        margin-top: -39%;
+    }
+    .hardenimg img {
+        margin-left: 100px !important;
+        width: 656px;
+        margin-top: -8%;
+    }
+    .ddosBanner {
+        margin-top: -1%;
+    }
+    #attackVector {
+        margin-left: -684px;
+    }
+    #demo2 {
+        padding-top: 14%;
+    }
+    .netArch {
+        font-size: 59px;
+        margin-top: -27%;
+        margin-bottom: 13%;
+    }
+}
 /* JSON CSS */
 /* @media screen and (max-width:1440px) and (min-width:1025px) {
 
