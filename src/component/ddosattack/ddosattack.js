@@ -29,7 +29,7 @@ function Ddosattack() {
       <div className='ddosattack_section2'>
         <div className='ddosattack_cardlist' >
           <div className='ddosattack_card'>
-            <p className='ddosattack_CardTitle'> Volumetric attacks</p>
+            <p className='ddosattack_CardTitle'>Volumetric attacks</p>
             <p className='ddosattack_CardDesc'>Generating multi-gigabit attack traffic from multiple global locations, we test your ability to withstand extreme and sustained attacks</p>
           </div>
           <div className='ddosattack_card'>

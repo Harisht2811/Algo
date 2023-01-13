@@ -4,18 +4,47 @@
         padding: 0%;
         margin: 0%;
     }
+    .ddosbanflex {
+        display: flex;
+        margin-top: -1%;
+    }
     #banimg{
         width: 78%;
     }
     .ddosDesc {
         width: 95%;
     }
+    #config {
+        font-size: 22px;
+    }
+    #vendorSelec {
+        font-size: 22px;
+        width: 24%;
+        color: #FFFFFF;
+        opacity: 1.8;
+    }
+    #configPara {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    #vendorSelecPara {
+        font-size: 15px;
+    }
+    .hardenimg img {
+        margin-left: 110px;
+    width: 78%;
+    margin-top: -7%;
+    }
     .ddosSection1 {
         padding-bottom: 14%;
     }
     .ddosBanner{
-        background-image: url(../../images/ddos/Bgimg1.png);
+        /* background-image: url(../../images/ddos/Bgimg1.png); */
         background-size: 100% 100%;
+    }
+    .hardeningim2 img {
+        width: 1023px;
+    margin-top: -46%;
     }
     .ddosTitle {
         font-size: 42px;
@@ -59,9 +88,13 @@
     .section4Flex {
         width: 88%;
         padding-left: 5%;
+        margin-bottom: -8%;
     }
     #demo2 {
         padding-top: 13%;
+    }
+    #demo1 {
+        font-size: 16px !important;
     }
 }
 

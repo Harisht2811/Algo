@@ -21,10 +21,11 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 214.1%;
     text-align: center;
-    color: #868686;
+    color: #FFFFFF;
+    opacity: 0.8;
     margin-top: -1%;
 }
 .ContactFlex{
@@ -130,8 +131,8 @@ input,label{
     font-weight: 600;
     font-size: 14px;
     line-height: 150.6%;
-    color: #9BA4A2;
-    opacity: 0.6;
+    color: #FFFFFF;
+    opacity: 0.8;
     width: 49%;
     padding-bottom: 4%;
     margin-top: -1%;
@@ -152,7 +153,8 @@ input,label{
     font-weight: 600;
     font-size: 14px;
     line-height: 150.6%;
-    color: #9BA4A2;
+    color: #FFFFFF;
+    opacity: 0.8;
     margin-top: -1%;
 }
 .linkCont{
@@ -232,4 +234,7 @@ background-color: #000000;
 .css-1pahdxg-control::selection{
     border-color: #E7E7E7 !important;
     box-shadow: none;
+}
+.meetourTeam{
+    display: none;
 }

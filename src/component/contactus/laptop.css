@@ -6,6 +6,9 @@
         width: 840px !important;
         height: 619px
     }
+    .contactTitle1 {
+        font-size: 50.7113px;
+    }
     .email {
         margin-left: 8%;
     }
@@ -18,8 +21,8 @@
         width: 165px;
     }
     .ContactParaTitle1 {
-        width: 68%;
-        font-size: 25px;
+        width: 58%;
+    font-size: 21px;
     }
     .paraContent {
         width: 77%;
@@ -38,6 +41,9 @@
     }
     .linkCont{
         opacity: 0.6;
+    }
+    .meetourTeam{
+        display: none;
     }
     
 }

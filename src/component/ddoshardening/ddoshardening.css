@@ -75,57 +75,60 @@ width: 58%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 59px;
+    font-size: 66px;
     line-height: 120.1%;
     text-align: center;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    margin-top: -23%;
+    margin-top: -26%;
+    margin-left: -2%;
+    margin-bottom: 13%;
 }
 .section2Content{
-    width: 714px;
     height: 108px;
     top: 933px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 170.1%;
     text-align: center;
     color: #CBCBCB;
-    margin-left: 32%;
+    margin-left: 26%;
     margin-top: 8%;
+    width: 48%;
 }
 .attackVectorAnalysis{
     background-color: #000E08;
-    height: 175vh;
+    height: auto;
     margin-top: -2%;
 }
 #attackVector {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 600;
-    font-size: 37px;
+    font-size: 40px;
     line-height: 120.1%;
     text-align: center;
     letter-spacing: -0.02em;
     color: #00CD78;
-    margin-left: -43%;
+    margin-left: -45%;
     padding-top: 4%;
 }
 #attackVectorPara {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 170.1%;
     color: #CBCBCB;
     width: 15%;
-    margin-left: 18%;
+    margin-left: 340px;
 }
 .section2Img {
-    margin-top: -61px;
-    margin-left: 18%;
+    margin-top: -105px;
+    margin-left: 17%;
+    width: 1154px;
 }
 .bgimg{
     margin-left: 7%;
@@ -141,7 +144,7 @@ width: 58%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 32px;
     line-height: 120.1%;
     width: 30%;
     letter-spacing: -0.01em;
@@ -151,18 +154,19 @@ width: 58%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 203.1%;
     text-align: justify;
-    color: #9BA4A2;
-    opacity: 0.6;
+    color: #FFFFFF;
+
+opacity: 0.8;
     width: 39%;
 }
 #vendorSelec{
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 32px;
     line-height: 120.1%;
     letter-spacing: -0.01em;
     width: 24%;
@@ -176,11 +180,12 @@ width: 58%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 203.1%;
     text-align: justify;
-    color: #9BA4A2;
-    opacity: 0.6;
+    color: #FFFFFF;
+
+opacity: 0.8;
     width: 51%;
 }
 #demo1{
