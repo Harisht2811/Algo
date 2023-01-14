@@ -23,7 +23,7 @@
     }
 
     .challengeImg {
-        width: 380.73px;
+        width: 320.73px;
         height: 354.29px;
     }
 
@@ -34,10 +34,17 @@
         display: none;
     }
     .challengeBlock {
-
-        margin-right: 9%;
+        padding-bottom: 10%;
+        margin-right: 0%;
+        background-size: 95% 100%;
     }
-
+    .challengeList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 6%;
+        grid-column-gap: 12%;
+        margin-right: -6%;
+    }
     .driveTitle {
         font-family: 'Manrope';
         font-style: normal;

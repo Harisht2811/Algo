@@ -5,154 +5,112 @@
         background-repeat: no-repeat;
         margin: 0%;
         padding: 0%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         height: 100vh;
     }
-
     .bannerTitle1 {
-        font-size: 31px;
-        margin-left: 15%;
+        font-size: 26px;
+        padding-top: 6%;
+        margin-left: 10%;
     }
 
-    .bannertitle2 {
-        font-size: 31px;
-        margin-left: -5%;
-    }
-
-    .ddosIncidentPara {
-        font-size: 14px;
-    margin-left: 7%;
-    width: 86%;
-    margin-top: 9%;
-    text-align: center;
+    .ddosIncidentBannerright {
+        margin-top: 0%;
     }
 
     .dembtn {
-        margin-left: 35%;
-        margin-top: 5%;
-    }
-    .ddosIncidentBannerTitle2 {
-        font-size: 20px;
-        padding-top: 11%;
-    }
-    .serviceIncludesPara {
-        font-size: 14px;
-        width: 82%;
-        margin-left: 9%;
-        padding-bottom: 14%;
-    }
-   
-    .ddosIncidentBanner3 {
-        margin-top: -7%;
-    }
-    .ddosIncidentFlex {
-        display: block;
-    }
-    .ddosIncidentFlexTitle {
-        font-size: 21px;
-        width: 88%;
-        padding-top: 12%;
-    }
-    .ddosIncidentFlexContent {
-        margin-left: 8%;
-    }
-    hr {
-        width: 89%;
-    }
-    .ddosIncidentFlexPara {
-        font-size: 14px;
-        width: 93%;
-    }
-    .IncidentFlexImage {
         margin-left: 10%;
-        height: 87%;
-        padding-top: 2%;
-        padding-bottom: 11%;
-        width: 78%;
-    }
-    .ddosIncidentBanner4Card1 {
-        padding-left: 6%;
-    }
-    .ddosIncidentCardTitle {
-        font-size: 14px;
-        margin-top: -5%;
-    }
-    .Banner4Img1 {
-        width: 192%;
-        height: 96px;
-        padding-top: 20%;
-    }
-    .Banner4Img2 {
-        width: 188%;
-        height: 96px;
-        padding-top: 20%;
-    }
-    .Banner4Img3 {
-        width: 180%;
-        height: 96px;
-        padding-top: 20%;
-    }
-    .ddosIncidentBanner4Card {
-        margin-left: -1%;
-        padding-top: 15%;
-
-    }
-    .ddosIncidentCardPara1 {
-        font-size: 12px;
-        width: 94%;
-    }
-    .ddosIncidentCardPara2 {
-        font-size: 12px;
-        width: 94%;
-    }
-    .ddosIncidentCardPara3 {
-        font-size: 12px;
-        width: 94%;
     }
 
-    .ddosIncidentBanner4BannerRight1 {
+    .ddosIncidentPara {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 227.6%;
+        text-align: left;
+        color: #FFFFFF;
+        opacity: 0.8;
+        width: 300px;
+        margin-top: 3%;
         margin-left: 10%;
-        margin-bottom: 4%;
     }
-    .ddosIncidentBanner4BannerRight2 {
-        margin-left: 10%;
-        margin-bottom: 4%;
+
+    .ddosIncidentBanner4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 6%;
+        grid-column-gap: 4%;
+        margin: 0% 3% 30% 6% ;
+        padding-top: 6%;
     }
-    .ddosIncidentBanner4BannerRight3 {
-        margin-left: 10%;
-        margin-bottom: 4%;
-    }
-    .ddosIncidentCardPara {
-        font-size: 12px;
-        width: 93%;
-    }
-    .ddosIncidentSection4Title {
-        font-size: 18px;
+    .verticleLine {
+        border-left: 2px solid #00CD78;
+        height: 95px;
+        padding-left: 22px;
+        margin-left: -10%;
+        margin: 20% 0;
     }
     .ddosIncidentSection4Flex {
         display: block;
-        margin-top: 11%;
-        margin-bottom: -11%;
-        margin-left: 31px;
-        width: 82%;
+        background-color: #02160E;
+        width: 78%;
+        margin-left: 5%;
+        border-radius: 20px;
+        margin-top: 13%;
+        padding-left: 10%;
+        padding-top: 4%;
+        padding-bottom: 15%;
     }
-    .incidentTitle {
-        font-size: 14px;
-    }
+
     .incidentPara {
-        font-size: 12px;
-        width: 91%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+        opacity: 0.8;
+        width: 85%;
+        padding-top: 5%;
     }
-    .incidentPara1{
-        font-size: 12px;
-        width: 91%;
+
+    .ddosIncidentFlex {
+        display: block;
+        margin-top: 10%;
     }
-    .verticleLine {
-        height: 92px;
-        margin-bottom: 14%;
+    .ddosIncidentFlexContent {
+        margin-left: 12%;
         margin-top: 6%;
     }
-    .ddosIncidentBanner3 {
-        background-image: none;
-        background: #00CD78;
+
+    .ddosIncidentFlexTitle {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120.1%;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+        width: 80%;
+    }
+    
+    .ddosIncidentFlexPara {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 190.6%;
+        color: #FFFFFF;
+        opacity: 0.8;
+        width: 87%;
+    }
+    .IncidentFlexImage {
+        margin-left: 15%;
+        height: 100%;
+        width: 70%;
+        padding-top: 10%;
+        padding-bottom: 7%;
     }
 }

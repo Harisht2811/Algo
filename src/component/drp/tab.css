@@ -29,7 +29,9 @@
         height: 354.29px;
         margin-left: 25%;
     }
-
+    .challengeRight {
+        margin-left: 6%;
+    }
     .challenge {
         margin-left: 0%;
         margin-top: 15%;

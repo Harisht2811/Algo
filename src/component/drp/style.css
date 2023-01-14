@@ -5,6 +5,7 @@
     padding: 5% 0 10% 3%;
     margin: 0%;
     background-color: #000E08;
+    height: 90vh;
 }
 
 .textcolor {
@@ -487,3 +488,32 @@
     opacity: 0.8;
 }
 
+
+@media screen and (min-width:1441px) {
+
+    .searchiconimg {
+        margin-top: -20%;
+        margin-left: 28%;
+    }
+
+    .forensictitle {
+        margin-top: -14%;
+    }
+
+    .forensicflex {
+        display: flex;
+        margin-left: 12%;
+        padding-bottom: 10%;
+    }
+
+    .flexdata {
+        margin-left: 4%;
+    }
+
+    .challenge {
+        margin-left: 15%;
+        margin-top: 15%;
+        display: flex;
+        padding-bottom: 10%;
+    }
+}
