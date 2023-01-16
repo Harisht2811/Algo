@@ -19,6 +19,7 @@
         letter-spacing: -0.05em;
         color: #FFFFFF;
         padding-bottom: 2%;
+        width: 80%;
     }
 
     .colorText {
@@ -34,7 +35,7 @@
         color: #FFFFFF;
         opacity: 0.6;
         padding-bottom: 5%;
-        width: 100%;
+        width: 83%;
     }
 
     .demobtn {
@@ -44,13 +45,13 @@
         font-family: Manrope;
         font-size: 14px;
         font-weight: 700;
-        height: 40px;
+        height: 27px;
         letter-spacing: 0;
         line-height: 19px;
         margin: 3% 0 15% 0%;
         outline: none;
         text-align: center;
-        width: 150px;
+        width: 100px;
         padding-top: 2.5%;
         cursor: pointer;
     }
@@ -64,7 +65,7 @@
 
     .ransome_part2 img {
         width: 404px;
-        height: 404px;
+        height: 356px;
         margin-left: 20%;
     }
 
@@ -92,8 +93,8 @@
         font-size: 14px;
         line-height: 203.1%;
         text-align: justify;
-        color: #9BA5A3;
-        opacity: 0.6;
+        color: #fff;
+        opacity: 0.8;
         padding-top: 0%;
         padding-bottom: 1%;
     }
@@ -101,7 +102,8 @@
     .ransomware_section2 {
         background-color: #000E08;
         padding-bottom: 5%;
-        margin-top: -3%;
+        margin-top: -2%;
+        padding-bottom: 8%;
     }
 
     .ransomeware_section_title {
@@ -114,7 +116,7 @@
         letter-spacing: -0.05em;
         color: #00CD78;
         padding-top: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 8%;
     }
 
     .ransomeCardList {
@@ -131,12 +133,14 @@
         padding: 5%;
         padding-top: 15%;
         padding-right: 0%;
+        height: 270px;
     }
 
     .ransomeCard:hover {
         background-image: url('../../images/Ransomeware/ransomCard.png');
         background-repeat: no-repeat;
         background-size: 100% 97%;
+        height: 270px;
     }
 
     .ransomCard_title {
@@ -155,11 +159,11 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 203.1%;
         text-align: justify;
-        color: #9BA4A2;
-        opacity: 0.6;
+        color: #ffff;
+        opacity: 0.8;
         padding-bottom: 2%;
         width: 92%;
     }
