@@ -78,11 +78,11 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 203.1%;
     text-align: justify;
-    color: #9BA5A3;
-    opacity: 0.6;
+    color: #fff;
+    opacity: 0.8;
     padding-bottom: 0%;
     padding-top: 2%;
 }
@@ -113,11 +113,13 @@
     padding: 4%;
     padding-top: 7%;
     width: 75%;
+    margin-bottom: 5%;
 }
 .ransomeCard:hover{
     background-image: url('../../images/Ransomeware/ransomCard.png');
     background-repeat: no-repeat;
     background-size: 48% 95%;
+    margin-bottom: 5%;
 }
 .ransomCard_title{
     font-family: 'Manrope';
@@ -134,11 +136,11 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 203.1%;
     text-align: left;
-    color: #9BA4A2;
-    opacity: 0.6;
+    color: #ffff;
+    opacity: 0.8;
     padding-bottom: 2%;
     width: 42%;
     
@@ -150,10 +152,13 @@
     margin-left: -39%;
 }
 .ransomeDotLeft{
-    width: 300px;
-    height: 201px;
+    height: 262px;
+    margin-left: -23%;
     margin-top: -20%;
-    margin-left: 5%;
+    width: 299px;
+}
+.ransomeDotright{
+    height: 255px;
 }
 /* .ransomeDotright{
     width: 560px;

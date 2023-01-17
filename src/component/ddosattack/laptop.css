@@ -418,6 +418,20 @@
         color: #00CD78;
         width: 88%;
     }
+    .blockList li {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 170.1%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.7;
+        list-style-position: inside;
+        margin-left: 0%;
+        white-space: break-spaces;
+    
+    }
 }
 @media screen and (max-width:1024px) and (min-width:769px) {
 
@@ -442,7 +456,7 @@
     text-align: center;
     letter-spacing: -0.05em;
     color: #F5F5F5;
-    margin-left: -6%;
+    margin-left: 2%;
     margin-top: 4%;
 }
 
@@ -470,7 +484,7 @@
     text-align: center;
     color: #FCFCFC;
     opacity: 0.86;
-    margin-left: -5%;
+    margin-left: 3%;
 }
 .ddosdemo{
     font-family: 'Manrope';
@@ -481,7 +495,7 @@
     letter-spacing: -0.05em;
     color: #FFFFFF;
     text-align: center;
-    margin-left: 26%;
+    margin-left: 30%;
 }
 .ddosattackdemoBtn {
     background-image: url('../../images/ddosattack/demoBg.png');

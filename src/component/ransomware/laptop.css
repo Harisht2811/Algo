@@ -128,6 +128,15 @@
         width: 44%;
     }
 }
+@media screen and (max-width: 1440px) and (min-width: 1025px)
+{
+    .ransomeDotLeft {
+        width: 271px;
+        height: 201px;
+        margin-top: 45%;
+        margin-left: 56%;
+    }
+}
 
 @media screen and (max-width:1024px) and (min-width:769px) {
     .ransom_section1{
@@ -282,13 +291,13 @@
     }   
     .ransomeDotLeft{
         width: 250px;
-    height: 201px;
-    margin-top: 45%;
-    margin-left: 68%;
+        height: 231px;
+        margin-top: 45%;
+        margin-left: 68%;
     }
     .ransomeDotright{
         width: 295px;
-    height: 199px;
+    height: 200px;
     margin-top: 45%;
     margin-left: 10%;
     }
