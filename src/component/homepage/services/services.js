@@ -24,7 +24,7 @@ function services() {
           <div className='innerCards3'>
             <p id='servCardTitletext'>DDoS Attack <br/> Simulation + Testing</p>
             <p id='servCardText'>Algoritmik analyzes your network architecture to help you identify the most relevant attack vectors to test.</p>
-            <Link to='/ddoshardening'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
+            <Link to='/ddosattack'><img className='whiteArrow' src={whiteArow} alt='arrowimg'></img></Link>
           </div>
           <div className='innerCards4'>
             <p id='servCardTitletext'>Digital Risk <br/> Protection</p>

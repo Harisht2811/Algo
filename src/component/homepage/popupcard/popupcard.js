@@ -21,7 +21,7 @@ const Popupcard = ({ closemodal }) => {
           <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/contactus">Contact us</Link></p>
           <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img src={Closebtn} alt='closeicon'></img></span></p>
           <div className='menuincards'>
-            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoshardening">DDoS Attack Simulation & Technology Hardening</Link></p>
+            <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddosattack">DDoS Attack Simulation & Technology Hardening</Link></p>
               <hr id='popuphrincard'></hr>
               <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddosincident">DDos Incident Response</Link></p>
               <hr id='popuphrincard'></hr>
@@ -39,7 +39,7 @@ const Popupcard = ({ closemodal }) => {
           <div className='popupCard'>
             <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img src={Closebtn} alt='closeicon'></img></span></p>
             <div className='menuincards'>
-              <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoshardening">DDoS Attack Simulation & Technology Hardening</Link></p>
+              <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddosattack">DDoS Attack Simulation & Technology Hardening</Link></p>
               <hr id='popuphrincard'></hr>
               <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddosincident">DDos Incident Response</Link></p>
               <hr id='popuphrincard'></hr>
@@ -51,7 +51,7 @@ const Popupcard = ({ closemodal }) => {
           <div className='popupCard'>
             <p id='popupCardTitle'>Services<span onClick={onClickclose} className='closecardBtn'><img src={Closebtn} alt='closeicon'></img></span></p>
             <div className='menuincards'>
-              <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddoshardening">DDoS Attack Simulation & Technology Hardening</Link></p>
+              <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddosattack">DDoS Attack Simulation & Technology Hardening</Link></p>
               <hr id='popuphrincard'></hr>
               <p id='popupCardText'><Link className="nav-link" activeClassName="active-link" to="/ddosincident">DDos Incident Response</Link></p>
               <hr id='popuphrincard'></hr>
