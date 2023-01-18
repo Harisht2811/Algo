@@ -5,10 +5,10 @@
     }
     .ContactFlex {
         margin-left: 16%;
-    width: 84%;
+        width: 84%;
     }
     .contactForm {
-        width: 925px;
+        width: 1000px;
         height: 605px
     }
     .email {
@@ -29,11 +29,11 @@
     }
     .input1 {
         margin-top: 2%;
-        width: 188px;
+        width: 180px;
     }
     .input2 {
         margin-left: 8%;
-        width: 196px;
+        width: 190px;
     }
     .ContactParaTitle1 {
         width: 49%;
@@ -86,5 +86,10 @@
     .input2 {
         margin-left: 8%;
         width: 188px !important;
+    }
+
+    .contactForm {
+        width: 920px;
+        height: 605px
     }
 }
