@@ -37,7 +37,7 @@ function footer() {
                 </div>
                 <div className='section3'>
                     <p id='titlefooterText'>Services</p>
-                    <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
+                    <Link to='/ransomware'><p id='footerText'>Ransomware</p></Link>
                     <Link to='/drp'><p id='footerText'>Digital Risk Protection</p></Link>
                     <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Technology Hardening</p></Link>
                     <p id='footerText'></p>
@@ -56,7 +56,7 @@ function footer() {
                 <div className='resFlex'>
                     <div className='section3'>
                         <p id='titlefooterText'>Services</p>
-                        <Link to='/ransomware'><p id='footerText'>Ransomeware</p></Link>
+                        <Link to='/ransomware'><p id='footerText'>Ransomware</p></Link>
                         <Link to='/drp'><p id='footerText'>Digital Risk Protection</p></Link>
                         <Link to='/ddosattack'><p id='footerText'>DDoS Attack Simulation & Technology Hardening</p></Link>
                         <p id='footerText'></p>

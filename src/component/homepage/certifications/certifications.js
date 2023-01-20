@@ -18,9 +18,9 @@ function Certifications() {
             <div className='securityIssues'>
                 <div className='securityText'>
                 <p id='titleIssues'>Heard enough? See it for yourself.</p>
-                <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
+                <p id='textIssues'>To learn how Algoritmik’s advanced infosec solutions can help you improve your information security posture, please schedule a demo.</p>
                 </div>
-                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
+                <button className='certificateButton' onClick={() => setButtonPopup(true)}>Schedule demo</button>
             </div>
         </div>
         <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>

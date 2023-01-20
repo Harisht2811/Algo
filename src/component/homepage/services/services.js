@@ -9,7 +9,7 @@ function services() {
   return (
     <>
       <div className='algoservices'>
-        <p id='servicesText'>Other Services</p>
+        <p id='servicesText'>Critical Services</p>
         <div className='seviceblocklist'>
         <div className='innerCards1'>
             <p id='servCardTitletext'>Anti- <br/>Ransomware</p>
