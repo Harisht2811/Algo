@@ -5,11 +5,14 @@
     }
     
     .ddosIncidentBannerright {
-        margin-top: 5%;
+        margin-top: -18%;
     }
 
     .dembtn {
-        margin-left: 35%;
+        margin-left: 37%;
+        /* margin-top: -31%; */
+        width: 29%;
+        height: 46px;
     }
 
     .ddosIncidentPara {
