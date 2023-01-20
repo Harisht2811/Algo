@@ -22,8 +22,12 @@
     .ddosSection1 {
         margin-bottom: 26%;
     }
-    .hardeningim2 img {
+    /* .hardeningim2 img {
         width: 1498px;
+        margin-top: -38%;
+    } */
+    .hardeningim2 img {
+        width: 100%;
         margin-top: -38%;
     }
     .netwrokArchitecture {
@@ -87,9 +91,13 @@
 }
 
 @media screen and (max-width:1440px) and (min-width:1025px) {
-    .hardeningim2 img {
+    /* .hardeningim2 img {
         width: 1438px;
         margin-top: -39%;
+    } */
+    .hardeningim2 img {
+        margin-top: -39%;
+        width: 100%;
     }
     .hardenimg img {
         margin-left: 50px !important;

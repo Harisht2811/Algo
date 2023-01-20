@@ -26,6 +26,7 @@
     }
     .formContent1 {
         display: block;
+        width: 100%;
     }
     .input1 {
         margin-top: 2%;

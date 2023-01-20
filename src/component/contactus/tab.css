@@ -9,7 +9,7 @@
         margin-left: -2%;
     }
     .email {
-        margin-left: 16%;
+        margin-left: 0%;
     }
     label {
         font-family: 'Manrope';
@@ -29,7 +29,7 @@
         display: block;
         margin-left: 12%;
         width: 87%;
-        margin-left: 13%;
+        margin-left: 17%;
         margin-top: 6%;
         margin-bottom: 9%;
     }
@@ -38,18 +38,19 @@
         margin-left: 3%;
         height: 575px;
     }
-    .input1 {
+    /* .input1 {
         width: 198px;
     }
     .input2 {
         width: 202px;
+    } */
+    .formContent1 {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
     }
     .css-g1d714-ValueContainer {
         height: 87px;
-    }
-    .contactForm {
-        height: 575px;
-        width: 78%;
     }
     .ContactParaTitle1 {
         margin-top: 4%;

@@ -27,7 +27,7 @@ export default function
           </div>
           <div className='ddosIncidentBannerright'>
             <button className='dembtn'><p className='demopara' onClick={() => setButtonPopup(true)}>Get help now &nbsp; <img src={whiteArow} alt='arrowimg' /></p></button>
-            <p className='ddosIncidentPara'>Our DDoS expert team offer the most up-to-date knowledge on DDoS attack trends, field-tested best practices, proficiency with all DDoS mitigation technology vendors,and extensive know-how to efficiently manage what is often a stressful event.</p>
+            <p className='ddosIncidentPara'>Our DDoS expert team offer the most up-to-date knowledge on DDoS attack trends, field-tested best practices, proficiency with all DDoS mitigation technology vendors, and extensive know-how to efficiently manage what is often a stressful event.</p>
           </div>
         </div>
         <div className='ddosincisection2'>

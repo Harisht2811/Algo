@@ -1,4 +1,4 @@
-@media screen and (max-width:1705px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1204px) {
 
     .ddosattack_section2{
         margin-top: -2% !important;
@@ -13,15 +13,26 @@
         width: 45%;
         margin-left: 27%;
     }
-    .ddossession img {
+    /* .ddossession img {
         width: 971px;
         margin-left: -9%;
-    }
+    } */
+    /* .ddossession img {
+        width: 856px;
+        margin-left: 10%;
+    } */
     
-    .structureList{
+    /* .structureList{
         margin-left: 9% !important;
+    } */
+    .structureList {
+        display: flex;
+        margin-left: 9%;
     }
-
+    .ddossession img {
+        margin-left: -13%;
+        width: 894px;
+    }
     .structureBlock{
         margin-left: 0%;
         
