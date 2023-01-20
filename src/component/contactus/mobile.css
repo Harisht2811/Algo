@@ -25,6 +25,7 @@
     }
     .formContent1 {
         display: block;
+        width: 100%;
     }
     .input1 {
         width: 90%;

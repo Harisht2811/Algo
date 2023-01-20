@@ -11,7 +11,7 @@
     }
     .contactForm {
         width: 963px !important;
-        height: 571px;
+        height: 640px;
         margin-left: -7%;
     }
     .submitBtn {
@@ -36,14 +36,14 @@
     .email {
         margin-left: 8%;
     }
-    .input1 {
+    /* .input1 {
         margin-top: 2%;
         width: 165px;
     }
     .input2 {
         margin-left: 8%;
         width: 165px;
-    }
+    } */
     .ContactParaTitle1 {
         width: 58%;
     font-size: 21px;
@@ -75,5 +75,9 @@
     .meetourTeam{
         display: none;
     }
-    
+    .formContent1 {
+        display: flex;
+        justify-content: space-between;
+        width: 91%;
+    }
 }

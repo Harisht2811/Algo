@@ -18,7 +18,7 @@ function Ransomware() {
             <div className='ransom_section1'>
                 <div className='ransome_part1'>
                     <p className='ransome_section1_title'><span className='colorText'>Prevent Ransomware with </span>Patented Ransomware Protection Technology</p>
-                    <p className='ransome_section1_desc'>Prevent Both Known and Unknown (Zero-day) Attacks Before They Start, Regardless of Your Team’s Size and Skillset.</p>
+                    <p className='ransome_section1_desc'>Prevent both known and unknown (Zero-day) attacks before they start, regardless of your team’s size and skillset.</p>
                     <p className='demobtn ' onClick={() => setButtonPopup(true)}>Get a Demo</p>
                 </div>
                 <div className='ransome_part2'>
@@ -26,7 +26,7 @@ function Ransomware() {
                     <div className='ransome_part2_right'>
                         <p className='ransome_part2_title'>What we do ?</p>
                         <p className='ransome_part2_desc'>Our multi-layer anti-ransomware solution is built to completely prevent ransomware at the earliest and most critical stage of an attack–often months before other solutions can even detect them. Current detection and response approaches require your system to be infectedbefore they can  respond and stop the attack, usually after some critical damage has already been done.</p>
-                        <p className='ransome_part2_desc'>Instead of trying to identify threats by looking for patterns, our patented Simulation Engine breaks the attack chain and prevents the attacks before they can even get started, adding a crucial layer to any security stack</p>
+                        <p className='ransome_part2_desc'>Instead of trying to identify threats by looking for patterns, our patented Simulation Engine breaks the attack chain and prevents the attacks before they can even get started, adding a crucial layer to any security stack.</p>
                     </div>
                 </div>
             </div>

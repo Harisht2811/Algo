@@ -29,7 +29,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 
 }
 
@@ -38,7 +38,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 
 }
 .innerCards3 {
@@ -46,7 +46,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 }
 
 .innerCards4 {
@@ -54,7 +54,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 }
 
 #servCardTitletext {
@@ -93,7 +93,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 
 }
 
@@ -102,7 +102,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 
 }
 
@@ -111,7 +111,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 }
 
 .innerCards4:hover {
@@ -119,7 +119,7 @@
     margin: 0 5%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
+    height: 450px;
 }
 
 #servCardTitletext:hover {
@@ -130,7 +130,7 @@
     line-height: 120.1%;
     text-align: center;
     color: #00CD78;
-    padding: 25% 0;
+    padding: 25% 0 15%;
 
 }
 
@@ -140,8 +140,8 @@
         padding: 8% 3% 0;
     }
 
-    .innercard {
-        width: 285px;
+    .innerCards1,.innerCards2,.innerCards3,.innerCards4,.innerCards1:hover,.innerCards2:hover,.innerCards3:hover,.innerCards4:hover {
+        height: 500px;
     }
     #servCardTitletext {
         font-family: 'Manrope';
@@ -183,14 +183,14 @@
         margin: 5% 0 0 0;
     }
 
-    .innercard {
-        width: 350px;
+    #servCardText{
+        width: 100%;
+        padding-left: 0;
     }
-
     .servicesCard {
         padding: 5% 8% 0;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-row-gap: 11%;
         grid-column-gap: 8%;
     }
@@ -204,9 +204,9 @@
     #servicesText {
         margin: 10% 0 0 6%;
     }
-
-    .innercard {
-        width: 300px;
+    #servCardText{
+        width: 70%;
+        padding-left: 15%;
     }
 
     .seviceblocklist {
@@ -228,8 +228,9 @@
         margin: 10% 0 0 12%;
     }
 
-    .innercard {
-        width: 325px;
+    #servCardText{
+        width: 62%;
+        padding-left: 20%;
     }
 
     .seviceblocklist {
@@ -249,7 +250,10 @@
     #servicesText {
         margin: 10% 0 0 8%;
     }
-
+    #servCardText{
+        width: 70%;
+        padding-left: 15%;
+    }
     .seviceblocklist {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

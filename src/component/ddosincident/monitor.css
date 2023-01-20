@@ -6,7 +6,9 @@
     margin: 0%;
     padding: 0%;
 }
-
+.ddosIncidentBannerright {
+    margin-top: 20%;
+}
 .bannerTitle1 {
     font-family: 'Manrope';
     font-style: normal;

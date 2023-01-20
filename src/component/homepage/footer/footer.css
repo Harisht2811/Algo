@@ -305,6 +305,9 @@
         .footericon {
             margin: 5% 0 0 0%;
         }
+        #footerText {
+            width: 300px;
+        }
     }
 
     @media screen and (max-width:280px) {
@@ -358,5 +361,8 @@
 
         .footericon {
             margin: 5% 0 0 0%;
+        }
+        #footerText {
+            width: 300px;
         }
     }

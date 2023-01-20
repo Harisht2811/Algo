@@ -1,4 +1,4 @@
-@media screen   and (max-width:1705px)and (min-width:1026px){
+@media screen   and (max-width:1705px) and (min-width:1442){
     label {
         font-size: 14px;
         margin-top: 6%;
@@ -7,15 +7,24 @@
         margin-left: 16%;
         width: 84%;
     }
+<<<<<<< HEAD
     .contactForm {
         width: 1000px;
         height: 605px
     }
+=======
+>>>>>>> a15fb5e9081a092e9d36ad3922dcb838acfbaa1e
     .email {
         margin-left: 8%;
     }
-    .formContent1 {
+    /* .formContent1 {
         width: 100%;
+    } */
+    .formContent1 {
+        /* width: 100%; */
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
     }
     .ContactPara {
         margin-left: 5%;
@@ -27,14 +36,34 @@
         margin-top: 4%;
         width: 30%;
     }
-    .input1 {
+    /* .input1 {
         margin-top: 2%;
         width: 180px;
     }
     .input2 {
         margin-left: 8%;
+<<<<<<< HEAD
         width: 190px;
+=======
+        width: 196px;
+    } */
+    /* .input1 {
+        margin-top: 2%;
+        width: 219px;
+>>>>>>> a15fb5e9081a092e9d36ad3922dcb838acfbaa1e
     }
+    .input2 {
+        margin-left: 8%;
+        width: 209px;
+    } */
+    /* .input2 {
+        margin-left: 8%;
+        width: 167px;
+    } */
+    /* .input1 {
+        margin-top: 2%;
+        width: 170px;
+    } */
     .ContactParaTitle1 {
         width: 49%;
         font-size: 26px;
@@ -60,6 +89,12 @@
     .css-g1d714-ValueContainer {
         margin-top: -0%;
     }
+    .contactForm {
+        border: 1px solid #2cd58b;
+        border-radius: 13px;
+        height: 88vh;
+        width: 85%;
+    }
     .linkCont{
         opacity: 0.6;
         margin-top: 1%;
@@ -78,14 +113,47 @@
 
 
 
-@media screen   and (max-width:1440px)and (min-width:1026px){
-    /* .input1 {
+@media screen  and (max-width:1440px)and (min-width:1328px)
+{
+   
+    .formContent1 {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .email {
+        margin-left: 0%;
+    }
+    /* .ContactFlex {
+        display: flex;
+        margin-bottom: 9%;
+        margin-left: 12%;
+        margin-top: 6%;
+        width: 86%;
+    }    */
+    .contactForm {
+        border: 1px solid #2cd58b;
+        border-radius: 13px;
+        height: 88vh;
+        width: 70%;
+    }
+    .paraContent {
+        width: 57%;
+    }
+    .ContactFlex {
+        width: 89% !important;
+        margin-left: 11%;
+        margin-top: 6%;
+        margin-bottom: 9%;
+    }
+} 
+
+
+
+@media screen   and (max-width:1326px)and (min-width:1026px){
+    .input1 {
         margin-top: 2%;
-        width: 178px;
-    } */
-    .input2 {
-        margin-left: 8%;
-        width: 188px !important;
+        width: 165px;
     }
 
     .contactForm {

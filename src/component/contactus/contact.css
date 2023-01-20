@@ -36,18 +36,20 @@
     margin-bottom: 9%;
 }
 .contactForm{
-    height: 67vh;
-    border: 1px solid  #2CD58B;
-    width: 33%;
-    border-radius: 13px;
+     border: 1px solid #2cd58b;
+        border-radius: 13px;
+        height: 75vh;
+        width: 33%;
+    }
     
-}
 .form{
     padding-top: 5%;
     padding-left: 8%;
 }
 .formContent1{
     display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 label{
     font-family: 'Manrope';
@@ -72,18 +74,27 @@ input{
 input,label{
     display: block;
 }
-.input1{
+/* .input1{
     margin-top: 2%;
     width: 274px;
-}
+} */
+/* .input1{
+    margin-top: 2%;
+    width: 219px;
+} */
 .input3{
     margin-top: 2%;
 }
-.input2{
+/* .input2{
     margin-left: 16%;
     margin-top: 2%;
     width: 242px;
-}
+} */
+/* .input2{
+    margin-left: 16%;
+    margin-top: 2%;
+    width: 209px;
+} */
 .email{
     margin-left: 9%;
 }
@@ -197,8 +208,20 @@ border-radius: 6px;
     background: rgba(0, 205, 120, 0.11) !important;
     border-radius: 3px !important;
 }
+.css-1hwfws3 {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    display: flex !important;
+    flex: 1 1 0% !important;
+    flex-wrap: wrap !important;
+    padding: 2px 8px !important;
+    position: relative !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important;
+    height: 80px !important;
+}
 .css-g1d714-ValueContainer {
-    overflow-y: scroll !important;
+    overflow-y: auto !important;
     height: 90px !important;
     background-color: #000E08 !important;
 }

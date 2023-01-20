@@ -11,16 +11,18 @@ import './desktop.css'
 
 const Contactus = () => {
 
-    const options = [{ value: '3rd Party Cyber Risk', label: '3rd Party Cyber Risk' },
-    { value: 'Attack Surface', label: 'Attack Surface' },
+    const options = [
+    // { value: '3rd Party Cyber Risk', label: '3rd Party Cyber Risk' },
+    // { value: 'Attack Surface', label: 'Attack Surface' },
     { value: 'DDoS Attack Simulation & Testing', label: 'DDoS Attack Simulation & Testing' },
     { value: 'DDOS Incident Response', label: 'DDOS Incident Response' },
-    { value: 'Technology Hardening', label: 'Technology Hardening' },
-    { value: 'Deep & Dark Web', label: 'Deep & Dark Web' },
-    { value: 'Deep Cyber Investigations', label: 'Deep Cyber Investigations' },
+    // { value: 'Technology Hardening', label: 'Technology Hardening' },
+    // { value: 'Deep & Dark Web', label: 'Deep & Dark Web' },
+    // { value: 'Deep Cyber Investigations', label: 'Deep Cyber Investigations' },
     { value: 'Pentesting', label: 'Pentesting' },
-    { value: 'Phishing Detection', label: 'Phishing Detection' },
-    { value: 'Virtual Humint Operations', label: 'Virtual Humint Operations' },
+    { value: 'Digital Risk Protection', label: 'Digital Risk Protection' },
+    // { value: 'Phishing Detection', label: 'Phishing Detection' },
+    // { value: 'Virtual Humint Operations', label: 'Virtual Humint Operations' },
     { value: 'Ransomeware', label: 'Ransomeware' }
     ]
 

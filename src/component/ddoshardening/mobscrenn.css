@@ -29,8 +29,12 @@
         height: 366px;
         margin-top: 6%;
     }
-    .ddosBanner{
+    /* .ddosBanner{
         background-image: none;
+    } */
+    .ddosBanner {
+        background-image: none;
+        margin-top: -1px;
     }
     .ddosTitle {
         font-size: 18px;
@@ -91,7 +95,7 @@
     .section4Flex {
         display: block;
         padding-left: 8%;
-        width: 94%;
+        width: 92%;
         margin-bottom: 15%;
     }
     #config {

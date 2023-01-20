@@ -10,7 +10,18 @@
         color: #FFFFFF;
         padding-bottom: 2%;
         margin-top: -10%;
-        width: 78%;
+        width: 70%;
+    }
+    .ransome_section1_desc{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 170.1%;
+        color: #FFFFFF;
+        opacity: 0.6;
+        padding-bottom: 5%;
+        width: 54%;
     }
     .demobtn{
         background: #00cd78;

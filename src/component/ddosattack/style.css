@@ -172,10 +172,12 @@
     width: 500px;
     margin-top: 4%;
 }
-.ddossession img{
+/* .ddossession img{
     width: 1261px;
+} */
+.ddossession img {
+    width: 1169px;
 }
-
 .structureList {
     display: flex;
     margin-left: 14%;
