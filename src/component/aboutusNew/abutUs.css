@@ -30,7 +30,7 @@
         color: #FFFFFF;
         margin-top: -1%;
     }
-    .headPara{
+    .headPara {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
@@ -38,8 +38,8 @@
         line-height: 214.1%;
         text-align: center;
         color: #B3B3B3;
-        width: 70%;
-        margin-left: 230px;
+        width: 50%;
+        margin-left: 25%;
         margin-top: 4%;
         padding-bottom: 6%;
     }

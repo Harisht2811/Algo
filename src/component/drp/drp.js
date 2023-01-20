@@ -41,27 +41,27 @@ function Drp() {
                 <div className='utilizingBlock'>
                     <div className='utilizingList'>
                         <img className='uticon' src={u1} alt='icon' />
-                        <p className='utTitle'>Identify relevant threats to <br /> design an effective cybersecurity <br /> defense program</p>
+                        <p className='utTitle'>Identify relevant threats to <br /> design an effective cybersecurity <br /> defense program.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u2} alt='icon' />
-                        <p className='utTitle'>Provide the board and management <br /> a clear action plan to confront the <br /> current cyber risk status</p>
+                        <p className='utTitle'>Provide the board and management <br /> a clear action plan to confront the <br /> current cyber risk status.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u3} alt='icon' />
-                        <p className='utTitle'>Acquire predictive intelligence to <br /> mitigatetargeted threats before <br /> they occur</p>
+                        <p className='utTitle'>Acquire predictive intelligence to <br /> mitigatetargeted threats before <br /> they occur.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u4} alt='icon' />
-                        <p className='utTitle'>Continuously monitor <br /> digital risk exposure that <br /> cybercriminals can exploi</p>
+                        <p className='utTitle'>Continuously monitor <br /> digital risk exposure that <br /> cybercriminals can exploi.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u5} alt='icon' />
-                        <p className='utTitle'>Detect and respond to breaches <br /> as they propagate outside the <br /> organization's perimeter</p>
+                        <p className='utTitle'>Detect and respond to breaches <br /> as they propagate outside the <br /> organization's perimeter.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u6} alt='icon' />
-                        <p className='utTitle'>Monitor and protect against attacks <br /> targeting your brand and customers <br />that are constantly evolving</p>
+                        <p className='utTitle'>Monitor and protect against attacks <br /> targeting your brand and customers <br />that are constantly evolving.</p>
                     </div>
                 </div>
                 <div className='challenge'>
@@ -77,7 +77,7 @@ function Drp() {
                                 <li>Third-party cyber risk</li>
                                 <li>Dark web monitoring</li>
                                 <li>Digital risk-surface monitoring Fraud</li>
-                                <li>Threat intelligenc</li>
+                                <li>Threat intelligence</li>
                                 <li>Data-leakage detection</li>
                             </ul>
                         </div>
@@ -97,7 +97,7 @@ function Drp() {
                         </div>
                     </div>
                 </div>
-                <p className='forensicdesc1'>Using our proprietary machine-learning algorithm, we prioritize this raw intelligence based on potential risk and impact, enabling cost-effective analysis. Our automatic and semi-automatic analysis engines then generate actionable intelligence alerts, complete with in-depth analysis, enriched context and threat-actor profiling, to help your security team take effective action</p>
+                <p className='forensicdesc1'>Using our proprietary machine-learning algorithm, we prioritize this raw intelligence based on potential risk and impact, enabling cost-effective analysis. Our automatic and semi-automatic analysis engines then generate actionable intelligence alerts, complete with in-depth analysis, enriched context and threat-actor profiling, to help your security team take effective action.</p>
                 <div className='forensic'>
                     <img className='searchiconimg' src={search} alt='search' />
                     <p className='forensictitle'>Forensic Canvas</p>
@@ -116,23 +116,23 @@ function Drp() {
                 <div className='benefitBlock'>
                     <div className='benefitList'>
                         <img className='benefiticon' src={b1} alt='icon' />
-                        <p className='benefitTitle'>Reducing unauthorized <br /> technology usage (Shadow IT)</p>
+                        <p className='benefitTitle'>Reducing unauthorized <br /> technology usage (Shadow IT).</p>
                     </div>
                     <div className='benefitList'>
                         <img className='benefiticon' src={b2} alt='icon' />
-                        <p className='benefitTitle'>Visibility into potential <br /> vulnerabilities and exploitable attack surface</p>
+                        <p className='benefitTitle'>Visibility into potential <br /> vulnerabilities and exploitable attack surface.</p>
                     </div>
                     <div className='benefitList'>
                         <img className='benefiticon' src={b3} alt='icon' />
-                        <p className='benefitTitle'>Identifying and address threats to <br />minimize the time they remain undetected</p>
+                        <p className='benefitTitle'>Identifying and address threats to <br />minimize the time they remain undetected.</p>
                     </div>
                     <div className='benefitList'>
                         <img className='benefiticon' src={b4} alt='icon' />
-                        <p className='benefitTitle'>Enhance your ability to handle <br /> cybersecurity threats and prevent attacks</p>
+                        <p className='benefitTitle'>Enhance your ability to handle <br /> cybersecurity threats and prevent attacks.</p>
                     </div>
                     <div className='benefitList'>
                         <img className='benefiticon' src={b5} alt='icon' />
-                        <p className='benefitTitle'>Lower the cost of maintaining strong <br /> cybersecurity measures within your organization</p>
+                        <p className='benefitTitle'>Lower the cost of maintaining strong <br /> cybersecurity measures within your organization.</p>
                     </div>
                 </div>
                 <img className='linev' src={vline} alt='line' />
@@ -214,7 +214,7 @@ function Drp() {
                         <div className='vlineImg'><img src={hline} alt='vline' /></div>
                         <div className='benefitListName'>
                             <p className='listTitle'>Identification of severity</p>
-                            <p className='benefitListDesc'>Algoritmik’s services can help your organization identify the severity of threats and understand the bigger picture</p>
+                            <p className='benefitListDesc'>Algoritmik’s services can help your organization identify the severity of threats and understand the bigger picture.</p>
                         </div>
                     </div>
                 </div>  

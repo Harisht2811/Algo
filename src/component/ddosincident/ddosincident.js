@@ -35,17 +35,17 @@ export default function
           <div className='ddosIncidentBanner4list'>
             <p className='ddosIncidentCardNumber'>01</p>
             <p className='ddosIncidentCardTitle'>Immediate DDoS Expert Assignment</p>
-            <p className='ddosIncidentCardPara'>Our top DDoS response experts are immediately assigned to your incident. They analyze the attack and apply the appropriate measures until the attack has been fully mitigated</p>
+            <p className='ddosIncidentCardPara'>Our top DDoS response experts are immediately assigned to your incident. They analyze the attack and apply the appropriate measures until the attack has been fully mitigated.</p>
           </div>
           <div className='ddosIncidentBanner4list'>
             <p className='ddosIncidentCardNumber'>02</p>
             <p className='ddosIncidentCardTitle'>Testing and System Hardening</p>
-            <p className='ddosIncidentCardPara'> We audit your network architecture and DDoS protection system configuration, run a DDoS test, and provide detailed recommendations to prevent future attacks</p>
+            <p className='ddosIncidentCardPara'> We audit your network architecture and DDoS protection system configuration, run a DDoS test, and provide detailed recommendations to prevent future attacks.</p>
           </div>
           <div className='ddosIncidentBanner4list'>
             <p className='ddosIncidentCardNumber'>03</p>
             <p className='ddosIncidentCardTitle'>Training and DDoS Attack Playbook</p>
-            <p className='ddosIncidentCardPara'> We conduct DDoS training to increase your teams' skills, and provide a DDoS Playbook with procedures and activities for responding to any future attacks</p>
+            <p className='ddosIncidentCardPara'> We conduct DDoS training to increase your teams' skills, and provide a DDoS Playbook with procedures and activities for responding to any future attacks.</p>
           </div>
         </div>
         <div className='ddosIncidentSection4'>
@@ -53,11 +53,11 @@ export default function
           <div className='ddosIncidentSection4Flex'>
             <div className='verticleLine'>
               <p className='incidentTitle'>Stop the attack</p>
-              <p className='incidentPara'> Our DDoS experts work closely with your security and IT teams to deliver the fastest attack mitigation</p>
+              <p className='incidentPara'> Our DDoS experts work closely with your security and IT teams to deliver the fastest attack mitigation.</p>
             </div>
             <div className='verticleLine'>
               <p className='incidentTitle'>Prepare for the next strike</p>
-              <p className='incidentPara'>We harden the assets that are most likely to be attacked and run tests to uncover vulnerabilities</p>
+              <p className='incidentPara'>We harden the assets that are most likely to be attacked and run tests to uncover vulnerabilities.</p>
             </div>
           </div>
         </div>

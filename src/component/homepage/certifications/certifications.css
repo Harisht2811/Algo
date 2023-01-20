@@ -9,8 +9,8 @@
     border-radius: 12px;
     display: inline-flex;
     height: 260px;
-    width: 90%;
-    margin: 0 0 0 4%;
+    width: 76%;
+    margin: 0 0 0 12%;
 }
 
 .securityText {
@@ -63,7 +63,10 @@ button {
     .certificateButton {
         margin: 8% 0 0 0%;
     }
-
+    .securityIssues {
+        width: 76%;
+        margin: 0 0 0 11%;
+    }
     .heard {
         padding: 5% 5%;
 
@@ -84,6 +87,10 @@ button {
     .securityText {
         width: 70%;
         padding: 7% 5%;
+    }
+    .securityIssues {
+
+        width: 86%;
     }
 
 }
@@ -135,7 +142,8 @@ button {
     .securityIssues {
         display: block;
         height: 345px;
-        margin: 15% 0 0 5%;
+        margin: 15% 0 0 10%;
+        width: 80%;
     }
 
     .securityText {

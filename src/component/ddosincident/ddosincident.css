@@ -40,8 +40,8 @@
     text-align: center;
     color: #FFFFFF;
     margin-left: 15%;
-    width: 224px;
-    height: 62px;
+    width: 214px;
+    height: 48px;
 }
 
 .ddosIncidentPara {
@@ -232,5 +232,16 @@ hr {
     }
     .ddosIncidentBannerright {
         margin-top: 20%;
+    }
+    .ddosIncidentSection4Flex {
+        display: flex;
+        background-color: #02160E;
+        width: 50%;
+        margin-left: 21%;
+        border-radius: 20px;
+        margin-top: 3%;
+        padding-left: 10%;
+        padding-top: 4%;
+        padding-bottom: 5%;
     }
 }

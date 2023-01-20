@@ -85,23 +85,23 @@ function Ddosattack() {
         </div>
         <div className='ddosplatform'>
           <p className='ddosplatform_title'>DDoS Attack Simulator Platform</p>
-          <p className='ddosplatform_desc'>Our extensible testing platform executes DDoS attacks from bots distributed around the world. It sends real traffic using Web, DNS, and network attack vectors</p>
+          <p className='ddosplatform_desc'>Our extensible testing platform executes DDoS attacks from bots distributed around the world. It sends real traffic using Web, DNS, and network attack vectors.</p>
         </div>
       </div>
       <div className='Actionable'>
         <p className='Actionable_title'>Get Actionable Recommendations</p>
-        <p className='Actionable_desc'>Following the DDoS Test, you receive a detailed report containing a full gap analysis outlining the main weaknesses, their severity, and how they should be fixed</p>
+        <p className='Actionable_desc'>Following the DDoS Test, you receive a detailed report containing a full gap analysis outlining the main weaknesses, their severity, and how they should be fixed.</p>
       </div>
       <div className='ddostesting'>
         <div className='ddostesting_list'>
           <div className='ddostesting_left'>
             <p className='ddostesting_awsTitle'>AWS DDoS Testing</p>
-            <p className='ddostesting_aswDesc'>Make sure your AWS deployment is secure with simulated DDoS attacks in a controlled environment</p>
+            <p className='ddostesting_aswDesc'>Make sure your AWS deployment is secure with simulated DDoS attacks in a controlled environment.</p>
           </div>
           <div className='ddostesting_right'>
             <p className='ddostesting_box'>Customized Testing</p>
-            <p className='ddostesting_expl'>We help AWS customers verify their DDoS protection by simulating controlled attacks, providing detailed analysis, and making specific recommendations for improvement <br /> <br />
-              Our DDoS testing service, available to AWS Shield Advanced customers, is customized to match your AWS deployment architecture. So, whether you use EC2, ALB, ELB, Lamda, API Gateway or CloudFront–we’ll test the attack vectors that maximize valuefor your operational security</p>
+            <p className='ddostesting_expl'>We help AWS customers verify their DDoS protection by simulating controlled attacks, providing detailed analysis, and making specific recommendations for improvement. <br /> <br />
+              Our DDoS testing service, available to AWS Shield Advanced customers, is customized to match your AWS deployment architecture. So, whether you use EC2, ALB, ELB, Lamda, API Gateway or CloudFront–we’ll test the attack vectors that maximize valuefor your operational security.</p>
           </div>
         </div>
         <img className='testhrline' src={attackcode} alt='hrilne' />
@@ -113,7 +113,7 @@ function Ddosattack() {
           <div className='ddostesting_right1'>
             <p className='ddostesting_box'>Customized Testing</p>
             <p className='ddostesting_expl'>We help validate your DDoS protection and ensure your services or applications continue to function as expected during an attack. We provide simulated controlled DDoS attacks, accompanied by a detailed analysis, and specific recommendations for improvement. <br /> <br />
-              Our DDoS testing service, available to customers with an Azure DDoS Protection Standard plan, is customized to match your Azure deployment infrastructure. So, whether you use Azure CDN, Azure Gateway, or Azure Virtual Machines–we’ll test the attack vectors to maximize the value of your testing</p>
+              Our DDoS testing service, available to customers with an Azure DDoS Protection Standard plan, is customized to match your Azure deployment infrastructure. So, whether you use Azure CDN, Azure Gateway, or Azure Virtual Machines–we’ll test the attack vectors to maximize the value of your testing.</p>
           </div>
         </div>
       </div>
@@ -123,9 +123,9 @@ function Ddosattack() {
           <div className='securityIssues'>
             <div className='securityText'>
               <p id='titleIssues'>Heard enough? See it for yourself.</p>
-              <p id='textIssues'>Security issues that the penetration test uncovers should be reported to the system owner. Penetration test reports may also assess potential impacts to the organization.</p>
+              <p id='textIssues'>To learn how Algoritmik’s advanced infosec solutions can help you improve your information security posture, please schedule a demo.</p>
             </div>
-            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Enquire Now</button>
+            <button className='certificateButton' onClick={() => setButtonPopup(true)}>Schedule demo</button>
           </div>
 
         </div>
