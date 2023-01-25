@@ -21,10 +21,18 @@
         margin-top: 3%;
     }
     .submitBtn {
-        width: 29%;
+        width: 31%;
         margin-top: 2%;
-        
+        margin-left: 57%;
     }
+    .ContactSelect{
+        background-color: #000000;
+        font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+        
+        }
     .ContactFlex{
         display: block;
         margin-left: 12%;
@@ -36,7 +44,7 @@
     .contactForm {
         width: 69%;
         margin-left: 3%;
-        height: 575px;
+        height: 550px;
     }
     /* .input1 {
         width: 198px;
@@ -45,9 +53,9 @@
         width: 202px;
     } */
     .formContent1 {
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
-        width: 90%;
+        width: 89%;
     }
     .css-g1d714-ValueContainer {
         height: 87px;
@@ -83,7 +91,7 @@
         display: none;
     }
     .inputMsg {
-        width: 91%;
+        width: 87%;
         height: 20vh;
         margin-top: 0%;
     }

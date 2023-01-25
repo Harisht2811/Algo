@@ -13,25 +13,26 @@ a{
 .algoheader{
     background-color: #141414;
     width: 100%;
-    height: 6vh;
+    height: 72px;
     padding: 2% 0 0 0%;
     display: flex;
 }
-.logo{
+.logo {
     width: 25%;
-    margin: 0 0 0 2%;
+    margin: 0px 0 0 5%;
 }
 
 .links{
     width: 65%;
+    margin: 7px 0 0 18%;
 }
 /* .home{
     color: #00CD78!important;
 } */
-.links ul{
-    width: 80%;
+.links ul {
+    width: 75%;
     display: inline-flex;
-    margin: 0 0 0 -10%;
+    margin: 0 0 0 -33%;
 }
 .links li{
     font-family: 'Manrope';
@@ -46,7 +47,8 @@ a{
 }
 .homeServices{
     width: 15%;
-    z-index:1
+    z-index:1;
+    margin-top: 4px;
 }
 #algoheaderText{
     font-family: Manrope;
@@ -119,15 +121,26 @@ a{
 #myBtn{
     display: none;
   }
-@media screen and (max-width:1705px) and (min-width:1024px) {
+@media screen and (max-width:1440px) and (min-width:1026px){
     .links {
+        width: 65%;
+        margin: 0px 0 0 18%;
+    }
+    .logo {
+        width: 25%;
+        margin: 7px 0 0 5%;
+    }
+    .algoheader{
+        background-color: #141414;
         width: 100%;
-        margin: 0 0 0 25%;
+        height: 70px;
+        padding: 2% 0 0 0%;
+        display: flex;
     }
     .links ul {
         width: 90%;
-        display: inline-flex;
-        margin: 0 0 0 -10%;
+    display: inline-flex;
+    margin: 1% 0 0 -30%;
     }
   
     .toggleicon {
@@ -142,7 +155,7 @@ a{
         padding: 5% 10%;
     }
     #algoheaderText {
-        margin: 0 0 0 -25%;
+        margin: 7% 0 0 -25%;
     }
     #myBtn{
         display: none;
@@ -151,15 +164,24 @@ a{
 @media screen and (max-width:1024px) and (min-width:768px) {
     .algoheader{
         width: 97%;
-        height: 6vh;
+        height: 55px;
         padding: 3% 0 0 3%;
+    }
+    .links {
+        width: 50%;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    .logo {
+        width: 20%;
+        margin: 1px 0 0 2%;
     }
     .links ul{
         width: 100%;
+        margin-top: 5px;
     }
-    .logo {
-        width: 15%;
-        margin: 0 0 0 2%;
+    .homeServices {
+        margin-top: 5px;
     }
     .algoLogo{
       width: 95%;
@@ -181,6 +203,7 @@ a{
     }
     .algoheader{
         padding: 4% 0 0 3%;
+        height: 55px;
     }
     .algoLogo{
         width: 100%;
@@ -200,9 +223,13 @@ a{
 @media screen and (max-width:430px) and (min-width:376px) {
     .algoheader{
         padding: 5.5% 0 0 0%;
+        height: 62px;
     }
     #algoheaderText{
         display: none;
+    }
+    .homeServices {
+        margin-top: 12px;
     }
     .toggleicon{
         margin: 0 0 0 -10%;
@@ -217,6 +244,7 @@ a{
 @media screen and (max-width:376px) {
     .algoheader{
         padding: 6% 0 0 0%;
+        height: 60px;
     }
     #algoheaderText{
         display: none;
@@ -227,4 +255,7 @@ a{
       .algoLogo{
         margin: -5% 0 0 0;
       }
+      .homeServices {
+        margin-top: 12px;
+    }
 }
