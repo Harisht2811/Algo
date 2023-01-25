@@ -21,7 +21,7 @@
         font-size: 13px;
     }
     .contactForm {
-        height: 615px;
+        height: 600px;
         width: 89%;
     }
     .formContent1 {
@@ -30,7 +30,7 @@
     }
     .input1 {
         margin-top: 2%;
-        width: 89%;
+        width: 87%;
     }
     .email {
         margin-left: 0%;
@@ -38,7 +38,7 @@
     .input2 {
         margin-left: 0%;
         margin-top: 2%;
-        width: 89%;
+        width: 87%;
     }
     .css-g1d714-ValueContainer {
         height: 88px;
@@ -49,6 +49,14 @@
         margin-left: -3%;
         margin-top: 8%;
     }
+    .ContactSelect{
+        background-color: #000000;
+        font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+        
+        }
     .paraContent{
         margin-left: -3%;
     }
@@ -92,7 +100,7 @@
         width: 29%;
         height: 29px;
         border: none;
-        margin-left: 62%;
+        margin-left: 59%;
         margin-top: 5%;
     }
 }

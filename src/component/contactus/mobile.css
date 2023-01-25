@@ -19,7 +19,7 @@
         height: 587px;
     }
     .inputMsg {
-        width: 91%;
+        width: 88%;
         height: 20vh;
         margin-top: 2%;
     }
@@ -28,14 +28,14 @@
         width: 100%;
     }
     .input1 {
-        width: 90%;
+        width: 87%;
     }
     .email {
         margin-left: 0%;
     }
     .input2 {
         margin-left: 0%;
-        width: 90%;
+        width: 87%;
     }
     .css-319lph-ValueContainer {
         height: 36px;
@@ -82,4 +82,19 @@
     .meetourTeam{
         display: none;
     }
+    .ContactSelect{
+        background-color: #000000;
+        font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+        
+        }
+        .submitBtn {
+            width: 29%;
+            height: 29px;
+            border: none;
+            margin-left: 59%;
+            margin-top: 5%;
+        }
 }

@@ -11,17 +11,26 @@
     }
     .contactForm {
         width: 963px !important;
-        height: 640px;
+        height: 590px;
         margin-left: -7%;
     }
     .submitBtn {
-        width: 29%;
+        width: 31%;
         margin-top: 4%;
+        margin-left: 57%;
     }
     label {
         margin-top: 5%;
         font-size: 13px;
     }
+    .ContactSelect{
+        background-color: #000000;
+        font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+        
+        }
     .inputMsg {
         margin-top: 0%;
     }
@@ -34,7 +43,7 @@
     margin-left: 1%;
     }
     .email {
-        margin-left: 8%;
+        margin-left: 1%;
     }
     /* .input1 {
         margin-top: 2%;
@@ -76,8 +85,8 @@
         display: none;
     }
     .formContent1 {
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
-        width: 91%;
+        width: 89%;
     }
 }
