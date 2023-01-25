@@ -21,7 +21,7 @@
     font-family: Manrope;
     font-size: 50px;
     font-weight: 700;
-    line-height: 55px;
+    line-height: 65px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
@@ -154,9 +154,9 @@
 
     #homeBannerTitle {
         font-family: Manrope;
-        font-size: 50px;
+        font-size: 51px;
         font-weight: 700;
-        line-height: 49px;
+        line-height: 60px;
         letter-spacing: 0em;
         text-align: left;
         color: white;
@@ -164,9 +164,9 @@
 
     #homeBannerText {
         font-family: Manrope;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 35px;
         letter-spacing: 0em;
         text-align: left;
         width: 41%;
@@ -221,7 +221,7 @@
 
     #homeBannerTitle {
         font-family: Manrope;
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 700;
         line-height: 49px;
         letter-spacing: 0em;
@@ -285,14 +285,14 @@
     #homeBannerTitle {
         font-size: 30px;
         width: 60%;
-        line-height: 30px;
+        line-height: 37px;
     }
 
     #homeBannerText {
-        font-size: 12px;
-        margin: 1% 0 0 0;
-        width: 60%;
-        line-height: 20px;
+        font-size: 13px;
+    margin: 1% 0 0 0;
+    width: 54%;
+    line-height: 23px;
     }
 
     #colorText {
@@ -342,14 +342,14 @@
     #homeBannerTitle {
         font-size: 30px;
         width: 100%;
-        line-height: 35px;
+        line-height: 41px;
     }
 
     #homeBannerText {
-        font-size: 12px;
-        margin: 1% 0 0 0;
+        font-size: 13px;
+        margin: 7% 0 0 0;
         width: 100%;
-        line-height: 20px;
+        line-height: 26px;
     }
 
     #colorText {

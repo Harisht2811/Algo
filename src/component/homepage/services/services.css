@@ -1,6 +1,7 @@
 .algoservices {
     background-color: black;
-    padding: 4% 3% 0;
+    padding: 0% 3% 0;
+    padding-bottom: 1%;
 }
 
 #servicesText {
@@ -10,7 +11,7 @@
     line-height: 37px;
     letter-spacing: 0em;
     text-align: left;
-    color: #00CD78;
+    color: #fff;
     margin: 0 0 0 3%;
 }
 
@@ -73,8 +74,8 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 170.1%;
+    font-size: 16px;
+    line-height: 180.1%;
     text-align: center;
     color: #FFFFFF;
     padding-bottom: 25%;
@@ -137,7 +138,7 @@
 @media screen and (max-width:1705px) and (min-width:1441px) {
 
     .algoservices {
-        padding: 8% 3% 0;
+        padding: 0% 3% 0;
     }
 
     .innerCards1,.innerCards2,.innerCards3,.innerCards4,.innerCards1:hover,.innerCards2:hover,.innerCards3:hover,.innerCards4:hover {
@@ -157,8 +158,8 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 170.1%;
+        font-size: 16px;
+        line-height: 180.1%;
         text-align: center;
         color: #FFFFFF;
         padding-bottom: 25%;
@@ -176,11 +177,12 @@
 
 @media screen and (max-width:1024px) and (min-width:768px) {
     .algoservices {
-        padding: 8% 1% 10%;
+        padding: 0% 1% 10%;
     }
 
     #servicesText {
-        margin: 5% 0 0 0;
+        margin: 0% 0 0 4%;
+        padding-top: 3%;
     }
 
     #servCardText{
@@ -202,7 +204,7 @@
     }
 
     #servicesText {
-        margin: 10% 0 0 6%;
+        margin: 0% 0 0 3%;
     }
     #servCardText{
         width: 70%;
@@ -222,12 +224,15 @@
     .algoservices {
         padding: 8% 2% 95%;
         margin: 0 0 0%;
+        margin-top: -1%;
     }
 
     #servicesText {
-        margin: 10% 0 0 12%;
+        margin: 0% 0 0 5%;
     }
-
+    #servCardTitletext {
+        padding: 11% 0 15%;
+    }
     #servCardText{
         width: 62%;
         padding-left: 20%;
@@ -240,6 +245,9 @@
         grid-column-gap: 0%;
         padding-top: 4%;
     }
+    /* #servCardTitletext:hover{
+        display: none;
+    } */
 }
 
 @media screen and (max-width:375px) {

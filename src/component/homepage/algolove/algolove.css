@@ -192,8 +192,8 @@
     .leftText {
         width: 50%;
         position: absolute;
-        top: 20px;
-        left: 10px;
+        top: 40px;
+        left: -16px;
         padding: 5% 5%;
     }
     
@@ -308,7 +308,7 @@
 @media screen and (max-width:768px) and (min-width:430px) {
     .algoLove {
         background-color: #05DA8D;
-        height: 700px;
+        height: 800px;
     }
 
     .leftText {
@@ -318,17 +318,19 @@
 
     #titlealgotext {
         text-align: center;
-        width: 90%;
+    width: 90%;
+    margin-left: 8%;
     }
 
     #algotext {
         width: 90%;
+        margin-left: 8%;
     }
 
     #hrinalgLove {
         border: 1px solid #F5F5F5;
-        width: 90%;
-        margin-left: 3%;
+        width: 82%;
+        margin-left: 11%;
         margin-top: 3%;
     }
 
@@ -346,13 +348,13 @@
     }
 
     .algoanimation {
-        top: 300px;
+        top: 340px;
         width: 100%;
         padding: 5% 5%;
     }
 
     .algoanimation div {
-        width: 30%;
+        width: 50%;
         margin: -2% 0 0 10%;
     }
 
@@ -378,7 +380,7 @@
     .algoanimation:hover .animation2 {
         transform: none;
         transition: none;
-        margin-top: -3%;        
+        margin-top: -2%;        
     }
 
 }
@@ -386,14 +388,15 @@
 @media screen and (max-width:430px) and (min-width:375px) {
     .algoLove {
         background-color: #05DA8D;
-        height: 1100px;
+        height: 1050px;
         padding: 2% 3%;
-        width: 95%;
+        width: 94%;
     }
 
     .leftText {
         width: 90%;
         padding: 5% 0;
+        margin-left: 6%;
     }
 
     #titlealgotext {
@@ -436,7 +439,7 @@
 
     .algoanimation div {
         width: 95%;
-        margin: 0 0 10% -2%;
+        margin: 0 0 10% 1%;
 
     }
 
@@ -458,13 +461,13 @@
     .algoanimation:hover .animation1 {
         transform: none;
         transition: none;
-        margin: 0 0 10% -2%;
+        margin: 0 0 10% 1%;
     }
 
     .algoanimation:hover .animation2 {
         transform: none;
         transition: none;
-        margin: 0 0 10% -2%;
+        margin: 0 0 10% 1%;
     }
 
 
@@ -478,7 +481,18 @@
         top: 125px;
         left: 75px;
     }
+    .algoanimation div {
+        width: 90%;
+        margin: 0 0 10% 2%;
+        height: auto;
 
+    }
+    .algoLove {
+        background-color: #05DA8D;
+        height: 850px;
+        padding: 2% 3%;
+        width: 94%;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -534,6 +548,7 @@
     .algoanimation div {
         width: 90%;
         margin: 0 0 10% 2%;
+        height: auto;
 
     }
 
