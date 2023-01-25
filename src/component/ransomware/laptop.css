@@ -133,20 +133,38 @@
         margin-top: -4%;
         /* width: 85%; */
     }     
-    .ransomList4{
-        margin-left: 55%;
+    .ransomList4 {
+        margin-left: 53%;
         margin-top: -6%;
-        width: 44%;
+        width: 49%;
     }
 }
 @media screen and (max-width: 1440px) and (min-width: 1025px)
 {
     .ransomeDotLeft {
-        width: 271px;
+        width: 301px;
         height: 201px;
         margin-top: 45%;
         margin-left: 56%;
     }
+    .ransomList1{
+        padding-left: 0%;
+        margin-top: -3%;
+    }
+    .ransomList3{
+        margin-top: -8%;
+        padding-left: 0%;
+    }
+    .ransomList2{
+        margin-left: 49%;
+        margin-top: -4%;
+        /* width: 85%; */
+    }     
+    .ransomList4{
+        margin-left: 50%;
+        margin-top: -6%;
+        width: 50%;
+    }  
 }
 
 @media screen and (max-width:1024px) and (min-width:769px) {
@@ -313,22 +331,22 @@
     margin-left: 10%;
     }
     .ransomList1{
-        padding-left: 5%;
+        padding-left: 0%;
         margin-top: -3%;
     }
     .ransomList3{
-        margin-top: -5%;
-        padding-left: 5%;
+        margin-top: -8%;
+        padding-left: 0%;
     }
     .ransomList2{
-        margin-left: 45%;
+        margin-left: 40%;
         margin-top: -4%;
         /* width: 85%; */
     }     
     .ransomList4{
-        margin-left: 57%;
+        margin-left: 50%;
         margin-top: -6%;
-        width: 44%;
+        width: 50%;
     }   
 }
 
