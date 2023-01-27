@@ -1,6 +1,6 @@
 .heard {
     padding: 5% 10%;
-    background: #02160E;
+    background-color: #000E08;
     margin-top: -2%;
 }
 
@@ -49,7 +49,7 @@
     height: 40px;
     letter-spacing: 0;
     line-height: 19px;
-    margin: 8% 0 0 6%;
+    margin: 8% 0 0 3%;
     outline: none;
     text-align: center;
     width: 150px;
@@ -70,7 +70,7 @@ button {
     }
     .heard {
         padding: 5% 5%;
-
+        background-color: #000E08;
     }
 
 }
@@ -83,6 +83,7 @@ button {
     .heard {
         padding: 5% 2%;
         margin: -2% 0 0 -9%;
+        background-color: #000E08;
     }
 
     .securityText {
@@ -107,6 +108,7 @@ button {
     .heard {
         padding: 5% 2%;
         margin: -2% 0 0 -11%;
+        background-color: #000E08;
     }
     .certificaterRes {
         margin: 0 0 0 15%;
@@ -141,6 +143,7 @@ button {
         padding: 10% 3%;
         padding-bottom: 25%;
         width: 94%;
+        background-color: #000E08;
     }
 
     .securityIssues {
@@ -200,6 +203,7 @@ button {
 
     .heard {
         padding: 10% 3%;
+        background-color: #000E08;
     }
 
     .securityIssues {
@@ -253,6 +257,7 @@ button {
 
     .heard {
         padding: 10% 3%;
+        background-color: #000E08;
     }
 
     .securityIssues {

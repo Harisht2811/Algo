@@ -1,4 +1,4 @@
-@media screen and (max-width:1705px) and (min-width:1025px) {
+@media screen and (max-width:1705px) and (min-width:1445px) {
 
     body {
         padding: 0%;
@@ -63,7 +63,7 @@
         margin-top: 2%;
     }
     .section2Img {
-        margin-left: 10%;
+        margin-left: 11%;
         width: 72%;
         margin-top: -67px;
     }
@@ -91,13 +91,14 @@
 }
 
 @media screen and (max-width:1440px) and (min-width:1025px) {
-    /* .hardeningim2 img {
-        width: 1438px;
-        margin-top: -39%;
-    } */
     .hardeningim2 img {
         margin-top: -39%;
         width: 100%;
+    }
+    .section2Img {
+        margin-top: -89px;
+        margin-left: 13.5%;
+        width: 972px;
     }
     .hardenimg img {
         margin-left: 50px !important;
@@ -108,17 +109,23 @@
         margin-top: -1%;
     }
     #attackVector {
-        margin-left: -684px;
+        margin-left: -596px;
     }
     #demo2 {
         padding-top: 18%;
     }
     .netArch {
         font-size: 59px;
-        margin-top: -27%;
+        margin-top: -28%;
         margin-bottom: 13%;
     }
+    #attackVectorPara {
+        width: 21%;
+        margin-left: 177px;
+    }
 }
+
+
 /* JSON CSS */
 /* @media screen and (max-width:1440px) and (min-width:1025px) {
 

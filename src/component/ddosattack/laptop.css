@@ -342,7 +342,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 43px;
         line-height: 133.6%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
@@ -597,7 +597,7 @@
 }
 
 .ddos_structure {
-    padding: 5% 0 10%;
+    padding: 4% 0 10%;
 }
 
 .structure_title {
@@ -687,7 +687,7 @@
 }
 
 .ddosplatform {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .ddosplatform_title {
@@ -712,7 +712,7 @@
     text-align: center;
     color: #FFFFFF;
     width: 61%;
-    margin-left: 15%;
+    margin-left: 17%;
     margin-top: 3%;
 }
 
