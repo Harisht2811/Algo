@@ -59,13 +59,19 @@
     }
 
     .challengeBlock {
-        background-size: 95% 100%;
+        background-size: 93% 99%;
         margin-top: 9%;
+        opacity: .6;
         padding: 5%;
-        opacity: 0.6;
+        width: 90%;
+        height: auto;
     }
     .driveTitle {
-        font-size: 32px;
+        font-size: 25px;
+        margin-bottom: 1%;
+    }
+    .driveCard_title {
+        font-size: 22px;
     }
     .drivedesc {
         font-family: 'Manrope';
@@ -87,6 +93,11 @@
     }
     .driveCard, .driveCard:hover {
         width: 85%;
+        height: auto;
+    }
+    .driveCard_desc {
+        font-size: 16px;
+        padding-bottom: 16%;
     }
     .forensicflexRight {
         width: 95%;
@@ -105,8 +116,8 @@
         line-height: 120.1%;
         letter-spacing: -0.025em;
         color: #000E08;
-        width: 90%;
-        height: 157px;
+        width: 87%;
+        height: 123px;
     }
     .forensicflex {
         display: block;
@@ -198,7 +209,7 @@
         letter-spacing: -0.03em;
         color: #00CD78;
         margin-top: 3%;
-        padding-bottom: 3%;
+        padding-bottom: 9%;
         width: 80%;
         margin-left: 8%;
     }
