@@ -37,7 +37,9 @@
         margin-left: 0%;
         
     }
-
+    .ddosattackdemoBtn, .ddosdemo {
+        margin-left: 35%;
+    }
     .ddosattack_section4{
         margin-top: -3% !important;
     }
@@ -116,6 +118,7 @@
     .ddosattack_cardlist {
         display: flex;
         margin-left: 1%;
+        margin-top: -3%;
     }
     
     .ddosattack_card {
@@ -181,7 +184,7 @@
     }
     
     .ddos_structure {
-        padding: 5% 0 10%;
+        padding: 2% 0 10%;
     }
     
     .structure_title {

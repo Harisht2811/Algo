@@ -22,7 +22,7 @@ function Ddos() {
         <div className='ddosBanner'>
           <div className='ddosbanflex'>
           <div className='ddosSection1'>
-            <p className='ddosTitle'>Improve your <span className='colorText'>network architecture </span>against attacks</p>
+            <p className='ddosTitle'>Improve your <span className='colorText'><br></br>network architecture </span>against attacks</p>
             <p className='ddosDesc'>We identify which protection component will prevent each DDoS attack vector</p>
             <button className='demobtn1'><b id='dembtn' onClick={() => setButtonPopup(true)}>Get a Demo</b></button> 
           </div>
