@@ -11,7 +11,7 @@
     .ddossession img {
         width: 576px;
     margin-bottom: -13%;
-    margin-left: -12%;
+    margin-left: -14%;
     }
     .ddosattack_Title {
         font-family: 'Manrope';
@@ -190,7 +190,7 @@
     
     .structureBlock {
         display: block;
-        width: 33%;
+        width: 31%;
     
     }
     
@@ -203,7 +203,7 @@
     .blocksPara {
         margin-top: 15%;
         width: 234px;
-        margin-left: 20%;
+        margin-left: 28%;
     }
     
     .block_title {
@@ -244,7 +244,7 @@
     }
     
     .ddosplatform {
-        margin-top: 11%;
+        margin-top: 8%;
     }
     
     .ddosplatform_title {
@@ -320,7 +320,7 @@
         line-height: 133.6%;
         letter-spacing: -0.05em;
         color: #FFFFFF;
-        width: 96%;
+        width: 93%;
     }
     
     .ddostesting_aswDesc{

@@ -98,7 +98,7 @@
     text-align: center;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    margin-top: -26%;
+    margin-top: -27%;
     margin-left: -2%;
     margin-bottom: 13%;
 }
@@ -130,7 +130,8 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #00CD78;
-    margin-left: -45%;
+    margin-left: -44.5%;
+    margin-bottom: 1%;
     padding-top: 4%;
 }
 /* #attackVectorPara {
@@ -150,13 +151,13 @@
     font-size: 20px;
     line-height: 170.1%;
     color: #CBCBCB;
-    width: 15%;
+    width: 18%;
     margin-left: 289px;
 
 }
 .section2Img {
     margin-top: -89px;
-    margin-left: 17%;
+    margin-left: 16.5%;
     width: 1154px;
 }
 .bgimg{
@@ -168,7 +169,7 @@
     margin-top: 6%;
     padding-left: 17%;
     width: 82%;
-    padding-bottom: 7%;
+    padding-bottom: 0%;
 }
 #config{
     font-family: 'Manrope';
@@ -246,7 +247,7 @@ opacity: 0.8;
     font-size: 18px;
     line-height: 170.1%;
     color: #00CD78;
-    padding-top: 13%;
+    padding-top: 8%;
 }
 
 

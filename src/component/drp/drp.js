@@ -37,31 +37,31 @@ function Drp() {
                 <p className="drp_demoBtn " onClick={() => setButtonPopup(true)}>Get Algoritmik DRP</p>
             </div>
             <div className='utilizing'>
-                <p className='utilizingTitle'>Utilizing a combination of proprietary threat intelligence platforms <br /> and experienced analysts, the platform aims to</p>
+                <p className='utilizingTitle'>Utilizing a combination of proprietary threat intelligence platforms<br />and experienced analysts, the platform aims to</p>
                 <div className='utilizingBlock'>
                     <div className='utilizingList'>
                         <img className='uticon' src={u1} alt='icon' />
-                        <p className='utTitle'>Identify relevant threats to <br /> design an effective cybersecurity <br /> defense program.</p>
+                        <p className='utTitle'>Identify relevant threats to<br />design an effective cybersecurity<br />defense program.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u2} alt='icon' />
-                        <p className='utTitle'>Provide the board and management <br /> a clear action plan to confront the <br /> current cyber risk status.</p>
+                        <p className='utTitle'>Provide the board and management<br />a clear action plan to confront the<br />current cyber risk status.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u3} alt='icon' />
-                        <p className='utTitle'>Acquire predictive intelligence to <br /> mitigatetargeted threats before <br /> they occur.</p>
+                        <p className='utTitle'>Acquire predictive intelligence to<br />mitigatetargeted threats before<br />they occur.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u4} alt='icon' />
-                        <p className='utTitle'>Continuously monitor <br /> digital risk exposure that <br /> cybercriminals can exploi.</p>
+                        <p className='utTitle'>Continuously monitor<br />digital risk exposure that<br />cybercriminals can exploi.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u5} alt='icon' />
-                        <p className='utTitle'>Detect and respond to breaches <br /> as they propagate outside the <br /> organization's perimeter.</p>
+                        <p className='utTitle'>Detect and respond to breaches<br />as they propagate outside the<br />organization's perimeter.</p>
                     </div>
                     <div className='utilizingList'>
                         <img className='uticon' src={u6} alt='icon' />
-                        <p className='utTitle'>Monitor and protect against attacks <br /> targeting your brand and customers <br />that are constantly evolving.</p>
+                        <p className='utTitle'>Monitor and protect against attacks<br />targeting your brand and customers<br />that are constantly evolving.</p>
                     </div>
                 </div>
                 <div className='challenge'>
@@ -69,7 +69,7 @@ function Drp() {
                         <img className='challengeImg' src={vendorImg} alt='vendor' />
                     </div>
                     <div className='challengeRight'>
-                        <p className='challengeRight_title'><span className='textcolor'> Algoritmik addresses </span> the following business <br/> challenges &nbsp;&nbsp;&nbsp; <img src={Darrow} /> </p>
+                        <p className='challengeRight_title'><span className='textcolor'>Algoritmik addresses</span>the following business<br/>challenges &nbsp;&nbsp;&nbsp; <img src={Darrow} /> </p>
                         <div className='challengeBlock'>
                             <ul className='challengeList'>
                                 <li>Brand protection</li>

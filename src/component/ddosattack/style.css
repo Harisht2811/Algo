@@ -209,6 +209,7 @@
     letter-spacing: -0.01em;
     color: #FFFFFF;
     text-align: center;
+    padding-bottom: 4%;
 }
 
 .imageFlex {
@@ -232,13 +233,13 @@
     color: #FFFFFF;
     opacity: 0.8;
     list-style-position: inside;
-    margin-left: -7%;
+    margin-left: -5%;
     white-space: break-spaces;
 
 }
 
 .ddosplatform {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .ddosplatform_title {
@@ -282,6 +283,7 @@
     text-align: center;
     letter-spacing: -0.05em;
     color: #000E08;
+    margin-bottom: 1%;
 }
 
 .Actionable_desc {
@@ -316,6 +318,7 @@
     letter-spacing: -0.05em;
     color: #FFFFFF;
     width: 37%;
+    margin-bottom: 2%;
 }
 
 .ddostesting_aswDesc{
@@ -353,6 +356,7 @@ border: 1px solid #00CD78;
 width: 25%;
 border-radius: 14px;
 padding: 0.5% 0 0.5% 3%;
+margin-bottom: 2%;
 }
 
 .ddostesting_expl{
