@@ -181,3 +181,15 @@
     margin-top: -6%;
     width: 85%;
 }   
+.darkdemo {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 170.1%;
+    color: #00CD78;
+    cursor: pointer;
+}
+.arrowG{
+    padding-top: 15px;
+}

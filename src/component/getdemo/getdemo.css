@@ -50,6 +50,32 @@ input[type=text]:focus {
    border-radius: 8px;
    background-color: #2CD58B;
 }
+.Fbutton{
+   background: #00CD78;
+   border-radius: 8px;
+   width:150px;
+   height:40px;
+   outline: none;
+   border: none;
+   font-family: Manrope;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 19px;
+   letter-spacing: 0em;
+   text-align: center;
+   float: right;
+   margin: 5% 0 0 0;
+}
+#getintouch{
+   font-family: Manrope;
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 44px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #00CD78;
+} 
+
 @media screen and (max-width:1024px) and (min-width:768px) {
    .popup-inner{
       position: relative;

@@ -36,7 +36,7 @@ function Ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Our Hostile Environment Simulation</p>
                         <p className='ransomCard_desc'>Completely controls how processes perceive their environment. With HES, we turn the malware’s evasive properties against itself by convincing it that it is about to be detected by a local security measure, forcing it into hiding in order to “remain undetected”, which effectivelycauses it to never deploy.</p>
-                        <p className='darkdemo' onClick={() => setButtonPopup(true)}>Get a Demo <img src={arrowG} className='arrowG' /></p>
+                        <p className='darkdemo' onClick={() => setButtonPopup(true)}>Get a Demo &nbsp;&nbsp;<img src={arrowG} className='arrowG' /></p>
                     </div>
                     <div className='ransomeDotImg'>
                         <img className='ransomeDotLeft' src={rightcurve} />
@@ -49,7 +49,7 @@ function Ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Blocking malicious macros and powershell attacks</p>
                         <p className='ransomCard_desc'>Our Platform blocks ransomware that spreads via malicious documents. This methodology prevents documents from spawning malicious script driven attacks (macros, Powershell etc.), while still allowing the organization to use these processes for legitimate business purposes.</p>
-                        <p className='darkdemo' >Get a Demo<img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo' >Get a Demo &nbsp;&nbsp;<img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
                     </div>
 
                 </div>
@@ -57,7 +57,7 @@ function Ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Blocking Memory <br/>Injection</p>
                         <p className='ransomCard_desc'>Ransomware often evades detection by injecting malicious code into legitimate applications or OS components. This approach allows malware to get around traditional security mechanisms such as antivirus, application whitelisting and personal firewalls. Minerva’s memory injection module prevents all fileless attacks from taking place before they even start.</p>
-                        <p className='darkdemo' >Get a Demo <img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo' >Get a Demo &nbsp;&nbsp;<img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
                     </div>
                     <div className='ransomeDotImg'>
                         <img   className='ransomeDotLeft' src={rightcurve} />
@@ -67,19 +67,22 @@ function Ransomware() {
                     <div className='ransomeCard'>
                         <p className='ransomCard_title'>Ransomware Remediation</p>
                         <p className='ransomCard_desc'>Completely controls how processes perceive their environment. With HES, we turn the malware’s evasive properties against itself by convincing it that it is about to be detected by a local security measure, forcing it into hiding in order to “remain undetected”, which effectivelycauses it to never deploy.</p>
-                        <p className='darkdemo'>Get a Demo<img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
+                        <p className='darkdemo'>Get a Demo &nbsp;&nbsp;<img src={arrowG} className='arrowG' onClick={() => setButtonPopup(true)}/></p>
                     </div>
 
                 </div>
             </div>
         </div>
         <Popup trigger ={buttonPopup} setTrigger ={setButtonPopup}>
-        <p id='getintouch'>Get in touch with us </p>
-        <input className='Fname' type="text" placeholder='Name*'></input>
-        <input className='Femail' type="text" placeholder='Email*'></input>
-        <input className='Fphone' type="phone" placeholder='Mobile number*'></input>
-        <button className='Fbutton'>Submit</button>    
-       </Popup>
+     <p id='getintouch'>Get in touch with us </p>
+     <label>Name*</label>
+     <input className='Fname' type="text" ></input>
+     <label>Email*</label>
+     <input className='Femail' type="text" ></input>
+     <label>Mobile Number*</label>
+     <input className='Fphone' type="phone" ></input>
+     <button className='Fbutton'>Submit</button>    
+    </Popup>
        </>  
     )
 }
