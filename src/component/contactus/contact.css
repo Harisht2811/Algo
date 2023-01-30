@@ -69,6 +69,7 @@ input{
     border: 1px solid #696969;
     border-radius: 5px;
     background-color:#000E08 ;
+    color: #00CD78;
     width: 97%;
     margin-right: 4%;
     height: 30px;
@@ -242,6 +243,28 @@ border-radius: 6px;
     overflow-y: auto !important;
     box-sizing: border-box !important;
     height: 80px !important;
+    background-color:#000E08 !important;
+}
+.css-1wy0on6 {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    align-self: stretch !important;
+    display: flex !important;
+    flex-shrink: 0 !important;
+    box-sizing: border-box !important;
+    background-color: #000E08 !important;
+}
+.css-1d8n9bt {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    display: grid !important;
+    flex: 1 1 0% !important;
+    flex-wrap: wrap !important;
+    padding: 2px 8px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    background-color: #000E08 !important;
 }
 .css-g1d714-ValueContainer {
     overflow-y: auto !important;

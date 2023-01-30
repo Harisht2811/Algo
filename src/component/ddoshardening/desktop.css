@@ -99,13 +99,13 @@
         width: 74%;
     }
     .ddosTitle {
-        font-size: 65px;
+        font-size: 60px;
         width: 91%;
     }
     .section2Img {
         margin-top: -89px;
-        margin-left: 13.5%;
-        width: 972px;
+        margin-left: 154px;
+        width: 898px;
     }
     .hardenimg img {
         margin-left: 50px !important;
@@ -116,7 +116,7 @@
         margin-top: -1%;
     }
     #attackVector {
-        margin-left: 13.5%;
+        margin-left: 149px;
         text-align: left;
     }
     #demo2 {
@@ -129,7 +129,7 @@
     }
     #attackVectorPara {
         width: 22%;
-        margin-left: 177px;
+        margin-left: 149px;
     }
     .section2Content {
         color: #cbcbcb;

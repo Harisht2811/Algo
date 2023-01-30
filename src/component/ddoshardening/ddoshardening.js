@@ -82,6 +82,7 @@ function Ddos() {
     </Popup>
        </>
   )
+ 
 }
 
 export default Ddos

@@ -1,8 +1,8 @@
 @media screen and (max-width:1705px) and (min-width:1204px) {
 
     .ddosattack_section2{
-        margin-top: -2% !important;
-        padding-top: 5% !important;
+        margin-top: -7%!important;
+        margin-bottom: 4px;
     }
 
     .ddosattack_section3{
@@ -46,7 +46,7 @@
 
     .ddosattack_section1 {
         background-image: url('../../images/ddosattack/ddosattackBg.png');
-        background-size: 100% 110%;
+        background-size: 100% 97%;
         background-repeat: no-repeat;
         padding: 5% 0 6% 0%;
         margin: 0%;
